@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "level": 1,
+        "question_jp": "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きますか。",
+        "question_en": "What time do you get up every day?",
+        "answer_jp": "7<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。",
+        "answer_en": "I get up at 7:00."
+    },
+    {
+        "id": 2,
+        "level": 1,
+        "question_jp": "<ruby>昨日<rt>きのう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+        "question_en": "What did you eat yesterday?",
+        "answer_jp": "ラーメンを <ruby>食<rt>た</rt></ruby>べました。",
+        "answer_en": "I ate ramen."
+    },
+    {
+        "id": 3,
+        "level": 1,
+        "question_jp": "<ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>どこ<rt></rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。",
+        "question_en": "Where do you go on Sundays?",
+        "answer_jp": "<ruby>図書館<rt>としょかん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+        "answer_en": "I go to the library."
+    },
+    {
+        "id": 4,
+        "level": 1,
+        "question_jp": "<ruby>学校<rt>がっこう</rt></ruby>まで <ruby>どう<rt></rt></ruby>やって <ruby>行<rt>い</rt></ruby>きますか。",
+        "question_en": "How do you go to school?",
+        "answer_jp": "<ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。",
+        "answer_en": "I go by train."
+    },
+    {
+        "id": 5,
+        "level": 1,
+        "question_jp": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>は <ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Do you like Japanese food?",
+        "answer_jp": "はい、<ruby>好<rt>す</rt></ruby>きです。<ruby>特<rt>とく</rt></ruby>に お<ruby>寿司<rt>すし</rt></ruby>が <ruby>好<rt>す</rt></ruby>きです。",
+        "answer_en": "Yes, I allow it. I especially like sushi."
+    },
+    {
+        "id": 6,
+        "level": 2,
+        "question_jp": "<ruby>週末<rt>しゅうまつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "question_en": "What did you do on the weekend?",
+        "answer_jp": "<ruby>友<rt>とも</rt></ruby>だちと 映画（えいが）を <ruby>見<rt>み</rt></ruby>ました。",
+        "answer_en": "I watched a movie with my friend."
+    },
+    {
+        "id": 7,
+        "level": 2,
+        "question_jp": "<ruby>今<rt>いま</rt></ruby> <ruby>一番<rt>いちばん</rt></ruby> <ruby>欲<rt>ほ</rt></ruby>しい <ruby>物<rt>もの</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
+        "question_en": "What do you want the most right now?",
+        "answer_jp": "<ruby>新<rt>あたら</rt></ruby>しい パソコンが <ruby>欲<rt>ほ</rt></ruby>しいです。",
+        "answer_en": "I want a new computer."
+    },
+    {
+        "id": 8,
+        "level": 2,
+        "question_jp": "<ruby>夏休<rt>なつやす</rt></ruby>みは <ruby>どこ<rt></rt></ruby>かへ <ruby>行<rt>い</rt></ruby>きたいですか。",
+        "question_en": "Do you want to go anywhere for summer vacation?",
+        "answer_jp": "はい、<ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
+        "answer_en": "Yes, I want to go to Hokkaido."
+    },
+    {
+        "id": 9,
+        "level": 2,
+        "question_jp": "<ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を もらいましたか。",
+        "question_en": "What did you receive for your birthday?",
+        "answer_jp": "<ruby>母<rt>はは</rt></ruby>から <ruby>時計<rt>とけい</rt></ruby>を もらいました。",
+        "answer_en": "I received a watch from my mother."
+    },
+    {
+        "id": 10,
+        "level": 2,
+        "question_jp": "どうして <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
+        "question_en": "Why do you study Japanese?",
+        "answer_jp": "<ruby>日本<rt>にほん</rt></ruby>の アニメが <ruby>好<rt>す</rt></ruby>きだからです。",
+        "answer_en": "Because I like Japanese anime."
+    }
+]

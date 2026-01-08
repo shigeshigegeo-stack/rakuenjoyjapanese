@@ -1,0 +1,285 @@
+[
+  {
+    "id": "STORY_L1_SET2_01",
+    "level": 1,
+    "title": "サントスさんの 毎日",
+    "schema_activation": [
+      "あなたは 毎日 何時に 起きますか。",
+      "あなたの 会社は 何時までですか。"
+    ],
+    "story_html": "<p>はじめまして。サントスです。<br>わたしは ブラジルから <ruby>来<rt>き</rt></ruby>ました。<br>いま わたしは 日本の <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>毎日 <ruby>忙しい<rt>いそがしい</rt></ruby>です。</p><p>わたしの <ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>銀座<rt>ぎんざ</rt></ruby>に あります。<br><ruby>会社<rt>かいしゃ</rt></ruby>は 9<ruby>時<rt>じ</rt></ruby>から 6<ruby>時<rt>じ</rt></ruby>までです。</p><p>わたしは 毎日 7<ruby>時半<rt>じはん</rt></ruby>に うちから <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>地下鉄<rt>ちかてつ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは どこから 来ましたか。",
+        "choices": [
+          "ドイツ",
+          "ブラジル",
+          "かんこく"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 何で 会社へ 行きますか。",
+        "choices": [
+          "でんしゃ",
+          "ちかてつ",
+          "あるいて"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L1_SET2_02",
+    "level": 1,
+    "title": "アナさんの 日曜日",
+    "schema_activation": [
+      "あなたは 日曜日に どこへ 行きますか。",
+      "あなたは 友達と 行きますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>鎌倉<rt>かまくら</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br>友達の 山田さんと <ruby>行<rt>い</rt></ruby>きました。</p><p><ruby>鎌倉<rt>かまくら</rt></ruby>は とても きれいな <ruby>所<rt>ところ</rt></ruby>です。<br><ruby>横浜<rt>よこはま</rt></ruby>から <ruby>鎌倉<rt>かまくら</rt></ruby>まで <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 誰と 鎌倉へ 行きましたか。",
+        "choices": [
+          "サントスさん",
+          "山田さん",
+          "一人で"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "明日は 何月 何日ですか。",
+        "choices": [
+          "4月1日",
+          "5月1日",
+          "5月5日"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L1_SET2_03",
+    "level": 1,
+    "title": "大学の 図書館で",
+    "schema_activation": [
+      "あなたの 大学に 図書館が ありますか。",
+      "図書館で 誰と 勉強しますか。"
+    ],
+    "story_html": "<p>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>図書館<rt>としょかん</rt></ruby>です。<br>とても <ruby>静か<rt>しずか</rt></ruby>です。</p><p>アナさんは 毎日 ここで <ruby>勉強<rt>べんきょう</rt></ruby>します。<br><ruby>図書館<rt>としょかん</rt></ruby>は 9<ruby>時<rt>じ</rt></ruby>から 7<ruby>時<rt>じ</rt></ruby>までです。<br>サントスさんも 毎日 <ruby>来<rt>き</rt></ruby>ます。</p><p>山田さんは <ruby>図書館<rt>としょかん</rt></ruby>の <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>とても <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>人<rt>ひと</rt></ruby>です。</p>",
+    "quizzes": [
+      {
+        "question": "図書館は 何時までですか。",
+        "choices": [
+          "6時",
+          "7時",
+          "9時"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは 土曜日に 図書館へ 行きますか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L2_01",
+    "level": 2,
+    "title": "大学の 食堂で",
+    "schema_activation": [
+      "あなたは 毎日 どこで 昼ごはんを 食べますか。",
+      "いつも 誰と 食べますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>毎日<rt>まいにち</rt></ruby> 12<ruby>時半<rt>じはん</rt></ruby>に <ruby>大学<rt>だいがく</rt></ruby>の <ruby>食堂<rt>しょくどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>食堂<rt>しょくどう</rt></ruby>で 昼ごはんを <ruby>食<rt>た</rt></ruby>べます。</p><p>アナさんは カレーを <ruby>食<rt>た</rt></ruby>べます。<br>サントスさんは <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。</p><p>それから、アナさんは お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。<br>サントスさんは コーヒーを <ruby>飲<rt>の</rt></ruby>みます。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 何を 食べましたか。",
+        "choices": [
+          "さかな",
+          "カレー",
+          "おちゃ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 明日 何を しますか。",
+        "choices": [
+          "一人で 食べます",
+          "アナさんと 食べます",
+          "どこも 行きません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L2_02",
+    "level": 2,
+    "title": "新宿で 買い物",
+    "schema_activation": [
+      "あなたは デパートで 何を 買いますか。",
+      "あなたは 毎日 新聞を 読みますか。"
+    ],
+    "story_html": "<p><ruby>今日<rt>きょう</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>です。<br>アナさんは キムさんと <ruby>新宿<rt>しんじゅく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>デパート<rt>でぱーと</rt></ruby>で <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を しました。</p><p>キムさんは <ruby>時計<rt>とけい</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br>アナさんは <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>と カードを <ruby>買<rt>か</rt></ruby>いました。</p><p>それから、<ruby>レストラン<rt>れすとらん</rt></ruby>で <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは 何を 買いましたか。",
+        "choices": [
+          "ほん",
+          "カード",
+          "とけい"
+        ],
+        "answer_index": 2
+      },
+      {
+        "question": "アナさんは 明日 何を しますか。",
+        "choices": [
+          "買い物を します",
+          "本を 読みます",
+          "映画を 見ます"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L2_03",
+    "level": 2,
+    "title": "公園で お花見",
+    "schema_activation": [
+      "あなたは ときどき 写真を 撮りますか。",
+      "あなたは どこで お酒を 飲みますか。"
+    ],
+    "story_html": "<p>アナさんと 山田さんは <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>公園<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>公園<rt>こうえん</rt></ruby>で お<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>山田<rt>やまだ</rt></ruby>さんは そこで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p>二人は <ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>で お<ruby>弁当<rt>べんとう</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。<br>お<ruby>酒<rt>さけ</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
+    "quizzes": [
+      {
+        "question": "山田さんは 公園で 何を しましたか。",
+        "choices": [
+          "手紙を 書きました",
+          "写真を 撮りました",
+          "テニスを しました"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは タバコを 吸いましたか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L2_04",
+    "level": 2,
+    "title": "カフェで 勉強",
+    "schema_activation": [
+      "どこで 日本語を 勉強しますか。",
+      "あなたは いつも 音楽を聞きますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>駅<rt>えき</rt></ruby>の <ruby>隣<rt>となり</rt></ruby>の <ruby>カフェ<rt>かふぇ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>コーヒー<rt>こーひー</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んで、<ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。</p><p>10<ruby>時<rt>じ</rt></ruby>に サントスさんに <ruby>会<rt>あ</rt></ruby>いました。<br>二人は <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。<br>サントスさんは <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きました。<br>アナさんは <ruby>漢字<rt>かんじ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは カフェで 何を しましたか。",
+        "choices": [
+          "テニスを しました",
+          "新聞を 読みました",
+          "ビデオを 見ました"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "二人は 明日 テニスを しますか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L1_EXTRA_01",
+    "level": 1,
+    "title": "山田さんの あたらしい うち",
+    "schema_activation": [
+      "あなたの 友達の 家は どこですか。",
+      "あなたは 友達と 勉強しますか。"
+    ],
+    "story_html": "<p>はじめまして。<ruby>山田<rt>やまだ</rt></ruby>です。<br>わたしは <ruby>日本人<rt>にほんじん</rt></ruby>です。<br>さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>です。<br>ここは わたしの あたらしい <ruby>家<rt>うち</rt></ruby>です。<br><ruby>渋谷<rt>しぶや</rt></ruby>に あります。</p><p><ruby>今日<rt>きょう</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>です。<br>3<ruby>時<rt>じ</rt></ruby>に アナさんと サントスさんが <ruby>来<rt>き</rt></ruby>ました。<br><ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>き</rt></ruby>ました。<br>これは 日本の <ruby>本<rt>ほん</rt></ruby>です。<br>それは アナさんの ノートです。</p><p>わたしたちは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>でも、<ruby>今日<rt>きょう</rt></ruby>は 山田さんの <ruby>家<rt>うち</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>サントスさんは 6<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br>アナさんは 7<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br><ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>ました。</p><p>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても 楽しいです。</p>",
+    "quizzes": [
+      {
+        "question": "山田さんは 留学生ですか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "二人は 何で 来ましたか。",
+        "choices": [
+          "くるま",
+          "でんしゃ",
+          "バス"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 7時に 帰りましたか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_N5_LONG_01",
+    "level": "N5",
+    "title": "アナさんの 週末の 旅行",
+    "schema_activation": [
+      "あなたは 有名な 所へ 旅行に 行きたいですか。",
+      "旅行の 写真を たくさん 撮りますか。"
+    ],
+    "story_html": "<p>はじめまして。アナです。<br>わたしは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>の キムさんと <ruby>箱根<rt>はこね</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>新宿<rt>しんじゅく</rt></ruby>から バスで <ruby>行<rt>い</rt></ruby>きました。<br><ruby>箱根<rt>はこね</rt></ruby>は とても <ruby>有名<rt>ゆうめい</rt></ruby>な <ruby>所<rt>ところ</rt></ruby>です。</p><p><ruby>箱根<rt>はこね</rt></ruby>で <ruby>富士山<rt>ふじさん</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>富士山<rt>ふじさん</rt></ruby>は とても <ruby>大<rt>おお</rt></ruby>きくて、きれいでした。<br>アナさんは たくさん <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p>それから、わたしたちは レストランで <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。<br><ruby>料理<rt>りょうり</rt></ruby>は とても おいしかったです。</p><p>それから、お<ruby>店<rt>みせ</rt></ruby>で お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br>アナさんは <ruby>家族<rt>かぞく</rt></ruby>に <ruby>絵<rt>え</rt></ruby>はがきを <ruby>買<rt>か</rt></ruby>いました。<br>キムさんは <ruby>弟<rt>おとうと</rt></ruby>に <ruby>小<rt>ちい</rt></ruby>さい <ruby>人形<rt>にんぎょう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。</p><p>わたしたちは <ruby>夜<rt>よる</rt></ruby> 7<ruby>時<rt>じ</rt></ruby>に うちへ <ruby>帰<rt>かえ</rt></ruby>りました。<br>少（すこ）し <ruby>疲<rt>つか</rt></ruby>れましたが、<ruby>旅行<rt>りょこう</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しかったです。<br>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しいです。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 誰と 箱根へ 行きましたか。",
+        "choices": [
+          "山田さん",
+          "キムさん",
+          "サントスさん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "富士山は どうでしたか。",
+        "choices": [
+          "大きくて、きれいでした",
+          "小さくて、有名でした",
+          "静かでした"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "アナさんは 何を 買いましたか。",
+        "choices": [
+          "人形",
+          "写真",
+          "絵はがき"
+        ],
+        "answer_index": 2
+      }
+    ]
+  }
+]
