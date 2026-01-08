@@ -91,3 +91,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // ←これを追加！
+  // 他の設定があればその下に
+}
+
+module.exports = nextConfig
