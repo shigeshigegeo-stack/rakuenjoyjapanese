@@ -2,15 +2,17 @@
   {
     "id": "STORY_L1_SET2_01",
     "level": 1,
-    "title": "サントスさんの 毎日",
+    "title": "サントスさんの <ruby>毎日<rt>まいにち</rt></ruby>",
     "schema_activation": [
-      "あなたは 毎日 何時に 起きますか。",
-      "あなたの 会社は 何時までですか。"
+      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きますか。",
+      "あなたの <ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>何時<rt>なんじ</rt></ruby>までですか。"
     ],
-    "story_html": "<p>はじめまして。サントスです。<br>わたしは ブラジルから <ruby>来<rt>き</rt></ruby>ました。<br>いま わたしは 日本の <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>毎日 <ruby>忙しい<rt>いそがしい</rt></ruby>です。</p><p>わたしの <ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>銀座<rt>ぎんざ</rt></ruby>に あります。<br><ruby>会社<rt>かいしゃ</rt></ruby>は 9<ruby>時<rt>じ</rt></ruby>から 6<ruby>時<rt>じ</rt></ruby>までです。</p><p>わたしは 毎日 7<ruby>時半<rt>じはん</rt></ruby>に うちから <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>地下鉄<rt>ちかてつ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。</p>",
+    "translation": "<p>Nice to meet you. I am Santos.<br>I came from Brazil.<br>I am a company employee in Japan now.<br>I am busy every day.</p><p>My company is in Ginza.<br>The company is open from 9:00 to 6:00.</p><p>I go from my house to the company at 7:30 every day.<br>I go by subway.</p>",
+    "story_html": "<p>はじめまして。サントスです。<br>わたしは ブラジルから <ruby>来<rt>き</rt></ruby>ました。<br>いま わたしは <ruby>日本<rt>にほん</rt></ruby>の <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br><ruby>毎日<rt>まいにち</rt></ruby> <ruby>忙しい<rt>いそがしい</rt></ruby>です。</p><p>わたしの <ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>銀座<rt>ぎんざ</rt></ruby>に あります。<br><ruby>会社<rt>かいしゃ</rt></ruby>は 9<ruby>時<rt>じ</rt></ruby>から 6<ruby>時<rt>じ</rt></ruby>までです。</p><p>わたしは <ruby>毎日<rt>まいにち</rt></ruby> 7<ruby>時半<rt>じはん</rt></ruby>に うちから <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>地下鉄<rt>ちかてつ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。</p>",
     "quizzes": [
       {
-        "question": "サントスさんは どこから 来ましたか。",
+        "question": "サントスさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
+        "question_translation": "Where did Santos come from?",
         "choices": [
           "ドイツ",
           "ブラジル",
@@ -19,7 +21,8 @@
         "answer_index": 1
       },
       {
-        "question": "サントスさんは 何で 会社へ 行きますか。",
+        "question": "サントスさんは <ruby>何<rt>なに</rt></ruby>で <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。",
+        "question_translation": "How does Santos go to work?",
         "choices": [
           "でんしゃ",
           "ちかてつ",
@@ -32,15 +35,17 @@
   {
     "id": "STORY_L1_SET2_02",
     "level": 1,
-    "title": "アナさんの 日曜日",
+    "title": "アナさんの <ruby>日曜日<rt>にちようび</rt></ruby>",
     "schema_activation": [
-      "あなたは 日曜日に どこへ 行きますか。",
-      "あなたは 友達と 行きますか。"
+      "あなたは <ruby>日曜日<rt>にちようび</rt></ruby>に どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+      "あなたは <ruby>友達<rt>ともだち</rt></ruby>と <ruby>行<rt>い</rt></ruby>きますか。"
     ],
-    "story_html": "<p>アナさんは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>鎌倉<rt>かまくら</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br>友達の 山田さんと <ruby>行<rt>い</rt></ruby>きました。</p><p><ruby>鎌倉<rt>かまくら</rt></ruby>は とても きれいな <ruby>所<rt>ところ</rt></ruby>です。<br><ruby>横浜<rt>よこはま</rt></ruby>から <ruby>鎌倉<rt>かまくら</rt></ruby>まで <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
+    "translation": "<p>Ana went to Kamakura last Sunday.<br>She went with her friend, Mr. Yamada.</p><p>Kamakura is a very beautiful place.<br>They went from Yokohama to Kamakura by train.<br>Santos did not come.</p>",
+    "story_html": "<p>アナさんは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>鎌倉<rt>かまくら</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>友達<rt>ともだち</rt></ruby>の <ruby>山田<rt>やまだ</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きました。</p><p><ruby>鎌倉<rt>かまくら</rt></ruby>は とても きれいな <ruby>所<rt>ところ</rt></ruby>です。<br><ruby>横浜<rt>よこはま</rt></ruby>から <ruby>鎌倉<rt>かまくら</rt></ruby>まで <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
     "quizzes": [
       {
-        "question": "アナさんは 誰と 鎌倉へ 行きましたか。",
+        "question": "アナさんは <ruby>誰<rt>だれ</rt></ruby>と <ruby>鎌倉<rt>かまくら</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きましたか。",
+        "question_translation": "Who did Ana go to Kamakura with?",
         "choices": [
           "サントスさん",
           "山田さん",
@@ -49,7 +54,8 @@
         "answer_index": 1
       },
       {
-        "question": "明日は 何月 何日ですか。",
+        "question": "<ruby>明日<rt>あした</rt></ruby>は <ruby>何月<rt>なんがつ</rt></ruby> <ruby>何日<rt>なんにち</rt></ruby>ですか。",
+        "question_translation": "What is the date tomorrow?",
         "choices": [
           "4月1日",
           "5月1日",
@@ -62,15 +68,17 @@
   {
     "id": "STORY_L1_SET2_03",
     "level": 1,
-    "title": "大学の 図書館で",
+    "title": "<ruby>大学<rt>だいがく</rt></ruby>の <ruby>図書館<rt>としょかん</rt></ruby>で",
     "schema_activation": [
-      "あなたの 大学に 図書館が ありますか。",
-      "図書館で 誰と 勉強しますか。"
+      "あなたの <ruby>大学<rt>だいがく</rt></ruby>に <ruby>図書館<rt>としょかん</rt></ruby>が ありますか。",
+      "<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>誰<rt>だれ</rt></ruby>と <ruby>勉強<rt>べんきょう</rt></ruby>しますか。"
     ],
+    "translation": "<p>This is the library of Sakura University.<br>It is very quiet.</p><p>Ana studies here every day.<br>The library is open from 9:00 to 7:00.<br>Santos also comes every day.</p><p>Mr. Yamada is a library employee.<br>He is a very kind person.</p>",
     "story_html": "<p>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>図書館<rt>としょかん</rt></ruby>です。<br>とても <ruby>静か<rt>しずか</rt></ruby>です。</p><p>アナさんは 毎日 ここで <ruby>勉強<rt>べんきょう</rt></ruby>します。<br><ruby>図書館<rt>としょかん</rt></ruby>は 9<ruby>時<rt>じ</rt></ruby>から 7<ruby>時<rt>じ</rt></ruby>までです。<br>サントスさんも 毎日 <ruby>来<rt>き</rt></ruby>ます。</p><p>山田さんは <ruby>図書館<rt>としょかん</rt></ruby>の <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>とても <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>人<rt>ひと</rt></ruby>です。</p>",
     "quizzes": [
       {
-        "question": "図書館は 何時までですか。",
+        "question": "<ruby>図書館<rt>としょかん</rt></ruby>は <ruby>何時<rt>なんじ</rt></ruby>までですか。",
+        "question_translation": "Until what time is the library open?",
         "choices": [
           "6時",
           "7時",
@@ -79,7 +87,49 @@
         "answer_index": 1
       },
       {
-        "question": "アナさんは 土曜日に 図書館へ 行きますか。",
+        "question": "アナさんは <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>図書館<rt>としょかん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。",
+        "question_translation": "Does Ana go to the library on Saturdays?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L1_EXTRA_01",
+    "level": 1,
+    "title": "<ruby>山田<rt>やまだ</rt></ruby>さんの あたらしい うち",
+    "schema_activation": [
+      "あなたの <ruby>友達<rt>ともだち</rt></ruby>の <ruby>家<rt>うち</rt></ruby>は どこですか。",
+      "あなたは <ruby>友達<rt>ともだち</rt></ruby>と <ruby>勉強<rt>べんきょう</rt></ruby>しますか。"
+    ],
+    "translation": "<p>Nice to meet you. I am Yamada.<br>I am Japanese.<br>I am a teacher at Sakura University.<br>This is my new house.<br>It is in Shibuya.</p><p>Today is Saturday.<br>Ana and Santos came at 3:00.<br>They came by train.<br>This is a Japanese book.<br>That is Ana's notebook.</p><p>We study at the university every day.<br>But today, we study at Mr. Yamada's house.<br>Santos went home at 6:00.<br>Ana went home at 7:00.<br>She walked home.</p><p>Life in Japan is very fun.</p>",
+    "story_html": "<p>はじめまして。<ruby>山田<rt>やまだ</rt></ruby>です。<br>わたしは <ruby>日本人<rt>にほんじん</rt></ruby>です。<br>さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>です。<br>ここは わたしの あたらしい <ruby>家<rt>うち</rt></ruby>です。<br><ruby>渋谷<rt>しぶや</rt></ruby>に あります。</p><p><ruby>今日<rt>きょう</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>です。<br>3<ruby>時<rt>じ</rt></ruby>に アナさんと サントスさんが <ruby>来<rt>き</rt></ruby>ました。<br><ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>き</rt></ruby>ました。<br>これは 日本の <ruby>本<rt>ほん</rt></ruby>です。<br>それは アナさんの ノートです。</p><p>わたしたちは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>でも、<ruby>今日<rt>きょう</rt></ruby>は <ruby>山田<rt>やまだ</rt></ruby>さんの <ruby>家<rt>うち</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>サントスさんは 6<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br>アナさんは 7<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br><ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>ました。</p><p>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しいです。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>留学生<rt>りゅうがくせい</rt></ruby>ですか。",
+        "question_translation": "Is Mr. Yamada an international student?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は <ruby>何<rt>なに</rt></ruby>で <ruby>来<rt>き</rt></ruby>ましたか。",
+        "question_translation": "How did the two of them come?",
+        "choices": [
+          "くるま",
+          "でんしゃ",
+          "バス"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 7<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りましたか。",
+        "question_translation": "Did Santos go home at 7 o'clock?",
         "choices": [
           "はい",
           "いいえ"
@@ -91,15 +141,17 @@
   {
     "id": "STORY_L2_01",
     "level": 2,
-    "title": "大学の 食堂で",
+    "title": "<ruby>大学<rt>だいがく</rt></ruby>の <ruby>食堂<rt>しょくどう</rt></ruby>で",
     "schema_activation": [
-      "あなたは 毎日 どこで 昼ごはんを 食べますか。",
-      "いつも 誰と 食べますか。"
+      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> どこで <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べますか。",
+      "いつも <ruby>誰<rt>だれ</rt></ruby>と <ruby>食<rt>た</rt></ruby>べますか。"
     ],
-    "story_html": "<p>アナさんは <ruby>毎日<rt>まいにち</rt></ruby> 12<ruby>時半<rt>じはん</rt></ruby>に <ruby>大学<rt>だいがく</rt></ruby>の <ruby>食堂<rt>しょくどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>食堂<rt>しょくどう</rt></ruby>で 昼ごはんを <ruby>食<rt>た</rt></ruby>べます。</p><p>アナさんは カレーを <ruby>食<rt>た</rt></ruby>べます。<br>サントスさんは <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。</p><p>それから、アナさんは お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。<br>サントスさんは コーヒーを <ruby>飲<rt>の</rt></ruby>みます。</p>",
+    "translation": "<p>Ana goes to the university cafeteria at 12:30 every day.<br>She eats lunch at the cafeteria.</p><p>Ana eats curry.<br>Santos eats fish.</p><p>After that, Ana drinks tea.<br>Santos drinks coffee.</p>",
+    "story_html": "<p>アナさんは <ruby>毎日<rt>まいにち</rt></ruby> 12<ruby>時半<rt>じはん</rt></ruby>に <ruby>大学<rt>だいがく</rt></ruby>の <ruby>食堂<rt>しょくどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>食堂<rt>しょくどう</rt></ruby>で <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます。</p><p>アナさんは カレーを <ruby>食<rt>た</rt></ruby>べます。<br>サントスさんは <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。</p><p>それから、アナさんは お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。<br>サントスさんは コーヒーを <ruby>飲<rt>の</rt></ruby>みます。</p>",
     "quizzes": [
       {
-        "question": "アナさんは 何を 食べましたか。",
+        "question": "アナさんは <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+        "question_translation": "What did Ana eat?",
         "choices": [
           "さかな",
           "カレー",
@@ -108,7 +160,8 @@
         "answer_index": 1
       },
       {
-        "question": "サントスさんは 明日 何を しますか。",
+        "question": "サントスさんは <ruby>明日<rt>あした</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "question_translation": "What will Santos do tomorrow?",
         "choices": [
           "一人で 食べます",
           "アナさんと 食べます",
@@ -121,15 +174,17 @@
   {
     "id": "STORY_L2_02",
     "level": 2,
-    "title": "新宿で 買い物",
+    "title": "<ruby>新宿<rt>しんじゅく</rt></ruby>で <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>",
     "schema_activation": [
-      "あなたは デパートで 何を 買いますか。",
-      "あなたは 毎日 新聞を 読みますか。"
+      "あなたは デパートで <ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
+      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みますか。"
     ],
+    "translation": "<p>Today is Saturday.<br>Ana went to Shinjuku with Kim.<br>They went shopping at a department store.</p><p>Kim bought a watch.<br>Ana bought a Japanese book and a card.</p><p>After that, they had dinner at a restaurant.</p>",
     "story_html": "<p><ruby>今日<rt>きょう</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>です。<br>アナさんは キムさんと <ruby>新宿<rt>しんじゅく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>デパート<rt>でぱーと</rt></ruby>で <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を しました。</p><p>キムさんは <ruby>時計<rt>とけい</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br>アナさんは <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>本<rt>ほん</rt></ruby>と カードを <ruby>買<rt>か</rt></ruby>いました。</p><p>それから、<ruby>レストラン<rt>れすとらん</rt></ruby>で <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。</p>",
     "quizzes": [
       {
-        "question": "キムさんは 何を 買いましたか。",
+        "question": "キムさんは <ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いましたか。",
+        "question_translation": "What did Kim buy?",
         "choices": [
           "ほん",
           "カード",
@@ -138,7 +193,8 @@
         "answer_index": 2
       },
       {
-        "question": "アナさんは 明日 何を しますか。",
+        "question": "アナさんは <ruby>明日<rt>あした</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "question_translation": "What will Ana do tomorrow?",
         "choices": [
           "買い物を します",
           "本を 読みます",
@@ -151,15 +207,17 @@
   {
     "id": "STORY_L2_03",
     "level": 2,
-    "title": "公園で お花見",
+    "title": "<ruby>公園<rt>こうえん</rt></ruby>で お<ruby>花見<rt>はなみ</rt></ruby>",
     "schema_activation": [
-      "あなたは ときどき 写真を 撮りますか。",
-      "あなたは どこで お酒を 飲みますか。"
+      "あなたは ときどき <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りますか。",
+      "あなたは どこで お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。"
     ],
-    "story_html": "<p>アナさんと 山田さんは <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>公園<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>公園<rt>こうえん</rt></ruby>で お<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>山田<rt>やまだ</rt></ruby>さんは そこで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p>二人は <ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>で お<ruby>弁当<rt>べんとう</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。<br>お<ruby>酒<rt>さけ</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
+    "translation": "<p>Ana and Mr. Yamada went to the park on Sunday.<br>They viewed the cherry blossoms in the park.<br>Mr. Yamada took photos there.</p><p>The two of them ate a bento under a tree.<br>They also drank sake.<br>Santos did not come.</p>",
+    "story_html": "<p>アナさんと <ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>公園<rt>こうえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>公園<rt>こうえん</rt></ruby>で お<ruby>花<rt>はな</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>山田<rt>やまだ</rt></ruby>さんは そこで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p><ruby>二人<rt>ふたり</rt></ruby>は <ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>で お<ruby>弁当<rt>べんとう</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。<br>お<ruby>酒<rt>さけ</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みました。<br>サントスさんは <ruby>来<rt>き</rt></ruby>ませんでした。</p>",
     "quizzes": [
       {
-        "question": "山田さんは 公園で 何を しましたか。",
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>公園<rt>こうえん</rt></ruby>で <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "question_translation": "What did Mr. Yamada do at the park?",
         "choices": [
           "手紙を 書きました",
           "写真を 撮りました",
@@ -168,7 +226,8 @@
         "answer_index": 1
       },
       {
-        "question": "アナさんは タバコを 吸いましたか。",
+        "question": "アナさんは タバコを <ruby>吸<rt>す</rt></ruby>いましたか。",
+        "question_translation": "Did Ana smoke cigarettes?",
         "choices": [
           "はい",
           "いいえ"
@@ -180,15 +239,17 @@
   {
     "id": "STORY_L2_04",
     "level": 2,
-    "title": "カフェで 勉強",
+    "title": "<ruby>カフェ<rt>かふぇ</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>",
     "schema_activation": [
-      "どこで 日本語を 勉強しますか。",
-      "あなたは いつも 音楽を聞きますか。"
+      "どこで <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
+      "あなたは いつも <ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きますか。"
     ],
-    "story_html": "<p>アナさんは <ruby>駅<rt>えき</rt></ruby>の <ruby>隣<rt>となり</rt></ruby>の <ruby>カフェ<rt>かふぇ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>コーヒー<rt>こーひー</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んで、<ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。</p><p>10<ruby>時<rt>じ</rt></ruby>に サントスさんに <ruby>会<rt>あ</rt></ruby>いました。<br>二人は <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。<br>サントスさんは <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きました。<br>アナさんは <ruby>漢字<rt>かんじ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。</p>",
+    "translation": "<p>Ana went to the cafe next to the station.<br>She drank coffee and read a newspaper.</p><p>She met Santos at 10:00.<br>The two of them studied Japanese.<br>Santos listened to music.<br>Ana wrote Kanji.</p>",
+    "story_html": "<p>アナさんは <ruby>駅<rt>えき</rt></ruby>の <ruby>隣<rt>となり</rt></ruby>の <ruby>カフェ<rt>かふぇ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>コーヒー<rt>こーひー</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んで、<ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。</p><p>10<ruby>時<rt>じ</rt></ruby>に サントスさんに <ruby>会<rt>あ</rt></ruby>いました。<br><ruby>二人<rt>ふたり</rt></ruby>は <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。<br>サントスさんは <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きました。<br>アナさんは <ruby>漢字<rt>かんじ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。</p>",
     "quizzes": [
       {
-        "question": "アナさんは カフェで 何を しましたか。",
+        "question": "アナさんは <ruby>カフェ<rt>かふぇ</rt></ruby>で <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "question_translation": "What did Ana do at the cafe?",
         "choices": [
           "テニスを しました",
           "新聞を 読みました",
@@ -197,7 +258,8 @@
         "answer_index": 1
       },
       {
-        "question": "二人は 明日 テニスを しますか。",
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は <ruby>明日<rt>あした</rt></ruby> テニスを しますか。",
+        "question_translation": "Will the two of them play tennis tomorrow?",
         "choices": [
           "はい",
           "いいえ"
@@ -207,17 +269,150 @@
     ]
   },
   {
-    "id": "STORY_L1_EXTRA_01",
-    "level": 1,
-    "title": "山田さんの あたらしい うち",
+    "id": "STORY_L3_01",
+    "level": 3,
+    "title": "<ruby>山田<rt>やまだ</rt></ruby>さんへの プレゼント",
     "schema_activation": [
-      "あなたの 友達の 家は どこですか。",
-      "あなたは 友達と 勉強しますか。"
+      "あなたは <ruby>誰<rt>だれ</rt></ruby>に プレゼントを あげますか。",
+      "あなたは <ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を もらいましたか。"
     ],
-    "story_html": "<p>はじめまして。<ruby>山田<rt>やまだ</rt></ruby>です。<br>わたしは <ruby>日本人<rt>にほんじん</rt></ruby>です。<br>さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>です。<br>ここは わたしの あたらしい <ruby>家<rt>うち</rt></ruby>です。<br><ruby>渋谷<rt>しぶや</rt></ruby>に あります。</p><p><ruby>今日<rt>きょう</rt></ruby>は <ruby>土曜日<rt>どようび</rt></ruby>です。<br>3<ruby>時<rt>じ</rt></ruby>に アナさんと サントスさんが <ruby>来<rt>き</rt></ruby>ました。<br><ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>き</rt></ruby>ました。<br>これは 日本の <ruby>本<rt>ほん</rt></ruby>です。<br>それは アナさんの ノートです。</p><p>わたしたちは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>でも、<ruby>今日<rt>きょう</rt></ruby>は 山田さんの <ruby>家<rt>うち</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>サントスさんは 6<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br>アナさんは 7<ruby>時<rt>じ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りました。<br><ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>ました。</p><p>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても 楽しいです。</p>",
+    "translation": "<p>Today is Mr. Yamada's birthday. Ana gave Mr. Yamada a necktie. She bought that necktie in Germany. She received it from her mother.<br>Santos gave Mr. Yamada flowers. Mr. Yamada was very happy. Everyone ate cake together. Ana cut the cake with a knife.</p>",
+    "story_html": "<p><ruby>今日<rt>きょう</rt></ruby>は <ruby>山田<rt>やまだ</rt></ruby>さんの <ruby>誕生日<rt>たんじょうび</rt></ruby>です。<br>アナさんは <ruby>山田<rt>やまだ</rt></ruby>さんに ネクタイを あげました。<br>その ネクタイは ドイツで <ruby>買<rt>か</rt></ruby>いました。<br><ruby>母<rt>はは</rt></ruby>に もらいました。</p><p>サントスさんは <ruby>山田<rt>やまだ</rt></ruby>さんに <ruby>花<rt>はな</rt></ruby>を あげました。<br><ruby>山田<rt>やまだ</rt></ruby>さんは とても <ruby>喜<rt>よろこ</rt></ruby>びました。<br>みんなで ケーキを <ruby>食<rt>た</rt></ruby>べました。<br>アナさんは <ruby>ナイフ<rt>ないふ</rt></ruby>で ケーキを <ruby>切<rt>き</rt></ruby>りました。</p>",
     "quizzes": [
       {
-        "question": "山田さんは 留学生ですか。",
+        "question": "アナさんは <ruby>山田<rt>やまだ</rt></ruby>さんに <ruby>何<rt>なに</rt></ruby>を あげましたか。",
+        "question_translation": "What did Ana give to Mr. Yamada?",
+        "choices": [
+          "はな",
+          "ネクタイ",
+          "ケーキ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは <ruby>何<rt>なに</rt></ruby>で ケーキを <ruby>切<rt>き</rt></ruby>りましたか。",
+        "question_translation": "What did Ana cut the cake with?",
+        "choices": [
+          "はし",
+          "フォーク",
+          "ナイフ"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L3_02",
+    "level": 3,
+    "title": "パソコンで レポートを <ruby>書<rt>か</rt></ruby>きます",
+    "schema_activation": [
+      "あなたは パソコンで <ruby>何<rt>なに</rt></ruby>を しますか。",
+      "あなたは <ruby>誰<rt>だれ</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>りますか。"
+    ],
+    "translation": "<p>Ana is in the university library now. She writes a Japanese report on a computer. She learned Kanji from Santos.<br>Ana has already written the report. Then, she called Santos. \"Why don't we eat dinner together?\"</p>",
+    "story_html": "<p>アナさんは <ruby>今<rt>いま</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>の <ruby>図書館<rt>としょかん</rt></ruby>に います。<br><ruby>パソコン<rt>ぱそこん</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>レポート<rt>れぽーと</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。<br>サントスさんに <ruby>漢字<rt>かんじ</rt></ruby>を <ruby>習<rt>なら</rt></ruby>いました。</p><p>アナさんは もう <ruby>レポート<rt>れぽーと</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br>それから、サントスさんに <ruby>電話<rt>でんわ</rt></ruby>を かけました。<br>「いっしょに <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べませんか。」</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは <ruby>何<rt>なに</rt></ruby>で レポートを <ruby>書<rt>か</rt></ruby>きましたか。",
+        "question_translation": "What did Ana write the report with?",
+        "choices": [
+          "ペン",
+          "パソコン",
+          "ケータイ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは もう <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか。",
+        "question_translation": "Has Ana eaten dinner yet?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L3_03",
+    "level": 3,
+    "title": "いろいろな <ruby>言葉<rt>ことば</rt></ruby>",
+    "schema_activation": [
+      "あなたの <ruby>国<rt>くに</rt></ruby>の <ruby>言葉<rt>ことば</rt></ruby>で 『Thank you』は <ruby>何<rt>なん</rt></ruby>ですか。",
+      "あなたは <ruby>英語<rt>えいご</rt></ruby>で <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きますか。"
+    ],
+    "translation": "<p>Santos said, \"Ana, what is 'Arigato' in German?\" Ana said, \"It is 'Danke'.\"<br>Ana wrote a letter in English. Santos taught Ana guitar. New words are very interesting.</p>",
+    "story_html": "<p>サントスさんは <ruby>言<rt>い</rt></ruby>いました。<br>「アナさん、『ありがとう』は <ruby>ドイツ語<rt>どいつご</rt></ruby>で <ruby>何<rt>なん</rt></ruby>ですか。」<br>アナさんは <ruby>言<rt>い</rt></ruby>いました。<br>「『Danke』です。」</p><p>アナさんは <ruby>英語<rt>えいご</rt></ruby>で <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。<br>サントスさんは アナさんに <ruby>ギター<rt>ぎたー</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えました。<br><ruby>新<rt>あたら</rt></ruby>しい <ruby>言葉<rt>ことば</rt></ruby>は とても おもしろいです。</p>",
+    "quizzes": [
+      {
+        "question": "『ありがとう』は <ruby>ドイツ語<rt>どいつご</rt></ruby>で <ruby>何<rt>なん</rt></ruby>ですか。",
+        "question_translation": "What is 'Arigato' in German?",
+        "choices": [
+          "Thank you",
+          "Danke",
+          "Merci"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは アナさんに <ruby>何<rt>なに</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えましたか。",
+        "question_translation": "What did Santos teach Ana?",
+        "choices": [
+          "えいご",
+          "にほんご",
+          "ギター"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L3_04",
+    "level": 3,
+    "title": "もう <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか",
+    "schema_activation": [
+      "あなたは もう <ruby>今日<rt>きょう</rt></ruby>の <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか。",
+      "あなたは <ruby>友達<rt>ともだち</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を <ruby>借<rt>か</rt></ruby>りますか。"
+    ],
+    "translation": "<p>Did Kim eat lunch yet? No, not yet. Kim borrowed 1000 yen from Mr. Yamada.<br>She ate curry with a spoon and fork at a restaurant. Then, she received a souvenir from Mr. Yamada. It is sweet chocolate.</p>",
+    "story_html": "<p>キムさんは もう <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか。<br>いいえ、まだです。<br>キムさんは <ruby>山田<rt>やまだ</rt></ruby>さんに 1000<ruby>円<rt>えん</rt></ruby> <ruby>借<rt>か</rt></ruby>りました。</p><p><ruby>レストラン<rt>れすとらん</rt></ruby>で <ruby>スプーン<rt>すぷーん</rt></ruby>と <ruby>フォーク<rt>ふぉーく</rt></ruby>で <ruby>カレー<rt>かれー</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。<br>それから、<ruby>山田<rt>やまだ</rt></ruby>さんに お<ruby>土産<rt>みやげ</rt></ruby>を もらいました。<br><ruby>甘<rt>あま</rt></ruby>い チョコレートです。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは <ruby>誰<rt>だれ</rt></ruby>に お<ruby>金<rt>かね</rt></ruby>を <ruby>借<rt>か</rt></ruby>りましたか。",
+        "question_translation": "Who did Kim borrow money from?",
+        "choices": [
+          "アナさん",
+          "山田さん",
+          "サントスさん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは <ruby>何<rt>なに</rt></ruby>で カレーを <ruby>食<rt>た</rt></ruby>べましたか。",
+        "question_translation": "What did Kim eat curry with?",
+        "choices": [
+          "はし",
+          "ナイフ",
+          "スプーンと フォーク"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L4_01",
+    "level": 4,
+    "title": "さくら<ruby>大学<rt>だいがく</rt></ruby>は どんな <ruby>大学<rt>だいがく</rt></ruby>ですか",
+    "schema_activation": [
+      "あなたの <ruby>大学<rt>だいがく</rt></ruby>／<ruby>会社<rt>かいしゃ</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きいですか。",
+      "あなたの <ruby>先生<rt>せんせい</rt></ruby>は <ruby>親切<rt>しんせつ</rt></ruby>ですか。"
+    ],
+    "translation": "<p>Ana's Sakura University is a very famous university. And it is very beautiful. It is not very new, but it is very quiet.<br>Professor Yamada is a very kind teacher. University life is very busy, but it is fun.</p>",
+    "story_html": "<p>アナさんの さくら<ruby>大学<rt>だいがく</rt></ruby>は とても <ruby>有名<rt>ゆうめい</rt></ruby>な <ruby>大学<rt>だいがく</rt></ruby>です。<br>そして、とても きれいです。<br>あまり <ruby>新<rt>あたら</rt></ruby>しくないですが、とても <ruby>静<rt>しず</rt></ruby>かです。</p><p><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は とても <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>先生<rt>せんせい</rt></ruby>です。<br><ruby>大学<rt>だいがく</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>は とても <ruby>忙<rt>いそが</rt></ruby>しいですが、<ruby>楽<rt>たの</rt></ruby>しいです。</p>",
+    "quizzes": [
+      {
+        "question": "さくら<ruby>大学<rt>だいがく</rt></ruby>は <ruby>新<rt>あたら</rt></ruby>しいですか。",
+        "question_translation": "Is Sakura University new?",
         "choices": [
           "はい",
           "いいえ"
@@ -225,36 +420,2508 @@
         "answer_index": 1
       },
       {
-        "question": "二人は 何で 来ましたか。",
+        "question": "<ruby>生活<rt>せいかつ</rt></ruby>は どうですか。",
+        "question_translation": "How is the life?",
         "choices": [
-          "くるま",
-          "でんしゃ",
-          "バス"
+          "ひまです",
+          "いそがしいですが、たのしいです",
+          "あまり よくありません"
         ],
         "answer_index": 1
-      },
+      }
+    ]
+  },
+  {
+    "id": "STORY_L4_02",
+    "level": 4,
+    "title": "おいしい レストラン",
+    "schema_activation": [
+      "<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>は おいしいですか。",
+      "あなたの <ruby>町<rt>まち</rt></ruby>の レストランは <ruby>高<rt>たか</rt></ruby>いですか。"
+    ],
+    "translation": "<p>Ana and Santos went to a restaurant in Shinjuku. It was a very lively shop. Santos ate fish.<br>Santos said, \"This fish is very delicious.\" Ana said, \"Yes, but it is a little expensive.\"</p>",
+    "story_html": "<p>アナさんと サントスさんは <ruby>新宿<rt>しんじゅく</rt></ruby>の <ruby>レストラン<rt>れすとらん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br>とても にぎやかな <ruby>店<rt>みせ</rt></ruby>でした。<br>サントスさんは <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。</p><p>サントスさんは <ruby>言<rt>い</rt></ruby>いました。<br>「この <ruby>魚<rt>さかな</rt></ruby>は とても おいしいです。」<br>アナさんは <ruby>言<rt>い</rt></ruby>いました。<br>「ええ、でも <ruby>少<rt>すこ</rt></ruby>し <ruby>高<rt>たか</rt></ruby>いですね。」</p>",
+    "quizzes": [
       {
-        "question": "サントスさんは 7時に 帰りましたか。",
+        "question": "<ruby>店<rt>みせ</rt></ruby>は <ruby>静<rt>しず</rt></ruby>かでしたか。",
+        "question_translation": "Was the shop quiet?",
         "choices": [
           "はい",
           "いいえ"
         ],
         "answer_index": 1
+      },
+      {
+        "question": "<ruby>肉<rt>にく</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>は <ruby>安<rt>やす</rt></ruby>かったですか。",
+        "question_translation": "Was the meat dish cheap?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L4_03",
+    "level": 4,
+    "title": "<ruby>山田<rt>やまだ</rt></ruby>さんの <ruby>町<rt>まち</rt></ruby>",
+    "schema_activation": [
+      "あなたの <ruby>町<rt>まち</rt></ruby>は どんな <ruby>町<rt>まち</rt></ruby>ですか。",
+      "その <ruby>町<rt>まち</rt></ruby>は <ruby>便利<rt>べんり</rt></ruby>ですか。"
+    ],
+    "translation": "<p>Mr. Yamada's town is in Kamakura. It is a very quiet and beautiful town. There are many old temples.<br>The mountain is very high. The sky was blue and very beautiful. Ana drank cold tea at Mr. Yamada's house.</p>",
+    "story_html": "<p>山田さんの <ruby>町<rt>まち</rt></ruby>は <ruby>鎌倉<rt>かまくら</rt></ruby>に あります。<br>とても <ruby>静<rt>しず</rt></ruby>かで きれいな <ruby>町<rt>まち</rt></ruby>です。<br><ruby>古<rt>ふる</rt></ruby>い お<ruby>寺<rt>てら</rt></ruby>が たくさん あります。</p><p><ruby>山<rt>やま</rt></ruby>は とても <ruby>高<rt>たか</rt></ruby>いです。<br><ruby>空<rt>そら</rt></ruby>は <ruby>青<rt>あお</rt></ruby>くて とても きれいでした。<br>アナさんは 山田さんの <ruby>家<rt>うち</rt></ruby>で <ruby>冷<rt>つめ</rt></ruby>たい お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>山<rt>やま</rt></ruby>は どうでしたか。",
+        "question_translation": "How was the mountain?",
+        "choices": [
+          "ひくかったです",
+          "たかかったです",
+          "あかくなかったです"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>鎌倉<rt>かまくら</rt></ruby>に お<ruby>寺<rt>てら</rt></ruby>が ありますか。",
+        "question_translation": "Are there temples in Kamakura?",
+        "choices": [
+          "はい、たくさん あります",
+          "いいえ、ありません",
+          "あまり ありません"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L4_04",
+    "level": 4,
+    "title": "キムさんの <ruby>新<rt>あたら</rt></ruby>しい パソコン",
+    "schema_activation": [
+      "あなたの パソコンは <ruby>新<rt>あたら</rt></ruby>しいですか。",
+      "それは <ruby>便利<rt>べんり</rt></ruby>ですか。"
+    ],
+    "translation": "<p>Kim bought a new computer. Japanese computers are very famous. They are very small and light.<br>Santos said, \"That computer is very nice. Was it expensive?\" Kim said, \"Yes, it was a little expensive.\"</p>",
+    "story_html": "<p>キムさんは <ruby>新<rt>あたら</rt></ruby>しい <ruby>パソコン<rt>ぱそこん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br><ruby>日本<rt>にほん</rt></ruby>の <ruby>パソコン<rt>ぱそこん</rt></ruby>は とても <ruby>有名<rt>ゆうめい</rt></ruby>です。<br>とても <ruby>小<rt>ちい</rt></ruby>さくて <ruby>軽<rt>かる</rt></ruby>いです。</p><p>サントスさんは <ruby>言<rt>い</rt></ruby>いました。<br>「その <ruby>パソコン<rt>ぱそこん</rt></ruby>は とても すてきですね。<br><ruby>高<rt>たか</rt></ruby>かったですか。」<br>キムさんは <ruby>言<rt>い</rt></ruby>いました。<br>「はい、<ruby>少<rt>すこ</rt></ruby>し <ruby>高<rt>たか</rt></ruby>かったです。」</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>新<rt>あたら</rt></ruby>しい パソコンは <ruby>重<rt>おも</rt></ruby>いですか。",
+        "question_translation": "Is the new computer heavy?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "パソコンは どうですか。",
+        "question_translation": "How is the computer?",
+        "choices": [
+          "ふるいです",
+          "すてきですが、すこし たかいです",
+          "よくありません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L5_01",
+    "level": 5,
+    "title": "アナさんの <ruby>好<rt>す</rt></ruby>きな <ruby>音楽<rt>おんがく</rt></ruby>",
+    "schema_activation": [
+      "あなたは どんな <ruby>音楽<rt>おんがく</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。",
+      "あなたは <ruby>歌<rt>うた</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか。"
+    ],
+    "translation": "<p>Ana likes music very much. She listens to classical music every day. She doesn't like rock very much.<br>Mr. Santos is very good at singing. Ana said, \"I have two tickets, so won't you go with me?\"</p>",
+    "story_html": "<p>アナさんは <ruby>音楽<rt>おんがく</rt></ruby>が とても <ruby>好<rt>す</rt></ruby>きです。<br><ruby>毎日<rt>まいにち</rt></ruby> クラシックを <ruby>聞<rt>き</rt></ruby>きます。<br>ロックは あまり <ruby>好<rt>す</rt></ruby>きじゃありません。</p><p>サントスさんは <ruby>歌<rt>うた</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>です。<br>アナさんは <ruby>言<rt>い</rt></ruby>いました。<br>「チケットが 2<ruby>枚<rt>まい</rt></ruby> ありますから、いっしょに <ruby>行<rt>い</rt></ruby>きませんか。」</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは ロックが <ruby>好<rt>す</rt></ruby>きですか。",
+        "question_translation": "Does Ana like rock music?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは <ruby>歌<rt>うた</rt></ruby>が <ruby>下手<rt>へた</rt></ruby>ですか。",
+        "question_translation": "Is Santos bad at singing?",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L5_02",
+    "level": 5,
+    "title": "キムさんの スポーツ",
+    "schema_activation": [
+      "あなたは スポーツが <ruby>好<rt>す</rt></ruby>きですか。",
+      "あなたは <ruby>料理<rt>りょうり</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか。"
+    ],
+    "translation": "<p>Kim is very good at baseball. He plays baseball with his friends every Sunday.<br>Santos asked, \"Why do you practice every day?\" Kim answered, \"Because I want to become good at it.\"</p>",
+    "story_html": "<p>キムさんは <ruby>野球<rt>やきゅう</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>です。<br><ruby>毎週<rt>まいしゅう</rt></ruby> <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>と <ruby>野球<rt>やきゅう</rt></ruby>を します。</p><p>サントスさんは 「どうして <ruby>毎日<rt>まいにち</rt></ruby> <ruby>練習<rt>れんしゅう</rt></ruby>を しますか」と <ruby>聞<rt>き</rt></ruby>きました。<br>キムさんは 「<ruby>上手<rt>じょうず</rt></ruby>に なりたいですから」と <ruby>答<rt>こた</rt></ruby>えました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは <ruby>何<rt>なに</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか。",
+        "question_translation": "What is Kim good at?",
+        "choices": [
+          "テニス",
+          "やきゅう",
+          "りょうり"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは <ruby>今日<rt>きょう</rt></ruby> <ruby>野球<rt>やきゅう</rt></ruby>を しますか。",
+        "question_translation": "Will Kim play baseball today?",
+        "choices": [
+          "はい",
+          "いいえ、しごとが ありますから"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L5_03",
+    "level": 5,
+    "title": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>",
+    "schema_activation": [
+      "あなたは <ruby>日本<rt>にほん</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>が わかりますか。",
+      "あなたは お<ruby>酒<rt>さけ</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。"
+    ],
+    "translation": "<p>Santos loves Japanese food. But, he doesn't like Natto very much. Because the smell is strange.<br>Ana doesn't drink alcohol at all. Since today is Mr. Yamada's birthday, let's drink together.</p>",
+    "story_html": "<p>サントスさんは <ruby>日本<rt>にほん</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>が <ruby>大好<rt>だいす</rt></ruby>きです。<br>でも、<ruby>納豆<rt>なっとう</rt></ruby>は あまり <ruby>好<rt>す</rt></ruby>きじゃありません。<br>においが <ruby>変<rt>へん</rt></ruby>ですから。</p><p>アナさんは お<ruby>酒<rt>さけ</rt></ruby>が <ruby>全然<rt>ぜんぜん</rt></ruby> わかりません。<br><ruby>今日<rt>きょう</rt></ruby>は 山田さんの <ruby>誕生日<rt>たんじょうび</rt></ruby>ですから、みんなで <ruby>飲<rt>の</rt></ruby>みましょう。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは どうして <ruby>納豆<rt>なっとう</rt></ruby>が <ruby>好<rt>す</rt></ruby>きじゃありませんか。",
+        "question_translation": "Why doesn't Santos like Natto?",
+        "choices": [
+          "たかいですから",
+          "においが へんですから",
+          "にがいですから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは お<ruby>酒<rt>さけ</rt></ruby>を たくさん <ruby>飲<rt>の</rt></ruby>みますか。",
+        "question_translation": "Does Ana drink a lot of alcohol?",
+        "choices": [
+          "はい",
+          "いいえ、ぜんぜん わかりません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L5_04",
+    "level": 5,
+    "title": "<ruby>漢字<rt>かんじ</rt></ruby>の <ruby>勉強<rt>べんきょう</rt></ruby>",
+    "schema_activation": [
+      "あなたは <ruby>漢字<rt>かんじ</rt></ruby>が わかりますか。",
+      "ひらがなと カタカナが <ruby>好<rt>す</rt></ruby>きですか。"
+    ],
+    "translation": "<p>Ana likes studying Japanese. She understands Hiragana, but she doesn't understand Kanji at all. Because it is very difficult.<br>Santos understands Kanji a little. Because he is kind, he teaches Ana.</p>",
+    "story_html": "<p>アナさんは <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>勉強<rt>べんきょう</rt></ruby>が <ruby>好<rt>す</rt></ruby>きです。<br>ひらがなは わかりますが、<ruby>漢字<rt>かんじ</rt></ruby>は <ruby>全然<rt>ぜんぜん</rt></ruby> わかりません。<br>とても <ruby>難<rt>むずか</rt></ruby>しいですから。</p><p>サントスさんは <ruby>漢字<rt>かんじ</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>し わかります。<br><ruby>親切<rt>しんせつ</rt></ruby>ですから、アナさんに <ruby>教<rt>おし</rt></ruby>えます。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは <ruby>漢字<rt>かんじ</rt></ruby>が わかりますか。",
+        "question_translation": "Does Ana understand Kanji?",
+        "choices": [
+          "はい、よくわかります",
+          "いいえ、ぜんぜん わかりません"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "どうして サントスさんは <ruby>漢字<rt>かんじ</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>し わかりますか。",
+        "question_translation": "Why does Santos understand Kanji a little?",
+        "choices": [
+          "じしょが ありますから",
+          "ちゅうごくの ともだちが いますから",
+          "せんせい ですから"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L6_01",
+    "level": 6,
+    "title": "アナさんの <ruby>部屋<rt>へや</rt></ruby>と <ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+    "schema_activation": [
+      "あなたの 机の上に 何がありますか。",
+      "あなたの 部屋に 誰がいますか。"
+    ],
+    "story_html": "<p>ここは アナさんの <ruby>部屋<rt>へや</rt></ruby>です。<br><ruby>部屋<rt>へや</rt></ruby>の <ruby>真ん中<rt>まんなか</rt></ruby>に <ruby>机<rt>つくえ</rt></ruby>が あります。<br><ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に パソコンと ノートが あります。<br><ruby>机<rt>つくえ</rt></ruby>の <ruby>右<rt>みぎ</rt></ruby>に ベッドが あります。<br>ベッドの <ruby>下<rt>した</rt></ruby>に <ruby>小<rt>ちい</rt></ruby>さい <ruby>箱<rt>はこ</rt></ruby>が あります。<br>その <ruby>箱<rt>はこ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>家族<rt>かぞく</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>が あります。</p>",
+    "quizzes": [
+      {
+        "question": "ベッドの 下に 何がありますか。",
+        "choices": [
+          "ノート",
+          "パソコン",
+          "はこ"
+        ],
+        "answer_index": 2
+      },
+      {
+        "question": "箱の 中に 何がありますか。",
+        "choices": [
+          "しゃしん",
+          "とけい",
+          "じしょ"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L6_02",
+    "level": 6,
+    "title": "さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>庭<rt>にわ</rt></ruby>",
+    "schema_activation": [
+      "大学の中に 何がありますか。",
+      "木の下に 何がいますか。"
+    ],
+    "story_html": "<p>さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>庭<rt>にわ</rt></ruby>に <ruby>大<rt>おお</rt></ruby>きい <ruby>木<rt>き</rt></ruby>が あります。<br>その <ruby>木<rt>き</rt></ruby>の <ruby>下<rt>した</rt></ruby>に サントスさんと キムさんが います。<br><ruby>食堂<rt>しょくどう</rt></ruby>は <ruby>図書館<rt>としょかん</rt></ruby>の <ruby>隣<rt>となり</rt></ruby>に あります。<br><ruby>池<rt>いけ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>魚<rt>さかな</rt></ruby>が います。<br><ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>食堂<rt>しょくどう</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に います。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは どこにいますか。",
+        "choices": [
+          "しょくどうの なか",
+          "きの下",
+          "としょかん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "魚は どこにいますか。",
+        "choices": [
+          "きの上",
+          "いけの中",
+          "はこの中"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L6_03",
+    "level": 6,
+    "title": "スーパーの <ruby>棚<rt>たな</rt></ruby>",
+    "schema_activation": [
+      "スーパーへ 行きますか。",
+      "パンの 近くに 何がありますか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>スーパー<rt>すーぱー</rt></ruby>に います。<br><ruby>パン<rt>ぱん</rt></ruby>は <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>の <ruby>隣<rt>となり</rt></ruby>に あります。<br><ruby>パン<rt>ぱん</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>の <ruby>棚<rt>たな</rt></ruby>に <ruby>ジャム<rt>じゃむ</rt></ruby>が あります。<br><ruby>パン<rt>ぱん</rt></ruby>の <ruby>下<rt>した</rt></ruby>の <ruby>棚<rt>たな</rt></ruby>に お<ruby>菓子<rt>かし</rt></ruby>が あります。<br><ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>レジ<rt>れじ</rt></ruby>の <ruby>後ろ<rt>うしろ</rt></ruby>に います。</p>",
+    "quizzes": [
+      {
+        "question": "ジャムは どこにありますか。",
+        "choices": [
+          "パンの うえ",
+          "パンの した",
+          "パンの となり"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "山田さんは どこにいますか。",
+        "choices": [
+          "パンの まえ",
+          "レジの うしろ",
+          "スーパーの そと"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L6_04",
+    "level": 6,
+    "title": "<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせ",
+    "schema_activation": [
+      "駅の 前に 何がありますか。",
+      "友達と 駅で 会いますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に います。<br><ruby>出口<rt>でぐち</rt></ruby>の <ruby>右<rt>みぎ</rt></ruby>に <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>が あります。<br><ruby>デパート<rt>でぱーと</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に <ruby>時計<rt>とけい</rt></ruby>が あります。<br><ruby>時計<rt>とけい</rt></ruby>の <ruby>下<rt>した</rt></ruby>に アナさんが います。<br>サントスさんは <ruby>今<rt>いま</rt></ruby> <ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に います。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どこにいますか。",
+        "choices": [
+          "ゆうびんきょくの中",
+          "デパートの中",
+          "時計の下"
+        ],
+        "answer_index": 2
+      },
+      {
+        "question": "サントスさんは どこにいますか。",
+        "choices": [
+          "でんしゃの中",
+          "きっさてん",
+          "うち"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L7_01",
+    "level": 7,
+    "title": "みかんを いくつ <ruby>買<rt>か</rt></ruby>いましたか",
+    "schema_activation": [
+      "昨日 りんごを 買いましたか。",
+      "あなたの 家に みかんが いくつ ありますか。"
+    ],
+    "story_html": "<p>アナさんは 今 <ruby>果物屋<rt>くだものや</rt></ruby>に います。<br><ruby>安<rt>やす</rt></ruby>くて おいしい <ruby>果物<rt>くだもの</rt></ruby>が たくさん あります。<br>アナさんは りんごを 3つ <ruby>買<rt>か</rt></ruby>いました。<br>みかんを 5つ <ruby>買<rt>か</rt></ruby>いました。<br>全部（ぜんぶ）で 850<ruby>円<rt>えん</rt></ruby>でした。<br>サントスさんは <ruby>果物<rt>くだもの</rt></ruby>を <ruby>買<rt>か</rt></ruby>いませんでした。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは みかんを いくつ 買いましたか。",
+        "choices": [
+          "3つ",
+          "5つ",
+          "8つ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "全部で いくらでしたか。",
+        "choices": [
+          "150えん",
+          "850えん",
+          "1000えん"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L7_02",
+    "level": 7,
+    "title": "アナさんの <ruby>家族<rt>かぞく</rt></ruby>",
+    "schema_activation": [
+      "あなたの 家族は 何人ですか。",
+      "あなたの 国に 兄弟が いますか。"
+    ],
+    "story_html": "<p>アナさんの <ruby>家族<rt>かぞく</rt></ruby>は ドイツに います。<br>全部（ぜんぶ）で 4<ruby>人<rt>よにん</rt></ruby>です。<br><ruby>兄<rt>あに</rt></ruby>が 1<ruby>人<rt>ひとり</rt></ruby> います。<br><ruby>兄<rt>あに</rt></ruby>は <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br><ruby>子<rt>こ</rt></ruby>どもが 2<ruby>人<rt>ふたり</rt></ruby> います。<br>男の子が 1<ruby>人<rt>ひとり</rt></ruby>と 女の子が 1<ruby>人<rt>ひとり</rt></ruby>です。<br>サントスさんの <ruby>家族<rt>かぞく</rt></ruby>は 5<ruby>人<rt>ごにん</rt></ruby>です。<br><ruby>兄弟<rt>きょうだい</rt></ruby>が たくさん います。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんの 家族は 何人ですか。",
+        "choices": [
+          "3にん",
+          "4にん",
+          "5にん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "お兄さんの 子どもは 何人ですか。",
+        "choices": [
+          "1にん",
+          "2にん",
+          "いません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L7_03",
+    "level": 7,
+    "title": "どのくらい <ruby>勉強<rt>べんきょう</rt></ruby>しますか",
+    "schema_activation": [
+      "毎日 何時間 日本語を 勉強しますか。",
+      "日本まで どのくらい かかりますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>で 6<ruby>時間<rt>ろくじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>サントスさんは <ruby>忙<rt>いそが</rt></ruby>しいですから、2<ruby>時間<rt>にじかん</rt></ruby>だけ <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>サントスさんは もう 1<ruby>年<rt>いちねん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しました。<br>アナさんの <ruby>家<rt>うち</rt></ruby>から <ruby>大学<rt>だいがく</rt></ruby>まで <ruby>電車<rt>でんしゃ</rt></ruby>で 40<ruby>分<rt>よんじゅっぷん</rt></ruby>かかります。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは 毎日 何時間 勉強しますか。",
+        "choices": [
+          "2じかん",
+          "6じかん",
+          "40ぷん"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "アナさんの 家から 大学まで どのくらいですか。",
+        "choices": [
+          "1じかん",
+          "40ぷん",
+          "3ヶ月"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L7_04",
+    "level": 7,
+    "title": "<ruby>大学<rt>だいがく</rt></ruby>の コンピューター<ruby>室<rt>しつ</rt></ruby>",
+    "schema_activation": [
+      "パソコンが 何台 ありますか。",
+      "切手を 買いますか。"
+    ],
+    "story_html": "<p>この <ruby>部屋<rt>へや</rt></ruby>に <ruby>パソコン<rt>ぱそこん</rt></ruby>が 20<ruby>台<rt>にじゅうだい</rt></ruby> あります。<br>今 <ruby>学生<rt>がくせい</rt></ruby>が 15<ruby>人<rt>じゅうごにん</rt></ruby> います。<br>アナさんは <ruby>レポート<rt>れぽーと</rt></ruby>を 5<ruby>枚<rt>ごまい</rt></ruby> <ruby>出<rt>だ</rt></ruby>しました。<br><ruby>山田<rt>やまだ</rt></ruby>さんから <ruby>切手<rt>きって</rt></ruby>を 10<ruby>枚<rt>じゅうまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。<br>サントスさんは <ruby>切手<rt>きって</rt></ruby>を 1<ruby>枚<rt>いちまい</rt></ruby>だけ <ruby>買<rt>か</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "パソコンは 何台 ありますか。",
+        "choices": [
+          "15だい",
+          "20だい",
+          "5だい"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 切手を 何枚 買いましたか。",
+        "choices": [
+          "1まい",
+          "5まい",
+          "10まい"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L8_01",
+    "level": 8,
+    "title": "きのうの <ruby>天気<rt>てんき</rt></ruby>は どうでしたか",
+    "schema_activation": [
+      "あなたの 国は 日本より 暑いですか。",
+      "1年で いつが いちばん 好きですか。"
+    ],
+    "story_html": "<p>今日（きょう）は いい <ruby>天気<rt>てんき</rt></ruby>ですが、<ruby>昨日<rt>きのう</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>でした。<br>ドイツは <ruby>日本<rt>にほん</rt></ruby>より <ruby>寒<rt>さむ</rt></ruby>いです。<br>アナさんは <ruby>日本<rt>にほん</rt></ruby>の <ruby>夏<rt>なつ</rt></ruby>が あまり <ruby>好<rt>す</rt></ruby>きじゃありませんでした。<br>とても <ruby>暑<rt>あつ</rt></ruby>かったですから。<br>アナさんは 1<ruby>年<rt>いちねん</rt></ruby>で <ruby>秋<rt>あき</rt></ruby>が いちばん <ruby>好<rt>す</rt></ruby>きです。</p>",
+    "quizzes": [
+      {
+        "question": "昨日の 天気は どうでしたか。",
+        "choices": [
+          "はれ",
+          "あめ",
+          "ゆき"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "ドイツと 日本と どちらが 寒いですか。",
+        "choices": [
+          "ドイツ",
+          "にほん"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L8_02",
+    "level": 8,
+    "title": "どちらが おいしいですか",
+    "schema_activation": [
+      "肉と 魚と どちらが 好きですか。",
+      "日本の 料理で 何が いちばん 好きですか。"
+    ],
+    "story_html": "<p><ruby>昨日<rt>きのう</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>は とても おいしかったです。<br>キムさんは <ruby>肉<rt>にく</rt></ruby>の ほうが <ruby>好<rt>す</rt></ruby>きです。<br>サントスさんは <ruby>魚<rt>さかな</rt></ruby>の ほうが <ruby>好<rt>す</rt></ruby>きです。<br>サントスさんは <ruby>日本<rt>にほん</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で すしが いちばん <ruby>好<rt>す</rt></ruby>きです。<br>キムさんは すき<ruby>焼<rt>や</rt></ruby>きが いちばん <ruby>好<rt>す</rt></ruby>きです。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは 肉と 魚と どちらが 好きですか。",
+        "choices": [
+          "にく",
+          "さかな"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "サントスさんは 日本料理の中で 何が いちばん 好きですか。",
+        "choices": [
+          "てんぷら",
+          "すし",
+          "すきやき"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L8_03",
+    "level": 8,
+    "title": "<ruby>北海道<rt>ほっかいどう</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>は どうでしたか",
+    "schema_activation": [
+      "先週 どこかへ 行きましたか。",
+      "その 旅行は 楽しかったですか。"
+    ],
+    "story_html": "<p><ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>先週<rt>せんしゅう</rt></ruby> <ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br>とても <ruby>寒<rt>さむ</rt></ruby>かったですが、<ruby>海<rt>うみ</rt></ruby>が とても きれいでした。<br><ruby>飛行機<rt>ひこうき</rt></ruby>は あまり <ruby>速<rt>はや</rt></ruby>くなかったですが、ホテルは とても <ruby>新<rt>あたら</rt></ruby>しくて <ruby>便利<rt>べんり</rt></ruby>でした。<br><ruby>果物<rt>くだもの</rt></ruby>は <ruby>東京<rt>とうきょう</rt></ruby>より ずっと <ruby>安<rt>やす</rt></ruby>かったです。</p>",
+    "quizzes": [
+      {
+        "question": "北海道の 海は どうでしたか。",
+        "choices": [
+          "きれいでした",
+          "あまり よくありませんでした",
+          "あつかったです"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "飛行機は 速かったですか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L8_04",
+    "level": 8,
+    "title": "いちばん <ruby>速<rt>はや</rt></ruby>い <ruby>乗<rt>の</rt></ruby>り<ruby>物<rt>もの</rt></ruby>",
+    "schema_activation": [
+      "新幹線は 速いですか。",
+      "飛行機と 新幹線と どちらが 便利ですか。"
+    ],
+    "story_html": "<p><ruby>飛行機<rt>ひこうき</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>と どちらが <ruby>速<rt>はや</rt></ruby>いですか。<br><ruby>飛行機<rt>ひこうき</rt></ruby>の ほうが <ruby>速<rt>はや</rt></ruby>いです。<br>でも、<ruby>新幹線<rt>しんかんせん</rt></ruby>は <ruby>飛行機<rt>ひこうき</rt></ruby>より <ruby>便利<rt>べんり</rt></ruby>です。<br><ruby>駅<rt>えき</rt></ruby>が <ruby>近<rt>ちか</rt></ruby>くに ありますから。<br><ruby>昔<rt>むかし</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は あまり <ruby>速<rt>はや</rt></ruby>くなかったですが、<ruby>今<rt>いま</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は とても <ruby>速<rt>はや</rt></ruby>いです。</p>",
+    "quizzes": [
+      {
+        "question": "飛行機と 新幹線と どちらが 速いですか。",
+        "choices": [
+          "ひこうき",
+          "しんかんせん"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "昔の 電車は 速かったですか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L9_01",
+    "level": 9,
+    "title": "アナさんの ほしい もの",
+    "schema_activation": [
+      "今、何が いちばん ほしいですか。",
+      "週末 どこへ 買い物に 行きますか。"
+    ],
+    "story_html": "<p>アナさんは 今、とても <ruby>忙<rt>いそが</rt></ruby>しいです。<br>毎日 <ruby>大学<rt>だいがく</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>しますから、<ruby>新<rt>あたら</rt></ruby>しい <ruby>パソコン<rt>ぱそこん</rt></ruby>が ほしいです。<br>週末（しゅうまつ）に <ruby>デパート<rt>でぱーと</rt></ruby>へ <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。<br>サントスさんは <ruby>暑<rt>あつ</rt></ruby>いですから、<ruby>冷<rt>つめ</rt></ruby>たい <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が ほしいです。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 何が ほしいですか。",
+        "choices": [
+          "のみもの",
+          "パソコン",
+          "じしょ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "二人は どこへ 行きますか。",
+        "choices": [
+          "だいがく",
+          "デパート",
+          "ぎんこう"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L9_02",
+    "level": 9,
+    "title": "<ruby>冬休み<rt>ふゆやすみ</rt></ruby>に どこへ <ruby>行<rt>い</rt></ruby>きたいですか",
+    "schema_activation": [
+      "冬休みに 何を したいですか。",
+      "どこへ 行きたいですか。"
+    ],
+    "story_html": "<p><ruby>来月<rt>らいげつ</rt></ruby>は <ruby>冬休み<rt>ふゆやすみ</rt></ruby>です。<br><ruby>山田<rt>やまだ</rt></ruby>先生は 「<ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>スキー<rt>すきー</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたいです」と <ruby>言<rt>い</rt></ruby>いました。<br>アナさんは 「わたしは どこも <ruby>行<rt>い</rt></ruby>きたくないです。<br>うちで <ruby>休<rt>やす</rt></ruby>みたいです」と <ruby>言<rt>い</rt></ruby>いました。<br>サントスさんは ブラジルへ <ruby>帰<rt>かえ</rt></ruby>りたいです。</p>",
+    "quizzes": [
+      {
+        "question": "山田先生は 北海道で 何を したいですか。",
+        "choices": [
+          "スキー",
+          "べんきょう",
+          "かいもの"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "アナさんは どこかへ 行きたいですか。",
+        "choices": [
+          "はい",
+          "いいえ、やすみたいです"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L9_03",
+    "level": 9,
+    "title": "キムさんの <ruby>日曜日<rt>にちようび</rt></ruby>",
+    "schema_activation": [
+      "あなたは 日曜日、どこへ 行きましたか。",
+      "何を しに 行きましたか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>新宿<rt>しんじゅく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>レストラン<rt>れすとらん</rt></ruby>へ <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べに <ruby>行<rt>い</rt></ruby>きました。<br>それから、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>出<rt>だ</rt></ruby>しに <ruby>行<rt>い</rt></ruby>きました。<br><ruby>夜<rt>よる</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>が うちへ <ruby>遊<rt>あそ</rt></ruby>びに <ruby>来<rt>き</rt></ruby>ました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは 何を食べに 行きましたか。",
+        "choices": [
+          "あさごはん",
+          "ひるごはん",
+          "ばんごはん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "誰が キムさんの うちへ 来ましたか。",
+        "choices": [
+          "ともだち",
+          "せんせい",
+          "おかあさん"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L9_04",
+    "level": 9,
+    "title": "おなかが すきました",
+    "schema_activation": [
+      "勉強の後で 何を したいですか。",
+      "何か 食べたいですか。"
+    ],
+    "story_html": "<p>アナさんと サントスさんは <ruby>図書館<rt>としょかん</rt></ruby>に います。<br><ruby>勉強<rt>べんきょう</rt></ruby>しましたから、おなかが すきました。<br>サントスさんは 「アナさん、どこかへ <ruby>食<rt>た</rt></ruby>べに <ruby>行<rt>い</rt></ruby>きませんか」と <ruby>言<rt>い</rt></ruby>いました。<br>アナさんは 「ええ、いいですね。<br><ruby>近<rt>ちか</rt></ruby>くの <ruby>店<rt>みせ</rt></ruby>へ <ruby>パン<rt>ぱん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いに <ruby>行<rt>い</rt></ruby>きましょう」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "二人は どこに いますか。",
+        "choices": [
+          "としょかん",
+          "デパート",
+          "えき"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "アナさんは 何を 買いに 行きますか。",
+        "choices": [
+          "みず",
+          "パン",
+          "じしょ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L10_01",
+    "level": 10,
+    "title": "<ruby>教室<rt>きょうしつ</rt></ruby>で",
+    "schema_activation": [
+      "先生は よく 何と 言いますか。",
+      "あなたは 今 何を していますか。"
+    ],
+    "story_html": "<p>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>教室<rt>きょうしつ</rt></ruby>です。<br><ruby>山田<rt>やまだ</rt></ruby>先生は 「みなさん、ちょっと <ruby>待<rt>ま</rt></ruby>ってください。<br>今から <ruby>漢字<rt>かんじ</rt></ruby>の <ruby>テスト<rt>てすと</rt></ruby>を します。<br><ruby>教科書<rt>きょうかしょ</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めてください。<br><ruby>名前<rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください」と <ruby>言<rt>い</rt></ruby>いました。<br>アナさんは 今、<ruby>漢字<rt>かんじ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いています。</p>",
+    "quizzes": [
+      {
+        "question": "今から 何を しますか。",
+        "choices": [
+          "べんきょう",
+          "テスト",
+          "おんがく"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは 今 何を していますか。",
+        "choices": [
+          "ねています",
+          "かんじを かいています",
+          "ごはんを たべています"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L10_02",
+    "level": 10,
+    "title": "タクシーで",
+    "schema_activation": [
+      "タクシーで 何と 言いますか。",
+      "どこで 降りますか。"
+    ],
+    "story_html": "<p>サントスさんは 今、<ruby>タクシー<rt>たくしー</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に います。<br><ruby>新宿駅<rt>しんじゅくえき</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。<br>サントスさんは <ruby>運転手<rt>うんてんしゅ</rt></ruby>に 「すみません、<ruby>次<rt>つぎ</rt></ruby>の <ruby>角<rt>かど</rt></ruby>を <ruby>右<rt>みぎ</rt></ruby>へ <ruby>曲<rt>ま</rt></ruby>がってください。<br>あの <ruby>銀行<rt>ぎんこう</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で <ruby>止<rt>と</rt></ruby>まってください」と <ruby>言<rt>い</rt></ruby>いました。<br>サントスさんは <ruby>タクシー<rt>たくしー</rt></ruby>を <ruby>降<rt>お</rt></ruby>りました。</p>",
+    "quizzes": [
+      {
+        "question": "次の 角を どちらへ 曲がりますか。",
+        "choices": [
+          "ひだり",
+          "みぎ",
+          "まっすぐ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは どこで 降りましたか。",
+        "choices": [
+          "えきのまえ",
+          "ぎんこうのまえ",
+          "こうえんのまえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L10_03",
+    "level": 10,
+    "title": "<ruby>手伝<rt>てつだ</rt></ruby>ってください",
+    "schema_activation": [
+      "荷物が たくさん ある時、誰に 頼みますか。",
+      "友達に 何と 言いますか。"
+    ],
+    "story_html": "<p>アナさんは 今、<ruby>部屋<rt>へや</rt></ruby>で <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>作<rt>つく</rt></ruby>っています。<br><ruby>明日<rt>あした</rt></ruby> <ruby>旅行<rt>りょこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますから、大変（たいへん）です。<br>サントスさんが <ruby>来<rt>き</rt></ruby>ました。<br>アナさんは <ruby>言<rt>い</rt></ruby>いました。<br>「サントスさん、すみませんが、ちょっと <ruby>手伝<rt>てつだ</rt></ruby>ってください。<br>この <ruby>鞄<rt>かばん</rt></ruby>を <ruby>持<rt>も</rt></ruby>ってください。」</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 今 部屋で 何を していますか。",
+        "choices": [
+          "ねています",
+          "にもつを つくっています",
+          "テレビを みています"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは サントスさんに 何と 言いましたか。",
+        "choices": [
+          "もってください",
+          "しめてください",
+          "かいてください"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L10_04",
+    "level": 10,
+    "title": "<ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>っています",
+    "schema_activation": [
+      "雨の時、何を 持っていますか。",
+      "今 外の 天気は どうですか。"
+    ],
+    "story_html": "<p><ruby>外<rt>そと</rt></ruby>は 今、<ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>っています。<br>アナさんは <ruby>窓<rt>まど</rt></ruby>を <ruby>閉<rt>し</rt></ruby>めました。<br>サントスさんに <ruby>電話<rt>でんわ</rt></ruby>を かけました。<br>サントスさんは 今、<ruby>駅<rt>えき</rt></ruby>で バスを <ruby>待<rt>ま</rt></ruby>っています。<br>アナさんは 「<ruby>傘<rt>かさ</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていますか」と <ruby>聞<rt>き</rt></ruby>きました。</p>",
+    "quizzes": [
+      {
+        "question": "今 外の 天気は どうですか。",
+        "choices": [
+          "はれです",
+          "あめが ふっています",
+          "ゆきです"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは 今 どこで 何を していますか。",
+        "choices": [
+          "えきで バスを まっています",
+          "うちで ごはんを たべています",
+          "だいがくで べんきょうしています"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L11_01",
+    "level": 11,
+    "title": "<ruby>美術館<rt>びじゅつかん</rt></ruby>の ルール",
+    "schema_activation": [
+      "<ruby>美術館<rt>びじゅつかん</rt></ruby>で <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ってもいいですか。",
+      "<ruby>何<rt>なに</rt></ruby>を してはいけませんか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>山田<rt>やまだ</rt></ruby>先生と <ruby>美術館<rt>びじゅつかん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。先生は <ruby>言<rt>い</rt></ruby>いました。「アナさん、ここで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ってはいけません。そして、<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を <ruby>食<rt>た</rt></ruby>べてはいけません。でも、<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んでもいいですよ。」アナさんは 静かに 絵を 見ました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>美術館<rt>びじゅつかん</rt></ruby>で <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ってもいいですか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んでもいいですか。",
+        "choices": [
+          "はい、いいです",
+          "いいえ、だめです"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L11_02",
+    "level": 11,
+    "title": "サントスさんの <ruby>仕事<rt>しごと</rt></ruby>",
+    "schema_activation": [
+      "あなたは どこで <ruby>働<rt>はたら</rt></ruby>いていますか。",
+      "あなたは <ruby>結婚<rt>けっこん</rt></ruby>していますか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<ruby>大<rt>おお</rt></ruby>きい <ruby>自動車<rt>じどうしゃ</rt></ruby>の <ruby>会社<rt>かいしゃ</rt></ruby>で <ruby>働<rt>はたら</rt></ruby>いています。サントスさんは <ruby>結婚<rt>けっこん</rt></ruby>しています。<ruby>奥<rt>おく</rt></ruby>さんは <ruby>主婦<rt>しゅふ</rt></ruby>です。<ruby>子<rt>こ</rt></ruby>どもが 2<ruby>人<rt>ふたり</rt></ruby> います。サントスさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>家族<rt>かぞく</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>持<rt>も</rt></ruby>っています。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは どこで <ruby>働<rt>はたら</rt></ruby>いていますか。",
+        "choices": [
+          "だいがく",
+          "じどうしゃの かいしゃ",
+          "びじゅつかん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>子<rt>こ</rt></ruby>どもが <ruby>何人<rt>なんにん</rt></ruby> いますか。",
+        "choices": [
+          "1にん",
+          "2にん",
+          "いません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L11_03",
+    "level": 11,
+    "title": "<ruby>市役所<rt>しやくしょ</rt></ruby>で",
+    "schema_activation": [
+      "<ruby>名前<rt>なまえ</rt></ruby>と <ruby>住所<rt>じゅうしょ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。",
+      "ここに <ruby>座<rt>すわ</rt></ruby>ってもいいですか。"
+    ],
+    "story_html": "<p>キムさんは 今 <ruby>市役所<rt>しやくしょ</rt></ruby>に います。<ruby>新<rt>あたら</rt></ruby>しい <ruby>住所<rt>じゅうしょ</rt></ruby>を <ruby>書<rt>か</rt></ruby>いています。<ruby>係<rt>かかり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>は 「ここに <ruby>名前<rt>なまえ</rt></ruby>と <ruby>電話番号<rt>でんわばんごう</rt></ruby>を <ruby>書<rt>か</rt></ruby>いてください。写真は いりません」と <ruby>言<rt>い</rt></ruby>いました。キムさんは 「ここに <ruby>座<rt>すわ</rt></ruby>ってもいいですか」と <ruby>聞<rt>き</rt></ruby>きました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>何<rt>なに</rt></ruby>を <ruby>書<rt>か</rt></ruby>かなければなりませんか。",
+        "choices": [
+          "なまえと じゅうしょ",
+          "しゃしん",
+          "メール"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "<ruby>写真<rt>しゃしん</rt></ruby>は <ruby>必要<rt>ひつよう</rt></ruby>ですか。",
+        "choices": [
+          "はい、いります",
+          "いいえ、いりません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L11_04",
+    "level": 11,
+    "title": "パソコンを <ruby>知<rt>し</rt></ruby>っていますか",
+    "schema_activation": [
+      "この パソコンを <ruby>知<rt>し</rt></ruby>っていますか。",
+      "<ruby>誰<rt>だれ</rt></ruby>に <ruby>習<rt>なら</rt></ruby>いますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>新<rt>あたら</rt></ruby>しい <ruby>パソコン<rt>ぱそこん</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。でも、<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が <ruby>わか<rt>わか</rt></ruby>りません。サントスさんに <ruby>聞<rt>き</rt></ruby>きました。「サントスさん、この <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。」サントスさんは 「はい、<ruby>知<rt>し</rt></ruby>っていますよ。今 <ruby>教<rt>おし</rt></ruby>えます」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "<ruby>誰<rt>だれ</rt></ruby>が <ruby>教<rt>おし</rt></ruby>えますか。",
+        "choices": [
+          "アナさん",
+          "サントスさん",
+          "山田先生"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L12_01",
+    "level": 12,
+    "title": "<ruby>朝<rt>あさ</rt></ruby>の ルーティン",
+    "schema_activation": [
+      "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>起<rt>お</rt></ruby>きてから <ruby>何<rt>なに</rt></ruby>を しますか。",
+      "あなたの <ruby>大学<rt>だいがく</rt></ruby>は どうですか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>毎朝<rt>まいあさ</rt></ruby> 6<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。<ruby>顔<rt>かお</rt></ruby>を <ruby>洗<rt>あら</rt></ruby>って、お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んで、それから <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってから、<ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。アナさんの <ruby>大学<rt>だいがく</rt></ruby>は <ruby>広<rt>ひろ</rt></ruby>くて きれいです。</p>",
+    "quizzes": [
+      {
+        "question": "お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んでから <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "choices": [
+          "ねます",
+          "だいがくへ いきます",
+          "かおを あらいます"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんの <ruby>大学<rt>だいがく</rt></ruby>は どうですか。",
+        "choices": [
+          "ひろくて きれいです",
+          "せまくて ふるいです"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L12_02",
+    "level": 12,
+    "title": "<ruby>新宿<rt>しんじゅく</rt></ruby>の <ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>",
+    "schema_activation": [
+      "<ruby>新宿<rt>しんじゅく</rt></ruby>まで どうやって <ruby>行<rt>い</rt></ruby>きますか。",
+      "バスを <ruby>降<rt>お</rt></ruby>りてから どうしますか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>山田<rt>やまだ</rt></ruby>先生に <ruby>聞<rt>き</rt></ruby>きました。「先生、<ruby>新宿<rt>しんじゅく</rt></ruby>まで どうやって <ruby>行<rt>い</rt></ruby>きますか。」先生は <ruby>言<rt>い</rt></ruby>いました。「<ruby>大学<rt>だいがく</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>から バスに <ruby>乗<rt>の</rt></ruby>って、<ruby>駅<rt>えき</rt></ruby>で <ruby>降<rt>お</rt></ruby>りてください。それから JRに <ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えてください。<ruby>新宿駅<rt>しんじゅくえき</rt></ruby>で <ruby>降<rt>お</rt></ruby>りてから、<ruby>少<rt>すこ</rt></ruby>し <ruby>歩<rt>ある</rt></ruby>きます。」</p>",
+    "quizzes": [
+      {
+        "question": "どこで バスを <ruby>降<rt>お</rt></ruby>りますか。",
+        "choices": [
+          "だいがくの まえ",
+          "えき",
+          "しんじゅく"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "JRに <ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えますか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L12_03",
+    "level": 12,
+    "title": "どんな <ruby>人<rt>ひと</rt></ruby>ですか",
+    "schema_activation": [
+      "あなたの <ruby>友達<rt>ともだち</rt></ruby>は どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
+      "<ruby>髪<rt>かみ</rt></ruby>が <ruby>長<rt>なが</rt></ruby>いですか。"
+    ],
+    "story_html": "<p>キムさんの <ruby>友達<rt>ともだち</rt></ruby>の パクさんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。パクさんは <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>くて、<ruby>髪<rt>かみ</rt></ruby>が <ruby>黒<rt>くろ</rt></ruby>いです。とても <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>人<rt>ひと</rt></ruby>です。<ruby>昨日<rt>きのう</rt></ruby> キムさんは パクさんと レストランへ <ruby>行<rt>い</rt></ruby>きました。<ruby>料理<rt>りょうり</rt></ruby>は <ruby>安<rt>やす</rt></ruby>くて、おいしかったです。</p>",
+    "quizzes": [
+      {
+        "question": "パクさんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
+        "choices": [
+          "せが ひくくて こわい人",
+          "せが たかくて しんせつな人",
+          "あまり しんせつじゃない人"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>料理<rt>りょうり</rt></ruby>は どうでしたか。",
+        "choices": [
+          "やすくて おいしかった",
+          "たかくて まずかった",
+          "あつかった"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L12_04",
+    "level": 12,
+    "title": "<ruby>大阪<rt>おおさか</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>",
+    "schema_activation": [
+      "<ruby>旅行<rt>りょこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってから <ruby>何<rt>なに</rt></ruby>を しますか。",
+      "<ruby>大阪<rt>おおさか</rt></ruby>は どんな <ruby>町<rt>まち</rt></ruby>ですか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>先週<rt>せんしゅう</rt></ruby> <ruby>大阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>行<rt>い</rt></ruby>ってから、<ruby>ホテル<rt>ほてる</rt></ruby>に <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>置<rt>お</rt></ruby>きました。<ruby>大阪<rt>おおさか</rt></ruby>は <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>が おいしくて、にぎやかでした。アナさんは たくさん <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>って、<ruby>夜<rt>よる</rt></ruby> 10<ruby>時<rt>じ</rt></ruby>に <ruby>寝<rt>ね</rt></ruby>ました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>ホテル<rt>ほてる</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってから <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "choices": [
+          "しゃしんを とりました",
+          "にもつを おきました",
+          "ごはんを たべました"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>大阪<rt>おおさか</rt></ruby>は どうでしたか。",
+        "choices": [
+          "しずかでした",
+          "食べ物が おいしくて にぎやかでした",
+          "あまり よくありませんでした"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L13_01",
+    "level": 13,
+    "title": "<ruby>病院<rt>びょういん</rt></ruby>で",
+    "schema_activation": [
+      "<ruby>熱<rt>ねつ</rt></ruby>が ある<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を しなければなりませんか。",
+      "お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ってもいいですか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>今日<rt>きょう</rt></ruby> <ruby>病院<rt>びょういん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>熱<rt>ねつ</rt></ruby>が ありますから。<ruby>医者<rt>いしゃ</rt></ruby>は <ruby>言<rt>い</rt></ruby>いました。「キムさん、<ruby>今日<rt>きょう</rt></ruby>は お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>らないでください。そして、この <ruby>薬<rt>くすり</rt></ruby>を <ruby>飲<rt>の</rt></ruby>まなければなりません。<ruby>明日<rt>あした</rt></ruby>は <ruby>来<rt>こ</rt></ruby>なくてもいいですよ。」</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>今日<rt>きょう</rt></ruby> お<ruby>風呂<rt>ふろ</rt></ruby>に <ruby>入<rt>はい</rt></ruby>ってもいいですか。",
+        "choices": [
+          "はい",
+          "いいえ、はいらないでください"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>薬<rt>くすり</rt></ruby>を <ruby>飲<rt>の</rt></ruby>まなければなりませんか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L13_02",
+    "level": 13,
+    "title": "<ruby>忘<rt>わす</rt></ruby>れないでください",
+    "schema_activation": [
+      "<ruby>明日<rt>あした</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を <ruby>忘<rt>わす</rt></ruby>れないでくださいか。",
+      "<ruby>何<rt>なに</rt></ruby>を <ruby>覚<rt>おぼ</rt></ruby>えなければなりませんか。"
+    ],
+    "story_html": "<p><ruby>明日<rt>あした</rt></ruby>は <ruby>漢字<rt>かんじ</rt></ruby>の <ruby>テスト<rt>てすと</rt></ruby>が あります。<ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>学生<rt>がくせい</rt></ruby>に <ruby>言<rt>い</rt></ruby>いました。「みなさん、<ruby>明日<rt>あした</rt></ruby>は <ruby>辞書<rt>じしょ</rt></ruby>を <ruby>忘<rt>わす</rt></ruby>れないでください。<ruby>漢字<rt>かんじ</rt></ruby>を たくさん <ruby>覚<rt>おぼ</rt></ruby>えなければなりません。でも、ノートは <ruby>見<rt>み</rt></ruby>なくてもいいですよ。」</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>何<rt>なに</rt></ruby>を <ruby>忘<rt>わす</rt></ruby>れてはいけませんか。",
+        "choices": [
+          "えんぴつ",
+          "じしょ",
+          "ごはん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "ノートを <ruby>見<rt>み</rt></ruby>てもいいですか。",
+        "choices": [
+          "はい",
+          "いいえ、みなくてもいいです（みてはいけません）"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L13_03",
+    "level": 13,
+    "title": "<ruby>残業<rt>ざんぎょう</rt></ruby>",
+    "schema_activation": [
+      "<ruby>今日<rt>きょう</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>かなければなりませんか。",
+      "<ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>待<rt>ま</rt></ruby>ちますか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>今日<rt>きょう</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、<ruby>忙<rt>いそが</rt></ruby>しいです。<ruby>仕事<rt>しごと</rt></ruby>が たくさん ありますから、<ruby>夜<rt>よる</rt></ruby> 9<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>かなければなりません。サントスさんは <ruby>奥<rt>おく</rt></ruby>さんに <ruby>電話<rt>でんわ</rt></ruby>を かけました。「今日は <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>待<rt>ま</rt></ruby>たないでください。外で <ruby>食<rt>た</rt></ruby>べますから。」</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>何時<rt>なんじ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きますか。",
+        "choices": [
+          "6じ",
+          "9じ",
+          "12じ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>奥<rt>おく</rt></ruby>さんは <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>待<rt>ま</rt></ruby>ちますか。",
+        "choices": [
+          "はい",
+          "いいえ、またないでください"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L13_04",
+    "level": 13,
+    "title": "<ruby>大学<rt>だいがく</rt></ruby>の レポート",
+    "schema_activation": [
+      "レポートを <ruby>出<rt>だ</rt></ruby>さなければなりませんか。",
+      "<ruby>何語<rt>なにご</rt></ruby>で <ruby>書<rt>か</rt></ruby>きますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>レポート<rt>れぽーと</rt></ruby>を <ruby>書<rt>か</rt></ruby>いています。<ruby>金曜日<rt>きんようび</rt></ruby>までに <ruby>出<rt>だ</rt></ruby>さなければなりません。アナさんは <ruby>英語<rt>えいご</rt></ruby>で <ruby>書<rt>か</rt></ruby>かなくてもいいです。<ruby>日本語<rt>にほんご</rt></ruby>で <ruby>書<rt>か</rt></ruby>かなければなりません。アナさんは <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>夜<rt>よる</rt></ruby>まで <ruby>勉強<rt>べんきょう</rt></ruby>しました。</p>",
+    "quizzes": [
+      {
+        "question": "いつまでに レポートを <ruby>出<rt>だ</rt></ruby>しますか。",
+        "choices": [
+          "かようび",
+          "きんようび",
+          "にちようび"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>英語<rt>えいご</rt></ruby>で <ruby>書<rt>か</rt></ruby>かなければなりませんか。",
+        "choices": [
+          "はい",
+          "いいえ、日本語で かかなければなりません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L14_01",
+    "level": 14,
+    "title": "アナさんの <ruby>趣味<rt>しゅみ</rt></ruby>",
+    "schema_activation": [
+      "あなたの <ruby>趣味<rt>しゅみ</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
+      "ピアノを <ruby>弾<rt>ひ</rt></ruby>くことが できますか。"
+    ],
+    "story_html": "<p>アナさんの <ruby>趣味<rt>しゅみ</rt></ruby>は <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>くことです。アナさんは ピアノを <ruby>弾<rt>ひ</rt></ruby>くことが できます。<ruby>子供<rt>こども</rt></ruby>の <ruby>時<rt>とき</rt></ruby>、お母さんに <ruby>習<rt>なら</rt></ruby>いました。<br><ruby>寝<rt>ね</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に、いつも クラシックを <ruby>聞<rt>き</rt></ruby>きます。とても <ruby>リラックス<rt>りらっくす</rt></ruby>することが できます。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんの <ruby>趣味<rt>しゅみ</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
+        "choices": [
+          "ピアノを かうこと",
+          "おんがくを きくこと",
+          "ダンスを すること"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "いつ ピアノを <ruby>習<rt>なら</rt></ruby>いましたか。",
+        "choices": [
+          "だいがくせいの とき",
+          "こどもの とき",
+          "せんしゅう"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L14_02",
+    "level": 14,
+    "title": "日本で <ruby>運転<rt>うんてん</rt></ruby>できますか",
+    "schema_activation": [
+      "あなたは <ruby>車<rt>くるま</rt></ruby>の <ruby>運転<rt>うんてん</rt></ruby>が できますか。",
+      "<ruby>運転<rt>うんてん</rt></ruby>する <ruby>前<rt>まえ</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を しなければなりませんか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>車<rt>くるま</rt></ruby>の <ruby>運転<rt>うんてん</rt></ruby>が できます。韓国で 毎日 運転していました。でも、日本（にほん）では <ruby>運転<rt>うんてん</rt></ruby>することが できません。<ruby>免許<rt>めんきょ</rt></ruby>が ありませんから。<br><ruby>車<rt>くるま</rt></ruby>に <ruby>乗<rt>の</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に、いつも <ruby>免許<rt>めんきょ</rt></ruby>を <ruby>確認<rt>かくにん</rt></ruby>しなければなりません。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは 日本で <ruby>運転<rt>うんてん</rt></ruby>できますか。",
+        "choices": [
+          "はい、できます",
+          "いいえ、できません"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "どうして <ruby>運転<rt>うんてん</rt></ruby>できませんか。",
+        "choices": [
+          "くるまが ありませんから",
+          "めんきょが ありませんから",
+          "びょうきですから"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L14_03",
+    "level": 14,
+    "title": "サントスさんの ブラジル<ruby>料理<rt>りょうり</rt></ruby>",
+    "schema_activation": [
+      "あなたは <ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ることが できますか。",
+      "<ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>く</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を しますか。"
+    ],
+    "story_html": "<p>サントスさんの <ruby>趣味<rt>しゅみ</rt></ruby>は <ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ることです。ブラジル<ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ることが できます。<br><ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>く</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に、たくさん <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を しました。<ruby>山田<rt>やまだ</rt></ruby>先生も 「サントスさんの 料理は おいしいですね」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんの <ruby>趣味<rt>しゅみ</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
+        "choices": [
+          "りょうりを つくること",
+          "たべること",
+          "かいもの"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "いつ <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を しましたか。",
+        "choices": [
+          "ともだちが くるまえ",
+          "りょうりを つくったあと",
+          "げつようび"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L14_04",
+    "level": 14,
+    "title": "カードを <ruby>使<rt>つか</rt></ruby>うことが できますか",
+    "schema_activation": [
+      "この <ruby>店<rt>みせ</rt></ruby>で カードを <ruby>使<rt>つか</rt></ruby>うことが できますか。",
+      "<ruby>現金<rt>げんきん</rt></ruby>が ない<ruby>時<rt>とき</rt></ruby>、どうしますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>レストラン<rt>れすとらん</rt></ruby>に います。<ruby>現金<rt>げんきん</rt></ruby>が ありませんでしたから、<ruby>店員<rt>てんいん</rt></ruby>に <ruby>聞<rt>き</rt></ruby>きました。「カードで <ruby>払<rt>はら</rt></ruby>うことが できますか。」<br><ruby>店員<rt>てんいん</rt></ruby>は 「はい、できますよ」と <ruby>言<rt>い</rt></ruby>いました。この <ruby>店<rt>みせ</rt></ruby>は <ruby>夜<rt>よる</rt></ruby> 11<ruby>時<rt>じ</rt></ruby>まで <ruby>食事<rt>しょくじ</rt></ruby>を することが できます。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは <ruby>何<rt>なん</rt></ruby>で <ruby>払<rt>はら</rt></ruby>いますか。",
+        "choices": [
+          "げんきん",
+          "カード",
+          "きって"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>何時<rt>なんじ</rt></ruby>まで <ruby>食事<rt>しょくじ</rt></ruby>できますか。",
+        "choices": [
+          "9じ",
+          "10じ",
+          "11じ"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L15_01",
+    "level": 15,
+    "title": "<ruby>富士山<rt>ふじさん</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>ったことが ありますか",
+    "schema_activation": [
+      "<ruby>富士山<rt>ふじさん</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>ったことが ありますか。",
+      "<ruby>登<rt>のぼ</rt></ruby>った<ruby>後<rt>あと</rt></ruby>で、どうでしたか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>去年<rt>きょねん</rt></ruby>の <ruby>夏<rt>なつ</rt></ruby>、<ruby>富士山<rt>ふじさん</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>ったことが あります。とても <ruby>高<rt>たか</rt></ruby>くて <ruby>大変<rt>たいへん</rt></ruby>でしたが、<ruby>景色<rt>けしき</rt></ruby>が とても きれいでした。<br><ruby>登<rt>のぼ</rt></ruby>った<ruby>後<rt>あと</rt></ruby>で、<ruby>足<rt>あし</rt></ruby>が <ruby>痛<rt>いた</rt></ruby>くなりました。アナさんは まだ <ruby>登<rt>のぼ</rt></ruby>ったことが ありません。いつか <ruby>登<rt>のぼ</rt></ruby>りたいです。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは いつ <ruby>富士山<rt>ふじさん</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>りましたか。",
+        "choices": [
+          "きょねんの なつ",
+          "ことしの ふゆ",
+          "せんしゅう"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "アナさんは <ruby>登<rt>のぼ</rt></ruby>ったことが ありますか。",
+        "choices": [
+          "はい",
+          "いいえ、ありません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L15_02",
+    "level": 15,
+    "title": "<ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか",
+    "schema_activation": [
+      "<ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を しますか。",
+      "<ruby>掃除<rt>そうじ</rt></ruby>や <ruby>洗濯<rt>せんたく</rt></ruby>を したり しますか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>日曜日<rt>にちようび</rt></ruby>、いつも <ruby>忙<rt>いそが</rt></ruby>しいです。<ruby>部屋<rt>へや</rt></ruby>を <ruby>掃除<rt>そうじ</rt></ruby>したり、<ruby>洗濯<rt>せんたく</rt></ruby>したり します。<br>それから、<ruby>夜<rt>よる</rt></ruby>は テレビを <ruby>見<rt>み</rt></ruby>たり、<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>いたり して、ゆっくり <ruby>休<rt>やす</rt></ruby>みます。12<ruby>時<rt>じ</rt></ruby>に なりますから、すぐ <ruby>寝<rt>ね</rt></ruby>ます。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>日曜日<rt>にちようび</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "choices": [
+          "そうじしたり せんたくしたり する",
+          "だいがくへ いく",
+          "しごとをする"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "<ruby>夜<rt>よる</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "choices": [
+          "テニスをする",
+          "テレビをみたり おんがくをきいたり する",
+          "さんぽする"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L15_03",
+    "level": 15,
+    "title": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>に <ruby>慣<rt>な</rt></ruby>れました",
+    "schema_activation": [
+      "<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>に なりましたか。",
+      "日本の <ruby>生活<rt>せいかつ</rt></ruby>は どうですか。"
+    ],
+    "story_html": "<p>アナさんは 日本に <ruby>来<rt>き</rt></ruby>てから、6ヶ<ruby>月<rt>げつ</rt></ruby>に なりました。最初は <ruby>日本語<rt>にほんご</rt></ruby>が <ruby>全然<rt>ぜんぜん</rt></ruby> わかりませんでした。<br>でも、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しましたから、<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>に なりました。<ruby>最近<rt>さいきん</rt></ruby>は <ruby>生活<rt>せいかつ</rt></ruby>が とても <ruby>楽<rt>たの</rt></ruby>しくなりました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 日本に<ruby>来<rt>き</rt></ruby>てから どのくらいですか。",
+        "choices": [
+          "3ヶ月",
+          "6ヶ月",
+          "1年"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>日本語<rt>にほんご</rt></ruby>は どうなりましたか。",
+        "choices": [
+          "へたに なりました",
+          "じょうずに なりました",
+          "わかりません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L15_04",
+    "level": 15,
+    "title": "<ruby>健康<rt>けんこう</rt></ruby>に なりました",
+    "schema_activation": [
+      "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>健康<rt>けんこう</rt></ruby>に なりましたか。",
+      "<ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べたり <ruby>運動<rt>うんどう</rt></ruby>したり しますか。"
+    ],
+    "story_html": "<p><ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>最近<rt>さいきん</rt></ruby>、体に いい <ruby>生活<rt>せいかつ</rt></ruby>を しています。<ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べたり、<ruby>散歩<rt>さんぽ</rt></ruby>したり しています。<br>お<ruby>酒<rt>さけ</rt></ruby>は あまり <ruby>飲<rt>の</rt></ruby>まなくなりました。体（からだ）が とても <ruby>軽<rt>かる</rt></ruby>くなりました。先生は とても <ruby>元気<rt>げんき</rt></ruby>に なりました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べていますか。",
+        "choices": [
+          "にく",
+          "やさい",
+          "おかし"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "お<ruby>酒<rt>さけ</rt></ruby>は どうですか。",
+        "choices": [
+          "たくさん のみます",
+          "あまり のまなく なりました",
+          "まいにち のみます"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L16_01",
+    "level": 16,
+    "title": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をする？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
+    "schema_activation": [
+      "<ruby>今度<rt>こんど</rt></ruby>の <ruby>休<rt>やす</rt></ruby>み、<ruby>何<rt>なに</rt></ruby>か する？",
+      "どこかへ <ruby>行<rt>い</rt></ruby>く？"
+    ],
+    "story_html": "<p>アナ：サントスさん、<ruby>明日<rt>あした</rt></ruby>の <ruby>休み<rt>やすみ</rt></ruby>、何か <ruby>用事<rt>ようじ</rt></ruby> ある？<br>サントス：うーん、<ruby>特<rt>とく</rt></ruby>に ないよ。アナは？<br>アナ：わたしは <ruby>新宿<rt>しんじゅく</rt></ruby>へ <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に <ruby>行<rt>い</rt></ruby>く。<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>行<rt>い</rt></ruby>かない？<br>サントス：いいよ。<ruby>行<rt>い</rt></ruby>こう。何<ruby>時<rt>じ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>う？</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>用事<rt>ようじ</rt></ruby>が ありますか。",
+        "choices": [
+          "ある",
+          "ない"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+        "choices": [
+          "しんじゅく",
+          "だいがく",
+          "ブラジル"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L16_02",
+    "level": 16,
+    "title": "<ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>った？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
+    "schema_activation": [
+      "<ruby>先週<rt>せんしゅう</rt></ruby>、どこかへ <ruby>行<rt>い</rt></ruby>った？",
+      "お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>った？"
+    ],
+    "story_html": "<p>キム：アナさん、<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>、どうだった？<br>アナ：<ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ったよ。お<ruby>寺<rt>てら</rt></ruby>が <ruby>綺麗<rt>きれい</rt></ruby>だった。<br>キム：へえ、いいなあ。お<ruby>土産<rt>みやげ</rt></ruby>、<ruby>買<rt>か</rt></ruby>った？<br>アナ：うん。これ、キムさんに あげる。お<ruby>菓子<rt>かし</rt></ruby>だよ。<br>キム：わあ、ありがとう！</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どこへ <ruby>行<rt>い</rt></ruby>きましたか。",
+        "choices": [
+          "大阪",
+          "東京",
+          "京都"
+        ],
+        "answer_index": 2
+      },
+      {
+        "question": "アナさんは キムさんに <ruby>何<rt>なに</rt></ruby>を あげましたか。",
+        "choices": [
+          "とけい",
+          "おかし",
+          "ほん"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L16_03",
+    "level": 16,
+    "title": "<ruby>晩<rt>ばん</rt></ruby>ごはん、<ruby>食<rt>た</rt></ruby>べる？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
+    "schema_activation": [
+      "おなかが すいた？",
+      "<ruby>一緒<rt>いっしょ</rt></ruby>に ごはんを <ruby>食<rt>た</rt></ruby>べない？"
+    ],
+    "story_html": "<p>サントス：キムさん、もう <ruby>晩<rt>ばん</rt></ruby>ごはん <ruby>食<rt>た</rt></ruby>べた？<br>キム：ううん、まだ。これから <ruby>食<rt>た</rt></ruby>べる。<br>サントス：じゃあ、あそこの <ruby>新<rt>あたら</rt></ruby>しい <ruby>店<rt>みせ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>かない？ カレーが おいしいよ。<br>キム：いいね。おなかが すいたから、たくさん <ruby>食<rt>た</rt></ruby>べたい！</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは もう <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか。",
+        "choices": [
+          "食べた",
+          "まだ 食べていない"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べに <ruby>行<rt>い</rt></ruby>きますか。",
+        "choices": [
+          "すし",
+          "カレー",
+          "ラーメン"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L16_04",
+    "level": 16,
+    "title": "<ruby>漢字<rt>かんじ</rt></ruby>、わかる？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
+    "schema_activation": [
+      "<ruby>今日<rt>きょう</rt></ruby>の テスト、どうだった？",
+      "<ruby>漢字<rt>かんじ</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しい？"
+    ],
+    "story_html": "<p>アナ：サントスさん、<ruby>今日<rt>きょう</rt></ruby>の <ruby>漢字<rt>かんじ</rt></ruby>の <ruby>テスト<rt>てすと</rt></ruby>、わかった？<br>サントス：うーん、あまり わからなかった。アナは？<br>アナ：わたしも。ちょっと <ruby>難<rt>むずか</rt></ruby>しかったね。<br>サントス：そうだね。じゃあ、また <ruby>明日<rt>あした</rt></ruby> <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>図書館<rt>としょかん</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>しない？<br>アナ：うん、そうしよう！</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>今日<rt>きょう</rt></ruby>の テストは どうでしたか。",
+        "choices": [
+          "かんたんだった",
+          "むずかしかった",
+          "おもしろかった"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>二人<rt>ふたり</rt></ruby>は <ruby>明日<rt>あした</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "choices": [
+          "あそぶ",
+          "べんきょうする",
+          "かいものにいく"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L17_01",
+    "level": 17,
+    "title": "<ruby>日本<rt>にほん</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>いますか",
+    "schema_activation": [
+      "日本の <ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いと <ruby>思<rt>おも</rt></ruby>いますか。",
+      "日本<ruby>料理<rt>りょうり</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>いますか。"
+    ],
+    "story_html": "<p>アナ：サントスさん、<ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>う？<br>サントス：物価（ぶっか）は <ruby>高<rt>たか</rt></ruby>いと <ruby>思<rt>おも</rt></ruby>うけど、とても <ruby>便利<rt>べんり</rt></ruby>だと <ruby>思<rt>おも</rt></ruby>うよ。アナは？<br>アナ：わたしも そう <ruby>思<rt>おも</rt></ruby>う。日本料理（にほんりょうり）は <ruby>体<rt>からだ</rt></ruby>に いいと <ruby>思<rt>おも</rt></ruby>うから、毎日（まいにち） たくさん <ruby>食<rt>た</rt></ruby>べているよ。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは 日本の <ruby>生活<rt>せいかつ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>っていますか。",
+        "choices": [
+          "<ruby>不便<rt>ふべん</rt></ruby>だと おもう",
+          "<ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いが <ruby>便利<rt>べんり</rt></ruby>だと おもう",
+          "あまり よくあないと おもう"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは どうして 日本<ruby>料理<rt>りょうり</rt></ruby>を たくさん <ruby>食<rt>た</rt></ruby>べていますか。",
+        "choices": [
+          "やすいから",
+          "<ruby>体<rt>からだ</rt></ruby>に いいと おもうから",
+          "つくるのが かんたんだから"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L17_02",
+    "level": 17,
+    "title": "キムさんの ニュース",
+    "schema_activation": [
+      "<ruby>友達<rt>ともだち</rt></ruby>が <ruby>何<rt>なに</rt></ruby>か <ruby>言<rt>い</rt></ruby>いましたか。",
+      "ニュースを <ruby>見<rt>み</rt></ruby>ましたか。"
+    ],
+    "story_html": "<p>サントス：キムさんが <ruby>来月<rt>らいげつ</rt></ruby> <ruby>韓国<rt>かんこく</rt></ruby>へ <ruby>帰<rt>かえ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ。<br>アナ：えっ、本当（ほんとう）ですか。ずっと <ruby>帰<rt>かえ</rt></ruby>らないと <ruby>思<rt>おモ</rt></ruby>っていました。<br>サントス：<ruby>仕事<rt>しごと</rt></ruby>が <ruby>忙<rt>いそが</rt></ruby>しいですから、たぶん <ruby>少<rt>すこ</rt></ruby>しだけ <ruby>休<rt>やす</rt></ruby>むと <ruby>思<rt>おも</rt></ruby>います。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは <ruby>来月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>をしますか。",
+        "choices": [
+          "ブラジルへ いく",
+          "<ruby>韓国<rt>かんこく</rt></ruby>へ かえる",
+          "日本で はたらく"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "どうして <ruby>帰<rt>かえ</rt></ruby>りますか。",
+        "choices": [
+          "ひまだから",
+          "<ruby>仕事<rt>しごと</rt></ruby>が <ruby>忙<rt>いそが</rt></ruby>しいですから",
+          "日本語が わからないから"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L17_03",
+    "level": 17,
+    "title": "<ruby>明日<rt>あした</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>",
+    "schema_activation": [
+      "<ruby>明日<rt>あした</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>るでしょう？",
+      "パーティーに <ruby>行<rt>い</rt></ruby>きますか。"
+    ],
+    "story_html": "<p>アナ：<ruby>明日<rt>あした</rt></ruby>は <ruby>山田<rt>やまだ</rt></ruby>先生の <ruby>家<rt>うち</rt></ruby>で パーティーですね。<br>サントス：うん、でも <ruby>天気予報<rt>てんきよほう</rt></ruby>で <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ。<br>アナ：えっ、パーティーは <ruby>外<rt>そと</rt></ruby>で すると <ruby>思<rt>おも</rt></ruby>いますか。<br>サントス：いいえ、<ruby>雨<rt>あめ</rt></ruby>ですから、たぶん <ruby>部屋<rt>へや</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で するでしょう。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>明日<rt>あした</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうですか。",
+        "choices": [
+          "はれ",
+          "あめ",
+          "ゆき"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "パーティーは どこで しますか。",
+        "choices": [
+          "そと",
+          "<ruby>部屋<rt>へや</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+          "だいがく"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L17_04",
+    "level": 17,
+    "title": "<ruby>試合<rt>しあい</rt></ruby>に ついて",
+    "schema_activation": [
+      "<ruby>今日<rt>きょう</rt></ruby>の <ruby>試合<rt>しあい</rt></ruby>は どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>いますか。",
+      "<ruby>野球<rt>やきゅう</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。"
+    ],
+    "story_html": "<p>キム：サントスさん、<ruby>今夜<rt>こんや</rt></ruby>の サッカーの <ruby>試合<rt>しあい</rt></ruby>、どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>う？<br>サントス：ブラジルが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>うよ。とても <ruby>強<rt>つよ</rt></ruby>いから。<br>キム：でも、日本も <ruby>最近<rt>さいきん</rt></ruby> <ruby>強<rt>つよ</rt></ruby>くなったよ。いい <ruby>試合<rt>しあい</rt></ruby>に なると <ruby>思<rt>おも</rt></ruby>う。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>っていますか。",
+        "choices": [
+          "にほん",
+          "ブラジル",
+          "わからない"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは どう <ruby>思<rt>おも</rt></ruby>っていますか。",
+        "choices": [
+          "ブラジルが まけると おもう",
+          "いい <ruby>試合<rt>しあい</rt></ruby>に なると おもう",
+          "しあいは ないと おもう"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L18_01",
+    "level": 18,
+    "title": "アナさんが <ruby>会<rt>あ</rt></ruby>った <ruby>人<rt>ひと</rt></ruby>",
+    "schema_activation": [
+      "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>誰<rt>だれ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましたか。",
+      "その<ruby>人<rt>ひと</rt></ruby>は どんな<ruby>人<rt>ひと</rt></ruby>でしたか。"
+    ],
+    "story_html": "<p>アナ：昨日（きのう） <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で <ruby>会<rt>あ</rt></ruby>った <ruby>人<rt>ひと</rt></ruby>は、<ruby>山田<rt>やまだ</rt></ruby>先生でした。<br>サントス：へえ、そうなんだ。先生は 何（なに）を していた？<br>アナ：先生は <ruby>大<rt>おお</rt></ruby>きい <ruby>鞄<rt>かばん</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていました。<ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>く <ruby>所<rt>ところ</rt></ruby>だったと <ruby>思<rt>おも</rt></ruby>います。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どこで 先生に <ruby>会<rt>あ</rt></ruby>いましたか。",
+        "choices": [
+          "だいがく",
+          "<ruby>駅<rt>えき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>",
+          "うち"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>何<rt>なに</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていましたか。",
+        "choices": [
+          "ほん",
+          "<ruby>大<rt>おお</rt></ruby>きい かばん",
+          "かさ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L18_02",
+    "level": 18,
+    "title": "キムさんが <ruby>買<rt>か</rt></ruby>った パソコン",
+    "schema_activation": [
+      "どこで パソコンを <ruby>買<rt>か</rt></ruby>いましたか。",
+      "それは どんな パソコンですか。"
+    ],
+    "story_html": "<p>これは キムさんが <ruby>昨日<rt>きのう</rt></ruby> <ruby>秋葉原<rt>あきはばら</rt></ruby>で <ruby>買<rt>か</rt></ruby>った パソコンです。とても <ruby>軽<rt>かる</rt></ruby>くて、<ruby>便利<rt>べんり</rt></ruby>な パソコンです。<br>キムさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>仕事<rt>しごと</rt></ruby>で <ruby>使<rt>つか</rt></ruby>う <ruby>物<rt>もの</rt></ruby>を <ruby>買<rt>か</rt></ruby>うのが <ruby>好<rt>す</rt></ruby>きです。サントスさんも キムさんが <ruby>持<rt>も</rt></ruby>っている パソコンが <ruby>欲<rt>ほ</rt></ruby>しくなりました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは どこで パソコンを <ruby>買<rt>か</rt></ruby>いましたか。",
+        "choices": [
+          "しんじゅく",
+          "あきはばら",
+          "ドイツ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "その パソコンは どうですか。",
+        "choices": [
+          "おもくて ふるい",
+          "かるくて べんり",
+          "あまり よくありません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L18_03",
+    "level": 18,
+    "title": "サントスさんが <ruby>住<rt>す</rt></ruby>んでいる <ruby>家<rt>うち</rt></ruby>",
+    "schema_activation": [
+      "あなたは どこに <ruby>住<rt>す</rt></ruby>んでいますか。",
+      "どんな <ruby>家<rt>いえ</rt></ruby>に <ruby>住<rt>す</rt></ruby>みたいですか。"
+    ],
+    "story_html": "<p>サントスさんが <ruby>住<rt>す</rt></ruby>んでいる <ruby>家<rt>うち</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>の <ruby>近<rt>ちか</rt></ruby>くに あります。<ruby>奥<rt>おく</rt></ruby>さんと <ruby>子<rt>こ</rt></ruby>どもが <ruby>二人<rt>ふたり</rt></ruby> <ruby>住<rt>す</rt></ruby>める <ruby>広<rt>ひろ</rt></ruby>い <ruby>家<rt>うち</rt></ruby>です。<br><ruby>先週<rt>せんしゅう</rt></ruby> わたしが <ruby>食<rt>た</rt></ruby>べた <ruby>ブラジル<rt>ぶらじる</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>は、サントスさんの <ruby>家<rt>うち</rt></ruby>で サントスさんが <ruby>作<rt>つく</rt></ruby>った <ruby>物<rt>もの</rt></ruby>です。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんの <ruby>家<rt>いえ</rt></ruby>は どこに ありますか。",
+        "choices": [
+          "だいがくの となり",
+          "<ruby>駅<rt>えき</rt></ruby>の <ruby>近<rt>ちか</rt></ruby>く",
+          "<ruby>山<rt>やま</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>先週<rt>せんしゅう</rt></ruby> <ruby>食<rt>た</rt></ruby>べた <ruby>料理<rt>りょうり</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>が <ruby>作<rt>つく</rt></ruby>りましたか。",
+        "choices": [
+          "アナさん",
+          "サントスさん",
+          "山田先生"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L18_04",
+    "level": 18,
+    "title": "<ruby>母<rt>はは</rt></ruby>に あげた プレゼント",
+    "schema_activation": [
+      "<ruby>誰<rt>だれ</rt></ruby>に プレゼントを あげましたか。",
+      "それは どこで <ruby>買<rt>か</rt></ruby>ったものですか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>昨日<rt>きのう</rt></ruby> <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。ドイツに いる お<ruby>母<rt>かあ</rt></ruby>さんに <ruby>送<rt>おく</rt></ruby>る <ruby>手紙<rt>てがみ</rt></ruby>です。<br>そして、デパートで <ruby>買<rt>か</rt></ruby>った スカーフも <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>送<rt>おく</rt></ruby>りました。お<ruby>母<rt>かあ</rt></ruby>さんが <ruby>好<rt>す</rt></ruby>きな <ruby>青<rt>あお</rt></ruby>い スカーフです。アナさんは お<ruby>母<rt>かあ</rt></ruby>さんが <ruby>喜<rt>よろこ</rt></ruby>ぶと <ruby>思<rt>おも</rt></ruby>っています。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは <ruby>誰<rt>だれ</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>りましたか。",
+        "choices": [
+          "ともだち",
+          "お<ruby>母<rt>かあ</rt></ruby>さん",
+          "サントスさん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "スカーフは <ruby>何色<rt>なにいろ</rt></ruby>ですか。",
+        "choices": [
+          "<ruby>赤<rt>あか</rt></ruby>",
+          "<ruby>青<rt>あお</rt></ruby>",
+          "<ruby>白<rt>しろ</rt></ruby>"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L19_01",
+    "level": 19,
+    "title": "<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くとき",
+    "schema_activation": [
+      "<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くとき、<ruby>誰<rt>だれ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いますか。",
+      "<ruby>道<rt>みち</rt></ruby>を <ruby>間違<rt>まちが</rt></ruby>えたとき、どうしますか。"
+    ],
+    "story_html": "<p>アナ：サントスさん、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>来<rt>く</rt></ruby>るとき、どうやって <ruby>来<rt>く</rt></ruby>る？<br>サントス：わたしは <ruby>歩<rt>ある</rt></ruby>いて <ruby>来<rt>く</rt></ruby>るよ。<ruby>道<rt>みち</rt></ruby>を <ruby>歩<rt>ある</rt></ruby>いているとき、いつも <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>いている。<br>アナ：そうなんだ。わたしは <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>く</rt></ruby>るけど、ときどき <ruby>時間<rt>じかん</rt></ruby>が ないとき、タクシーを <ruby>使<rt>つか</rt></ruby>うよ。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>道<rt>みち</rt></ruby>を <ruby>歩<rt>ある</rt></ruby>いているとき、<ruby>何<rt>なに</rt></ruby>を していますか。",
+        "choices": [
+          "本を よんでいる",
+          "<ruby>音楽<rt>おんがく</rt></ruby>を きいている",
+          "電話を している"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは <ruby>時間<rt>じかん</rt></ruby>が ないとき、どうしますか。",
+        "choices": [
+          "あるいていく",
+          "タクシーを つかう",
+          "だいがくへ いかない"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L19_02",
+    "level": 19,
+    "title": "ボタンを <ruby>押<rt>お</rt></ruby>すと",
+    "schema_activation": [
+      "この ボタンを <ruby>押<rt>お</rt></ruby>すと どうなりますか。",
+      "<ruby>道<rt>みち</rt></ruby>が わからないとき どうしますか。"
+    ],
+    "story_html": "<p>サントス：すみません、この <ruby>機械<rt>きかい</rt></ruby>の <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が わかりません。<br>キム：あ、それは <ruby>簡単<rt>かんたん</rt></ruby>ですよ。この <ruby>赤<rt>あか</rt></ruby>い ボタンを <ruby>押<rt>お</rt></ruby>すと、<ruby>動<rt>うご</rt></ruby>きます。<br>サントス：ありがとうございます。これを <ruby>右<rt>みぎ</rt></ruby>へ <ruby>回<rt>まわ</rt></ruby>すと、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくなりますか。<br>キム：はい、そうですよ。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>赤<rt>あか</rt></ruby>い ボタンを <ruby>押<rt>お</rt></ruby>すと どうなりますか。",
+        "choices": [
+          "とまります",
+          "うごきます",
+          "こわれます"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>音<rt>おと</rt></ruby>を <ruby>大<rt>おお</rt></ruby>きくしたいとき、どうしますか。",
+        "choices": [
+          "左へ まわす",
+          "右へ まわす",
+          "ボタンを おす"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L19_03",
+    "level": 19,
+    "title": "<ruby>子供<rt>こども</rt></ruby>の とき",
+    "schema_activation": [
+      "<ruby>子供<rt>こども</rt></ruby>のとき、<ruby>何<rt>なに</rt></ruby>を しましたか。",
+      "<ruby>暇<rt>ひま</rt></ruby>なとき、<ruby>何<rt>なに</rt></ruby>を しますか。"
+    ],
+    "story_html": "<p>アナ：<ruby>山田<rt>やまだ</rt></ruby>先生、<ruby>子供<rt>こども</rt></ruby>のとき、よく 何（なに）を しましたか。<br>山田：わたしは <ruby>子供<rt>こども</rt></ruby>のとき、よく <ruby>海<rt>うみ</rt></ruby>で <ruby>泳<rt>およ</rt></ruby>ぎましたよ。夏休みに なると、いつも <ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br>アナ：いいですね。わたしは <ruby>暇<rt>ひま</rt></ruby>なとき、よく <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>子供<rt>こども</rt></ruby>のとき、どこで <ruby>泳<rt>およ</rt></ruby>ぎましたか。",
+        "choices": [
+          "プール",
+          "うみ",
+          "かわ"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは <ruby>暇<rt>ひま</rt></ruby>なとき、<ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "choices": [
+          "本を よんだ",
+          "泳いだ",
+          "寝た"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L19_04",
+    "level": 19,
+    "title": "お<ruby>金<rt>かね</rt></ruby>が ないとき",
+    "schema_activation": [
+      "お<ruby>金<rt>かね</rt></ruby>が ないとき、どうしますか。",
+      "おなかが すいたとき どうしますか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>今日<rt>きょう</rt></ruby> お<ruby>金<rt>かね</rt></ruby>が ありません。<ruby>財布<rt>さいふ</rt></ruby>を <ruby>忘<rt>わす</rt></ruby>れました。<br>お<ruby>金<rt>かね</rt></ruby>が ないとき、キムさんは <ruby>外<rt>そと</rt></ruby>で <ruby>食事<rt>しょくじ</rt></ruby>を しません。<ruby>直接<rt>ちょくせつ</rt></ruby> うちへ <ruby>帰<rt>かえ</rt></ruby>ります。<br>うちへ <ruby>帰<rt>かえ</rt></ruby>ると、お<ruby>母<rt>かあ</rt></ruby>さんが いつも おいしい ごはんを <ruby>作<rt>つく</rt></ruby>って 待（ま）っています。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは どうしてお<ruby>金<rt>かね</rt></ruby>が ありませんか。",
+        "choices": [
+          "つかったから",
+          "<ruby>財布<rt>さいふ</rt></ruby>を わすれたから",
+          "ぬすまれたから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは お<ruby>金<rt>かね</rt></ruby>が ないとき どうしますか。",
+        "choices": [
+          "レストランへ いく",
+          "<ruby>直接<rt>ちょくせつ</rt></ruby> うちへ かえる",
+          "友達に かりる"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L20_01",
+    "level": 20,
+    "title": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が <ruby>貸<rt>か</rt></ruby>してくれました",
+    "schema_activation": [
+      "<ruby>誰<rt>だれ</rt></ruby>かに <ruby>何<rt>なに</rt></ruby>かを <ruby>貸<rt>か</rt></ruby>して もらいましたか。",
+      "先生に <ruby>何<rt>なに</rt></ruby>を <ruby>習<rt>なら</rt></ruby>いましたか。"
+    ],
+    "story_html": "<p>アナ：サントスさん、その <ruby>辞書<rt>じしょ</rt></ruby>、どうしたの？<br>サントス：これは <ruby>山田<rt>やまだ</rt></ruby>先生が <ruby>貸<rt>か</rt></ruby>してくれたんだ。漢字（かんじ）が わからないとき、先生が とても <ruby>親切<rt>しんせつ</rt></ruby>に <ruby>教<rt>おし</rt></ruby>えてくれたよ。<br>アナ：いいなあ。わたしも 先生に わかりにくい <ruby>文法<rt>ぶんぽう</rt></ruby>を <ruby>説明<rt>せつめい</rt></ruby>して もらったよ。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>誰<rt>だれ</rt></ruby>に <ruby>辞書<rt>じしょ</rt></ruby>を <ruby>貸<rt>か</rt></ruby>して もらいましたか。",
+        "choices": [
+          "アナさん",
+          "山田先生",
+          "キムさん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>先生は サントスさんに <ruby>何<rt>なに</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えてくれましたか。",
+        "choices": [
+          "ポルトガルご",
+          "漢字の つかいかた",
+          "テニス"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L20_02",
+    "level": 20,
+    "title": "<ruby>母<rt>はは</rt></ruby>が <ruby>送<rt>おく</rt></ruby>ってくれました",
+    "schema_activation": [
+      "<ruby>国<rt>くに</rt></ruby>から <ruby>何<rt>なに</rt></ruby>か <ruby>届<rt>とど</rt></ruby>きましたか。",
+      "お<ruby>母<rt>かあ</rt></ruby>さんは <ruby>何<rt>なに</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ってくれましたか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>昨日<rt>きのう</rt></ruby> ドイツの お<ruby>母<rt>かあ</rt></ruby>さんに 電話（でんわ）を かけました。お<ruby>母<rt>かあ</rt></ruby>さんは 「<ruby>新<rt>あたら</rt></ruby>しい <ruby>服<rt>ふく</rt></ruby>と お<ruby>菓子<rt>かし</rt></ruby>を <ruby>送<rt>おく</rt></ruby>って あげたよ」と <ruby>言<rt>い</rt></ruby>いました。アナさんは とても <ruby>嬉<rt>うれ</rt></ruby>しかったです。来週（らいしゅう） <ruby>届<rt>とど</rt></ruby>いたとき、サントスさんにも お<ruby>菓子<rt>かし</rt></ruby>を 分（わ）けて あげようと <ruby>思<rt>おも</rt></ruby>っています。</p>",
+    "quizzes": [
+      {
+        "question": "お<ruby>母<rt>かあ</rt></ruby>さんは アナさんに <ruby>何<rt>なに</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ってくれましたか。",
+        "choices": [
+          "お金",
+          "服と お菓子",
+          "パソコン"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは <ruby>誰<rt>だれ</rt></ruby>に お<ruby>菓子<rt>かし</rt></ruby>を あげますか。",
+        "choices": [
+          "サントスさん",
+          "キムさん",
+          "だれにも あげない"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L20_03",
+    "level": 20,
+    "title": "キムさんの <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し",
+    "schema_activation": [
+      "<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しのとき、<ruby>誰<rt>だれ</rt></ruby>が <ruby>手伝<rt>てつだ</rt></ruby>ってくれましたか。",
+      "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を して もらいましたか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>先週<rt>せんしゅう</rt></ruby> <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しを しました。とても <ruby>大変<rt>たいへん</rt></ruby>でしたから、サントスさんが <ruby>手伝<rt>てつだ</rt></ruby>いに <ruby>来<rt>き</rt></ruby>てくれました。サントスさんは <ruby>重<rt>おも</rt></ruby>い <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>運<rt>はこ</rt></ruby>んでくれました。キムさんは サントスさんに 晩（ばん）ごはんを ごちそうして あげました。二人は（ふたりは） とても 楽（たの）しそうでした。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>誰<rt>だれ</rt></ruby>が キムさんの <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しを <ruby>手伝<rt>てつだ</rt></ruby>いましたか。",
+        "choices": [
+          "アナさん",
+          "サントスさん",
+          "山田先生"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは サントスさんに <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "choices": [
+          "お金を あげた",
+          "晩ごはんを ごちそうした",
+          "くるまを かした"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L20_04",
+    "level": 20,
+    "title": "<ruby>道<rt>みち</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えてくれました",
+    "schema_activation": [
+      "<ruby>道<rt>みち</rt></ruby>が わからないとき、どうしますか。",
+      "<ruby>誰<rt>だれ</rt></ruby>かが <ruby>助<rt>たす</rt></ruby>けてくれましたか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>昨日<rt>きのう</rt></ruby>、<ruby>初<rt>はじ</rt></ruby>めて <ruby>銀座<rt>ぎんざ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>道<rt>みち</rt></ruby>が 全然（ぜんぜん） わかりませんでしたから、<ruby>困<rt>こま</rt></ruby>っていました。そのとき、<ruby>親切<rt>しんせつ</rt></ruby>な おじいさんが <ruby>駅<rt>えき</rt></ruby>まで <ruby>連<rt>つ</rt></ruby>れていってくれました。アナさんは 日本語（にほんご）で 「ありがとうございました」と お<ruby>礼<rt>れい</rt></ruby>を <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どこで <ruby>道<rt>みち</rt></ruby>に <ruby>迷<rt>まよ</rt></ruby>いましたか。",
+        "choices": [
+          "しんじゅく",
+          "ぎんざ",
+          "あきはばら"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "おじいさんは <ruby>何<rt>なに</rt></ruby>を してくれましたか。",
+        "choices": [
+          "駅まで つれていってくれた",
+          "お金を くれた",
+          "お菓子を くれた"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L21_01",
+    "level": 21,
+    "title": "<ruby>暇<rt>ひま</rt></ruby>だったら、<ruby>何<rt>なに</rt></ruby>をする？",
+    "schema_activation": [
+      "<ruby>時間<rt>じかん</rt></ruby>が あったら、<ruby>何<rt>なに</rt></ruby>を したいですか。",
+      "<ruby>明日<rt>あした</rt></ruby> <ruby>休<rt>やす</rt></ruby>みだったら、どこへ <ruby>行<rt>い</rt></ruby>きますか。"
+    ],
+    "story_html": "<p>サントス：アナさん、<ruby>明日<rt>あした</rt></ruby> <ruby>暇<rt>ひま</rt></ruby>だったら、いっしょに <ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>かない？<br>アナ：いいね。<ruby>天気が<rt>てんきが</rt></ruby> <ruby>良<rt>よ</rt></ruby>かったら、ぜひ <ruby>行<rt>い</rt></ruby>きたい！<br>サントス：もし <ruby>雨<rt>あめ</rt></ruby>だったら、どうする？<br>アナ：<ruby>雨<rt>あめ</rt></ruby>だったら、<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>こうよ。</p>",
+    "quizzes": [
+      {
+        "question": "<ruby>天気<rt>てんき</rt></ruby>が <ruby>良<rt>よ</rt></ruby>かったら、<ruby>二人<rt>ふたり</rt></ruby>は どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+        "choices": [
+          "やま",
+          "うみ",
+          "としょかん"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>雨<rt>あめ</rt></ruby>だったら、<ruby>何<rt>なに</rt></ruby>を しますか。",
+        "choices": [
+          "泳ぐ",
+          "映画を 見る",
+          "寝る"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L21_02",
+    "level": 21,
+    "title": "<ruby>安<rt>やす</rt></ruby>かったら、<ruby>買<rt>か</rt></ruby>います",
+    "schema_activation": [
+      "<ruby>新<rt>あたら</rt></ruby>しい パソコンが <ruby>安<rt>やす</rt></ruby>かったら <ruby>買<rt>か</rt></ruby>いますか。",
+      "お<ruby>金<rt>かね</rt></ruby>が たくさん あったら、<ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いたいですか。"
+    ],
+    "story_html": "<p>キムさんは <ruby>新<rt>あたら</rt></ruby>しい <ruby>車<rt>くるま</rt></ruby>を <ruby>探<rt>さが</rt></ruby>しています。<ruby>高<rt>たか</rt></ruby>かったら <ruby>買<rt>か</rt></ruby>いませんが、<ruby>安<rt>やす</rt></ruby>かったら すぐ <ruby>買<rt>か</rt></ruby>いたいと <ruby>思<rt>おも</rt></ruby>っています。<br>サントスさんは 「<ruby>中古<rt>ちゅうこ</rt></ruby>の <ruby>車<rt>くるま</rt></ruby>だったら、いい <ruby>店<rt>みせ</rt></ruby>を <ruby>知<rt>し</rt></ruby>っているよ」と <ruby>教<rt>おし</rt></ruby>えてくれました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは どんなとき <ruby>車<rt>くるま</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
+        "choices": [
+          "高いとき",
+          "安いとき",
+          "いつでも"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは <ruby>何<rt>なに</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。",
+        "choices": [
+          "いい くるまの みせ",
+          "おいしい レストラン",
+          "あたらしい パソコン"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L21_03",
+    "level": 21,
+    "title": "<ruby>卒業<rt>そつぎょう</rt></ruby>したら、どうする？",
+    "schema_activation": [
+      "<ruby>大学<rt>だいがく</rt></ruby>を <ruby>卒業<rt>そつぎょう</rt></ruby>したら、<ruby>何<rt>なに</rt></ruby>を しますか。",
+      "<ruby>国<rt>くに</rt></ruby>へ <ruby>帰<rt>かえ</rt></ruby>りますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>来年<rt>らいねん</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>を <ruby>卒業<rt>そつぎょう</rt></ruby>します。サントスさんが 「<ruby>卒業<rt>そつぎょう</rt></ruby>したら ドイツへ <ruby>帰<rt>かえ</rt></ruby>るの？」と <ruby>聞<rt>き</rt></ruby>きました。<br>アナさんは 「いいえ、<ruby>日本<rt>にほん</rt></ruby>の <ruby>会社<rt>かいしゃ</rt></ruby>で <ruby>働<rt>はたら</rt></ruby>きたいです。もし <ruby>仕事<rt>しごと</rt></ruby>が なかったら、ドイツへ <ruby>帰<rt>かえ</rt></ruby>ります」と <ruby>答<rt>こた</rt></ruby>えました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは <ruby>卒業<rt>そつぎょう</rt></ruby>したら まず <ruby>何<rt>なに</rt></ruby>を したいですか。",
+        "choices": [
+          "すぐに ドイツへ かえる",
+          "日本の 会社で はたらく",
+          "もういちど べんきょうする"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "どんなとき ドイツへ <ruby>帰<rt>かえ</rt></ruby>りますか。",
+        "choices": [
+          "仕事が なかったとき",
+          "お金が たくさん あるとき",
+          "明日"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L21_04",
+    "level": 21,
+    "title": "いくら <ruby>考<rt>かんが</rt></ruby>えても…",
+    "schema_activation": [
+      "<ruby>難<rt>むずか</rt></ruby>しい <ruby>問題<rt>もんだい</rt></ruby>が あったら、どうしますか。",
+      "いくら <ruby>考<rt>かんが</rt></ruby>えても わからないことが ありますか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>宿題<rt>しゅくだい</rt></ruby>を しています。でも、この <ruby>問題<rt>もんだい</rt></ruby>は とても <ruby>難<rt>むずか</rt></ruby>しいです。いくら <ruby>考<rt>かんが</rt></ruby>えても わかりません。<br><ruby>辞書<rt>じしょ</rt></ruby>を <ruby>見<rt>み</rt></ruby>ても わかりませんから、<ruby>山田<rt>やまだ</rt></ruby>先生に <ruby>聞<rt>き</rt></ruby>くことに しました。先生に <ruby>聞<rt>き</rt></ruby>けば、すぐ わかると <ruby>思<rt>おモ</rt></ruby>います。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どうして 先生に <ruby>聞<rt>き</rt></ruby>きますか。",
+        "choices": [
+          "暇だから",
+          "いくら 考えても わからないから",
+          "先生が 好きだから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "<ruby>辞書<rt>じしょ</rt></ruby>を <ruby>見<rt>み</rt></ruby>たら わかりましたか。",
+        "choices": [
+          "はい",
+          "いいえ、見ても わかりませんでした"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L22_01",
+    "level": 22,
+    "title": "どうして <ruby>遅<rt>おく</rt></ruby>れたんですか",
+    "schema_activation": [
+      "<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせに <ruby>遅<rt>おく</rt></ruby>れたことが ありますか。",
+      "どうして <ruby>遅<rt>おく</rt></ruby>れましたか。"
+    ],
+    "story_html": "<p>サントス：キムさん、<ruby>遅<rt>おく</rt></ruby>かったですね。どうしたんですか。<br>キム：すみません、<ruby>事故<rt>じこ</rt></ruby>が あったんです。バスが 全然（ぜんぜん） <ruby>来<rt>こ</rt></ruby>なかったんです。<br>サントス：そうなんですか。それは <ruby>大変<rt>たいへん</rt></ruby>でしたね。<br>キム：はい、<ruby>途中<rt>とちゅう</rt></ruby>から <ruby>走<rt>はし</rt></ruby>って <ruby>来<rt>き</rt></ruby>たんです。とても <ruby>疲<rt>つか</rt></ruby>れました。</p>",
+    "quizzes": [
+      {
+        "question": "キムさんは どうして <ruby>遅<rt>おく</rt></ruby>れたんですか。",
+        "choices": [
+          "寝坊したから",
+          "事故が あったから",
+          "買い物を していたから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "キムさんは どうやって <ruby>来<rt>き</rt></ruby>ましたか。",
+        "choices": [
+          "タクシー",
+          "走って",
+          "ずっと バスを まっていた"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L22_02",
+    "level": 22,
+    "title": "<ruby>頭<rt>あたま</rt></ruby>が <ruby>痛<rt>いた</rt></ruby>いんです",
+    "schema_activation": [
+      "<ruby>体<rt>からだ</rt></ruby>の <ruby>調子<rt>ちょうし</rt></ruby>が <ruby>悪<rt>わる</rt></ruby>いとき、どうしますか。",
+      "<ruby>誰<rt>だれ</rt></ruby>に <ruby>相談<rt>そうだん</rt></ruby>しますか。"
+    ],
+    "story_html": "<p>アナさんは 今日、あまり <ruby>元気<rt>げんき</rt></ruby>が ありません。<ruby>山田<rt>やまだ</rt></ruby>先生が 「アナさん、どうしたんですか」と <ruby>聞<rt>き</rt></ruby>きました。<br>アナさんは 「<ruby>昨日<rt>きのう</rt></ruby>から <ruby>頭<rt>あたま</rt></ruby>が <ruby>痛<rt>いた</rt></ruby>いんです。それに 少し <ruby>熱<rt>ねつ</rt></ruby>も あるんです」と <ruby>答<rt>こた</rt></ruby>えました。<br>先生は 「じゃあ、早く <ruby>帰<rt>かえ</rt></ruby>って <ruby>休<rt>やす</rt></ruby>んだほうが いいですよ」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どうしたんですか。",
+        "choices": [
+          "おなかが すいている",
+          "頭が 痛くて 熱が ある",
+          "眠い"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "先生は <ruby>何<rt>なに</rt></ruby>と <ruby>言<rt>い</rt></ruby>いましたか。",
+        "choices": [
+          "勉強してください",
+          "早く 帰って 休んでください",
+          "薬を あげます"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L22_03",
+    "level": 22,
+    "title": "ゴミは どこに <ruby>出<rt>だ</rt></ruby>すんですか",
+    "schema_activation": [
+      "ゴミの <ruby>出<rt>だ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。",
+      "<ruby>誰<rt>だれ</rt></ruby>に <ruby>聞<rt>き</rt></ruby>けば いいですか。"
+    ],
+    "story_html": "<p>サントスさんは <ruby>新<rt>あたら</rt></ruby>しい アパートに <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しました。でも、ゴミの <ruby>出<rt>だ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>が わかりません。<br>サントスさんは <ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>に <ruby>聞<rt>き</rt></ruby>きました。「すみません、ゴミは どこに <ruby>出<rt>だ</rt></ruby>すんですか。」<br><ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>は 「あそこの <ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>の <ruby>横<rt>よこ</rt></ruby>に <ruby>出<rt>だ</rt></ruby>すんですよ」と <ruby>教<rt>おし</rt></ruby>えてくれました。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは <ruby>何<rt>なに</rt></ruby>が <ruby>知<rt>し</rt></ruby>りたいんですか。",
+        "choices": [
+          "スーパーの ばしょ",
+          "ゴミの 出し方",
+          "駅の 行き方"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "ゴミは どこに <ruby>出<rt>だ</rt></ruby>しますか。",
+        "choices": [
+          "部屋の前",
+          "駐車場の 横",
+          "公園"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L22_04",
+    "level": 22,
+    "title": "お<ruby>花見<rt>はなみ</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたいんです",
+    "schema_activation": [
+      "お<ruby>花見<rt>はなみ</rt></ruby>を したことが ありますか。",
+      "いい <ruby>所<rt>ところ</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。"
+    ],
+    "story_html": "<p>アナ：サントスさん、今度（こんど）の <ruby>週末<rt>しゅうまつ</rt></ruby>、お<ruby>花見<rt>はなみ</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたいんです。どこか いい <ruby>所<rt>ところ</rt></ruby>を <ruby>知<rt>し</rt></ruby>っていますか。<br>サントス：それなら、上野公園（うえのこうえん）が いいですよ。とても <ruby>綺麗<rt>きれい</rt></ruby>なんです。<br>アナ：そうですか。じゃあ、カメラを <ruby>買<rt>か</rt></ruby>わなければならないんです。<ruby>写真<rt>しゃしん</rt></ruby>を たくさん <ruby>撮<rt>と</rt></ruby>りたいんです。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは どうして カメラを <ruby>買<rt>か</rt></ruby>うんですか。",
+        "choices": [
+          "古いから",
+          "お花見で 写真を 撮りたいから",
+          "サントスさんに 頼まれたから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんは どこを おすすめしましたか。",
+        "choices": [
+          "新宿駅",
+          "上野公園",
+          "富士山"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L23_01",
+    "level": 23,
+    "title": "<ruby>山<rt>やま</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>れます",
+    "schema_activation": [
+      "スキーが できますか。",
+      "富士山に 登れますか。"
+    ],
+    "story_html": "<p>アナさんは スポーツが <ruby>大好<rt>だいす</rt></ruby>きです。<ruby>冬<rt>ふゆ</rt></ruby>は スキーに <ruby>行<rt>い</rt></ruby>けるし、<ruby>夏<rt>なつ</rt></ruby>は <ruby>山<rt>やま</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>れます。<br>アナさんは 「いつか <ruby>海<rt>うみ</rt></ruby>で <ruby>泳<rt>およ</rt></ruby>げるように なりたいです」と <ruby>言<rt>い</rt></ruby>っています。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 夏に 何が できますか。",
+        "choices": [
+          "スキーが できる",
+          "山に のぼれる",
+          "泳げる"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "アナさんは 今 泳げますか。",
+        "choices": [
+          "はい、泳げます",
+          "いいえ、まだ 泳げません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L23_02",
+    "level": 23,
+    "title": "コンビニで <ruby>買<rt>か</rt></ruby>えます",
+    "schema_activation": [
+      "コンビニで 何が 買えますか。",
+      "夜でも 買い物が できますか。"
+    ],
+    "story_html": "<p>日本の コンビニは とても <ruby>便利<rt>べんり</rt></ruby>です。お<ruby>弁当<rt>べんとう</rt></ruby>も <ruby>買<rt>か</rt></ruby>えるし、お<ruby>酒<rt>さけ</rt></ruby>も <ruby>買<rt>か</rt></ruby>えます。<br>キムさんは <ruby>忙<rt>いそが</rt></ruby>しいですから、<ruby>最近<rt>さいきん</rt></ruby>は コンビニでしか <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を しません。</p>",
+    "quizzes": [
+      {
+        "question": "コンビニで 何が 買えますか。",
+        "choices": [
+          "お弁当や お酒",
+          "ぎんこうの しょるい",
+          "くるま"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "キムさんは どこで 買い物を しますか。",
+        "choices": [
+          "デパート",
+          "スーパー",
+          "コンビニ"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L23_03",
+    "level": 23,
+    "title": "<ruby>海<rt>うみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>えます",
+    "schema_activation": [
+      "窓から 何が 見えますか。",
+      "静かな 部屋は 好きですか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>新<rt>あたら</rt></ruby>しい <ruby>部屋<rt>へや</rt></ruby>に <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しました。<ruby>窓<rt>まど</rt></ruby>から <ruby>海<rt>うみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>えます。<br>サントスさんは 「いいですね。わたしの <ruby>部屋<rt>へや</rt></ruby>からは ビルしか <ruby>見<rt>み</rt></ruby>えません」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんの 部屋から 何が 見えますか。",
+        "choices": [
+          "ビル",
+          "うみ",
+          "やま"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "サントスさんの 部屋から 海が 見えますか。",
+        "choices": [
+          "はい",
+          "いいえ、ビルしか 見えません"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L23_04",
+    "level": 23,
+    "title": "<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>ししか できません",
+    "schema_activation": [
+      "漢字が 読めますか。",
+      "英語が 話せますか。"
+    ],
+    "story_html": "<p>サントスさんの <ruby>会社<rt>かいしゃ</rt></ruby>に <ruby>新<rt>あたら</rt></ruby>しい <ruby>留学生<rt>りゅうがくせい</rt></ruby>が <ruby>来<rt>き</rt></ruby>ました。彼（かれ）は まだ <ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>ししか できません。<br><ruby>漢字<rt>かんじ</rt></ruby>は <ruby>読<rt>よ</rt></ruby>めませんが、ひらがなは <ruby>読<rt>よ</rt></ruby>めます。</p>",
+    "quizzes": [
+      {
+        "question": "留学生は 日本語が よく できますか。",
+        "choices": [
+          "はい、よく できます",
+          "いいえ、少ししか できません"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "留学生は 漢字が 読めますか。",
+        "choices": [
+          "はい",
+          "いいえ"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L24_01",
+    "level": 24,
+    "title": "<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きながら",
+    "schema_activation": [
+      "音楽を 聞きながら 勉強しますか。",
+      "何かを しながら 他のことが できますか。"
+    ],
+    "story_html": "<p>サントスさんは いつも <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きながら <ruby>仕事<rt>しごと</rt></ruby>を しています。<br>「<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きながら <ruby>仕事<rt>しごと</rt></ruby>を すると、<ruby>疲<rt>つか</rt></ruby>れません」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "サントスさんは どうやって 仕事を していますか。",
+        "choices": [
+          "おんがくを ききながら",
+          "テレビを みながら",
+          "おどりながら"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "サントスさんは 夜、何を していますか。",
+        "choices": [
+          "おんがくを きいている",
+          "本を よんでいる",
+          "コーヒーを のみながら 本を よんでいる"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "STORY_L24_02",
+    "level": 24,
+    "title": "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>走<rt>はし</rt></ruby>っています",
+    "schema_activation": [
+      "毎朝 何を していますか。",
+      "最近の 健康は どうですか。"
+    ],
+    "story_html": "<p>アナさんは <ruby>最近<rt>さいきん</rt></ruby>、<ruby>公園<rt>こうえん</rt></ruby>を <ruby>走<rt>はし</rt></ruby>っています。<ruby>走<rt>はし</rt></ruby>ってから、シャワーを <ruby>浴<rt>あ</rt></ruby>びて <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br>アナさんは 「<ruby>走<rt>はし</rt></ruby>っていると、<ruby>体<rt>からだ</rt></ruby>の <ruby>調子<rt>ちょうし</rt></ruby>が <ruby>良<rt>よ</rt></ruby>くなります」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "アナさんは 毎日 何を していますか。",
+        "choices": [
+          "およいでいる",
+          "走っている",
+          "ねている"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "走ってから 何を しますか。",
+        "choices": [
+          "シャワーを あびる",
+          "ごはんを たべる",
+          "ねる"
+        ],
+        "answer_index": 0
+      }
+    ]
+  },
+  {
+    "id": "STORY_L24_03",
+    "level": 24,
+    "title": "<ruby>安<rt>やす</rt></ruby>いし、おいしいし",
+    "schema_activation": [
+      "好きな レストランは どこですか。",
+      "どうして その店へ 行きますか。"
+    ],
+    "story_html": "<p>あそこの レストランは <ruby>安<rt>やす</rt></ruby>いし、おいしいし、それに <ruby>店<rt>みせ</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が <ruby>親切<rt>しんせつ</rt></ruby>なんです。<br>サントスさんも 「ここは <ruby>賑<rt>にぎ</rt></ruby>やかだし、<ruby>雰囲気<rt>ふんいき</rt></ruby>も いいし、とても いい <ruby>店<rt>みせ</rt></ruby>ですね」と <ruby>言<rt>い</rt></ruby>いました。</p>",
+    "quizzes": [
+      {
+        "question": "どうして その店へ 行きますか。",
+        "choices": [
+          "たかいから",
+          "安くて おいしくて 親切だから",
+          "ちかいから"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "店の 雰囲気は どうですか。",
+        "choices": [
+          "あまり よくありません",
+          "いいです",
+          "しずかです"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "STORY_L24_04",
+    "level": 24,
+    "title": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は いい <ruby>先生<rt>せんせい</rt></ruby>です",
+    "schema_activation": [
+      "山田先生を 知っていますか。",
+      "どんな 先生が 好きですか。"
+    ],
+    "story_html": "<p><ruby>山田<rt>やまだ</rt></ruby>先生は <ruby>熱心<rt>ねっしん</rt></ruby>だし、<ruby>真面目<rt>まじめ</rt></ruby>だし、それに <ruby>教<rt>おし</rt></ruby>え<ruby>方<rt>かた</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>なんです。<br><ruby>先生<rt>せんせい</rt></ruby>は <ruby>経験<rt>けいけん</rt></ruby>も あるし、<ruby>優<rt>やさ</rt></ruby>しいので、<ruby>学生<rt>がくせい</rt></ruby>に <ruby>人気<rt>にんき</rt></ruby>が あります。</p>",
+    "quizzes": [
+      {
+        "question": "山田先生は どんな 人ですか。",
+        "choices": [
+          "こわい人",
+          "熱心で まじめで 優しい人",
+          "あまり べんきょうしません"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "どうして 学生に 人気がありますか。",
+        "choices": [
+          "おしえ方が 上手だし 優しいから",
+          "ハンサムだから",
+          "お金が あるから"
+        ],
+        "answer_index": 0
       }
     ]
   },
   {
     "id": "STORY_N5_LONG_01",
     "level": "N5",
-    "title": "アナさんの 週末の 旅行",
+    "title": "アナさんの <ruby>週末<rt>しゅうまつ</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>",
     "schema_activation": [
-      "あなたは 有名な 所へ 旅行に 行きたいですか。",
-      "旅行の 写真を たくさん 撮りますか。"
+      "あなたは <ruby>有名<rt>ゆうめい</rt></ruby>な <ruby>所<rt>ところ</rt></ruby>へ <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたいですか。",
+      "<ruby>旅行<rt>りょこう</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を たくさん <ruby>撮<rt>と</rt></ruby>りますか。"
     ],
-    "story_html": "<p>はじめまして。アナです。<br>わたしは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>の キムさんと <ruby>箱根<rt>はこね</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>新宿<rt>しんじゅく</rt></ruby>から バスで <ruby>行<rt>い</rt></ruby>きました。<br><ruby>箱根<rt>はこね</rt></ruby>は とても <ruby>有名<rt>ゆうめい</rt></ruby>な <ruby>所<rt>ところ</rt></ruby>です。</p><p><ruby>箱根<rt>はこね</rt></ruby>で <ruby>富士山<rt>ふじさん</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>富士山<rt>ふじさん</rt></ruby>は とても <ruby>大<rt>おお</rt></ruby>きくて、きれいでした。<br>アナさんは たくさん <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p>それから、わたしたちは レストランで <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。<br><ruby>料理<rt>りょうり</rt></ruby>は とても おいしかったです。</p><p>それから、お<ruby>店<rt>みせ</rt></ruby>で お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br>アナさんは <ruby>家族<rt>かぞく</rt></ruby>に <ruby>絵<rt>え</rt></ruby>はがきを <ruby>買<rt>か</rt></ruby>いました。<br>キムさんは <ruby>弟<rt>おとうと</rt></ruby>に <ruby>小<rt>ちい</rt></ruby>さい <ruby>人形<rt>にんぎょう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。</p><p>わたしたちは <ruby>夜<rt>よる</rt></ruby> 7<ruby>時<rt>じ</rt></ruby>に うちへ <ruby>帰<rt>かえ</rt></ruby>りました。<br>少（すこ）し <ruby>疲<rt>つか</rt></ruby>れましたが、<ruby>旅行<rt>りょこう</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しかったです。<br>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しいです。</p>",
+    "translation": "<p>Nice to meet you. I am Ana.<br>I went to Hakone with my friend Kim last Saturday.<br>We went by bus from Shinjuku.<br>Hakone is a very famous place.</p><p>We saw Mt. Fuji in Hakone.<br>Mt. Fuji was very big and beautiful.<br>Ana took many photos.</p><p>After that, we had lunch at a restaurant.<br>The food was very delicious.</p><p>Then, we bought souvenirs at a shop.<br>Ana bought a picture postcard for her family.<br>Kim bought a small doll for her younger brother.</p><p>We went home at 7:00 at night.<br>We were a little tired, but the trip was very fun.<br>Life in Japan is very fun.</p>",
+    "story_html": "<p>はじめまして。アナです。<br>わたしは <ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>の キムさんと <ruby>箱根<rt>はこね</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>新宿<rt>しんじゅく</rt></ruby>から バスで <ruby>行<rt>い</rt></ruby>きました。<br><ruby>箱根<rt>はこね</rt></ruby>は とても <ruby>有名<rt>ゆうめい</rt></ruby>な <ruby>所<rt>ところ</rt></ruby>です。</p><p><ruby>箱根<rt>はこね</rt></ruby>で <ruby>富士山<rt>ふじさん</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。<br><ruby>富士山<rt>ふじさん</rt></ruby>は とても <ruby>大<rt>おお</rt></ruby>きくて、きれいでした。<br>アナさんは たくさん <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。</p><p>それから、わたしたちは レストランで <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。<br><ruby>料理<rt>りょうり</rt></ruby>は とても おいしかったです。</p><p>それから、お<ruby>店<rt>みせ</rt></ruby>で お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。<br>アナさんは <ruby>家族<rt>かぞく</rt></ruby>に <ruby>絵<rt>え</rt></ruby>はがきを <ruby>買<rt>か</rt></ruby>いました。<br>キムさんは <ruby>弟<rt>おとうと</rt></ruby>に <ruby>小<rt>ちい</rt></ruby>さい <ruby>人形<rt>にんぎょう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。</p><p>わたしたちは <ruby>夜<rt>よる</rt></ruby> 7<ruby>時<rt>じ</rt></ruby>に うちへ <ruby>帰<rt>かえ</rt></ruby>りました。<br><ruby>少<rt>すこ</rt></ruby>し <ruby>疲<rt>つか</rt></ruby>れましたが、<ruby>旅行<rt>りょこう</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しかったです。<br>日本の <ruby>生活<rt>せいかつ</rt></ruby>は とても <ruby>楽<rt>たの</rt></ruby>しいです。</p>",
     "quizzes": [
       {
-        "question": "アナさんは 誰と 箱根へ 行きましたか。",
+        "question": "アナさんは <ruby>誰<rt>だれ</rt></ruby>と <ruby>箱根<rt>はこね</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きましたか。",
+        "question_translation": "Who did Ana go to Hakone with?",
         "choices": [
           "山田さん",
           "キムさん",
@@ -263,7 +2930,8 @@
         "answer_index": 1
       },
       {
-        "question": "富士山は どうでしたか。",
+        "question": "<ruby>富士山<rt>ふじさん</rt></ruby>は どうでしたか。",
+        "question_translation": "How was Mt. Fuji?",
         "choices": [
           "大きくて、きれいでした",
           "小さくて、有名でした",
@@ -272,7 +2940,8 @@
         "answer_index": 0
       },
       {
-        "question": "アナさんは 何を 買いましたか。",
+        "question": "アナさんは <ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いましたか。",
+        "question_translation": "What did Ana buy?",
         "choices": [
           "人形",
           "写真",

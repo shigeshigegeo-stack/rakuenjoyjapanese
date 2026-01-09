@@ -46,6 +46,33 @@ function HomeContent() {
   const filteredStories = stories.filter(story => {
     if (levelFilter === 'All') return true;
 
+    // Handle JLPT levels (e.g., N5) - exact match
+    if (levelFilter.startsWith('N')) {
+      return story.level === levelFilter;
+    }
+
+    // Handle Range Filters (e.g. "Level 1-3")
+    if (levelFilter.includes('-')) {
+      const match = levelFilter.match(/Level (\d+)-(\d+)/);
+      if (match) {
+        const min = parseInt(match[1], 10);
+        const max = parseInt(match[2], 10);
+
+        // Extract numeric level from story
+        let storyLvl = 0;
+        if (typeof story.level === 'number') {
+          storyLvl = story.level;
+        } else if (typeof story.level === 'string' && story.level.startsWith('Level')) {
+          const m = story.level.match(/\d+/);
+          storyLvl = m ? parseInt(m[0], 10) : 0;
+        }
+
+        return storyLvl >= min && storyLvl <= max;
+      }
+    }
+
+    // Fallback for single levels (though we are switching to ranges mostly)
+    // Or if story level format doesn't match expectations
     let storyLevelStr = '';
     if (typeof story.level === 'number') {
       storyLevelStr = `Level ${story.level}`;
@@ -73,16 +100,19 @@ function HomeContent() {
       if (lvl.startsWith('N')) {
         const match = lvl.match(/\d+/);
         const num = match ? parseInt(match[0], 10) : 5;
-        // Place after numeric levels. N5(easy)=110, N1(hard)=150
-        return 100 + (6 - num) * 10;
+        // Place after numeric levels. Ensure it's always last (base 10000)
+        return 10000 + (6 - num) * 10;
       }
-      return 999;
+      return 99999;
     };
     return getDifficultyScore(a.level) - getDifficultyScore(b.level);
   });
 
   // Filter Groups
-  const levelsTextbook = ['Level 1', 'Level 2'];
+  const levelsTextbook = [
+    'Level 1-3', 'Level 4-6', 'Level 7-9', 'Level 10-12',
+    'Level 13-15', 'Level 16-18', 'Level 19-21', 'Level 22-24'
+  ];
   const levelsJLPT = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   return (
@@ -198,8 +228,12 @@ function HomeContent() {
           </div>
 
           <div className="story-grid">
-            {filteredStories.map(story => (
-              <StoryCard key={story.id} story={story} />
+            {filteredStories.map((story, idx) => (
+              <StoryCard
+                key={story.id}
+                story={story}
+                index={story.level === 'N5' ? undefined : idx + 1}
+              />
             ))}
           </div>
 

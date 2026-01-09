@@ -25,8 +25,17 @@ export async function generateMetadata({ params }: Props) {
     const story = stories.find((s) => s.id === id);
     if (!story) return { title: 'Story Not Found' };
 
+    const stripTags = (html: string) => {
+        // First remove <rt>...</rt> content (furigana)
+        let text = html.replace(/<rt>[^<]*<\/rt>/g, '');
+        // Then remove all other tags
+        text = text.replace(/<[^>]+>/g, '');
+        return text;
+    };
+    const plainTitle = stripTags(story.title);
+
     return {
-        title: `${story.title} | Japanese Stories`,
+        title: `${plainTitle} | Japanese Stories`,
         description: story.excerpt,
     };
 }
@@ -39,9 +48,20 @@ export default async function StoryPage({ params }: Props) {
         notFound();
     }
 
+    const currentIndex = stories.findIndex((s) => s.id === id);
+    const prevStory = currentIndex > 0 ? stories[currentIndex - 1] : null;
+    const nextStory = currentIndex < stories.length - 1 ? stories[currentIndex + 1] : null;
+    // Hide serial number for N5 stories
+    const serialNumber = story.level === 'N5' ? undefined : currentIndex + 1;
+
     return (
         <div className="container">
-            <StoryContent story={story} />
+            <StoryContent
+                story={story}
+                serialNumber={serialNumber}
+                prevStoryId={prevStory?.id}
+                nextStoryId={nextStory?.id}
+            />
         </div>
     );
 }

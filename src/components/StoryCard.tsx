@@ -16,9 +16,10 @@ interface Story {
 
 interface StoryCardProps {
     story: Story;
+    index?: number;
 }
 
-const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
+const StoryCard: React.FC<StoryCardProps> = ({ story, index }) => {
     // Generate excerpt if missing (simple tag stripping)
     let excerpt = story.excerpt;
     if (!excerpt) {
@@ -34,17 +35,19 @@ const StoryCard: React.FC<StoryCardProps> = ({ story }) => {
     return (
         <Link href={`/stories/${story.id}`} className={styles.link}>
             <article className={styles.card}>
-                <div className={styles.iconWrapper}>
-                    {/* Placeholder icon - could be dynamic based on story content later */}
-                    📖
-                </div>
+                {index !== undefined && (
+                    <div className={styles.serialNumber}>
+                        {String(index).padStart(2, '0')}
+                    </div>
+                )}
+
                 <div className={styles.content}>
                     <div className={styles.header}>
                         <LevelBadge level={story.level} />
                     </div>
 
-                    <h3 className={styles.title}>{story.title}</h3>
-                    <p className={styles.excerpt}>{excerpt}</p>
+                    <h3 className={styles.title} dangerouslySetInnerHTML={{ __html: story.title }} />
+                    <div className={styles.excerpt} dangerouslySetInnerHTML={{ __html: excerpt }} />
 
                     <div className={styles.footer}>
                         <span className={styles.readMore}>Read Story</span>

@@ -36,20 +36,7 @@
 }
 
 /* Icon Wrapper - simplified or removed? Keeping generally simple */
-.iconWrapper {
-    flex-shrink: 0;
-    width: 60px;
-    height: 60px;
-    background-color: transparent;
-    border: 2px solid var(--accent-yellow);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    position: relative;
-    margin-bottom: 0.5rem;
-}
+
 
 .content {
     flex-grow: 1;
@@ -133,4 +120,18 @@
 
 .card:hover .readMore:after {
     transform: translateX(4px);
+}
+
+.serialNumber {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-gray);
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+    line-height: 1;
 }
