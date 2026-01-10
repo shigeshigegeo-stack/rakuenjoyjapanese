@@ -24,8 +24,10 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, index }) => {
     let excerpt = story.excerpt;
     if (!excerpt) {
         const html = story.story_html || story.content_html || story.content || '';
+        // Remove ruby pronunciation text first
+        const noRubyHtml = html.replace(/<rt>.*?<\/rt>/g, '').replace(/<rp>.*?<\/rp>/g, '');
         // Very basic strip tags, take first 60 chars
-        const text = html.replace(/<[^>]+>/g, '').replace(/[\r\n]+/g, ' ').trim();
+        const text = noRubyHtml.replace(/<[^>]+>/g, '').replace(/[\r\n]+/g, ' ').trim();
         excerpt = text.substring(0, 60) + (text.length > 60 ? '...' : '');
     }
 

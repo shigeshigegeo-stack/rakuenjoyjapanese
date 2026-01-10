@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         }}>
             <div className="container">
                 <Link href="/?reset=true" style={{ textDecoration: 'none', display: 'inline-block' }}>
-                    <div style={{ position: 'relative', width: '290px', height: '105px' }}>
+                    <div style={{ position: 'relative', width: '360px', height: '130px' }}>
                         <Image
                             src="/logo.png"
                             alt="楽 ～Enjoy Japanese～"
