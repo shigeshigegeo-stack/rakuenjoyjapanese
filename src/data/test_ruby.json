@@ -1,0 +1,6 @@
+{
+    "bad": "漢字withoutRuby",
+    "good": "<ruby>漢字<rt>かんじ</rt></ruby>",
+    "compound": "日本語withoutRuby",
+    "compound_good": "<ruby>日本語<rt>にほんご</rt></ruby>"
+}

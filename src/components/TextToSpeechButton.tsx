@@ -19,19 +19,35 @@ const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '
     }, []);
 
     const cleanText = (html: string) => {
-        // 1. Remove <rt>...</rt> tags entirely (reading info)
-        // <rt>き</rt> -> ""
-        let cleaned = html.replace(/<rt>.*?<\/rt>/g, '');
+        let cleaned = html;
 
-        // 2. Replace <br> and <p> with spaces/pauses to ensure natural reading
+        // 1. Extract furigana: Replace <ruby>...<rt>furigana</rt>...</ruby> with "furigana"
+        // Regex logic:
+        // Match <ruby>
+        //   (anything not including <ruby)
+        //   <rt>(furigana)</rt>
+        //   (anything not including <ruby)
+        // </ruby>
+        //
+        // NOTE: This simple regex works for standard content structure: <ruby>Kanji<rt>Kana</rt></ruby>
+        // It might need refinement if nested ruby or multiple rt tags exist, but for this app it should suffice.
+        cleaned = cleaned.replace(/<ruby>(?:(?!<rt>).)*<rt>(.*?)<\/rt>(?:(?!<\/ruby>).)*<\/ruby>/g, '$1');
+
+        // 2. Just in case: Remove any orphaned <rt> or <rp> (though step 1 should handle the main ones)
+        cleaned = cleaned.replace(/<rt>.*?<\/rt>/g, '');
+        cleaned = cleaned.replace(/<rp>.*?<\/rp>/g, '');
+
+        // 3. Replace <br> and <p> with spaces/pauses to ensure natural reading
         cleaned = cleaned.replace(/<br\s*\/?>/gi, ' ');
         cleaned = cleaned.replace(/<\/p>/gi, ' ');
 
-        // 3. Strip remaining HTML tags (<ruby>, <p>, etc)
+        // 4. Strip remaining HTML tags
         cleaned = cleaned.replace(/<[^>]+>/g, '');
 
-        // 4. Decode entities if necessary (basic ones)
+        // 5. Decode entities
         cleaned = cleaned.replace(/&nbsp;/g, ' ');
+
+
 
         return cleaned.trim();
     };

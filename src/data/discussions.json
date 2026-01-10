@@ -1,82 +1,242 @@
 [
     {
         "id": 1,
-        "level": 1,
-        "question_jp": "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きますか。",
-        "question_en": "What time do you get up every day?",
-        "answer_jp": "7<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。",
-        "answer_en": "I get up at 7:00."
+        "level": 3,
+        "question_jp": "あなたは「<ruby>朝型<rt>あさがた</rt></ruby>（<ruby>朝<rt>あさ</rt></ruby>が<ruby>好<rt>す</rt></ruby>き）」ですか、「<ruby>夜型<rt>よるがた</rt></ruby>（<ruby>夜<rt>よる</rt></ruby>が<ruby>好<rt>す</rt></ruby>き）」ですか。その<ruby>理由<rt>りゆう</rt></ruby>は？",
+        "question_en": "Are you a \"morning person\" or a \"night person\"? What is the reason?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>夜型<rt>よるがた</rt></ruby>です。<ruby>夜<rt>よる</rt></ruby>のほうが<ruby>静<rt>しず</rt></ruby>かで、<ruby>勉強<rt>べんきょう</rt></ruby>や<ruby>趣味<rt>しゅみ</rt></ruby>に<ruby>集中<rt>しゅうちゅう</rt></ruby>できるからです。",
+        "answer_en": "I'm a night person. Because it's quieter at night and I can concentrate on my studies or hobbies."
     },
     {
         "id": 2,
-        "level": 1,
-        "question_jp": "<ruby>昨日<rt>きのう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
-        "question_en": "What did you eat yesterday?",
-        "answer_jp": "ラーメンを <ruby>食<rt>た</rt></ruby>べました。",
-        "answer_en": "I ate ramen."
+        "level": 3,
+        "question_jp": "「<ruby>一生<rt>いっしょう</rt></ruby>、これしか<ruby>食<rt>た</rt></ruby>べられない」としたら、<ruby>何<rt>なに</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びますか。",
+        "question_en": "If you could only eat one thing for the rest of your life, what would you choose?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は おにぎりを<ruby>選<rt>えら</rt></ruby>びます。<ruby>毎日<rt>まいにち</rt></ruby> <ruby>食<rt>た</rt></ruby>べても<ruby>飽<rt>あ</rt></ruby>きないし、<ruby>色々<rt>いろいろ</rt></ruby>な<ruby>具<rt>ぐ</rt></ruby>があるからです。",
+        "answer_en": "I would choose onigiri. I don't get tired of it even if I eat it every day, and there are many different fillings."
     },
     {
         "id": 3,
-        "level": 1,
-        "question_jp": "<ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>どこ<rt></rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。",
-        "question_en": "Where do you go on Sundays?",
-        "answer_jp": "<ruby>図書館<rt>としょかん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
-        "answer_en": "I go to the library."
+        "level": 3,
+        "question_jp": "<ruby>何回<rt>なんかい</rt></ruby>も<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>見<rt>み</rt></ruby>てしまう<ruby>映画<rt>えいが</rt></ruby>やアニメはありますか。",
+        "question_en": "Are there any movies or anime that you watch over and over again?",
+        "answer_jp": "「となりのトトロ」を<ruby>何度<rt>なんど</rt></ruby>も<ruby>見<rt>み</rt></ruby>ています。<ruby>見<rt>み</rt></ruby>るたびに<ruby>優<rt>やさ</rt></ruby>しい<ruby>気持<rt>きも</rt></ruby>ちになれるからです。",
+        "answer_en": "I've watched \"My Neighbor Totoro\" many times. Because every time I watch it, it makes me feel kind and gentle."
     },
     {
         "id": 4,
-        "level": 1,
-        "question_jp": "<ruby>学校<rt>がっこう</rt></ruby>まで <ruby>どう<rt></rt></ruby>やって <ruby>行<rt>い</rt></ruby>きますか。",
-        "question_en": "How do you go to school?",
-        "answer_jp": "<ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。",
-        "answer_en": "I go by train."
+        "level": 3,
+        "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>を「<ruby>動物<rt>どうぶつ</rt></ruby>」に<ruby>例<rt>たと</rt></ruby>えると<ruby>何<rt>なに</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いますか。その<ruby>理由<rt>りゆう</rt></ruby>は？",
+        "question_en": "If you were to compare yourself to an animal, what would you be? Why?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>猫<rt>ねこ</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>います。<ruby>自分<rt>じぶん</rt></ruby>のペースで<ruby>自由<rt>じゆう</rt></ruby>に<ruby>過<rt>す</rt></ruby>ごすのが<ruby>好<rt>す</rt></ruby>きだからです。",
+        "answer_en": "I think I'm a cat. Because I like to spend time freely at my own pace."
     },
     {
         "id": 5,
-        "level": 1,
-        "question_jp": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>は <ruby>好<rt>す</rt></ruby>きですか。",
-        "question_en": "Do you like Japanese food?",
-        "answer_jp": "はい、<ruby>好<rt>す</rt></ruby>きです。<ruby>特<rt>とく</rt></ruby>に お<ruby>寿司<rt>すし</rt></ruby>が <ruby>好<rt>す</rt></ruby>きです。",
-        "answer_en": "Yes, I allow it. I especially like sushi."
+        "level": 3,
+        "question_jp": "<ruby>今<rt>いま</rt></ruby>まで<ruby>行<rt>い</rt></ruby>った<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、<ruby>一番<rt>いちばん</rt></ruby>の<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。",
+        "question_en": "Please tell me about your best memory from all the trips you've taken.",
+        "answer_jp": "<ruby>去年<rt>きょねん</rt></ruby> <ruby>行<rt>い</rt></ruby>った<ruby>沖縄<rt>おきなわ</rt></ruby>の<ruby>海<rt>うみ</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>の<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>です。<ruby>水<rt>みず</rt></ruby>がとてもきれいで<ruby>感動<rt>かんどう</rt></ruby>しました。",
+        "answer_en": "My best memory is the ocean in Okinawa that I went to last year. I was moved by how beautiful the water was."
     },
     {
         "id": 6,
-        "level": 2,
-        "question_jp": "<ruby>週末<rt>しゅうまつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか。",
-        "question_en": "What did you do on the weekend?",
-        "answer_jp": "<ruby>友<rt>とも</rt></ruby>だちと 映画（えいが）を <ruby>見<rt>み</rt></ruby>ました。",
-        "answer_en": "I watched a movie with my friend."
+        "level": 3,
+        "question_jp": "もし<ruby>一週間<rt>いっしゅうかん</rt></ruby>、まったくスマホを<ruby>使<rt>つか</rt></ruby>えないとしたら<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question_en": "If you couldn't use your smartphone at all for a week, what would you do?",
+        "answer_jp": "ずっと<ruby>読<rt>よ</rt></ruby>みたかった<ruby>本<rt>ほん</rt></ruby>をたくさん<ruby>読<rt>よ</rt></ruby>みます。それから、<ruby>外<rt>そと</rt></ruby>をゆっくり<ruby>散歩<rt>さんぽ</rt></ruby>したいです。",
+        "answer_en": "I would read many books I've been wanting to read. Also, I'd like to take a slow walk outside."
     },
     {
         "id": 7,
-        "level": 2,
-        "question_jp": "<ruby>今<rt>いま</rt></ruby> <ruby>一番<rt>いちばん</rt></ruby> <ruby>欲<rt>ほ</rt></ruby>しい <ruby>物<rt>もの</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
-        "question_en": "What do you want the most right now?",
-        "answer_jp": "<ruby>新<rt>あたら</rt></ruby>しい パソコンが <ruby>欲<rt>ほ</rt></ruby>しいです。",
-        "answer_en": "I want a new computer."
+        "level": 3,
+        "question_jp": "<ruby>最近<rt>さいきん</rt></ruby>、YouTubeやSNSでよく<ruby>見<rt>み</rt></ruby>ているものは<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "What have you been watching a lot on YouTube or SNS lately?",
+        "answer_jp": "<ruby>料理<rt>りょうり</rt></ruby>の<ruby>動画<rt>どうが</rt></ruby>をよく<ruby>見<rt>み</rt></ruby>ています。<ruby>簡単<rt>かんたん</rt></ruby>でおいしいレシピを<ruby>探<rt>さが</rt></ruby>すのが<ruby>楽<rt>たの</rt></ruby>しいです。",
+        "answer_en": "I often watch cooking videos. It's fun to look for simple and delicious recipes."
     },
     {
         "id": 8,
-        "level": 2,
-        "question_jp": "<ruby>夏休<rt>なつやす</rt></ruby>みは <ruby>どこ<rt></rt></ruby>かへ <ruby>行<rt>い</rt></ruby>きたいですか。",
-        "question_en": "Do you want to go anywhere for summer vacation?",
-        "answer_jp": "はい、<ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
-        "answer_en": "Yes, I want to go to Hokkaido."
+        "level": 3,
+        "question_jp": "あなたの<ruby>地元<rt>じもと</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>で、<ruby>一番<rt>いちばん</rt></ruby>おすすめのものを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "question_en": "Please tell me the most recommended dish from your hometown.",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>の<ruby>地元<rt>じもと</rt></ruby>はラーメンが<ruby>有名<rt>ゆうめい</rt></ruby>です。<ruby>特<rt>とく</rt></ruby>に<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べる<ruby>温<rt>あたた</rt></ruby>かい<ruby>味噌<rt>みそ</rt></ruby>ラーメンが<ruby>最高<rt>さいこう</rt></ruby>ですよ。",
+        "answer_en": "My hometown is famous for ramen. Especially a warm miso ramen in winter is the best."
     },
     {
         "id": 9,
-        "level": 2,
-        "question_jp": "<ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を もらいましたか。",
-        "question_en": "What did you receive for your birthday?",
-        "answer_jp": "<ruby>母<rt>はは</rt></ruby>から <ruby>時計<rt>とけい</rt></ruby>を もらいました。",
-        "answer_en": "I received a watch from my mother."
+        "level": 3,
+        "question_jp": "もしタイムマシンがあったら、<ruby>過去<rt>かこ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいですか、<ruby>未来<rt>みらい</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいですか。",
+        "question_en": "If you had a time machine, would you want to go to the past or the future?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>過去<rt>かこ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいです。<ruby>昔<rt>むかし</rt></ruby>の<ruby>自分<rt>じぶん</rt></ruby>の<ruby>国<rt>くに</rt></ruby>がどんな<ruby>様子<rt>ようす</rt></ruby>だったか<ruby>見<rt>み</rt></ruby>てみたいからです。",
+        "answer_en": "I want to go to the past. Because I want to see what my country looked like long ago."
     },
     {
         "id": 10,
-        "level": 2,
-        "question_jp": "どうして <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
-        "question_en": "Why do you study Japanese?",
-        "answer_jp": "<ruby>日本<rt>にほん</rt></ruby>の アニメが <ruby>好<rt>す</rt></ruby>きだからです。",
-        "answer_en": "Because I like Japanese anime."
+        "level": 3,
+        "question_jp": "ストレスがたまったとき、どうやって<ruby>解消<rt>かいしょう</rt></ruby>しますか。",
+        "question_en": "How do you relieve stress when it builds up?",
+        "answer_jp": "<ruby>好<rt>す</rt></ruby>きな<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>きながら、<ruby>温<rt>あたた</rt></ruby>かいお<ruby>風呂<rt>ふろ</rt></ruby>にゆっくり<ruby>入<rt>はい</rt></ruby>ります。",
+        "answer_en": "I take a long, warm bath while listening to my favorite music."
+    },
+    {
+        "id": 11,
+        "level": 3,
+        "question_jp": "<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>き</rt></ruby>て（あるいは<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>して）<ruby>驚<rt>おどろ</rt></ruby>いた<ruby>文化<rt>ぶんか</rt></ruby>の<ruby>違<rt>ちが</rt></ruby>いは<ruby>何<rt>なん</rt></ruby>ですか。",
+        "question_en": "What cultural difference surprised you after coming to Japan (or starting to study Japanese)?",
+        "answer_jp": "お<ruby>辞儀<rt>じぎ</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>に<ruby>驚<rt>おどろ</rt></ruby>きました。<ruby>色々<rt>いろいろ</rt></ruby>な<ruby>場面<rt>ばめん</rt></ruby>で<ruby>使<rt>つか</rt></ruby>い<ruby>分<rt>わ</rt></ruby>けられていて、とても<ruby>丁寧<rt>ていねい</rt></ruby>だと<ruby>思<rt>おも</rt></ruby>いました。",
+        "answer_en": "I was surprised by the culture of bowing. It's used in so many different situations, and I found it to be very polite."
+    },
+    {
+        "id": 12,
+        "level": 3,
+        "question_jp": "<ruby>透明人間<rt>とうめいにんげん</rt></ruby>になれたら、どこで<ruby>何<rt>なに</rt></ruby>をしたいですか。",
+        "question_en": "If you could become invisible, where would you go and what would you do?",
+        "answer_jp": "<ruby>飛行機<rt>ひこうき</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って、<ruby>世界中<rt>せかいじゅう</rt></ruby>のいろいろな<ruby>国<rt>くに</rt></ruby>をタダで<ruby>見<rt>み</rt></ruby>て<ruby>回<rt>まわ</rt></ruby>りたいです。",
+        "answer_en": "I’d like to get on a plane and travel around various countries in the world for free."
+    },
+    {
+        "id": 13,
+        "level": 3,
+        "question_jp": "コンビニに<ruby>行<rt>い</rt></ruby>くと、つい<ruby>買<rt>か</rt></ruby>ってしまうものはありますか。",
+        "question_en": "Is there something you always end up buying whenever you go to a convenience store?",
+        "answer_jp": "<ruby>新作<rt>しんさく</rt></ruby>のアイスクリームやスイーツがあると、つい<ruby>手<rt>て</rt></ruby>が<ruby>伸<rt>の</rt></ruby>びてしまいます。",
+        "answer_en": "Whenever there's a new ice cream or dessert, I can't help but pick it up."
+    },
+    {
+        "id": 14,
+        "level": 3,
+        "question_jp": "お<ruby>酒<rt>さけ</rt></ruby>やコーヒーを<ruby>飲<rt>の</rt></ruby>みながら、<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるのが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "What do you like to eat while drinking alcohol or coffee?",
+        "answer_jp": "コーヒーを<ruby>飲<rt>の</rt></ruby>むときは、<ruby>少<rt>すこ</rt></ruby>し<ruby>苦<rt>にが</rt></ruby>いチョコレートを<ruby>食<rt>た</rt></ruby>べるのが<ruby>好<rt>す</rt></ruby>きです。",
+        "answer_en": "When I drink coffee, I like to eat slightly bitter chocolate."
+    },
+    {
+        "id": 15,
+        "level": 3,
+        "question_jp": "ドラえもんの<ruby>道具<rt>どうぐ</rt></ruby>で、<ruby>一<rt>ひと</rt></ruby>つだけもらえるとしたら<ruby>何<rt>なに</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しいですか。",
+        "question_en": "If you could have only one of Doraemon's gadgets, which one would you want?",
+        "answer_jp": "「どこでもドア」が<ruby>欲<rt>ほ</rt></ruby>しいです。<ruby>会<rt>あ</rt></ruby>いたい<ruby>人<rt>ひと</rt></ruby>にすぐ<ruby>会<rt>あ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>けるからです。",
+        "answer_en": "I want the \"Anywhere Door.\" Because I could go see the people I want to see right away."
+    },
+    {
+        "id": 16,
+        "level": 3,
+        "question_jp": "<ruby>無人島<rt>むじんとう</rt></ruby>に<ruby>一<rt>ひと</rt></ruby>つだけ<ruby>持<rt>も</rt></ruby>っていくとしたら、<ruby>何<rt>なに</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていきますか。",
+        "question_en": "If you could take only one thing to a deserted island, what would it be?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>はサバイバルの<ruby>本<rt>ほん</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていきます。どうやって<ruby>生<rt>い</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>るか<ruby>知<rt>し</rt></ruby>りたいからです。",
+        "answer_en": "I would take a survival book. Because I'd want to know how to survive."
+    },
+    {
+        "id": 17,
+        "level": 3,
+        "question_jp": "「<ruby>死<rt>し</rt></ruby>ぬまでに<ruby>一度<rt>いちど</rt></ruby>は<ruby>行<rt>い</rt></ruby>ってみたい」と<ruby>思<rt>おも</rt></ruby>っている<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。",
+        "question_en": "Is there a place you want to visit at least once before you die?",
+        "answer_jp": "ボリビアのウユニ<ruby>塩湖<rt>えんこ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたいです。<ruby>空<rt>そら</rt></ruby>が<ruby>地面<rt>じめん</rt></ruby>に<ruby>映<rt>うつ</rt></ruby>る<ruby>景色<rt>けしき</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>の<ruby>目<rt>め</rt></ruby>で<ruby>見<rt>み</rt></ruby>てみたいです。",
+        "answer_en": "I want to go to Salar de Uyuni in Bolivia. I want to see the scenery where the sky is reflected on the ground with my own eyes."
+    },
+    {
+        "id": 18,
+        "level": 3,
+        "question_jp": "もし<ruby>明日<rt>あした</rt></ruby>が<ruby>地球<rt>ちきゅう</rt></ruby><ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>なら、<ruby>最後<rt>さいご</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたいですか。",
+        "question_en": "If tomorrow were the last day on Earth, what would you want to eat for your last meal?",
+        "answer_jp": "<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に、お<ruby>父<rt>とう</rt></ruby>さんかお<ruby>母<rt>かあ</rt></ruby>さんが<ruby>作<rt>つく</rt></ruby>った<ruby>家庭料理<rt>かていりょうり</rt></ruby>をゆっくり<ruby>食<rt>た</rt></ruby>べたいです。",
+        "answer_en": "I would want to take my time and eat a home-cooked meal made by my father or mother with my family."
+    },
+    {
+        "id": 19,
+        "level": 3,
+        "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>への「ご<ruby>褒美<rt>ほうび</rt></ruby>」として、ときどきおこなうことは<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "What is something you do occasionally as a \"reward\" for yourself?",
+        "answer_jp": "<ruby>仕事<rt>しごと</rt></ruby>や<ruby>勉強<rt>べんきょう</rt></ruby>が<ruby>忙<rt>いそが</rt></ruby>しかった<ruby>週末<rt>しゅうまつ</rt></ruby>に、<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>いケーキを<ruby>買<rt>か</rt></ruby>って<ruby>食<rt>た</rt></ruby>べます。",
+        "answer_en": "On weekends after I've been busy with work or study, I buy and eat a slightly expensive cake."
+    },
+    {
+        "id": 20,
+        "level": 3,
+        "question_jp": "<ruby>料理<rt>りょうり</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>りますか、それとも<ruby>買<rt>か</rt></ruby>いますか。<ruby>得意料理<rt>とくいりょうり</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "Do you cook for yourself or do you buy your meals? What is your specialty dish?",
+        "answer_jp": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>作<rt>つく</rt></ruby>ります。<ruby>得意料理<rt>とくいりょうり</rt></ruby>はスパゲッティ・カルボナーラです。",
+        "answer_en": "I cook for myself on weekends. My specialty is Spaghetti Carbonara."
+    },
+    {
+        "id": 21,
+        "level": 3,
+        "question_jp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>一番<rt>いちばん</rt></ruby><ruby>笑<rt>わら</rt></ruby>ったことは<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "What made you laugh the most recently?",
+        "answer_jp": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>言<rt>い</rt></ruby>い<ruby>間違<rt>まちが</rt></ruby>いをしたとき、とても<ruby>面白<rt>おもしろ</rt></ruby>くてみんなで<ruby>大笑<rt>おおわら</rt></ruby>いしました。",
+        "answer_en": "When my friend made a funny verbal slip, it was so hilarious that we all had a big laugh."
+    },
+    {
+        "id": 22,
+        "level": 3,
+        "question_jp": "<ruby>子供<rt>こども</rt></ruby>のころ、<ruby>将来<rt>しょうらい</rt></ruby><ruby>何<rt>なに</rt></ruby>になりたかったですか。",
+        "question_en": "What did you want to be when you were a child?",
+        "answer_jp": "<ruby>子供<rt>こども</rt></ruby>のころは、パイロットになりたかったです。<ruby>空<rt>そら</rt></ruby>を<ruby>自由<rt>じゆう</rt></ruby>に<ruby>飛<rt>と</rt></ruby>びたかったからです。",
+        "answer_en": "When I was a child, I wanted to be a pilot. Because I wanted to fly freely in the sky."
+    },
+    {
+        "id": 23,
+        "level": 3,
+        "question_jp": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>好<rt>す</rt></ruby>きですか、<ruby>嫌<rt>きら</rt></ruby>いですか。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をしますか。",
+        "question_en": "Do you like or dislike rainy days? What do you do on rainy days?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>があまり<ruby>好<rt>す</rt></ruby>きではありません。でも、<ruby>家<rt>いえ</rt></ruby>でゆっくり<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>るのは<ruby>好<rt>す</rt></ruby>きです。",
+        "answer_en": "I don't really like rainy days. However, I do like relaxing at home and watching movies."
+    },
+    {
+        "id": 24,
+        "level": 3,
+        "question_jp": "<ruby>日本語<rt>にほんご</rt></ruby><ruby>以外<rt>いがい</rt></ruby>に、<ruby>勉強<rt>べんきょう</rt></ruby>してみたい<ruby>言語<rt>げんご</rt></ruby>はありますか。その<ruby>理由<rt>りゆう</rt></ruby>は？",
+        "question_en": "Is there any language other than Japanese you want to study? Why?",
+        "answer_jp": "スペイン<ruby>語<rt>ご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>してみたいです。いつかスペインへ<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>って、<ruby>現地<rt>げんち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>したいからです。",
+        "answer_en": "I want to study Spanish. Because I want to travel to Spain someday and talk with the local people."
+    },
+    {
+        "id": 25,
+        "level": 3,
+        "question_jp": "<ruby>家<rt>いえ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby>リラックスできる<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。",
+        "question_en": "Where is the most relaxing place in your house?",
+        "answer_jp": "リビングのソファの<ruby>上<rt>うえ</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きです。そこでコーヒーを<ruby>飲<rt>の</rt></ruby>むのが<ruby>私<rt>わたし</rt></ruby>の<ruby>癒<rt>い</rt></ruby>やしです。",
+        "answer_en": "I like being on the sofa in the living room the most. Drinking coffee there is my way of relaxing."
+    },
+    {
+        "id": 26,
+        "level": 3,
+        "question_jp": "「<ruby>甘<rt>あま</rt></ruby>いもの」と「<ruby>辛<rt>から</rt></ruby>いもの」、どちらが<ruby>我慢<rt>がまん</rt></ruby>できませんか。",
+        "question_en": "Between \"sweets\" and \"spicy food,\" which one can't you resist?",
+        "answer_jp": "<ruby>私<rt>わたし</rt></ruby>は<ruby>甘<rt>あま</rt></ruby>いものが<ruby>我慢<rt>がまん</rt></ruby>できません。<ruby>疲<rt>つか</rt></ruby>れていると、ついチョコレートを<ruby>食<rt>た</rt></ruby>べてしまいます。",
+        "answer_en": "I can't resist sweets. When I'm tired, I end up eating chocolate before I know it."
+    },
+    {
+        "id": 27,
+        "level": 3,
+        "question_jp": "あなたの<ruby>国<rt>くに</rt></ruby>で<ruby>今<rt>いま</rt></ruby>、<ruby>一番<rt>いちばん</rt></ruby><ruby>流行<rt>はや</rt></ruby>っていることは<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "What is the most popular thing in your country right now?",
+        "answer_jp": "<ruby>今<rt>いま</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>の<ruby>国<rt>くに</rt></ruby>ではキャンプがとても<ruby>流行<rt>はや</rt></ruby>っています。<ruby>週末<rt>しゅうまつ</rt></ruby>に<ruby>山<rt>やま</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いですよ。",
+        "answer_en": "Right now, camping is very popular in my country. Many people go to the mountains on weekends."
+    },
+    {
+        "id": 28,
+        "level": 3,
+        "question_jp": "<ruby>人<rt>ひと</rt></ruby>から<ruby>言<rt>い</rt></ruby>われて、<ruby>一番<rt>いちばん</rt></ruby>うれしかった<ruby>言葉<rt>ことば</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。",
+        "question_en": "What is the happiest thing someone has ever said to you?",
+        "answer_jp": "「あなたがいてくれてよかった」と<ruby>言<rt>い</rt></ruby>われたとき、とてもうれしくて<ruby>感動<rt>かんどう</rt></ruby>しました。",
+        "answer_en": "When someone told me, \"I'm glad you're here,\" I was very happy and deeply moved."
+    },
+    {
+        "id": 29,
+        "level": 3,
+        "question_jp": "あなたが<ruby>住<rt>す</rt></ruby>んでいる<ruby>町<rt>まち</rt></ruby>で、<ruby>一番<rt>いちばん</rt></ruby>きれいな<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。",
+        "question_en": "Where is the most beautiful place in the town where you live?",
+        "answer_jp": "<ruby>近<rt>ちか</rt></ruby>くにある<ruby>大<rt>おお</rt></ruby>きな<ruby>公園<rt>こうえん</rt></ruby>の<ruby>噴水<rt>ふんすい</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>きれいです。<ruby>夜<rt>よる</rt></ruby>はライトアップされていて<ruby>素敵<rt>すてき</rt></ruby>ですよ。",
+        "answer_en": "The fountain in the large park nearby is the most beautiful. It's lovely at night when it's lit up."
+    },
+    {
+        "id": 30,
+        "level": 3,
+        "question_jp": "10<ruby>年後<rt>ねんご</rt></ruby>の<ruby>自分<rt>じぶん</rt></ruby>は、どこで<ruby>何<rt>なに</rt></ruby>をしていると<ruby>思<rt>おも</rt></ruby>いますか。",
+        "question_en": "Where and what do you think you will be doing 10 years from now?",
+        "answer_jp": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きながら、<ruby>日本<rt>にほん</rt></ruby>で<ruby>家族<rt>かぞく</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しく<ruby>暮<rt>く</rt></ruby>らしていると<ruby>思<rt>おも</rt></ruby>います。",
+        "answer_en": "I think I will be working at a Japanese company and living happily with my family in Japan."
     }
 ]

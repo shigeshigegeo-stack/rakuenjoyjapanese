@@ -251,10 +251,40 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
                 </div>
             )}
 
-            <div style={{ marginTop: '2rem', textAlign: 'center' }}>
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <a href="/" style={{ color: 'var(--accent-red)', textDecoration: 'underline', fontWeight: 'bold' }}>
                     ← Back to Lesson List
                 </a>
+
+                <div style={{ display: 'flex', gap: '10px' }}>
+                    {prevStoryId ? (
+                        <a href={`/stories/${prevStoryId}`} className="nav-btn" aria-label="Previous Story">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M15 18l-6-6 6-6" />
+                            </svg>
+                        </a>
+                    ) : (
+                        <span className="nav-btn disabled">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M15 18l-6-6 6-6" />
+                            </svg>
+                        </span>
+                    )}
+
+                    {nextStoryId ? (
+                        <a href={`/stories/${nextStoryId}`} className="nav-btn" aria-label="Next Story">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M9 18l6-6-6-6" />
+                            </svg>
+                        </a>
+                    ) : (
+                        <span className="nav-btn disabled">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M9 18l6-6-6-6" />
+                            </svg>
+                        </span>
+                    )}
+                </div>
             </div>
 
             <style jsx>{`

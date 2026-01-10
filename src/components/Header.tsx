@@ -17,7 +17,7 @@ const Header: React.FC = () => {
                 <Link href="/?reset=true" style={{ textDecoration: 'none', display: 'inline-block' }}>
                     <div style={{ position: 'relative', width: '290px', height: '105px' }}>
                         <Image
-                            src="/logo.jpg"
+                            src="/logo.png"
                             alt="楽 ～Enjoy Japanese～"
                             fill
                             style={{ objectFit: 'contain' }}

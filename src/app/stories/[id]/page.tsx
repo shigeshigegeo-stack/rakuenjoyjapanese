@@ -49,10 +49,30 @@ export default async function StoryPage({ params }: Props) {
     }
 
     const currentIndex = stories.findIndex((s) => s.id === id);
-    const prevStory = currentIndex > 0 ? stories[currentIndex - 1] : null;
-    const nextStory = currentIndex < stories.length - 1 ? stories[currentIndex + 1] : null;
-    // Hide serial number for N5 stories
-    const serialNumber = story.level === 'N5' ? undefined : currentIndex + 1;
+
+    // Find previous non-N5 story
+    let prevStory = null;
+    for (let i = currentIndex - 1; i >= 0; i--) {
+        if (stories[i].level !== 'N5') {
+            prevStory = stories[i];
+            break;
+        }
+    }
+
+    // Find next non-N5 story
+    let nextStory = null;
+    for (let i = currentIndex + 1; i < stories.length; i++) {
+        if (stories[i].level !== 'N5') {
+            nextStory = stories[i];
+            break;
+        }
+    }
+    // Calcluate serial number based on non-N5 stories
+    let serialNumber: number | undefined;
+    if (story.level !== 'N5') {
+        const nonN5Stories = stories.filter(s => s.level !== 'N5');
+        serialNumber = nonN5Stories.findIndex(s => s.id === id) + 1;
+    }
 
     return (
         <div className="container">

@@ -111,7 +111,8 @@ function HomeContent() {
   // Filter Groups
   const levelsTextbook = [
     'Level 1-3', 'Level 4-6', 'Level 7-9', 'Level 10-12',
-    'Level 13-15', 'Level 16-18', 'Level 19-21', 'Level 22-24'
+    'Level 13-15', 'Level 16-18', 'Level 19-21', 'Level 22-24',
+    'Level 25-27'
   ];
   const levelsJLPT = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
@@ -228,13 +229,85 @@ function HomeContent() {
           </div>
 
           <div className="story-grid">
-            {filteredStories.map((story, idx) => (
-              <StoryCard
-                key={story.id}
-                story={story}
-                index={story.level === 'N5' ? undefined : idx + 1}
-              />
-            ))}
+            {filteredStories.map((story) => {
+              // Calculate index based on non-N5 stories only
+              let displayIndex: number | undefined;
+              if (story.level !== 'N5') {
+                const nonN5Stories = stories.filter(s => s.level !== 'N5');
+                displayIndex = nonN5Stories.findIndex(s => s.id === story.id) + 1;
+              }
+
+              return (
+                <StoryCard
+                  key={story.id}
+                  story={story}
+                  index={displayIndex}
+                />
+              );
+            })}
+          </div>
+
+          {/* Floating Action Buttons */}
+          <div style={{
+            position: 'fixed',
+            bottom: '2rem',
+            right: '2rem',
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '1rem',
+            zIndex: 1000
+          }}>
+            {/* Scroll to Bottom */}
+            <button
+              onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
+              style={{
+                width: '50px',
+                height: '50px',
+                borderRadius: '50%',
+                backgroundColor: 'var(--accent-red)',
+                color: 'white',
+                border: 'none',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '1.5rem',
+                transition: 'transform 0.2s, background-color 0.2s',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+              title="Go to Bottom"
+              aria-label="Go to Bottom"
+            >
+              ↓
+            </button>
+
+            {/* Scroll to Top */}
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              style={{
+                width: '50px',
+                height: '50px',
+                borderRadius: '50%',
+                backgroundColor: 'var(--accent-red)',
+                color: 'white',
+                border: 'none',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '1.5rem',
+                transition: 'transform 0.2s, background-color 0.2s',
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+              onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+              title="Back to Top"
+              aria-label="Back to Top"
+            >
+              ↑
+            </button>
           </div>
 
           {filteredStories.length === 0 && (
