@@ -112,7 +112,7 @@ function HomeContent() {
   const levelsTextbook = [
     'Level 1-3', 'Level 4-6', 'Level 7-9', 'Level 10-12',
     'Level 13-15', 'Level 16-18', 'Level 19-21', 'Level 22-24',
-    'Level 25-27'
+    'Level 25-27', 'Level 28-30'
   ];
   const levelsJLPT = ['N5', 'N4', 'N3', 'N2', 'N1'];
 

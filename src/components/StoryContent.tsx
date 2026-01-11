@@ -111,7 +111,7 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>Reading Goal:</strong><br />
+                    <strong>クエスチョン / Question:</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
