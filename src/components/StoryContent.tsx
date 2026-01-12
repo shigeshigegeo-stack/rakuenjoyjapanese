@@ -3,6 +3,10 @@
 import React, { useState } from 'react';
 import TextToSpeechButton from './TextToSpeechButton';
 
+
+
+import LevelBadge from './LevelBadge';
+
 // Define the comprehensive Story interface matching the new data structure
 interface Story {
     id: string;
@@ -56,8 +60,44 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
         setShowResults(prev => ({ ...prev, [quizIdx]: true }));
     };
 
+    // Calculate Level and Sub-Level from ID (e.g., STORY_L01_01)
+    let levelDisplay = null;
+    let blossomCount = 0;
+
+    const match = story.id.match(/STORY_L(\d+)_(\d+)/);
+    if (match) {
+        const levelNum = parseInt(match[1], 10);
+        const subLevelNum = parseInt(match[2], 10);
+
+        // Format: "Level 1"
+        levelDisplay = `Level ${levelNum}`;
+        // Blossoms: 1 to 4 based on sub-level
+        blossomCount = Math.max(0, Math.min(4, subLevelNum));
+    } else if (story.level) {
+        // Fallback if ID doesn't match standard format
+        levelDisplay = typeof story.level === 'number' ? `Level ${story.level}` : story.level;
+    }
+
     return (
         <div className={`story-container animate-fade-in`}>
+            {/* Level and Blossom Indicator using existing LevelBadge style logic */}
+            <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                {levelDisplay && (
+                    <LevelBadge level={levelDisplay} />
+                )}
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    {Array.from({ length: blossomCount }).map((_, i) => (
+                        <span key={i} style={{ fontSize: '1.2rem', marginLeft: '2px' }}>🌸</span>
+                    ))}
+                    <span style={{ fontSize: '0.8rem', color: '#888', marginLeft: '8px', fontWeight: 'normal' }}>
+                        {blossomCount === 1 && '(short)'}
+                        {blossomCount === 2 && '(medium)'}
+                        {blossomCount === 3 && '(long)'}
+                        {blossomCount === 4 && '(very long)'}
+                    </span>
+                </div>
+            </div>
+
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '2px solid var(--accent-red)', paddingBottom: '10px', marginBottom: '20px', position: 'relative', zIndex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                     {/* Serial Number styled like StoryCard watermark but inline */}
@@ -111,7 +151,7 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>クエスチョン / Question:</strong><br />
+                    <strong>Questions:</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
@@ -241,8 +281,8 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
                                         color: selectedAnswers[quizIdx] === quiz.answer_index ? '#4CAF50' : '#D91E18'
                                     }}>
                                         {selectedAnswers[quizIdx] === quiz.answer_index
-                                            ? <span dangerouslySetInnerHTML={{ __html: '正解です！ (Correct!)' }} />
-                                            : <span dangerouslySetInnerHTML={{ __html: `残念、不正解です。 (Incorrect. Answer: ${options[quiz.answer_index]})` }} />}
+                                            ? <span dangerouslySetInnerHTML={{ __html: '<ruby>正解<rt>せいかい</rt></ruby>です！ (Correct!)' }} />
+                                            : <span dangerouslySetInnerHTML={{ __html: `<ruby>不正解<rt>ふせいかい</rt></ruby>です。 (Incorrect. Answer: ${options[quiz.answer_index]})` }} />}
                                     </div>
                                 )}
                             </div>

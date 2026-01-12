@@ -36,7 +36,7 @@ const StoryCard: React.FC<StoryCardProps> = ({ story, index }) => {
 
     return (
         <Link href={`/stories/${story.id}`} className={styles.link}>
-            <article className={styles.card}>
+            <article className={styles.card} id={`story-${story.id}`}>
                 {index !== undefined && (
                     <div className={styles.serialNumber}>
                         {String(index).padStart(2, '0')}

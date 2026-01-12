@@ -1,21 +1,48 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Header: React.FC = () => {
+    const pathname = usePathname();
+
+    // Determine the home link based on current page
+    let homeLink = '/?reset=true';
+    if (pathname && pathname.startsWith('/stories/')) {
+        const storyId = pathname.split('/').pop();
+        if (storyId) {
+            homeLink = `/?returnTo=${storyId}`;
+        }
+    }
+
     return (
         <header style={{
-            padding: '0.8rem 0',
+            padding: '0',
             marginBottom: '2rem',
             borderBottom: '1px solid var(--border-color)',
             textAlign: 'center',
             backgroundColor: 'rgba(255, 255, 255, 0.8)',
             backdropFilter: 'blur(10px)',
             position: 'relative',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
         }}>
-            <div className="container">
-                <Link href="/?reset=true" style={{ textDecoration: 'none', display: 'inline-block' }}>
-                    <div style={{ position: 'relative', width: '360px', height: '130px' }}>
+            {/* Top Decorative Band */}
+            <div style={{
+                width: '100%',
+                height: '50px',
+                backgroundImage: 'url(/header-pattern.jpg)',
+                backgroundSize: 'auto 100%',
+                backgroundRepeat: 'repeat-x',
+                opacity: 0.9,
+            }} />
+
+            <div className="container" style={{ padding: '0', zIndex: 1, margin: '0 0 -8px 0' }}>
+                <Link href={homeLink} style={{ textDecoration: 'none', display: 'inline-block', lineHeight: 0 }}>
+                    <div style={{ position: 'relative', width: '540px', height: '195px' }}>
                         <Image
                             src="/logo.png"
                             alt="楽 ～Enjoy Japanese～"
@@ -26,6 +53,16 @@ const Header: React.FC = () => {
                     </div>
                 </Link>
             </div>
+
+            {/* Bottom Decorative Band */}
+            <div style={{
+                width: '100%',
+                height: '50px',
+                backgroundImage: 'url(/header-pattern.jpg)',
+                backgroundSize: 'auto 100%',
+                backgroundRepeat: 'repeat-x',
+                opacity: 0.9,
+            }} />
         </header>
     );
 };

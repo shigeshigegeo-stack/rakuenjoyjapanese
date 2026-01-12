@@ -40,7 +40,7 @@ const DailyDiscussion: React.FC = () => {
     return (
         <section className={styles.container}>
             <div className={styles.header}>
-                本日のディスカッション (Today's Discussion)
+                今日のディスカッション (Today's Discussion)
             </div>
 
             <div

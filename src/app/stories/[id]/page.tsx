@@ -1,10 +1,10 @@
 import React from 'react';
-import storiesFromData from '@/data/stories.json';
+import { stories } from '@/data/textbooks';
 import StoryContent from '@/components/StoryContent';
 import { notFound } from 'next/navigation';
 
 // Type assertion since importing json directly
-const stories = storiesFromData as any[];
+// const stories = storiesFromData as any[];
 
 export function generateStaticParams() {
     return stories.map((story) => ({
@@ -40,6 +40,11 @@ export async function generateMetadata({ params }: Props) {
     };
 }
 
+import ScrollButtons from '@/components/ScrollButtons';
+import BackButton from '@/components/BackButton';
+
+// ... (imports remain)
+
 export default async function StoryPage({ params }: Props) {
     const { id } = await params
     const story = stories.find((s) => s.id === id);
@@ -67,7 +72,8 @@ export default async function StoryPage({ params }: Props) {
             break;
         }
     }
-    // Calcluate serial number based on non-N5 stories
+
+    // Calculate serial number based on non-N5 stories
     let serialNumber: number | undefined;
     if (story.level !== 'N5') {
         const nonN5Stories = stories.filter(s => s.level !== 'N5');
@@ -82,6 +88,7 @@ export default async function StoryPage({ params }: Props) {
                 prevStoryId={prevStory?.id}
                 nextStoryId={nextStory?.id}
             />
+            <ScrollButtons />
         </div>
     );
 }

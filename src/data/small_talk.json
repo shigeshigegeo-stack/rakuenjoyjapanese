@@ -1,0 +1,212 @@
+[
+    {
+        "id": "st_001",
+        "category": "Natural Nuance",
+        "sub_category": "Emotional Onomatopoeia",
+        "topic": "ぺこぺこ",
+        "catchphrase": "The Sound of Your Empty Stomach?",
+        "keyword": "ぺこぺこ",
+        "reading": "ぺこぺこ",
+        "quick_meaning": "Starving / Very hungry (casual)\nおなかがとてもすいていること",
+        "cultural_background": "This is a very common onomatopoeia used in casual conversation. It mimics the sound or feeling of an empty stomach caving in. Be careful: 'peko peko' can also describe the action of bowing repeatedly (subserviently), but in the context of food, it always means hungry.\nカジュアルな会話でよく使われるオノマトペです。おなかがへこむ様子を表しています。「頭をぺこぺこ下げる」のように、お辞儀をする意味で使うこともありますが、食事の話題では「おなかがすいた」という意味です。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたはおなかがぺこぺこの時、一番何が食べたいですか？",
+            "teacher_question_en": "When you are starving (peko peko), what do you want to eat the most?"
+        },
+        "ask_your_teacher": "先生、今日のランチ（夕飯）の前、おなかはぺこぺこでしたか？\n(Sensei, were you 'peko peko' before today's lunch/dinner?)",
+        "mission": "Next time you are hungry, tell your friend or teacher: \"Onaka peko peko desu!\""
+    },
+    {
+        "id": "st_002",
+        "category": "Daily & Modern",
+        "sub_category": "SNS & Digital Lingo",
+        "topic": "ワンチャン",
+        "catchphrase": "Is there a chance?",
+        "keyword": "ワンチャン",
+        "reading": "わんちゃん",
+        "quick_meaning": "One Chance / Possibly / Maybe\n「もしかしたらできるかもしれない」という可能性",
+        "cultural_background": "Short for 'One Chance'. Originally from Mahjong, now widely used by young people to mean 'there is a possibility' or 'possibly'. It's very casual slang.\n麻雀用語の「ワンチャンス」が由来ですが、今は若者が「可能性がある」「もしかしたら」という意味で使います。とてもカジュアルなスラングです。",
+        "communication_starters": {
+            "teacher_question_jp": "今週末、旅行に行くワンチャンはありますか？",
+            "teacher_question_en": "Is there a 'one chan' (chance) you'll go on a trip this weekend?"
+        },
+        "ask_your_teacher": "先生、今日早く終わるワンチャンありますか？\n(Sensei, is there a 'one chan' we finish early today?)",
+        "mission": "Use 'One Chan' when asking a friend about a possibility."
+    },
+    {
+        "id": "st_003",
+        "category": "Deep Culture",
+        "sub_category": "Mindset & Values",
+        "topic": "一期一会",
+        "catchphrase": "Once in a Lifetime Encounter",
+        "keyword": "一期一会",
+        "reading": "いちごいちえ",
+        "quick_meaning": "Once-in-a-lifetime meeting\n一生に一度しかない出会い・機会",
+        "cultural_background": "A tea ceremony idiom. It teaches us to cherish every meeting as if it were the last, because this exact moment will never occur again.\n茶道の言葉です。この出会いは二度とないかもしれないので、この瞬間を大切にしましょうという教えです。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたにとって「一期一会」の出会いはありましたか？",
+            "teacher_question_en": "Have you had a 'once-in-a-lifetime' encounter?"
+        },
+        "ask_your_teacher": "先生、このクラスも一期一会ですね。\n(Sensei, this class is also 'ichigo ichie', isn't it?)",
+        "mission": "Thank someone for their time today, thinking of Ichigo Ichie."
+    },
+    {
+        "id": "st_004",
+        "category": "Daily & Modern",
+        "sub_category": "SNS & Digital Lingo",
+        "topic": "タイパ (Time Performance)",
+        "catchphrase": "Is it worth your time?",
+        "keyword": "タイパ",
+        "reading": "たいぱ",
+        "quick_meaning": "Time Efficiency / 'Time Performance'\nかけた時間に対する満足度や効果（タイム・パフォーマンスの略）",
+        "cultural_background": "A modern slang popularized by Gen Z. It reflects the desire to consume content (movies, videos) efficiently, often at 1.5x speed. If something takes too long for little reward, it has 'bad taipa'.\nZ世代を中心に広がった言葉です。映画や動画を倍速で見たりして、時間を効率よく使いたいという心理を表しています。時間がかかるのに効果が薄いと「タイパが悪い」と言います。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたは動画を見る時、早送りしたり倍速で見たりしますか？それはなぜですか？",
+            "teacher_question_en": "Do you ever skip or watch videos at double speed? Why?"
+        },
+        "ask_your_teacher": "先生、映画を見る時は「タイパ」重視ですか？それともじっくり見ますか？\n(Sensei, do you focus on 'taipa' when watching movies, or do you take your time?)",
+        "mission": "Explain your opinion on 'watching movies at 2x speed' to a friend or teacher."
+    },
+    {
+        "id": "st_005",
+        "category": "Natural Nuance",
+        "sub_category": "Emotional Onomatopoeia",
+        "topic": "ぎりぎり",
+        "catchphrase": "Just in the nick of time!",
+        "keyword": "ぎりぎり",
+        "reading": "ぎりぎり",
+        "quick_meaning": "At the last moment / Barely / Just barely\n限界や期限の直前であること。余裕がない様子。",
+        "cultural_background": "Used when you arrive just before the train leaves, or pass a test with the minimum score. It implies a close call and often a sense of relief ('Safe!').\n電車のドアが閉まる直前に乗ったり、最低点で合格したりした時に使います。「セーフ！」という安堵感とセットで使うことが多いです。",
+        "communication_starters": {
+            "teacher_question_jp": "今朝、学校（仕事）に何時に着きましたか？ぎりぎりでしたか？",
+            "teacher_question_en": "What time did you arrive at school/work today? Was it 'giri-giri' (barely made it)?"
+        },
+        "ask_your_teacher": "先生、今月のスケジュールはぎりぎりですか？\n(Sensei, is your schedule for this month 'giri-giri' (tight)?)\n※ Or ask: 旅行の準備は当日ぎりぎりですか？ (Do you prepare for trips 'giri-giri' on the day?)",
+        "mission": "Describe a time when you were 'giri-giri' safe (e.g. catching a bus)."
+    },
+    {
+        "id": "st_006",
+        "category": "Deep Culture",
+        "sub_category": "Mindset & Values",
+        "topic": "七転び八起き",
+        "catchphrase": "Fall seven times, stand up eight.",
+        "keyword": "七転び八起き",
+        "reading": "ななころびやおき",
+        "quick_meaning": "Resilience / Never giving up\n何度失敗しても、あきらめずに立ち上がって努力すること。",
+        "cultural_background": "'Daruma' dolls are associated with this proverb because they have weighted bottoms and always stand back up when pushed over. Failure is not the end, but a step to success.\n「だるま」という人形は、倒してもすぐに起き上がるので、この言葉のシンボルになっています。失敗は終わりではなく、次の成功へのステップです。",
+        "communication_starters": {
+            "teacher_question_jp": "今まで、失敗してもあきらめずに頑張ったことはありますか？",
+            "teacher_question_en": "Have you ever persevered after struggling or failing at something?"
+        },
+        "ask_your_teacher": "先生が「七転び八起き」した経験を教えてください。\n(Sensei, please tell me about your 'Nana-korobi Ya-oki' experience.)",
+        "mission": "Use this phrase to encourage a friend who made a mistake."
+    },
+    {
+        "id": "st_007",
+        "category": "Daily & Modern",
+        "sub_category": "Workplace Vibes",
+        "topic": "ほうれんそう",
+        "catchphrase": "The Magic Formula for Japanese Business",
+        "keyword": "ほうれんそう (報・連・相)",
+        "reading": "ほうれんそう",
+        "quick_meaning": "Report, Contact, Consult\n仕事で大切な3つのコミュニケーション（報告・連絡・相談）",
+        "cultural_background": "It sounds like 'spinach' (vegetable), but it stands for Hōkoku (Report), Renraku (Contact), and Sōdan (Consult). In Japanese companies, keeping your team updated is often more important than individual results. Silence is considered dangerous.\n野菜の「ほうれん草」と同じ発音ですが、仕事の基本ルールです。日本の会社では、自分の判断で勝手に進めるよりも、こまめに情報を共有することが評価されます。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたの国の職場や学校では、上司や先生にどのくらい頻繁に報告しますか？",
+            "teacher_question_en": "In your country's workplace/school, how often do you report to your boss/teacher?"
+        },
+        "ask_your_teacher": "先生は仕事で「ほうれんそう」のミスをしたことはありますか？\n(Sensei, have you ever made a 'Hou-Ren-So' mistake at work?)",
+        "mission": "Roleplay: Report a problem to your 'boss' (teacher) using 'Hou-Ren-So'.",
+        "can_do": "I can explain the importance of distinct communication rules in Japanese business culture."
+    },
+    {
+        "id": "st_008",
+        "category": "Daily & Modern",
+        "sub_category": "Soft Rules",
+        "topic": "エスカレーターの立ち位置 (Standing on Escalators)",
+        "catchphrase": "To Stand Left or Right, That is the Question.",
+        "keyword": "エスカレーターの立ち位置 (Standing Position)",
+        "reading": "えすかれーたーのたちいち",
+        "quick_meaning": "Escalator Etiquette\n地域によって異なる、エスカレーターで立つ側と歩く側のルール",
+        "cultural_background": "Domain: Life/Public\nIn Tokyo, people stand on the LEFT. In Osaka, they stand on the RIGHT. This implicit rule ensures smooth flow during rush hour. Standing in the middle or blocking the 'walking lane' can cause silent frustration.\n【領域：生活・公共】東京では左側、大阪では右側に立ちます。ラッシュ時にスムーズに移動するための暗黙の了解です。真ん中に立ったり、歩く側を塞ぐと、無言のプレッシャーを感じることがあります。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたの国ではエスカレーターに乗る時のルールはありますか？",
+            "teacher_question_en": "Are there any rules for riding escalators in your country?"
+        },
+        "ask_your_teacher": "先生は東京と大阪で、エスカレーターの立ち位置を間違えたことはありますか？\n(Sensei, have you ever mixed up the standing side in Tokyo vs Osaka?)",
+        "mission": "Observe (or recall) escalator behavior and explain the 'rule' to the teacher.",
+        "can_do": "I can discuss implicit public manners and regional differences in Japan."
+    },
+    {
+        "id": "st_009",
+        "category": "Natural Nuance",
+        "sub_category": "Conversational Glue",
+        "topic": "確かに (Indeed/True)",
+        "catchphrase": "The Ultimate Agreeing Machine",
+        "keyword": "確かに",
+        "reading": "たしかに",
+        "quick_meaning": "Indeed / That's true / You have a point\n相手の意見に強く同意したり、納得したことを示す相槌",
+        "cultural_background": "Domain: Life/Work\nA versatile 'glue' word used to show you are listening and agree with the logic. It's more intelligent-sounding than just 'hai' or 'so desu ne'. It validates the other person's opinion.\n【領域：生活・仕事】「はい」や「そうですね」よりも、相手の論理に納得していることを示す知的な相槌です。会話をスムーズにし、相手を肯定する効果があります。",
+        "communication_starters": {
+            "teacher_question_jp": "誰かと話していて、相手の意見に「なるほど！」と思ったことはありますか？",
+            "teacher_question_en": "Have you ever thought 'That makes sense!' while talking to someone?"
+        },
+        "ask_your_teacher": "先生、私が変な質問をしても「確かに」と言ってくれますか？\n(Sensei, will you say 'Tashikani' even if I ask a weird question?)",
+        "mission": "Use 'Tashikani' at least 3 times during the conversation to agree with the teacher.",
+        "can_do": "I can use varied 'aizuchi' to show active listening and agreement."
+    },
+    {
+        "id": "st_010",
+        "category": "Natural Nuance",
+        "sub_category": "Katakana World",
+        "topic": "マウントをとる (Mounting)",
+        "catchphrase": "Are You Above Me?",
+        "keyword": "マウントをとる",
+        "reading": "まうんとをとる",
+        "quick_meaning": "To one-up someone / To assert dominance\n優位に立とうとする、自慢話で相手を見下すこと",
+        "cultural_background": "Domain: Life/SNS\nOriginally from MMA (mounting position). In conversation, it means explicitly or subtly bragging to establish superiority over others (e.g., 'I haven't slept at all' busy-bragging). It is disliked in Japanese harmony culture.\n【領域：生活・SNS】格闘技のポジションから来た言葉です。会話でさりげなく自慢したりして、「私の方が上だ」とアピールすることを指します。日本の「和」を乱す行為として嫌われます。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたの周りに、いつも自慢ばかりしてくる人はいますか？",
+            "teacher_question_en": "Is there anyone around you who is always bragging?"
+        },
+        "ask_your_teacher": "先生、教師同士で「マウントをとる」ことはありますか？\n(Sensei, do teachers ever 'take mount' on each other?)",
+        "mission": "Describe a situation where someone 'took mount' (bragged) to you.",
+        "can_do": "I can describe complex social interactions and annoying behaviors using modern slang."
+    },
+    {
+        "id": "st_011",
+        "category": "Deep Culture",
+        "sub_category": "Seasonal Japan",
+        "topic": "お花見 (Hanami)",
+        "catchphrase": "Picnic Under the Pink Snow",
+        "keyword": "お花見",
+        "reading": "おはなみ",
+        "quick_meaning": "Cherry Blossom Viewing\n桜の木の下で食事やお酒を楽しむ春の行事",
+        "cultural_background": "Domain: Life/Culture\nMore than just looking at flowers, it's a social event to welcome spring. Companies often reserve spots in parks for drinking parties. It symbolizes the transience of life (because cherry blossoms fall quickly).\n【領域：生活・文化】単に花を見るだけでなく、春の到来を祝う宴会です。会社で場所取りをして飲み会をすることもあります。すぐに散ってしまう桜は、命の儚さの象徴でもあります。",
+        "communication_starters": {
+            "teacher_question_jp": "あなたの国には、外でお酒や食事を楽しむお祭りはありますか？",
+            "teacher_question_en": "Does your country have festivals where people eat and drink outside?"
+        },
+        "ask_your_teacher": "先生の最高（または最悪）のお花見の思い出を教えてください。\n(Sensei, please tell me your best (or worst) Hanami memory.)",
+        "mission": "Plan a hypothetical 'Hanami' party with your teacher (food, location, games).",
+        "can_do": "I can discuss seasonal events and explain their cultural significance."
+    },
+    {
+        "id": "st_012",
+        "category": "Deep Culture",
+        "sub_category": "Local Flavors",
+        "topic": "なんでやねん (Why?!)",
+        "catchphrase": "The Classic Comedy Slap",
+        "keyword": "なんでやねん",
+        "reading": "なんでやねん",
+        "quick_meaning": "Why?! / No way! / You gotta be kidding me!\n相手のボケに対する鋭いツッコミ（関西弁）",
+        "cultural_background": "Domain: Life/Comedy\nA quintessential Osaka (Kansai) phrase. It's used as a 'Tsukkomi' (retort) when someone says something silly or illogical. It emphasizes the comedy culture of Osaka where conversation is often like a comedy routine.\n【領域：生活・お笑い】大阪（関西）弁の代表的なフレーズです。相手が変なことを言った時に「ツッコミ」として使います。会話を漫才のように楽しむ大阪の文化を表しています。",
+        "communication_starters": {
+            "teacher_question_jp": "日本の方言を知っていますか？どの方言が好きですか？",
+            "teacher_question_en": "Do you know any Japanese dialects? Which one do you like?"
+        },
+        "ask_your_teacher": "先生、私がボケたら「なんでやねん」と言ってくれますか？\n(Sensei, if I say something silly, will you say 'Nandeyanen'?)\n※ Try saying: 私は寿司が好きです。特にハンバーガーが。 (I like sushi. Especially hamburgers.)",
+        "mission": "Try a 'Boke' (joke) and get the teacher to 'Tsukkomi' (retort), or vice versa.",
+        "can_do": "I can recognize and engage in simple regional dialect humor."
+    }
+]

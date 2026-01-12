@@ -2,46 +2,78 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import storiesFromData from '@/data/stories.json';
+import { stories } from '@/data/textbooks';
 import StoryCard from '@/components/StoryCard';
 import DailyDiscussion from '@/components/DailyDiscussion';
+import SmallTalkCards from '@/components/SmallTalkCards';
 
-// Updated type definition to match actual data
-type Story = {
-  id: string;
-  title: string;
-  level: number | string;
-  lesson?: string;
-  excerpt?: string;
-  story_html?: string;
-  content?: string;
-  content_html?: string;
-  translation?: string;
-};
-
-const stories: Story[] = storiesFromData as unknown as Story[];
+// Using Story type from @/data/stories/types is implicit or can be imported if needed explicitly
+// but 'stories' is already typed.
 
 function HomeContent() {
   // Navigation State
-  const [activeTab, setActiveTab] = useState<'stories' | 'other'>('stories');
-  const [otherFeature, setOtherFeature] = useState<'none' | 'daily_discussion'>('none');
+  const [activeTab, setActiveTab] = useState<'textbooks' | 'stories' | 'others'>('textbooks');
+  const [otherFeature, setOtherFeature] = useState<'none' | 'daily_discussion' | 'small_talk'>('none');
 
   // Filter State
   const [levelFilter, setLevelFilter] = useState<string>('All');
+  const [isInitialized, setIsInitialized] = useState(false);
 
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Load Filter State from Storage
+  useEffect(() => {
+    // Only run on client
+    if (typeof window !== 'undefined') {
+      const stored = sessionStorage.getItem('levelFilter');
+      if (stored) {
+        setLevelFilter(stored);
+      }
+      setIsInitialized(true);
+    }
+  }, []);
+
+  // Persist Filter State
+  useEffect(() => {
+    if (typeof window !== 'undefined' && isInitialized) {
+      sessionStorage.setItem('levelFilter', levelFilter);
+    }
+  }, [levelFilter, isInitialized]);
+
   // Reset Logic
   useEffect(() => {
     if (searchParams.get('reset')) {
-      setActiveTab('stories');
+      setActiveTab('textbooks');
       setLevelFilter('All');
       setOtherFeature('none');
+      // Clear storage on reset
+      if (typeof window !== 'undefined') {
+        sessionStorage.removeItem('levelFilter');
+      }
       // Clean up URL
       router.replace('/');
     }
   }, [searchParams, router]);
+
+  // Scroll to Story Logic (Returning from specific story)
+  useEffect(() => {
+    const returnToStoryId = searchParams.get('returnTo');
+    if (returnToStoryId) {
+      // Small timeout to ensure rendering is complete
+      setTimeout(() => {
+        const element = document.getElementById(`story-${returnToStoryId}`);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+          // Optional: Clean up URL after successful scroll without refreshing
+          // router.replace('/', { scroll: false }); 
+          // Keeping it might be better if user refreshes, but standard behavior usually clears.
+          // For now, let's leave the param so it's clear why we scrolled.
+        }
+      }, 300); // Increased timeout slightly to ensure grid layout is stable
+    }
+  }, [searchParams]);
 
   const filteredStories = stories.filter(story => {
     if (levelFilter === 'All') return true;
@@ -121,6 +153,22 @@ function HomeContent() {
       {/* Top Navigation Tabs */}
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem', gap: '1rem' }}>
         <button
+          onClick={() => { setActiveTab('textbooks'); setOtherFeature('none'); }}
+          style={{
+            padding: '10px 30px',
+            borderRadius: '30px',
+            backgroundColor: activeTab === 'textbooks' ? 'var(--accent-red)' : 'transparent',
+            color: activeTab === 'textbooks' ? 'white' : 'var(--text-color)',
+            border: activeTab === 'textbooks' ? '2px solid var(--accent-red)' : '2px solid var(--border-color)',
+            fontSize: '1.2rem',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease'
+          }}
+        >
+          Textbooks
+        </button>
+        <button
           onClick={() => { setActiveTab('stories'); setOtherFeature('none'); }}
           style={{
             padding: '10px 30px',
@@ -137,28 +185,28 @@ function HomeContent() {
           Stories
         </button>
         <button
-          onClick={() => setActiveTab('other')}
+          onClick={() => setActiveTab('others')}
           style={{
             padding: '10px 30px',
             borderRadius: '30px',
-            backgroundColor: activeTab === 'other' ? 'var(--accent-red)' : 'transparent',
-            color: activeTab === 'other' ? 'white' : 'var(--text-color)',
-            border: activeTab === 'other' ? '2px solid var(--accent-red)' : '2px solid var(--border-color)',
+            backgroundColor: activeTab === 'others' ? 'var(--accent-red)' : 'transparent',
+            color: activeTab === 'others' ? 'white' : 'var(--text-color)',
+            border: activeTab === 'others' ? '2px solid var(--accent-red)' : '2px solid var(--border-color)',
             fontSize: '1.2rem',
             fontWeight: 'bold',
             cursor: 'pointer',
             transition: 'all 0.3s ease'
           }}
         >
-          Other
+          Others
         </button>
       </div>
 
-      {/* Content Area */}
-      {activeTab === 'stories' && (
+      {/* Textbooks Content Area (Formerly Stories) */}
+      {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h2 style={{ marginBottom: '1.5rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Story</h2>
+            <h2 style={{ marginBottom: '1.5rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook Story</h2>
 
             {/* Filter Section */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center' }}>
@@ -318,7 +366,24 @@ function HomeContent() {
         </div>
       )}
 
-      {activeTab === 'other' && (
+      {/* Stories Placeholder */}
+      {activeTab === 'stories' && (
+        <div className="animate-fade-in" style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-light)' }}>
+          <div style={{
+            border: '2px dashed var(--border-color)',
+            borderRadius: '20px',
+            padding: '4rem',
+            maxWidth: '600px',
+            margin: '0 auto',
+            backgroundColor: '#f9f9f9'
+          }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--text-main)' }}>Stories Coming Soon</h3>
+            <p>This section will contain new, original Japanese stories.</p>
+          </div>
+        </div>
+      )}
+
+      {activeTab === 'others' && (
         <div className="animate-fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
 
           {/* Menu View */}
@@ -347,8 +412,35 @@ function HomeContent() {
                 }}
               >
                 <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🗣️</div>
-                <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>本日のディスカッション</h3>
+                <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>今日のディスカッション</h3>
                 <p style={{ color: 'var(--text-light)' }}>Daily Discussion</p>
+              </div>
+
+              {/* Small Talk Cards Menu Item */}
+              <div
+                onClick={() => setOtherFeature('small_talk')}
+                style={{
+                  background: '#fff',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: '20px',
+                  padding: '2rem',
+                  textAlign: 'center',
+                  cursor: 'pointer',
+                  transition: 'transform 0.2s, box-shadow 0.2s',
+                  boxShadow: '0 4px 6px rgba(0,0,0,0.05)'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-5px)';
+                  e.currentTarget.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.05)';
+                }}
+              >
+                <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>☕</div>
+                <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>スモールトーク・カード</h3>
+                <p style={{ color: 'var(--text-light)' }}>Small Talk Cards</p>
               </div>
 
               {/* Placeholder for future features */}
@@ -387,6 +479,28 @@ function HomeContent() {
                 ← Back to Menu
               </button>
               <DailyDiscussion />
+            </div>
+          )}
+
+          {/* Small Talk Cards Feature View */}
+          {otherFeature === 'small_talk' && (
+            <div>
+              <button
+                onClick={() => setOtherFeature('none')}
+                style={{
+                  marginBottom: '1rem',
+                  background: 'transparent',
+                  border: 'none',
+                  color: 'var(--text-light)',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '5px'
+                }}
+              >
+                ← Back to Menu
+              </button>
+              <SmallTalkCards />
             </div>
           )}
 
