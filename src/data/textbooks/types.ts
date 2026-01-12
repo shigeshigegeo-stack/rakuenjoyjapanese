@@ -18,4 +18,5 @@ export interface Quiz {
     answer_index: number;
     question_translation?: string;
     answer_translation?: string;
+    target_id?: string;
 }
