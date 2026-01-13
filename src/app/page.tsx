@@ -149,9 +149,10 @@ function HomeContent() {
   const levelsJLPT = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   return (
-    <div className="container">
+    <div className="container" style={{ position: 'relative' }}>
+
       {/* Top Navigation Tabs */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem', gap: '1rem' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem', gap: '1rem', position: 'relative', zIndex: 20 }}>
         <button
           onClick={() => { setActiveTab('textbooks'); setOtherFeature('none'); }}
           style={{
@@ -278,9 +279,9 @@ function HomeContent() {
 
           {/* Story Length Legend */}
           <div style={{ textAlign: 'left', marginBottom: '1rem', color: '#555', fontSize: '0.95rem' }}>
-            <span>🌸 200-250字</span>
-            <span style={{ margin: '0 1rem' }}>🌸🌸 300-350字</span>
-            <span>🌸🌸🌸 400-450字</span>
+            <span>🌸 100-150字</span>
+            <span style={{ margin: '0 1rem' }}>🌸🌸 200-250字</span>
+            <span>🌸🌸🌸 300-350字</span>
           </div>
 
           <div className="story-grid">
