@@ -6,17 +6,23 @@ interface TextToSpeechButtonProps {
     text: string; // Can vary, often contains HTML like <ruby>
     label?: string;
     className?: string;
+    audioSrc?: string;
 }
 
-const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '🔊 Listen', className = '' }) => {
+const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '🔊 Listen', className = '', audioSrc }) => {
     const [isPlaying, setIsPlaying] = useState(false);
+    const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
 
     // Stop audio when component unmounts
     useEffect(() => {
         return () => {
             window.speechSynthesis.cancel();
+            if (audioElement) {
+                audioElement.pause();
+                audioElement.currentTime = 0;
+            }
         };
-    }, []);
+    }, [audioElement]);
 
     const cleanText = (html: string) => {
         let cleaned = html;
@@ -47,33 +53,65 @@ const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '
         // 5. Decode entities
         cleaned = cleaned.replace(/&nbsp;/g, ' ');
 
-
-
         return cleaned.trim();
     };
 
     const handleSpeech = () => {
         if (isPlaying) {
-            window.speechSynthesis.cancel();
+            if (audioSrc && audioElement) {
+                audioElement.pause();
+                audioElement.currentTime = 0;
+            } else {
+                window.speechSynthesis.cancel();
+            }
             setIsPlaying(false);
             return;
         }
 
-        // Stop issues with double clicking or overlapping
+        // Stop any existing speech/audio
         window.speechSynthesis.cancel();
+        if (audioElement) {
+            audioElement.pause();
+            audioElement.currentTime = 0;
+        }
 
-        const plainText = cleanText(text);
-        if (!plainText) return;
+        if (audioSrc) {
+            // Play from file
+            const audio = new Audio(audioSrc);
+            audio.volume = 0.7; // Lower volume slightly as requested
+            setAudioElement(audio); // Keep reference to stop it later
 
-        const utterance = new SpeechSynthesisUtterance(plainText);
-        utterance.lang = 'ja-JP';
-        utterance.rate = 0.85; // Slower speed for learners
+            audio.onplay = () => setIsPlaying(true);
+            audio.onended = () => setIsPlaying(false);
+            audio.onerror = (e) => {
+                console.error("Audio playback error:", e);
+                setIsPlaying(false);
+                // Fallback to TTS if file fails? Or just alert? 
+                // For now, let's fall back to TTS if audio fails is probably safer user experience, 
+                // but typically if a file is specific, we might just stop. 
+                // Let's stick to simple failure handling for now.
+            };
 
-        utterance.onstart = () => setIsPlaying(true);
-        utterance.onend = () => setIsPlaying(false);
-        utterance.onerror = () => setIsPlaying(false);
+            audio.play().catch(e => {
+                console.error("Audio play failed:", e);
+                setIsPlaying(false);
+            });
 
-        window.speechSynthesis.speak(utterance);
+        } else {
+            // Use Web Speech API
+            const plainText = cleanText(text);
+            if (!plainText) return;
+
+            const utterance = new SpeechSynthesisUtterance(plainText);
+            utterance.lang = 'ja-JP';
+            utterance.rate = 0.85; // Slower speed for learners
+
+            utterance.onstart = () => setIsPlaying(true);
+            utterance.onend = () => setIsPlaying(false);
+            utterance.onerror = () => setIsPlaying(false);
+
+            window.speechSynthesis.speak(utterance);
+        }
     };
 
     return (
@@ -93,7 +131,7 @@ const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '
                 alignItems: 'center',
                 gap: '6px',
                 transition: 'all 0.2s',
-                ... (className ? {} : { marginLeft: '10px' }) // Default margin if no class
+                ...(className ? {} : { marginLeft: '10px' }) // Default margin if no class
             }}
         >
             {isPlaying ? '⏹ Stop' : label}

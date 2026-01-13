@@ -26,8 +26,10 @@ interface Story {
         options?: string[];       // Old field name
         answer_index: number;
         question_translation?: string; // New field for English translation
+        target_id?: string;       // ID of the paragraph this quiz relates to
     }[];
     discussion_topics?: string[]; // Deprecated
+    audio_file?: string; // Corrected: Path to audio file
 }
 
 interface StoryContentProps {
@@ -43,6 +45,9 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
     const [selectedAnswers, setSelectedAnswers] = useState<{ [key: number]: number | null }>({});
     // State to track if results should be shown for each quiz
     const [showResults, setShowResults] = useState<{ [key: number]: boolean }>({});
+
+    // State to track which quiz is currently "active" (floating at bottom)
+    const [activeQuizIndex, setActiveQuizIndex] = useState<number | null>(null);
 
     const [showTranslation, setShowTranslation] = useState(false);
 
@@ -60,6 +65,50 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
         setShowResults(prev => ({ ...prev, [quizIdx]: true }));
     };
 
+    const handleQuizTitleClick = (index: number, targetId?: string) => {
+        if (activeQuizIndex === index) {
+            // Toggle off
+            setActiveQuizIndex(null);
+
+            // Scroll back to the quiz card in the list
+            setTimeout(() => {
+                const quizElement = document.getElementById(`quiz-container-${index}`);
+                if (quizElement) {
+                    quizElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }, 100); // Small delay to allow state update and re-render
+            return;
+        }
+
+        setActiveQuizIndex(index);
+
+        if (targetId) {
+            const element = document.getElementById(targetId);
+            const storyContent = document.getElementById('story-content');
+
+            if (element && storyContent) {
+                // Check if the element is near the top of the story content
+                // We compare the element's position relative to the container
+                // If it's the first paragraph or very close to top, scroll content to start
+                const isNearTop = element.offsetTop - storyContent.offsetTop < 150; // Threshold of 150px
+
+                if (isNearTop) {
+                    storyContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        } else {
+            // Fallback: scroll to top of story content if no targetId gets mapped
+            const storyContent = document.getElementById('story-content');
+            if (storyContent) {
+                storyContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    };
+
     // Calculate Level and Sub-Level from ID (e.g., STORY_L01_01)
     let levelDisplay = null;
     let blossomCount = 0;
@@ -71,8 +120,16 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
 
         // Format: "Level 1"
         levelDisplay = `Level ${levelNum}`;
-        // Blossoms: 1 to 4 based on sub-level
-        blossomCount = Math.max(0, Math.min(4, subLevelNum));
+
+        // Blossoms & Length mapping:
+        // 1 -> Short (1 blossom)
+        // 2 -> Medium (2 blossoms)
+        // 3 -> Medium (2 blossoms)
+        // 4 -> Long (3 blossoms)
+        if (subLevelNum === 1) blossomCount = 1;
+        else if (subLevelNum === 2 || subLevelNum === 3) blossomCount = 2;
+        else if (subLevelNum === 4) blossomCount = 3;
+        else blossomCount = Math.min(3, Math.max(1, subLevelNum)); // Fallback default
     } else if (story.level) {
         // Fallback if ID doesn't match standard format
         levelDisplay = typeof story.level === 'number' ? `Level ${story.level}` : story.level;
@@ -93,7 +150,6 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
                         {blossomCount === 1 && '(short)'}
                         {blossomCount === 2 && '(medium)'}
                         {blossomCount === 3 && '(long)'}
-                        {blossomCount === 4 && '(very long)'}
                     </span>
                 </div>
             </div>
@@ -151,7 +207,7 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>Questions:</strong><br />
+                    <strong>Let's Talk</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
@@ -166,7 +222,7 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
                 >
                     ふりがな ON/OFF
                 </button>
-                <TextToSpeechButton text={displayContent} label="🔊 音声を聞く" className="control-btn" />
+                <TextToSpeechButton text={displayContent} label="🔊 音声を聞く" className="control-btn" audioSrc={story.audio_file} />
             </div>
 
             {/* Main Story Content */}
@@ -201,11 +257,46 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
                     {story.quizzes.map((quiz, quizIdx) => {
                         const options = quiz.choices || quiz.options || [];
                         const [showTranslation, setShowTranslation] = useState(false);
+                        const isActive = activeQuizIndex === quizIdx;
+
+                        const activeStyle: React.CSSProperties = {
+                            position: 'fixed' as 'fixed',
+                            bottom: 0,
+                            left: 0,
+                            right: 0,
+                            width: '100vw',
+                            background: 'rgba(255, 255, 255, 0.92)',
+                            padding: '20px 40px',
+                            boxShadow: '0 -4px 20px rgba(0,0,0,0.15)',
+                            zIndex: 9999,
+                            borderTop: '4px solid var(--accent-red)',
+                            maxHeight: '50vh',
+                            overflowY: 'auto' as 'auto',
+                            animation: 'slideUp 0.3s ease-out'
+                        };
+
+                        const defaultStyle: React.CSSProperties = {
+                            marginBottom: '2rem',
+                            borderBottom: quizIdx < (story.quizzes?.length || 0) - 1 ? '1px dashed #ccc' : 'none',
+                            paddingBottom: '1rem'
+                        };
 
                         return (
-                            <div key={quizIdx} style={{ marginBottom: '2rem', borderBottom: quizIdx < (story.quizzes?.length || 0) - 1 ? '1px dashed #ccc' : 'none', paddingBottom: '1rem' }}>
+                            <div key={quizIdx} id={`quiz-container-${quizIdx}`} style={isActive ? activeStyle : defaultStyle}>
                                 <div style={{ marginBottom: '10px' }}>
-                                    <p style={{ fontWeight: 'bold', display: 'inline-block', marginRight: '10px' }} dangerouslySetInnerHTML={{ __html: `Q${quizIdx + 1}: ${quiz.question}` }} />
+                                    <p
+                                        onClick={() => handleQuizTitleClick(quizIdx, quiz.target_id)}
+                                        style={{
+                                            fontWeight: 'bold',
+                                            display: 'inline-block',
+                                            marginRight: '10px',
+                                            cursor: 'pointer',
+                                            color: isActive ? 'var(--accent-red)' : 'inherit',
+                                            textDecoration: isActive ? 'underline' : 'none'
+                                        }}
+                                        title="Click to locate in text"
+                                        dangerouslySetInnerHTML={{ __html: `Q${quizIdx + 1}: ${quiz.question}` }}
+                                    />
                                     {quiz.question_translation && (
                                         <button
                                             onClick={() => setShowTranslation(!showTranslation)}
@@ -348,6 +439,8 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
           margin-bottom: 30px; 
           border-radius: 8px;
           color: var(--text-color);
+          font-size: 1.5rem; /* Match main content font size */
+          line-height: 2.0;
         }
         .btn-toggle, :global(.control-btn) { 
           background: rgba(89, 67, 53, 0.1); 
@@ -404,6 +497,14 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
           padding: 30px; 
           border-radius: 16px; 
           border: 1px solid var(--border-color);
+          font-size: 1.5rem; /* Match main content font size */
+          line-height: 2.0; /* Adjusted line height for readability */
+        }
+        
+        /* Make ruby text bold and larger */
+        :global(rt) {
+          font-weight: bold !important;
+          opacity: 0.9;
         }
 
         .nav-btn {
@@ -431,6 +532,18 @@ const StoryContent: React.FC<StoryContentProps> = ({ story, serialNumber, prevSt
           cursor: default;
           background: #eee;
         }
+
+        @keyframes slideUp {
+          from {
+            transform: translateY(100%);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
+        }
+
 
       `}</style>
         </div>

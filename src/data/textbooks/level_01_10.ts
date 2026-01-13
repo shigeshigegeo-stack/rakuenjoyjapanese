@@ -6,58 +6,47 @@ export const stories_level_01_10: Story[] = [
     "level": 1,
     "title": "はじめまして",
     "schema_activation": [
-      "あなたは <ruby>学生<rt>がくせい</rt></ruby>ですか。",
-      "お<ruby>仕事<rt>しごと</rt></ruby>はしていますか。"
+      "コーヒーと<ruby>紅茶<rt>こうちゃ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか？",
+      "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>何<rt>なに</rt></ruby>か<ruby>楽<rt>たの</rt></ruby>しいことがありましたか？"
     ],
-    "translation": "<p>Watson: \"Nice to meet you. I am Watson.<br>I came from America.<br>I am a company employee. Nice to meet you.\"</p>",
-    "story_html": "<p>ワトソン「はじめまして。ワトソンです。<br>アメリカから <ruby>来<rt>き</rt></ruby>ました。<br>わたしは <ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>どうぞ よろしく お<ruby>願<rt>ねが</rt></ruby>いします。」</p>",
+    "translation": "<p>Yamada-san is Japanese. He is a teacher at Sakura University. Yamada-san is 45 years old.<br>Ana-san is not Japanese. She is German. She is 20 years old. Ana-san is a student at Sakura University. She is not a teacher.<br>Yamada-san is not a student. He is a teacher.<br>Yamada-san is not a company employee. Ana-san is also not a company employee.<br>Ana-san is 20 years old. Yamada-san is not 20 years old. He is 45 years old.<br>Yamada-san is a teacher at Sakura University. Ana-san is a student at Sakura University.<br>Ana-san is a German student. Yamada-san is a Japanese teacher.<br>Ana-san is not a teacher. She is a student. Yamada-san is not a student. He is a teacher.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>日本人<rt>にほんじん</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>日本人<rt>にほんじん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">ドイツ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">アナさんも</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">ドイツ<ruby>人<rt>じん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>日本人<rt>にほんじん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "ワトソンさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
+        "question": "アナさんは<ruby>先生<rt>せんせい</rt></ruby>ですか。",
         "choices": [
-          "アメリカ",
-          "ブラジル",
-          "ドイツ"
+          "はい、<ruby>先生<rt>せんせい</rt></ruby>です",
+          "いいえ、<ruby>学生<rt>がくせい</rt></ruby>です"
         ],
-        "answer_index": 0
-      },
-      {
-        "question": "ワトソンさんの お<ruby>仕事<rt>しごと</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
-        "choices": [
-          "<ruby>先生<rt>せんせい</rt></ruby>",
-          "<ruby>学生<rt>がくせい</rt></ruby>",
-          "<ruby>会社員<rt>かいしゃいん</rt></ruby>"
-        ],
-        "answer_index": 2
+        "answer_index": 1
       }
-    ]
+    ],
+    "audio_file": "/audio/L01_01.mp3"
   },
   {
     "id": "STORY_L01_02",
     "level": 1,
-    "title": "アナさんは <ruby>学生<rt>がくせい</rt></ruby>です",
+    "title": "<ruby>会社員<rt>かいしゃいん</rt></ruby>と<ruby>友達<rt>ともだち</rt></ruby>",
     "schema_activation": [
-      "あなたの <ruby>名前<rt>なまえ</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
-      "あなたは どこの <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>ですか。"
+      "スポーツは<ruby>好<rt>す</rt></ruby>きですか？",
+      "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>忙<rt>いそが</rt></ruby>しいですか？"
     ],
-    "translation": "<p>Watson: \"Who is that person?\"<br>Mr. Yamada: \"That is Ana. She is a student at Sakura University.\"<br>Watson: \"Is she American?\"<br>Mr. Yamada: \"No, she is not American. She is German.\"</p>",
-    "story_html": "<p>ワトソン「あの <ruby>人<rt>ひと</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>ですか。」<br><ruby>山田<rt>やまだ</rt></ruby>「あの方は アナさんです。<br>さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>学生<rt>がくせい</rt></ruby>です。」<br>ワトソン「アメリカ<ruby>人<rt>じん</rt></ruby>ですか。」<br><ruby>山田<rt>やまだ</rt></ruby>「いいえ、アメリカ<ruby>人<rt>じん</rt></ruby>じゃありません。<br>ドイツ<ruby>人<rt>じん</rt></ruby>です。」</p>",
+    "translation": "<p>Jim-san is American. He is a bank employee. He is 28 years old. Jim-san is not a teacher or a student. He is a bank employee.<br>Kim-san is Korean. He is an IT company employee. He is 25 years old. Kim-san is not a teacher or a student. He is an IT company employee.<br>Jim-san is an office worker. Kim-san is also an office worker.<br>Jim-san is American. Kim-san is not American, he is Korean. Kim-san is Korean. Jim-san is not Korean, he is American.<br>Jim-san is 28 years old. Kim-san is 25 years old. Jim-san is not 25. Kim-san is not 28.<br>Jim-san is a bank employee. Kim-san is not a bank employee, he is an IT company employee.<br>Jim-san is an office worker at an American bank. Kim-san is an office worker in Korea.<br>Jim-san is an office worker. Kim-san is also an office worker.<br>Jim-san and Kim-san are friends. They are not students at Sakura University.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\">ITの</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんも</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">ITの</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカの</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国<rt>かんこく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんと</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>友達<rt>ともだち</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>二人<rt>ふたり</rt></ruby>は</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span></p>",
     "quizzes": [
       {
-        "question": "アナさんは どこの <ruby>大学<rt>だいがく</rt></ruby>の <ruby>学生<rt>がくせい</rt></ruby>ですか。",
+        "question": "ジムさんの<ruby>仕事<rt>しごと</rt></ruby>はなんですか。",
         "choices": [
-          "さくら<ruby>大学<rt>だいがく</rt></ruby>",
-          "ふじ<ruby>大学<rt>だいがく</rt></ruby>",
-          "あさひ<ruby>大学<rt>だいがく</rt></ruby>"
+          "<ruby>先生<rt>せんせい</rt></ruby>",
+          "<ruby>銀行<rt>ぎんこう</rt></ruby>の<ruby>会社員<rt>かいしゃいん</rt></ruby>"
         ],
-        "answer_index": 0
+        "answer_index": 1
       },
       {
-        "question": "アナさんは どこの <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>ですか。",
+        "question": "キムさんは<ruby>銀行<rt>ぎんこう</rt></ruby>の<ruby>会社員<rt>かいしゃいん</rt></ruby>ですか。",
         "choices": [
-          "アメリカ<ruby>人<rt>じん</rt></ruby>",
-          "ドイツ<ruby>人<rt>じん</rt></ruby>",
-          "フランス<ruby>人<rt>じん</rt></ruby>"
+          "はい、そうです",
+          "いいえ、ITの<ruby>会社員<rt>かいしゃいん</rt></ruby>です"
         ],
         "answer_index": 1
       }
@@ -66,29 +55,28 @@ export const stories_level_01_10: Story[] = [
   {
     "id": "STORY_L01_03",
     "level": 1,
-    "title": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>先生<rt>せんせい</rt></ruby>です",
+    "title": "<ruby>病院<rt>びょういん</rt></ruby>のパクさん",
     "schema_activation": [
-      "あなたは <ruby>先生<rt>せんせい</rt></ruby>ですか。",
-      "あなたの <ruby>先生<rt>せんせい</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>ですか。"
+      "お<ruby>住<rt>す</rt></ruby>まいの<ruby>場所<rt>ばしょ</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうですか？",
+      "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>がありますか？"
     ],
-    "translation": "<p>Professor Yamada: \"I am Yamada. I am a teacher.\"<br>Professor Yamada: \"Watson, are you a teacher, too?\"<br>Watson: \"No, I am not a teacher. I am an engineer.\"</p>",
-    "story_html": "<p><ruby>山田<rt>やまだ</rt></ruby>「わたしは <ruby>山田<rt>やまだ</rt></ruby>です。<ruby>先生<rt>せんせい</rt></ruby>です。」<br><ruby>山田<rt>やまだ</rt></ruby>「ワトソンさんも <ruby>先生<rt>せんせい</rt></ruby>ですか。」<br>ワトソン「いいえ、わたしは <ruby>先生<rt>せんせい</rt></ruby>じゃありません。<br>エンジニアです。」</p>",
+    "translation": "<p>Pak-san is Korean. Pak-san is a doctor. He is 30 years old. Pak-san is a doctor at a town hospital. He is not a teacher.<br>Kim-san is Korean. Pak-san is also Korean. Kim-san is an office worker. Pak-san is not an office worker, he is a doctor.<br>Pak-san is not a teacher or a student at Sakura University. He is a doctor at a town hospital.<br>Ana-san is German. She is 20 years old. She is a student at Sakura University.<br>Ana-san is not a doctor. Pak-san is not a student.<br>Pak-san is not 20 years old, he is 30. Ana-san is not 30 years old, she is 20.<br>Pak-san is Kim-san's friend. Kim-san is Pak-san's friend.<br>Jim-san is American. Kim-san and Pak-san are Korean.<br>Ana-san is 20. Kim-san is 25. Jim-san is 28. Pak-san is 30. Yamada-san is 45.<br>Everyone is friends.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>町<rt>まち</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>病院<rt>びょういん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんも</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">ドイツ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\">キムさんの</span><span style=\"display: inline-block;\"><ruby>友達<rt>ともだち</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">パクさんの</span><span style=\"display: inline-block;\"><ruby>友達<rt>ともだち</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>何<rt>なん</rt></ruby>ですか。",
+        "question": "パクさんは<ruby>何歳<rt>なんさい</rt></ruby>ですか。",
         "choices": [
-          "エンジニア",
-          "<ruby>会社員<rt>かいしゃいん</rt></ruby>",
-          "<ruby>先生<rt>せんせい</rt></ruby>"
+          "20<ruby>歳<rt>さい</rt></ruby>",
+          "30<ruby>歳<rt>さい</rt></ruby>"
         ],
-        "answer_index": 2
+        "answer_index": 1
       },
       {
-        "question": "ワトソンさんの お<ruby>仕事<rt>しごと</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか。",
+        "question": "パクさんは<ruby>学生<rt>がくせい</rt></ruby>ですか。",
         "choices": [
-          "エンジニア",
-          "<ruby>先生<rt>せんせい</rt></ruby>",
-          "<ruby>学生<rt>がくせい</rt></ruby>"
+          "いいえ、<ruby>医者<rt>いしゃ</rt></ruby>です",
+          "はい、<ruby>学生<rt>がくせい</rt></ruby>です",
+          "いいえ、<ruby>先生<rt>せんせい</rt></ruby>です"
         ],
         "answer_index": 0
       }
@@ -97,28 +85,37 @@ export const stories_level_01_10: Story[] = [
   {
     "id": "STORY_L01_04",
     "level": 1,
-    "title": "キムさんは <ruby>韓国人<rt>かんこくじん</rt></ruby>です",
+    "title": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>",
     "schema_activation": [
-      "あなたの <ruby>友達<rt>ともだち</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>ですか。",
-      "あなたの <ruby>友達<rt>ともだち</rt></ruby>は <ruby>学生<rt>がくせい</rt></ruby>ですか。"
+      "<ruby>日本<rt>にほん</rt></ruby>のアニメや<ruby>映画<rt>えいが</rt></ruby>は<ruby>好<rt>す</rt></ruby>きですか？",
+      "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、<ruby>何<rt>なに</rt></ruby>をしますか？"
     ],
-    "translation": "<p>Kim: \"Nice to meet you. I am Kim.\"<br>Kim: \"I am from Korea.\"<br>Watson: \"Kim is a student, too. She is not a teacher.\"</p>",
-    "story_html": "<p>キム「はじめまして。キムです。」<br>キム「<ruby>韓国<rt>かんこく</rt></ruby>から <ruby>来<rt>き</rt></ruby>ました。」<br>ワトソン「キムさんも <ruby>学生<rt>がくせい</rt></ruby>です。<br><ruby>先生<rt>せんせい</rt></ruby>じゃありません。」</p>",
+    "translation": "<p>Yamada-san is Japanese. He is a teacher at Sakura University. He is 45 years old.<br>Ana-san is German. She is a student at Sakura University. She is 20 years old.<br>Jim-san is American. He is a bank employee. He is 28 years old.<br>Kim-san is Korean. He is an IT company employee. He is 25 years old.<br>Pak-san is Korean. He is a doctor at a town hospital. He is 30 years old.<br>Jim-san is an office worker. Kim-san is also an office worker.<br>Kim-san is Korean. Pak-san is also Korean.<br>Ana-san is not a teacher, she is a student. Yamada-san is not a student, he is a teacher.<br>Pak-san is not an office worker, he is a doctor.<br>Jim-san is not Japanese, he is American. Jim-san is not 25, he is 28. Kim-san is not 28, he is 25.<br>Pak-san is 30. Yamada-san is 45. Ana-san is 20.<br>Ana-san is a student at Sakura University. Yamada-san is a teacher at Sakura University.<br>Jim-san is a bank employee. Kim-san is an IT company employee. Pak-san is a doctor at a town hospital.<br>Yamada-san is a 45-year-old teacher. Ana-san is a German student. Jim-san is an American office worker.<br>Kim-san is a Korean office worker. Pak-san is a Korean doctor.<br>Ana-san is not a teacher. Yamada-san is not a student. Pak-san is not a student. Jim-san is not a student.<br>Kim-san is not a teacher. Ana-san is not an office worker. Jim-san is a bank employee in America. Kim-san is an IT employee in Korea.<br>Everyone is friends. They are friends in the Sakura University classroom.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>日本人<rt>にほんじん</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">ドイツ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\">ITの</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>町<rt>まち</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>病院<rt>びょういん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんも</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんも</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>日本人<rt>にほんじん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">28<ruby>歳<rt>さい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">25<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\">30<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">20<ruby>歳<rt>さい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\">ITの</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>町<rt>まち</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>病院<rt>びょういん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\">45<ruby>歳<rt>さい</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\">ドイツ<ruby>人<rt>じん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカ<ruby>人<rt>じん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>韓国人<rt>かんこくじん</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>医者<rt>いしゃ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>さんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">パクさんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\"><ruby>学生<rt>がくせい</rt></ruby>じゃありません。</span><br><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>先生<rt>せんせい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">アナさんは</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">ジムさんは</span><span style=\"display: inline-block;\">アメリカの</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは</span><span style=\"display: inline-block;\"><ruby>韓国<rt>かんこく</rt></ruby>の</span><span style=\"display: inline-block;\">ITの</span><span style=\"display: inline-block;\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">みなさんは</span><span style=\"display: inline-block;\"><ruby>友達<rt>ともだち</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>教室<rt>きょうしつ</rt></ruby>の</span><span style=\"display: inline-block;\"><ruby>友達<rt>ともだち</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "キムさんは どこから <ruby>来<rt>き</rt></ruby>ましたか。",
+        "question": "<ruby>山田<rt>やまだ</rt></ruby>さんの<ruby>年齢<rt>ねんれい</rt></ruby>は<ruby>何歳<rt>なんさい</rt></ruby>ですか。",
         "choices": [
-          "ドイツ",
-          "<ruby>日本<rt>にほん</rt></ruby>",
-          "<ruby>韓国<rt>かんこく</rt></ruby>"
+          "30<ruby>歳<rt>さい</rt></ruby>",
+          "45<ruby>歳<rt>さい</rt></ruby>"
         ],
-        "answer_index": 2
+        "answer_index": 1
       },
       {
-        "question": "キムさんは <ruby>先生<rt>せんせい</rt></ruby>ですか。",
+        "question": "パクさんの<ruby>国籍<rt>こくせき</rt></ruby>はどこですか。",
         "choices": [
-          "はい",
-          "いいえ"
+          "<ruby>韓国<rt>かんこく</rt></ruby>",
+          "ドイツ",
+          "アメリカ"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "ジムさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>ですか。",
+        "choices": [
+          "はい、<ruby>学生<rt>がくせい</rt></ruby>です",
+          "いいえ、<ruby>会社員<rt>かいしゃいん</rt></ruby>です",
+          "いいえ、<ruby>先生<rt>せんせい</rt></ruby>です"
         ],
         "answer_index": 1
       }
@@ -127,123 +124,123 @@ export const stories_level_01_10: Story[] = [
   {
     "id": "STORY_L02_01",
     "level": 2,
-    "title": "これは <ruby>何<rt>なん</rt></ruby>ですか？",
+    "title": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>",
     "schema_activation": [
-      "あなたは よく <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みますか。",
-      "あなたは <ruby>辞書<rt>じしょ</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていますか。"
+      "<ruby>普段<rt>ふだん</rt></ruby>、カバンの<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか？",
+      "あなたの<ruby>国<rt>くに</rt></ruby>の<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか？"
     ],
-    "translation": "<p>Watson: \"What is this?\"<br>Ana: \"That is a dictionary.\"<br>Watson: \"Is it a Japanese dictionary?\"<br>Ana: \"No, it is an English dictionary. It is my dictionary.\"</p>",
-    "story_html": "<p>ワトソン「これは <ruby>何<rt>なに</rt></ruby>ですか。」<br>アナ「それは <ruby>辞書<rt>じしょ</rt></ruby>です。」<br>ワトソン「<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>辞書<rt>じしょ</rt></ruby>ですか。」<br>アナ「いいえ、<ruby>英語<rt>えいご</rt></ruby>の <ruby>辞書<rt>じしょ</rt></ruby>です。<br>わたしの <ruby>辞書<rt>じしょ</rt></ruby>です。」</p>",
+    "translation": "<p>This is a classroom. What is this? That is a book. It is a Japanese book.<br>What is that over there? That is a clock. It is Sakura University's clock.<br>Is that a dictionary? No, it's not a dictionary. It's a notebook.<br>Whose notebook is this? It's Ana-san's notebook.<br>Whose umbrella is that over there? It's Yamada-sensei's umbrella.<br>Is that a mechanical pencil? No, it's a ballpoint pen.<br>This is Yamada-sensei's ballpoint pen. It's not Ana-san's ballpoint pen.<br>That umbrella over there is also not Yamada-sensei's umbrella. It's Ana-san's umbrella.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">ここは<ruby>教室<rt>きょうしつ</rt></ruby>です。</span><span style=\"display: inline-block;\">これは<ruby>何<rt>なに</rt></ruby>ですか。</span><span style=\"display: inline-block;\">それは<ruby>本<rt>ほん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">あれは<ruby>何<rt>なに</rt></ruby>ですか。</span><span style=\"display: inline-block;\">あれは<ruby>時計<rt>とけい</rt></ruby>です。</span><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">それは<ruby>辞書<rt>じしょ</rt></ruby>ですか。</span><span style=\"display: inline-block;\">いいえ、<ruby>辞書<rt>じしょ</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>手帳<rt>てちょう</rt></ruby>です。</span><br><span style=\"display: inline-block;\">これは<ruby>誰<rt>だれ</rt></ruby>の<ruby>手帳<rt>てちょう</rt></ruby>ですか。</span><span style=\"display: inline-block;\">アナさんの<ruby>手帳<rt>てちょう</rt></ruby>です。</span><br><span style=\"display: inline-block;\">あれは<ruby>誰<rt>だれ</rt></ruby>の<ruby>傘<rt>かさ</rt></ruby>ですか。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>傘<rt>かさ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">それはシャープペンシルですか。</span><span style=\"display: inline-block;\">いいえ、ボールペンです。</span><br><span style=\"display: inline-block;\">これは<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のボールペンです。</span><span style=\"display: inline-block;\">アナさんのボールペンじゃありません。</span><br><span style=\"display: inline-block;\">あれも<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>傘<rt>かさ</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\">アナさんの<ruby>傘<rt>かさ</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "アナさんの <ruby>辞書<rt>じしょ</rt></ruby>は <ruby>何語<rt>なにご</rt></ruby>ですか。",
+        "question": "アナさんの<ruby>持<rt>も</rt></ruby>ち<ruby>物<rt>もの</rt></ruby>はなんですか。",
         "choices": [
-          "<ruby>日本語<rt>にほんご</rt></ruby>",
-          "<ruby>英語<rt>えいご</rt></ruby>",
-          "ドイツ<ruby>語<rt>ご</rt></ruby>"
+          "<ruby>手帳<rt>てちょう</rt></ruby>と<ruby>傘<rt>かさ</rt></ruby>",
+          "<ruby>本<rt>ほん</rt></ruby>と<ruby>時計<rt>とけい</rt></ruby>"
         ],
-        "answer_index": 1
-      },
-      {
-        "question": "それは <ruby>誰<rt>だれ</rt></ruby>の <ruby>辞書<rt>じしょ</rt></ruby>ですか。",
-        "choices": [
-          "ワトソンさんの",
-          "アナさんの",
-          "<ruby>山田<rt>やまだ</rt></ruby>さんの"
-        ],
-        "answer_index": 1
+        "answer_index": 0
       }
     ]
   },
   {
     "id": "STORY_L02_02",
     "level": 2,
-    "title": "この <ruby>傘<rt>かさ</rt></ruby>は あなたのですか",
+    "title": "<ruby>誰<rt>だれ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>ですか",
     "schema_activation": [
-      "あなたは <ruby>傘<rt>かさ</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていますか。",
-      "あなたは ノートを <ruby>持<rt>も</rt></ruby>っていますか。"
+      "<ruby>手帳<rt>てちょう</rt></ruby>やノートはよく<ruby>使<rt>つか</rt></ruby>いますか？",
+      "あなたの<ruby>国<rt>くに</rt></ruby>のきれいなお<ruby>土産<rt>みやげ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか？"
     ],
-    "translation": "<p>Kim: \"Watson, is this umbrella yours?\"<br>Watson: \"No, it is not mine. It is Ana's.\"<br>Kim: \"Is this notebook Ana's, too?\"<br>Watson: \"Yes, that is hers.\"</p>",
-    "story_html": "<p>キム「ワトソンさん、この <ruby>傘<rt>かさ</rt></ruby>は あなたのですか。」<br>ワトソン「いいえ、わたしのじゃありません。<br>アナさんのです。」<br>キム「この ノートも アナさんのですか。」<br>ワトソン「はい、それは アナさんのです。」</p>",
+    "translation": "<p>Whose bag is this? That is Jim-san's bag. That bag is an American bag.<br>Is this key also Jim-san's key? Yes, that's right. It's his car key.<br>Whose notebook is that? This is Kim-san's notebook. That ballpoint pen is also Kim-san's.<br>Is this mechanical pencil Ana-san's? No, it's not. It's Pak-san's.<br>Whose desk is that over there? It's Yamada-sensei's desk.<br>Is that chair over there also Yamada-sensei's chair? Yes, that's right.<br>Whose newspaper is this? It's an English newspaper. It's Jim-san's newspaper.<br>That magazine is not a Japanese magazine. It's a Korean magazine. It's Kim-san's.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">これは<ruby>誰<rt>だれ</rt></ruby>のカバンですか。</span><span style=\"display: inline-block;\">それはジムさんのカバンです。</span><br><span style=\"display: inline-block;\">そのカバンはアメリカのカバンです。</span><br><span style=\"display: inline-block;\">このカギもジムさんのカギですか。</span><span style=\"display: inline-block;\">はい、そうです。</span><span style=\"display: inline-block;\">ジムさんの<ruby>車<rt>くるま</rt></ruby>のカギです。</span><br><span style=\"display: inline-block;\">その<ruby>手帳<rt>てちょう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>の<ruby>手帳<rt>てちょう</rt></ruby>ですか。</span><br><span style=\"display: inline-block;\">これはキムさんの<ruby>手帳<rt>てちょう</rt></ruby>です。</span><span style=\"display: inline-block;\">そのボールペンもキムさんのです。</span><br><span style=\"display: inline-block;\">このシャープペンシルはアナさんのですか。</span><br><span style=\"display: inline-block;\">いいえ、ちがいます。</span><span style=\"display: inline-block;\">パクさんのです。</span><br><span style=\"display: inline-block;\">あの<ruby>机<rt>つくえ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>の<ruby>机<rt>つくえ</rt></ruby>ですか。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>机<rt>つくえ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">あの<ruby>椅子<rt>いす</rt></ruby>も<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>椅子<rt>いす</rt></ruby>ですか。</span><span style=\"display: inline-block;\">はい、そうです。</span><br><span style=\"display: inline-block;\">この<ruby>新聞<rt>しんぶん</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>ですか。</span><span style=\"display: inline-block;\"><ruby>英語<rt>えいご</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>です。</span><span style=\"display: inline-block;\">ジムさんの<ruby>新聞<rt>しんぶん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">その<ruby>雑誌<rt>ざっし</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>雑誌<rt>ざっし</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>韓国語<rt>かんこくご</rt></ruby>の<ruby>雑誌<rt>ざっし</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんのです。</span></p>",
     "quizzes": [
       {
-        "question": "この <ruby>傘<rt>かさ</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>のですか。",
+        "question": "ジムさんのカギは、<ruby>何<rt>なに</rt></ruby>のカギですか。",
         "choices": [
-          "ワトソンさんの",
-          "キムさんの",
-          "アナさんの"
-        ],
-        "answer_index": 2
-      },
-      {
-        "question": "この ノートも アナさんのですか。",
-        "choices": [
-          "はい",
-          "いいえ"
+          "<ruby>車<rt>くるま</rt></ruby>のカギ",
+          "<ruby>家<rt>いえ</rt></ruby>のカギ"
         ],
         "answer_index": 0
+      },
+      {
+        "question": "その<ruby>雑誌<rt>ざっし</rt></ruby>は、<ruby>何語<rt>なにご</rt></ruby>の<ruby>雑誌<rt>ざっし</rt></ruby>ですか。",
+        "choices": [
+          "<ruby>日本語<rt>にほんご</rt></ruby>",
+          "<ruby>英語<rt>えいご</rt></ruby>",
+          "<ruby>韓国語<rt>かんこくご</rt></ruby>"
+        ],
+        "answer_index": 2
       }
     ]
   },
   {
     "id": "STORY_L02_03",
     "level": 2,
-    "title": "お<ruby>土産<rt>みやげ</rt></ruby>の チョコレート",
+    "title": "お<ruby>土産<rt>みやげ</rt></ruby>とカード",
     "schema_activation": [
-      "あなたは チョコレートが <ruby>好<rt>す</rt></ruby>きですか。",
-      "よく お<ruby>土産<rt>みやげ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。"
+      "カメラや<ruby>写真<rt>しゃしん</rt></ruby>は<ruby>好<rt>す</rt></ruby>きですか？",
+      "どんなプレゼントが<ruby>嬉<rt>うれ</rt></ruby>しいですか？"
     ],
-    "translation": "<p>Watson: \"Ana, this is a souvenir for you.\"<br>Ana: \"Thank you. What is this?\"<br>Watson: \"It is chocolate. It is chocolate from America.\"</p>",
-    "story_html": "<p>ワトソン「アナさん、これは お<ruby>土産<rt>みやげ</rt></ruby>です。」<br>アナ「ありがとうございます。<ruby>何<rt>なに</rt></ruby>ですか。」<br>ワトソン「チョコレートです。<br>アメリカの チョコレートです。」</p>",
+    "translation": "<p>What is this? That is a card. It's not a telephone card.<br>Is it a business card? Yes, that's right. It's Pak-san's business card. Pak-san is a doctor at a town hospital.<br>What is this? That is a souvenir. This chocolate is German chocolate. It's Ana-san's gift.<br>Is that chocolate also from Germany? No, it's not. This is Belgian chocolate.<br>Whose coffee is this? It's Kim-san's coffee.<br>Whose CD is that over there? It's a jazz CD. It's Jim-san's.<br>Is this pen a mechanical pencil or a ballpoint pen? That is a ballpoint pen. This pen is also a ballpoint pen.<br>Whose watch is that over there? It's a Swiss watch. It's Yamada-sensei's watch.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">これは<ruby>何<rt>なに</rt></ruby>ですか。</span><span style=\"display: inline-block;\">それはカードです。</span><span style=\"display: inline-block;\">テレホンカードじゃありません。</span><br><span style=\"display: inline-block;\"><ruby>名刺<rt>めいし</rt></ruby>ですか。</span><span style=\"display: inline-block;\">はい、そうです。</span><span style=\"display: inline-block;\">パクさんの<ruby>名刺<rt>めいし</rt></ruby>です。</span><span style=\"display: inline-block;\">パクさんは<ruby>町<rt>まち</rt></ruby>の<ruby>病院<rt>びょういん</rt></ruby>の<ruby>医者<rt>いしゃ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">これは<ruby>何<rt>なに</rt></ruby>ですか。</span><span style=\"display: inline-block;\">それはお<ruby>土産<rt>みやげ</rt></ruby>です。</span><span style=\"display: inline-block;\">このチョコレートはドイツのチョコレートです。</span><span style=\"display: inline-block;\">アナさんのプレゼントです。</span><br><span style=\"display: inline-block;\">そのチョコレートもドイツの<ruby>物<rt>もの</rt></ruby>ですか。</span><span style=\"display: inline-block;\">いいえ、ちがいます。</span><span style=\"display: inline-block;\">これはベルギーのチョコレートです。</span><br><span style=\"display: inline-block;\">このコーヒーは<ruby>誰<rt>だれ</rt></ruby>のコーヒーですか。</span><span style=\"display: inline-block;\">キムさんのコーヒーです。</span><br><span style=\"display: inline-block;\">あのCDは<ruby>誰<rt>だれ</rt></ruby>のCDですか。</span><span style=\"display: inline-block;\">ジャズのCDです。</span><span style=\"display: inline-block;\">ジムさんのです。</span><br><span style=\"display: inline-block;\">このペンはシャープペンシルですか、ボールペンですか。</span><span style=\"display: inline-block;\">それはボールペンです。</span><span style=\"display: inline-block;\">このペンもボールペンです。</span><br><span style=\"display: inline-block;\">あの<ruby>時計<rt>とけい</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>ですか。</span><span style=\"display: inline-block;\">スイスの<ruby>時計<rt>とけい</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "お<ruby>土産<rt>みやげ</rt></ruby>は <ruby>何<rt>なに</rt></ruby>ですか。",
+        "question": "<ruby>誰<rt>だれ</rt></ruby>の<ruby>名刺<rt>めいし</rt></ruby>がありますか。",
         "choices": [
-          "チョコレート",
-          "ケーキ",
-          "ワイン"
+          "パクさん",
+          "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>"
         ],
         "answer_index": 0
       },
       {
-        "question": "それは どこの チョコレートですか。",
+        "question": "チョコレートはどこの<ruby>国<rt>くに</rt></ruby>の<ruby>物<rt>もの</rt></ruby>ですか。",
         "choices": [
-          "ドイツの",
-          "<ruby>日本<rt>にほん</rt></ruby>の",
-          "アメリカの"
+          "アメリカ",
+          "ドイツとベルギー",
+          "<ruby>韓国<rt>かんこく</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>"
         ],
-        "answer_index": 2
+        "answer_index": 1
       }
     ]
   },
   {
     "id": "STORY_L02_04",
     "level": 2,
-    "title": "この <ruby>鍵<rt>かぎ</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>のですか",
+    "title": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>の<ruby>確認<rt>かくにん</rt></ruby>",
     "schema_activation": [
-      "あなたは <ruby>家<rt>うち</rt></ruby>の <ruby>鍵<rt>かぎ</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていますか。",
-      "あなたは カードを <ruby>持<rt>も</rt></ruby>っていますか。"
+      "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>や<ruby>辞書<rt>じしょ</rt></ruby>はありますか？",
+      "いつも<ruby>持<rt>も</rt></ruby>ち<ruby>歩<rt>ある</rt></ruby>く「<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>物<rt>もの</rt></ruby>」は<ruby>何<rt>なん</rt></ruby>ですか？"
     ],
-    "translation": "<p>Ana: \"Whose key is this? Is it yours, Watson?\"<br>Watson: \"No, it's not. It is Mr. Yamada's key.\"<br>Ana: \"I see. And this card?\"<br>Watson: \"That is my card.\"</p>",
-    "story_html": "<p>アナ「この <ruby>鍵<rt>かぎ</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>のですか。<br>ワトソンさんのですか。」<br>ワトソン「いいえ、ちがいます。<ruby>山田<rt>やまだ</rt></ruby>さんの <ruby>鍵<rt>かぎ</rt></ruby>です。」<br>アナ「そうですか。じゃあ、この カードは？」<br>ワトソン「それは わたしの カードです。」</p>",
+    "translation": "<p>This is a classroom at Sakura University. There are various things on the desks.<br>Whose book is this? That is a Japanese book. It's Ana-san's book.<br>Is that dictionary also Ana-san's dictionary? No, it's not. It's Yamada-sensei's dictionary.<br>Whose ballpoint pen is this? That is Kim-san's.<br>Is this mechanical pencil also Kim-san's? Yes, that's right.<br>What is that bag over there? That is Jim-san's bag.<br>What is the item inside that bag? This is a notebook. It's a bank's notebook.<br>Is this key also Jim-san's? No, that's not his. It's Pak-san's car key.<br>Whose business card is this? That is Kim-san's business card. It's an IT company person's business card.<br>Whose umbrella is that over there? That is Ana-san's umbrella. This umbrella is Yamada-sensei's.<br>Is this watch a Swiss watch? Yes, that's right.<br>Is that watch also a Swiss watch? No, it's not. It's a Japanese watch.<br>Whose computer is this? It's Kim-san's computer. Whose chair is that over there? That is Pak-san's chair.<br>The things in this classroom belong to everyone's friends.<br>This, that, and that over there, they are all everyone's important belongings.</p>",
+    "story_html": "<p><span style=\"display: inline-block;\">ここはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にいろいろな<ruby>物<rt>もの</rt></ruby>があります。</span><br><span style=\"display: inline-block;\">これは<ruby>誰<rt>だれ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ですか。</span><span id=\"L02_04_Q1\" style=\"display: inline-block;\">それは<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんの<ruby>本<rt>ほん</rt></ruby>です。</span><br><span style=\"display: inline-block;\">その<ruby>辞書<rt>じしょ</rt></ruby>もアナさんの<ruby>辞書<rt>じしょ</rt></ruby>ですか。</span><span style=\"display: inline-block;\">いいえ、ちがいます。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>です。</span><br><span style=\"display: inline-block;\">このボールペンは<ruby>誰<rt>だれ</rt></ruby>のですか。</span><span style=\"display: inline-block;\">それはキムさんのです。</span><br><span style=\"display: inline-block;\">このシャープペンシルもキムさんのですか。</span><span style=\"display: inline-block;\">はい、そうです。</span><br><span style=\"display: inline-block;\">あのカバンは<ruby>何<rt>なに</rt></ruby>ですか。</span><span style=\"display: inline-block;\">あれはジムさんのカバンです。</span><br><span style=\"display: inline-block;\">そのカバンの<ruby>中<rt>なか</rt></ruby>の<ruby>物<rt>もの</rt></ruby>はなんですか。</span><span style=\"display: inline-block;\">これは<ruby>手帳<rt>てちょう</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の<ruby>手帳<rt>てちょう</rt></ruby>です。</span><br><span style=\"display: inline-block;\">このカギもジムさんのですか。</span><span style=\"display: inline-block;\">いいえ、それはジムさんのじゃありません。</span><span id=\"L02_04_Q2\" style=\"display: inline-block;\">それはパクさんの<ruby>車<rt>くるま</rt></ruby>のカギです。</span><br><span style=\"display: inline-block;\">この<ruby>名刺<rt>めいし</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。</span><span style=\"display: inline-block;\">それはキムさんの<ruby>名刺<rt>めいし</rt></ruby>です。</span><span style=\"display: inline-block;\">ITの<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>名刺<rt>めいし</rt></ruby>です。</span><br><span style=\"display: inline-block;\">あの<ruby>傘<rt>かさ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。</span><span style=\"display: inline-block;\">あれはアナさんの<ruby>傘<rt>かさ</rt></ruby>です。</span><span style=\"display: inline-block;\">この<ruby>傘<rt>かさ</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。</span><br><span id=\"L02_04_Q3\" style=\"display: inline-block;\">この<ruby>時計<rt>とけい</rt></ruby>はスイスの<ruby>時計<rt>とけい</rt></ruby>ですか。</span><span style=\"display: inline-block;\">はい、そうです。</span><br><span style=\"display: inline-block;\">その<ruby>時計<rt>とけい</rt></ruby>もスイスの<ruby>時計<rt>とけい</rt></ruby>ですか。</span><span style=\"display: inline-block;\">いいえ、ちがいます。</span><span style=\"display: inline-block;\"><ruby>日本<rt>にほん</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です。</span><br><span style=\"display: inline-block;\">このコンピュータは<ruby>誰<rt>だれ</rt></ruby>のですか。</span><span style=\"display: inline-block;\">それはキムさんのコンピュータです。</span><span style=\"display: inline-block;\">あの<ruby>椅子<rt>いす</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。</span><span style=\"display: inline-block;\">あれはパクさんの<ruby>椅子<rt>いす</rt></ruby>です。</span><br><span style=\"display: inline-block;\">この<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>は、</span><span style=\"display: inline-block;\">みなさんの<ruby>友達<rt>ともだち</rt></ruby>の<ruby>物<rt>もの</rt></ruby>です。</span><br><span style=\"display: inline-block;\">これ、それ、あれ、</span><span style=\"display: inline-block;\">どれもみなさんの<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>持<rt>も</rt></ruby>ち<ruby>物<rt>もの</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "この <ruby>鍵<rt>かぎ</rt></ruby>は <ruby>誰<rt>だれ</rt></ruby>のですか。",
+        "question": "アナさんの<ruby>本<rt>ほん</rt></ruby>は、なんの<ruby>本<rt>ほん</rt></ruby>ですか。",
+        "target_id": "L02_04_Q1",
         "choices": [
-          "ワトソンさんの",
-          "<ruby>山田<rt>やまだ</rt></ruby>さんの",
-          "アナさんの"
+          "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
+          "ドイツ<ruby>語<rt>ご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "パクさんのカギは、<ruby>何<rt>なん</rt></ruby>のカギですか。",
+        "target_id": "L02_04_Q2",
+        "choices": [
+          "<ruby>家<rt>いえ</rt></ruby>のカギ",
+          "<ruby>車<rt>くるま</rt></ruby>のカギ",
+          "<ruby>病院<rt>びょういん</rt></ruby>のカギ"
         ],
         "answer_index": 1
       },
       {
-        "question": "カードは <ruby>誰<rt>だれ</rt></ruby>のですか。",
+        "question": "スイスの<ruby>時計<rt>とけい</rt></ruby>は、<ruby>誰<rt>だれ</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>ですか。",
+        "target_id": "L02_04_Q3",
         "choices": [
-          "ワトソンさんの",
-          "アナさんの",
-          "<ruby>山田<rt>やまだ</rt></ruby>さんの"
+          "アナさん",
+          "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>",
+          "ジムさん"
         ],
-        "answer_index": 0
+        "answer_index": 1
       }
     ]
   },

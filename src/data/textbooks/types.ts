@@ -10,6 +10,7 @@ export interface Story {
     lesson?: string;
     content?: string;
     content_html?: string;
+    audio_file?: string;
 }
 
 export interface Quiz {

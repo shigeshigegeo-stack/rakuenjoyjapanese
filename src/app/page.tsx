@@ -205,8 +205,8 @@ function HomeContent() {
       {/* Textbooks Content Area (Formerly Stories) */}
       {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h2 style={{ marginBottom: '1.5rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook Story</h2>
+          <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+            <h2 style={{ marginBottom: '1rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook Story</h2>
 
             {/* Filter Section */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center' }}>
@@ -274,6 +274,13 @@ function HomeContent() {
               </div>
 
             </div>
+          </div>
+
+          {/* Story Length Legend */}
+          <div style={{ textAlign: 'left', marginBottom: '1rem', color: '#555', fontSize: '0.95rem' }}>
+            <span>🌸 200-250字</span>
+            <span style={{ margin: '0 1rem' }}>🌸🌸 300-350字</span>
+            <span>🌸🌸🌸 400-450字</span>
           </div>
 
           <div className="story-grid">
