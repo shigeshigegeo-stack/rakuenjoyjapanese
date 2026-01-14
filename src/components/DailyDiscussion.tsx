@@ -35,10 +35,25 @@ const DailyDiscussion: React.FC = () => {
         setTopic(discussions[index]);
     }, []);
 
+    const handleShuffle = () => {
+        if (discussions.length === 0) return;
+        const randomIndex = Math.floor(Math.random() * discussions.length);
+        setTopic(discussions[randomIndex]);
+        setShowTranslation(false);
+        setShowAnswer(false);
+    };
+
     if (!topic) return null;
 
     return (
         <section className={styles.container}>
+            <button
+                className={styles.shuffleTopRight}
+                onClick={handleShuffle}
+                title="Shuffle Topic"
+            >
+                🔀
+            </button>
             <div className={styles.header}>
                 今日のディスカッション (Today's Discussion)
             </div>

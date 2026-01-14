@@ -18,7 +18,7 @@ export default function BackButton() {
                 padding: '0'
             }}
         >
-            ← Back to Stories
+            ← Back to Textbooks
         </button>
     );
 }

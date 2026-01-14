@@ -86,7 +86,10 @@ const SmallTalkCards: React.FC = () => {
         setShowBackground(false);
     };
 
-    const handleCloseModal = () => {
+    const handleCloseModal = (e?: React.MouseEvent) => {
+        if (e) {
+            e.stopPropagation();
+        }
         setSelectedCardId(null);
         setShowBackground(false);
     };

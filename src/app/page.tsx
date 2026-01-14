@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { stories } from '@/data/textbooks';
-import StoryCard from '@/components/StoryCard';
+import { textbooks } from '@/data/textbooks';
+import TextbookCard from '@/components/TextbookCard';
 import DailyDiscussion from '@/components/DailyDiscussion';
 import SmallTalkCards from '@/components/SmallTalkCards';
 
-// Using Story type from @/data/stories/types is implicit or can be imported if needed explicitly
-// but 'stories' is already typed.
+// Using Textbook type from @/data/textbooks/types is implicit or can be imported if needed explicitly
+// but 'textbooks' is already typed.
 
 function HomeContent() {
   // Navigation State
@@ -56,13 +56,13 @@ function HomeContent() {
     }
   }, [searchParams, router]);
 
-  // Scroll to Story Logic (Returning from specific story)
+  // Scroll to Textbook Logic (Returning from specific textbook)
   useEffect(() => {
-    const returnToStoryId = searchParams.get('returnTo');
-    if (returnToStoryId) {
+    const returnToTextbookId = searchParams.get('returnTo');
+    if (returnToTextbookId) {
       // Small timeout to ensure rendering is complete
       setTimeout(() => {
-        const element = document.getElementById(`story-${returnToStoryId}`);
+        const element = document.getElementById(`textbook-${returnToTextbookId}`);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
@@ -75,12 +75,12 @@ function HomeContent() {
     }
   }, [searchParams]);
 
-  const filteredStories = stories.filter(story => {
+  const filteredTextbooks = textbooks.filter(textbook => {
     if (levelFilter === 'All') return true;
 
     // Handle JLPT levels (e.g., N5) - exact match
     if (levelFilter.startsWith('N')) {
-      return story.level === levelFilter;
+      return textbook.level === levelFilter;
     }
 
     // Handle Range Filters (e.g. "Level 1-3")
@@ -90,33 +90,33 @@ function HomeContent() {
         const min = parseInt(match[1], 10);
         const max = parseInt(match[2], 10);
 
-        // Extract numeric level from story
-        let storyLvl = 0;
-        if (typeof story.level === 'number') {
-          storyLvl = story.level;
-        } else if (typeof story.level === 'string' && story.level.startsWith('Level')) {
-          const m = story.level.match(/\d+/);
-          storyLvl = m ? parseInt(m[0], 10) : 0;
+        // Extract numeric level from textbook
+        let textbookLvl = 0;
+        if (typeof textbook.level === 'number') {
+          textbookLvl = textbook.level;
+        } else if (typeof textbook.level === 'string' && textbook.level.startsWith('Level')) {
+          const m = textbook.level.match(/\d+/);
+          textbookLvl = m ? parseInt(m[0], 10) : 0;
         }
 
-        return storyLvl >= min && storyLvl <= max;
+        return textbookLvl >= min && textbookLvl <= max;
       }
     }
 
     // Fallback for single levels (though we are switching to ranges mostly)
-    // Or if story level format doesn't match expectations
-    let storyLevelStr = '';
-    if (typeof story.level === 'number') {
-      storyLevelStr = `Level ${story.level}`;
+    // Or if textbook level format doesn't match expectations
+    let textbookLevelStr = '';
+    if (typeof textbook.level === 'number') {
+      textbookLevelStr = `Level ${textbook.level}`;
     } else {
-      if (story.level.startsWith('Level') || story.level.startsWith('N')) {
-        storyLevelStr = story.level;
+      if (textbook.level.startsWith('Level') || textbook.level.startsWith('N')) {
+        textbookLevelStr = textbook.level;
       } else {
-        storyLevelStr = `Level ${story.level}`;
+        textbookLevelStr = `Level ${textbook.level}`;
       }
     }
 
-    return storyLevelStr === levelFilter;
+    return textbookLevelStr === levelFilter;
   }).sort((a, b) => {
     const getDifficultyScore = (lvl: number | string) => {
       // Numeric levels: 1 -> 10, 2 -> 20...
@@ -186,7 +186,7 @@ function HomeContent() {
           Stories
         </button>
         <button
-          onClick={() => setActiveTab('others')}
+          onClick={() => { setActiveTab('others'); setOtherFeature('none'); }}
           style={{
             padding: '10px 30px',
             borderRadius: '30px',
@@ -279,24 +279,24 @@ function HomeContent() {
 
           {/* Story Length Legend */}
           <div style={{ textAlign: 'left', marginBottom: '1rem', color: '#555', fontSize: '0.95rem' }}>
-            <span>🌸 100-150字</span>
-            <span style={{ margin: '0 1rem' }}>🌸🌸 200-250字</span>
-            <span>🌸🌸🌸 300-350字</span>
+            <span>🌸Short 100-150字</span>
+            <span style={{ margin: '0 1rem' }}>🌸🌸Medium 200-250字</span>
+            <span>🌸🌸🌸Long 300-350字</span>
           </div>
 
           <div className="story-grid">
-            {filteredStories.map((story) => {
-              // Calculate index based on non-N5 stories only
+            {filteredTextbooks.map((textbook) => {
+              // Calculate index based on non-N5 textbooks only
               let displayIndex: number | undefined;
-              if (story.level !== 'N5') {
-                const nonN5Stories = stories.filter(s => s.level !== 'N5');
-                displayIndex = nonN5Stories.findIndex(s => s.id === story.id) + 1;
+              if (textbook.level !== 'N5') {
+                const nonN5Textbooks = textbooks.filter(t => t.level !== 'N5');
+                displayIndex = nonN5Textbooks.findIndex(t => t.id === textbook.id) + 1;
               }
 
               return (
-                <StoryCard
-                  key={story.id}
-                  story={story}
+                <TextbookCard
+                  key={textbook.id}
+                  textbook={textbook}
                   index={displayIndex}
                 />
               );
@@ -366,9 +366,9 @@ function HomeContent() {
             </button>
           </div>
 
-          {filteredStories.length === 0 && (
+          {filteredTextbooks.length === 0 && (
             <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-light)' }}>
-              <p>No stories found for this level.</p>
+              <p>No textbooks found for this level.</p>
             </div>
           )}
         </div>

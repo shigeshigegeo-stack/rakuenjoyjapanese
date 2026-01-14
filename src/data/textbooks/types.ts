@@ -1,15 +1,13 @@
-export interface Story {
+export interface Textbook {
     id: string;
     title: string;
     level: number | string;
     schema_activation?: string[];
     translation?: string;
-    story_html?: string;
+    textbook_html?: string;
     quizzes?: Quiz[];
     excerpt?: string;
     lesson?: string;
-    content?: string;
-    content_html?: string;
     audio_file?: string;
 }
 
