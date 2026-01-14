@@ -155,7 +155,7 @@ const SmallTalkCards: React.FC = () => {
             )}
 
             <div className={styles.topicGrid}>
-                {displayCards.map((card, index) => {
+                {displayCards.map((card) => {
                     // Find color for card based on its category (useful for Mixed mode)
                     const catColor = CATEGORIES.find(c => c.id === card.category)?.color || '#374151';
 
@@ -214,7 +214,7 @@ const SmallTalkCards: React.FC = () => {
 
                         <div className={styles.modalBody}>
                             <div className={styles.catchphrase}>
-                                "{activeCard.catchphrase}"
+                                &quot;{activeCard.catchphrase}&quot;
                             </div>
 
                             <div className={styles.keywordSection}>

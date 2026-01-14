@@ -1,9 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import TextToSpeechButton from './TextToSpeechButton';
 import LevelBadge from './LevelBadge';
-import { Textbook } from '@/data/textbooks/types';
+import { Textbook, Quiz } from '@/data/textbooks/types';
 
 
 
@@ -121,8 +122,8 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
     }
 
     // Helper to render a single quiz item content
-    const renderQuizContent = (quiz: any, quizIdx: number, isOverlay: boolean = false) => {
-        const options = quiz.choices || quiz.options || [];
+    const renderQuizContent = (quiz: Quiz, quizIdx: number, isOverlay: boolean = false) => {
+        const options = quiz.choices || []; // choices is mandatory in type, but good to be safe if data is inconsistent
         const translationVisible = quizTranslations[quizIdx];
 
         return (
@@ -279,11 +280,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
                 <div style={{ display: 'flex', gap: '10px' }}>
                     {prevTextbookId ? (
-                        <a href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
+                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
-                        </a>
+                        </Link>
                     ) : (
                         <span className="nav-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -293,11 +294,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     )}
 
                     {nextTextbookId ? (
-                        <a href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
+                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
-                        </a>
+                        </Link>
                     ) : (
                         <span className="nav-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -311,7 +312,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>Let's Talk</strong><br />
+                    <strong>Let&apos;s Talk</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
@@ -401,17 +402,17 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             )}
 
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <a href="/" style={{ color: 'var(--accent-red)', textDecoration: 'underline', fontWeight: 'bold' }}>
+                <Link href="/" style={{ color: 'var(--accent-red)', textDecoration: 'underline', fontWeight: 'bold' }}>
                     ← Back to Lesson List
-                </a>
+                </Link>
 
                 <div style={{ display: 'flex', gap: '10px' }}>
                     {prevTextbookId ? (
-                        <a href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
+                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
-                        </a>
+                        </Link>
                     ) : (
                         <span className="nav-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -421,11 +422,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     )}
 
                     {nextTextbookId ? (
-                        <a href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
+                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
-                        </a>
+                        </Link>
                     ) : (
                         <span className="nav-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

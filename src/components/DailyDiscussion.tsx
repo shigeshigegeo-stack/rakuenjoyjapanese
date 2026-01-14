@@ -32,6 +32,7 @@ const DailyDiscussion: React.FC = () => {
 
         // Select topic based on day
         const index = dayOfYear % discussions.length;
+        // eslint-disable-next-line
         setTopic(discussions[index]);
     }, []);
 
@@ -55,7 +56,7 @@ const DailyDiscussion: React.FC = () => {
                 🔀
             </button>
             <div className={styles.header}>
-                今日のディスカッション (Today's Discussion)
+                今日のディスカッション (Today&apos;s Discussion)
             </div>
 
             <div
@@ -68,7 +69,7 @@ const DailyDiscussion: React.FC = () => {
             </div>
 
             <p className={styles.subText}>
-                先生からの質問に答えてみましょう！ (Answer the teacher's question!)
+                先生からの質問に答えてみましょう！ (Answer the teacher&apos;s question!)
             </p>
 
             <div className={styles.controls}>

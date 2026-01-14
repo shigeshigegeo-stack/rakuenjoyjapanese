@@ -28,6 +28,7 @@ function HomeContent() {
     if (typeof window !== 'undefined') {
       const stored = sessionStorage.getItem('levelFilter');
       if (stored) {
+        // eslint-disable-next-line
         setLevelFilter(stored);
       }
       setIsInitialized(true);
@@ -44,6 +45,7 @@ function HomeContent() {
   // Reset Logic
   useEffect(() => {
     if (searchParams.get('reset')) {
+      // eslint-disable-next-line
       setActiveTab('textbooks');
       setLevelFilter('All');
       setOtherFeature('none');

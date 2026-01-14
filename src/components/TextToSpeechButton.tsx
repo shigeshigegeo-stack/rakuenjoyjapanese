@@ -11,18 +11,21 @@ interface TextToSpeechButtonProps {
 
 const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '🔊 Listen', className = '', audioSrc }) => {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
+    // Use useRef for the Audio instance to avoid state mutation lint errors and unnecessary re-renders
+    const audioRef = React.useRef<HTMLAudioElement | null>(null);
 
     // Stop audio when component unmounts
     useEffect(() => {
         return () => {
             window.speechSynthesis.cancel();
-            if (audioElement) {
-                audioElement.pause();
-                audioElement.currentTime = 0;
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
             }
         };
-    }, [audioElement]);
+    }, []);
+
+    // ... (rest of cleanText function is unchanged, we need to locate handleSpeech)
 
     const cleanText = (html: string) => {
         let cleaned = html;
@@ -58,9 +61,9 @@ const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '
 
     const handleSpeech = () => {
         if (isPlaying) {
-            if (audioSrc && audioElement) {
-                audioElement.pause();
-                audioElement.currentTime = 0;
+            if (audioSrc && audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
             } else {
                 window.speechSynthesis.cancel();
             }
@@ -70,16 +73,16 @@ const TextToSpeechButton: React.FC<TextToSpeechButtonProps> = ({ text, label = '
 
         // Stop any existing speech/audio
         window.speechSynthesis.cancel();
-        if (audioElement) {
-            audioElement.pause();
-            audioElement.currentTime = 0;
+        if (audioRef.current) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
         }
 
         if (audioSrc) {
             // Play from file
             const audio = new Audio(audioSrc);
             audio.volume = 0.7; // Lower volume slightly as requested
-            setAudioElement(audio); // Keep reference to stop it later
+            audioRef.current = audio; // Update ref
 
             audio.onplay = () => setIsPlaying(true);
             audio.onended = () => setIsPlaying(false);

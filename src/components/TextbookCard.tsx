@@ -21,8 +21,7 @@ const TextbookCard: React.FC<TextbookCardProps> = ({ textbook, index }) => {
         excerpt = text.substring(0, 60) + (text.length > 60 ? '...' : '');
     }
 
-    // Default lesson if missing
-    const lesson = textbook.lesson || 'L1';
+
 
     // Calculate blossom count based on textbook ID (assuming format STORY_Lxx_yy)
     let blossomCount = 0;

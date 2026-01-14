@@ -38,7 +38,6 @@ export async function generateMetadata({ params }: Props) {
 }
 
 import ScrollButtons from '@/components/ScrollButtons';
-import BackButton from '@/components/BackButton';
 
 // ... (imports remain)
 
@@ -50,7 +49,7 @@ export default async function TextbookPage({ params }: Props) {
         notFound();
     }
 
-    const currentIndex = textbooks.findIndex((s) => s.id === id);
+
 
     // Determine if the current textbook is N5
     const isN5 = textbook.level === 'N5';
