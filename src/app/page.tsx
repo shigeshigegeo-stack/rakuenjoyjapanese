@@ -12,7 +12,7 @@ import SmallTalkCards from '@/components/SmallTalkCards';
 
 function HomeContent() {
   // Navigation State
-  const [activeTab, setActiveTab] = useState<'textbooks' | 'stories' | 'others'>('textbooks');
+  const [activeTab, setActiveTab] = useState<'textbooks' | 'extra' | 'others'>('textbooks');
   const [otherFeature, setOtherFeature] = useState<'none' | 'daily_discussion' | 'small_talk'>('none');
 
   // Filter State
@@ -172,20 +172,20 @@ function HomeContent() {
           Textbooks
         </button>
         <button
-          onClick={() => { setActiveTab('stories'); setOtherFeature('none'); }}
+          onClick={() => { setActiveTab('extra'); setOtherFeature('none'); }}
           style={{
             padding: '10px 30px',
             borderRadius: '30px',
-            backgroundColor: activeTab === 'stories' ? 'var(--accent-red)' : 'transparent',
-            color: activeTab === 'stories' ? 'white' : 'var(--text-color)',
-            border: activeTab === 'stories' ? '2px solid var(--accent-red)' : '2px solid var(--border-color)',
+            backgroundColor: activeTab === 'extra' ? 'var(--accent-red)' : 'transparent',
+            color: activeTab === 'extra' ? 'white' : 'var(--text-color)',
+            border: activeTab === 'extra' ? '2px solid var(--accent-red)' : '2px solid var(--border-color)',
             fontSize: '1.2rem',
             fontWeight: 'bold',
             cursor: 'pointer',
             transition: 'all 0.3s ease'
           }}
         >
-          Stories
+          Extra Content
         </button>
         <button
           onClick={() => { setActiveTab('others'); setOtherFeature('none'); }}
@@ -209,7 +209,7 @@ function HomeContent() {
       {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
           <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-            <h2 style={{ marginBottom: '1rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook Story</h2>
+            <h2 style={{ marginBottom: '1rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook</h2>
 
             {/* Filter Section */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center' }}>
@@ -286,7 +286,7 @@ function HomeContent() {
             <span>🌸🌸🌸Long 300-350字</span>
           </div>
 
-          <div className="story-grid">
+          <div className="textbook-grid">
             {filteredTextbooks.map((textbook) => {
               // Calculate index based on non-N5 textbooks only
               let displayIndex: number | undefined;
@@ -377,7 +377,7 @@ function HomeContent() {
       )}
 
       {/* Stories Placeholder */}
-      {activeTab === 'stories' && (
+      {activeTab === 'extra' && (
         <div className="animate-fade-in" style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-light)' }}>
           <div style={{
             border: '2px dashed var(--border-color)',
@@ -387,8 +387,8 @@ function HomeContent() {
             margin: '0 auto',
             backgroundColor: '#f9f9f9'
           }}>
-            <h3 style={{ marginBottom: '1rem', color: 'var(--text-main)' }}>Stories Coming Soon</h3>
-            <p>This section will contain new, original Japanese stories.</p>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--text-main)' }}>Content Coming Soon</h3>
+            <p>This section will contain new, original Japanese content.</p>
           </div>
         </div>
       )}

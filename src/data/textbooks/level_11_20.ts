@@ -1,8 +1,8 @@
 import { Textbook } from './types';
 
-export const stories_level_11_20: Textbook[] = [
+export const textbooks_level_11_20: Textbook[] = [
   {
-    "id": "STORY_L11_01",
+    "id": "TEXTBOOK_L11_01",
     "level": 11,
     "title": "みかんを いくつ <ruby>買<rt>か</rt></ruby>いましたか",
     "schema_activation": [
@@ -32,7 +32,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L11_02",
+    "id": "TEXTBOOK_L11_02",
     "level": 11,
     "title": "ワトソンさんの <ruby>生活<rt>せいかつ</rt></ruby>と <ruby>家族<rt>かぞく</rt></ruby>",
     "schema_activation": [
@@ -63,7 +63,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L11_03",
+    "id": "TEXTBOOK_L11_03",
     "level": 11,
     "title": "デパートで<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>",
     "schema_activation": [
@@ -94,7 +94,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L11_04",
+    "id": "TEXTBOOK_L11_04",
     "level": 11,
     "title": "ワトソンさんの <ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>と <ruby>旅行<rt>りょこう</rt></ruby>",
     "schema_activation": [
@@ -134,7 +134,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L12_01",
+    "id": "TEXTBOOK_L12_01",
     "level": 12,
     "title": "きのうの <ruby>天気<rt>てんき</rt></ruby>は どうでしたか",
     "schema_activation": [
@@ -163,7 +163,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L12_02",
+    "id": "TEXTBOOK_L12_02",
     "level": 12,
     "title": "レストランで <ruby>晩<rt>ばん</rt></ruby>ごはん",
     "schema_activation": [
@@ -193,7 +193,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L12_03",
+    "id": "TEXTBOOK_L12_03",
     "level": 12,
     "title": "<ruby>九<rt>きゅう</rt>州<rt>しゅう</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>は どうでしたか",
     "schema_activation": [
@@ -224,7 +224,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L12_04",
+    "id": "TEXTBOOK_L12_04",
     "level": 12,
     "title": "みんなの <ruby>好<rt>す</rt></ruby>きな もの",
     "schema_activation": [
@@ -263,7 +263,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L13_01",
+    "id": "TEXTBOOK_L13_01",
     "level": 13,
     "title": "アナさんの ほしい もの",
     "schema_activation": [
@@ -293,7 +293,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L13_02",
+    "id": "TEXTBOOK_L13_02",
     "level": 13,
     "title": "<ruby>冬休み<rt>ふゆやすみ</rt></ruby>に どこへ <ruby>行<rt>い</rt></ruby>きたいですか",
     "schema_activation": [
@@ -322,7 +322,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L13_03",
+    "id": "TEXTBOOK_L13_03",
     "level": 13,
     "title": "キムさんの <ruby>日曜日<rt>にちようび</rt></ruby>",
     "schema_activation": [
@@ -352,7 +352,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L13_04",
+    "id": "TEXTBOOK_L13_04",
     "level": 13,
     "title": "おなかが すきました",
     "schema_activation": [
@@ -382,7 +382,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L14_01",
+    "id": "TEXTBOOK_L14_01",
     "level": 14,
     "title": "<ruby>教室<rt>きょうしつ</rt></ruby>で",
     "schema_activation": [
@@ -412,7 +412,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L14_02",
+    "id": "TEXTBOOK_L14_02",
     "level": 14,
     "title": "タクシーで",
     "schema_activation": [
@@ -442,7 +442,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L14_03",
+    "id": "TEXTBOOK_L14_03",
     "level": 14,
     "title": "<ruby>手伝<rt>てつだ</rt></ruby>ってください",
     "schema_activation": [
@@ -472,7 +472,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L14_04",
+    "id": "TEXTBOOK_L14_04",
     "level": 14,
     "title": "<ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>っています",
     "schema_activation": [
@@ -502,7 +502,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L15_01",
+    "id": "TEXTBOOK_L15_01",
     "level": 15,
     "title": "<ruby>美術館<rt>びじゅつかん</rt></ruby>の ルール",
     "schema_activation": [
@@ -530,7 +530,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L15_02",
+    "id": "TEXTBOOK_L15_02",
     "level": 15,
     "title": "ワトソンさんの <ruby>仕事<rt>しごと</rt></ruby>",
     "schema_activation": [
@@ -560,7 +560,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L15_03",
+    "id": "TEXTBOOK_L15_03",
     "level": 15,
     "title": "<ruby>市役所<rt>しやくしょ</rt></ruby>で",
     "schema_activation": [
@@ -589,7 +589,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L15_04",
+    "id": "TEXTBOOK_L15_04",
     "level": 15,
     "title": "パソコンを <ruby>知<rt>し</rt></ruby>っていますか",
     "schema_activation": [
@@ -618,7 +618,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L16_01",
+    "id": "TEXTBOOK_L16_01",
     "level": 16,
     "title": "<ruby>朝<rt>あさ</rt></ruby>の ルーティン",
     "schema_activation": [
@@ -647,7 +647,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L16_02",
+    "id": "TEXTBOOK_L16_02",
     "level": 16,
     "title": "<ruby>新宿<rt>しんじゅく</rt></ruby>の <ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>",
     "schema_activation": [
@@ -676,7 +676,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L16_03",
+    "id": "TEXTBOOK_L16_03",
     "level": 16,
     "title": "どんな <ruby>人<rt>ひと</rt></ruby>ですか",
     "schema_activation": [
@@ -706,7 +706,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L16_04",
+    "id": "TEXTBOOK_L16_04",
     "level": 16,
     "title": "<ruby>大阪<rt>おおさか</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>",
     "schema_activation": [
@@ -736,7 +736,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L17_01",
+    "id": "TEXTBOOK_L17_01",
     "level": 17,
     "title": "<ruby>病院<rt>びょういん</rt></ruby>で",
     "schema_activation": [
@@ -764,7 +764,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L17_02",
+    "id": "TEXTBOOK_L17_02",
     "level": 17,
     "title": "<ruby>忘<rt>わす</rt></ruby>れないでください",
     "schema_activation": [
@@ -793,7 +793,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L17_03",
+    "id": "TEXTBOOK_L17_03",
     "level": 17,
     "title": "<ruby>残業<rt>ざんぎょう</rt></ruby>",
     "schema_activation": [
@@ -822,7 +822,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L17_04",
+    "id": "TEXTBOOK_L17_04",
     "level": 17,
     "title": "<ruby>大学<rt>だいがく</rt></ruby>の レポート",
     "schema_activation": [
@@ -851,7 +851,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L18_01",
+    "id": "TEXTBOOK_L18_01",
     "level": 18,
     "title": "アナさんの <ruby>趣味<rt>しゅみ</rt></ruby>",
     "schema_activation": [
@@ -881,7 +881,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L18_02",
+    "id": "TEXTBOOK_L18_02",
     "level": 18,
     "title": "<ruby>日本<rt>にほん</rt></ruby>で <ruby>運転<rt>うんてん</rt></ruby>できますか",
     "schema_activation": [
@@ -910,7 +910,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L18_03",
+    "id": "TEXTBOOK_L18_03",
     "level": 18,
     "title": "ワトソンさんの ブラジル<ruby>料理<rt>りょうり</rt></ruby>",
     "schema_activation": [
@@ -940,7 +940,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L18_04",
+    "id": "TEXTBOOK_L18_04",
     "level": 18,
     "title": "カードを <ruby>使<rt>つか</rt></ruby>うことが できますか",
     "schema_activation": [
@@ -970,7 +970,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L19_01",
+    "id": "TEXTBOOK_L19_01",
     "level": 19,
     "title": "<ruby>富士山<rt>ふじさん</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>ったことが ありますか",
     "schema_activation": [
@@ -999,7 +999,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L19_02",
+    "id": "TEXTBOOK_L19_02",
     "level": 19,
     "title": "<ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しますか",
     "schema_activation": [
@@ -1029,7 +1029,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L19_03",
+    "id": "TEXTBOOK_L19_03",
     "level": 19,
     "title": "<ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>に <ruby>慣<rt>な</rt></ruby>れました",
     "schema_activation": [
@@ -1059,7 +1059,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L19_04",
+    "id": "TEXTBOOK_L19_04",
     "level": 19,
     "title": "<ruby>健康<rt>けんこう</rt></ruby>に なりました",
     "schema_activation": [
@@ -1089,7 +1089,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L20_01",
+    "id": "TEXTBOOK_L20_01",
     "level": 20,
     "title": "<ruby>週末<rt>しゅうまつ</rt></ruby>、<ruby>何<rt>なに</rt></ruby>をする？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
     "schema_activation": [
@@ -1118,7 +1118,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L20_02",
+    "id": "TEXTBOOK_L20_02",
     "level": 20,
     "title": "<ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>った？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
     "schema_activation": [
@@ -1148,7 +1148,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L20_03",
+    "id": "TEXTBOOK_L20_03",
     "level": 20,
     "title": "<ruby>晩<rt>ばん</rt></ruby>ごはん、<ruby>食<rt>た</rt></ruby>べる？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
     "schema_activation": [
@@ -1177,7 +1177,7 @@ export const stories_level_11_20: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L20_04",
+    "id": "TEXTBOOK_L20_04",
     "level": 20,
     "title": "<ruby>漢字<rt>かんじ</rt></ruby>、わかる？（<ruby>普通形<rt>ふつうけい</rt></ruby>）",
     "schema_activation": [

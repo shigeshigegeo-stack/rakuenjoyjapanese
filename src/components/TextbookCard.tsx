@@ -23,7 +23,7 @@ const TextbookCard: React.FC<TextbookCardProps> = ({ textbook, index }) => {
 
 
 
-    // Calculate blossom count based on textbook ID (assuming format STORY_Lxx_yy)
+    // Calculate blossom count based on textbook ID (assuming format TEXTBOOK_Lxx_yy)
     let blossomCount = 0;
     const parts = textbook.id.split('_');
     if (parts.length >= 3) {

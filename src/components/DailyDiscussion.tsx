@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react';
 import styles from './DailyDiscussion.module.css';
 import discussionsData from '@/data/discussions.json';
 
-import TextToSpeechButton from './TextToSpeechButton';
-
 type Discussion = {
     id: number;
     level: number;
@@ -64,10 +62,6 @@ const DailyDiscussion: React.FC = () => {
                 dangerouslySetInnerHTML={{ __html: topic.question_jp }}
             />
 
-            <div style={{ marginBottom: '20px' }}>
-                <TextToSpeechButton text={topic.question_jp} label="🔊 音声を聞く" />
-            </div>
-
             <p className={styles.subText}>
                 先生からの質問に答えてみましょう！ (Answer the teacher&apos;s question!)
             </p>
@@ -102,9 +96,6 @@ const DailyDiscussion: React.FC = () => {
                         style={{ marginBottom: '0.5rem' }}
                         dangerouslySetInnerHTML={{ __html: topic.answer_jp }}
                     />
-                    <div style={{ marginBottom: '0.5rem', marginTop: '0.5rem' }}>
-                        <TextToSpeechButton text={topic.answer_jp} label="🔊 音声を聞く" />
-                    </div>
                     <p className={styles.revealText} style={{ color: 'var(--text-light)', fontSize: '0.95rem' }}>
                         {topic.answer_en}
                     </p>

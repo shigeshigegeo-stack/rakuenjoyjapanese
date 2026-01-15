@@ -1,8 +1,8 @@
 import { Textbook } from './types';
 
-export const stories_level_21_30: Textbook[] = [
+export const textbooks_level_21_30: Textbook[] = [
   {
-    "id": "STORY_L21_01",
+    "id": "TEXTBOOK_L21_01",
     "level": 21,
     "title": "<ruby>日本<rt>にほん</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>いますか",
     "schema_activation": [
@@ -16,7 +16,7 @@ export const stories_level_21_30: Textbook[] = [
         "choices": [
           "<ruby>不便<rt>ふべん</rt></ruby>だと おもう",
           "<ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いが <ruby>便利<rt>べんり</rt></ruby>だと おもう",
-          "あまり よくあないと おもう"
+          "あまり よくないと おもう"
         ],
         "answer_index": 1
       },
@@ -32,7 +32,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L21_02",
+    "id": "TEXTBOOK_L21_02",
     "level": 21,
     "title": "キムさんの ニュース",
     "schema_activation": [
@@ -62,7 +62,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L21_03",
+    "id": "TEXTBOOK_L21_03",
     "level": 21,
     "title": "<ruby>明日<rt>あした</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>",
     "schema_activation": [
@@ -92,7 +92,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L21_04",
+    "id": "TEXTBOOK_L21_04",
     "level": 21,
     "title": "<ruby>試合<rt>しあい</rt></ruby>に ついて",
     "schema_activation": [
@@ -122,7 +122,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L22_01",
+    "id": "TEXTBOOK_L22_01",
     "level": 22,
     "title": "アナさんが <ruby>会<rt>あ</rt></ruby>った <ruby>人<rt>ひと</rt></ruby>",
     "schema_activation": [
@@ -152,7 +152,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L22_02",
+    "id": "TEXTBOOK_L22_02",
     "level": 22,
     "title": "キムさんが <ruby>買<rt>か</rt></ruby>った パソコン",
     "schema_activation": [
@@ -182,7 +182,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L22_03",
+    "id": "TEXTBOOK_L22_03",
     "level": 22,
     "title": "ワトソンさんが <ruby>住<rt>す</rt></ruby>んでいる <ruby>家<rt>うち</rt></ruby>",
     "schema_activation": [
@@ -212,7 +212,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L22_04",
+    "id": "TEXTBOOK_L22_04",
     "level": 22,
     "title": "<ruby>母<rt>はは</rt></ruby>に あげた プレゼント",
     "schema_activation": [
@@ -242,7 +242,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L23_01",
+    "id": "TEXTBOOK_L23_01",
     "level": 23,
     "title": "<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くとき",
     "schema_activation": [
@@ -272,7 +272,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L23_02",
+    "id": "TEXTBOOK_L23_02",
     "level": 23,
     "title": "ボタンを <ruby>押<rt>お</rt></ruby>すと",
     "schema_activation": [
@@ -302,7 +302,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L23_03",
+    "id": "TEXTBOOK_L23_03",
     "level": 23,
     "title": "<ruby>子供<rt>こども</rt></ruby>の とき",
     "schema_activation": [
@@ -332,7 +332,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L23_04",
+    "id": "TEXTBOOK_L23_04",
     "level": 23,
     "title": "お<ruby>金<rt>かね</rt></ruby>が ないとき",
     "schema_activation": [
@@ -363,7 +363,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L24_01",
+    "id": "TEXTBOOK_L24_01",
     "level": 24,
     "title": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が <ruby>貸<rt>か</rt></ruby>してくれました",
     "schema_activation": [
@@ -393,7 +393,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L24_02",
+    "id": "TEXTBOOK_L24_02",
     "level": 24,
     "title": "<ruby>母<rt>はは</rt></ruby>が <ruby>送<rt>おく</rt></ruby>ってくれました",
     "schema_activation": [
@@ -423,7 +423,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L24_03",
+    "id": "TEXTBOOK_L24_03",
     "level": 24,
     "title": "キムさんの <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>し",
     "schema_activation": [
@@ -453,7 +453,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L24_04",
+    "id": "TEXTBOOK_L24_04",
     "level": 24,
     "title": "<ruby>道<rt>みち</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えてくれました",
     "schema_activation": [
@@ -483,7 +483,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L25_01",
+    "id": "TEXTBOOK_L25_01",
     "level": 25,
     "title": "<ruby>暇<rt>ひま</rt></ruby>だったら、<ruby>何<rt>なに</rt></ruby>をする？",
     "schema_activation": [
@@ -513,7 +513,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L25_02",
+    "id": "TEXTBOOK_L25_02",
     "level": 25,
     "title": "<ruby>安<rt>やす</rt></ruby>かったら、<ruby>買<rt>か</rt></ruby>います",
     "schema_activation": [
@@ -543,7 +543,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L25_03",
+    "id": "TEXTBOOK_L25_03",
     "level": 25,
     "title": "<ruby>卒業<rt>そつぎょう</rt></ruby>したら、どうする？",
     "schema_activation": [
@@ -573,7 +573,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L25_04",
+    "id": "TEXTBOOK_L25_04",
     "level": 25,
     "title": "いくら <ruby>考<rt>かんが</rt></ruby>えても…",
     "schema_activation": [
@@ -602,7 +602,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L26_01",
+    "id": "TEXTBOOK_L26_01",
     "level": 26,
     "title": "どうして <ruby>遅<rt>おく</rt></ruby>れたんですか",
     "schema_activation": [
@@ -632,7 +632,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L26_02",
+    "id": "TEXTBOOK_L26_02",
     "level": 26,
     "title": "<ruby>頭<rt>あたま</rt></ruby>が <ruby>痛<rt>いた</rt></ruby>いんです",
     "schema_activation": [
@@ -662,7 +662,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L26_03",
+    "id": "TEXTBOOK_L26_03",
     "level": 26,
     "title": "ゴミは どこに <ruby>出<rt>だ</rt></ruby>すんですか",
     "schema_activation": [
@@ -692,7 +692,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L26_04",
+    "id": "TEXTBOOK_L26_04",
     "level": 26,
     "title": "お<ruby>花見<rt>はなみ</rt></ruby>に <ruby>行<rt>い</rt></ruby>きたいんです",
     "schema_activation": [
@@ -722,7 +722,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L27_01",
+    "id": "TEXTBOOK_L27_01",
     "level": 27,
     "title": "<ruby>山<rt>やま</rt></ruby>に <ruby>登<rt>のぼ</rt></ruby>れます",
     "schema_activation": [
@@ -751,7 +751,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L27_02",
+    "id": "TEXTBOOK_L27_02",
     "level": 27,
     "title": "コンビニで <ruby>買<rt>か</rt></ruby>えます",
     "schema_activation": [
@@ -781,7 +781,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L27_03",
+    "id": "TEXTBOOK_L27_03",
     "level": 27,
     "title": "<ruby>海<rt>うみ</rt></ruby>が <ruby>見<rt>み</rt></ruby>えます",
     "schema_activation": [
@@ -810,7 +810,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L27_04",
+    "id": "TEXTBOOK_L27_04",
     "level": 27,
     "title": "<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>ししか できません",
     "schema_activation": [
@@ -838,7 +838,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L28_01",
+    "id": "TEXTBOOK_L28_01",
     "level": 28,
     "title": "<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きながら",
     "schema_activation": [
@@ -868,7 +868,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L28_02",
+    "id": "TEXTBOOK_L28_02",
     "level": 28,
     "title": "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>走<rt>はし</rt></ruby>っています",
     "schema_activation": [
@@ -898,7 +898,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L28_03",
+    "id": "TEXTBOOK_L28_03",
     "level": 28,
     "title": "<ruby>安<rt>やす</rt></ruby>いし、おいしいし",
     "schema_activation": [
@@ -928,7 +928,7 @@ export const stories_level_21_30: Textbook[] = [
     ]
   },
   {
-    "id": "STORY_L28_04",
+    "id": "TEXTBOOK_L28_04",
     "level": 28,
     "title": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は いい <ruby>先生<rt>せんせい</rt></ruby>です",
     "schema_activation": [

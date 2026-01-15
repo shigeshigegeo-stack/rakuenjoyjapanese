@@ -95,11 +95,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         }
     };
 
-    // Calculate Level and Sub-Level from ID (e.g., STORY_L01_01)
+    // Calculate Level and Sub-Level from ID (e.g., TEXTBOOK_L01_01)
     let levelDisplay = null;
     let blossomCount = 0;
 
-    const match = textbook.id.match(/(?:STORY|TEXTBOOK)_L(\d+)_(\d+)/);
+    const match = textbook.id.match(/TEXTBOOK_L(\d+)_(\d+)/);
     if (match) {
         const levelNum = parseInt(match[1], 10);
         const subLevelNum = parseInt(match[2], 10);
@@ -261,7 +261,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '2px solid var(--accent-red)', paddingBottom: '10px', marginBottom: '20px', position: 'relative', zIndex: 1 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    {/* Serial Number styled like StoryCard watermark but inline */}
+                    {/* Serial Number styled like TextbookCard watermark but inline */}
                     {serialNumber !== undefined && (
                         <div style={{
                             fontFamily: 'var(--font-heading)',
@@ -280,13 +280,13 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
                 <div style={{ display: 'flex', gap: '10px' }}>
                     {prevTextbookId ? (
-                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
+                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-icon-btn" aria-label="Previous Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
                         </Link>
                     ) : (
-                        <span className="nav-btn disabled">
+                        <span className="nav-icon-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
@@ -294,13 +294,13 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     )}
 
                     {nextTextbookId ? (
-                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
+                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-icon-btn" aria-label="Next Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
                         </Link>
                     ) : (
-                        <span className="nav-btn disabled">
+                        <span className="nav-icon-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
@@ -334,7 +334,13 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             <div
                 id="story-content"
                 className={hideRuby ? 'hide-ruby' : ''}
-                style={{ fontSize: '1.5rem', lineHeight: '2.8' }}
+                style={{
+                    fontSize: '1.5rem',
+                    lineHeight: '2.2',
+                    textAlign: 'justify',
+                    textJustify: 'inter-ideograph',
+                    letterSpacing: '0.03em'
+                } as any}
                 dangerouslySetInnerHTML={{ __html: displayContent }}
             />
 
@@ -401,39 +407,44 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                 </div>
             )}
 
-            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <Link href="/" style={{ color: 'var(--accent-red)', textDecoration: 'underline', fontWeight: 'bold' }}>
-                    ← Back to Lesson List
-                </Link>
-
-                <div style={{ display: 'flex', gap: '10px' }}>
+            {/* Bottom Navigation */}
+            <div className="bottom-nav-container">
+                <div className="nav-buttons-row" style={{ justifyContent: 'flex-end', gap: '10px' }}>
+                    {/* Previous Button */}
                     {prevTextbookId ? (
-                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-btn" aria-label="Previous Textbook">
+                        <Link href={`/textbooks/${prevTextbookId}`} className="nav-icon-btn" aria-label="Previous Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
                         </Link>
                     ) : (
-                        <span className="nav-btn disabled">
+                        <div className="nav-icon-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M15 18l-6-6 6-6" />
                             </svg>
-                        </span>
+                        </div>
                     )}
 
+                    {/* Next Button */}
                     {nextTextbookId ? (
-                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-btn" aria-label="Next Textbook">
+                        <Link href={`/textbooks/${nextTextbookId}`} className="nav-icon-btn" aria-label="Next Textbook">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
                         </Link>
                     ) : (
-                        <span className="nav-btn disabled">
+                        <div className="nav-icon-btn disabled">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M9 18l6-6-6-6" />
                             </svg>
-                        </span>
+                        </div>
                     )}
+                </div>
+
+                <div className="back-link-row">
+                    <Link href="/" style={{ color: 'var(--accent-red)', textDecoration: 'underline', fontWeight: 'bold' }}>
+                        ← Back to Lesson List
+                    </Link>
                 </div>
             </div>
 
@@ -498,6 +509,32 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             display: block;
             margin-bottom: 15px;
         }
+        /* Scrollbar mostly hidden but functional */
+        ::-webkit-scrollbar {
+          width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #ccc;
+          border-radius: 4px;
+        }
+        ::-webkit-scrollbar-track {
+          background: transparent;
+        }
+
+        .btn-toggle-translation {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            color: var(--text-light);
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
         .btn-toggle-translation:hover {
             background: #f5f5f5;
             color: var(--text-color);
@@ -524,9 +561,15 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         :global(rt) {
           font-weight: bold !important;
           opacity: 0.9;
+          font-size: 0.6em; /* Ensure ruby isn't too small */
+        }
+        
+        :global(ruby) {
+            ruby-align: center;
         }
 
-        .nav-btn {
+        /* Top Navigation - Icon only (Round) */
+        :global(.nav-icon-btn) {
           width: 40px;
           height: 40px;
           border-radius: 50%;
@@ -535,21 +578,83 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           align-items: center;
           justify-content: center;
           color: var(--text-color);
-          font-weight: bold;
           transition: all 0.2s ease;
           border: 1px solid #ddd;
+          text-decoration: none; /* Ensure no underline */
         }
-        .nav-btn:hover:not(.disabled) {
+        :global(.nav-icon-btn:hover:not(.disabled)) {
           background: var(--accent-red);
           color: white;
           border-color: var(--accent-red);
           transform: translateY(-2px);
           box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
-        .nav-btn.disabled {
+        :global(.nav-icon-btn.disabled) {
           opacity: 0.3;
           cursor: default;
           background: #eee;
+        }
+
+        /* Bottom Nav - Split Layout */
+        .bottom-nav-container {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .nav-buttons-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .back-link-row {
+            text-align: center;
+        }
+
+        /* Nav Round Button (Bottom) */
+        :global(.nav-round-btn) {
+          width: 50px;
+          height: 50px;
+          min-width: 50px; /* Prevent shrinking */
+          min-height: 50px;
+          border-radius: 50%;
+          background: #f9f9f9;
+          border: 1px solid #e0e0e0;
+          
+          /* Flex Centering */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          color: var(--text-color);
+          transition: all 0.2s ease;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+          box-sizing: border-box; /* Include border in size */
+          line-height: 0; /* Fix vertical alignment issues */
+          text-decoration: none; /* Ensure no underline */
+        }
+        :global(.nav-round-btn:hover:not(.disabled)) {
+          background: #fff;
+          border-color: #d0d0d0;
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        /* Disabled State */
+        :global(.nav-round-btn.disabled) {
+          opacity: 0.5;
+          cursor: default;
+          background: #f0f0f0; /* Clearly grey */
+          box-shadow: none;
+          color: #aaa;
+        }
+
+        #story-content :global(p) {
+            text-align: justify;
+            text-justify: inter-ideograph;
+            margin-bottom: 1em;
+            line-height: inherit; /* Inherit from parent */
+            letter-spacing: inherit;
         }
 
         @keyframes slideUp {
@@ -562,8 +667,6 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             opacity: 1;
           }
         }
-
-
       `}</style>
         </div>
     );

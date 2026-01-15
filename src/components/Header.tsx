@@ -10,10 +10,10 @@ const Header: React.FC = () => {
 
     // Determine the home link based on current page
     let homeLink = '/?reset=true';
-    if (pathname && pathname.startsWith('/stories/')) {
-        const storyId = pathname.split('/').pop();
-        if (storyId) {
-            homeLink = `/?returnTo=${storyId}`;
+    if (pathname && pathname.startsWith('/textbooks/')) {
+        const textbookId = pathname.split('/').pop();
+        if (textbookId) {
+            homeLink = `/?returnTo=${textbookId}`;
         }
     }
 
