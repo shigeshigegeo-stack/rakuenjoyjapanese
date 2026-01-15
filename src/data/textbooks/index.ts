@@ -11,3 +11,6 @@ export const textbooks: Textbook[] = [
   ...textbooks_level_21_30,
   ...textbooks_jlpt_n5,
 ];
+
+export const stories = textbooks;
+
