@@ -23,8 +23,8 @@ const Header: React.FC = () => {
             marginBottom: '2rem',
             borderBottom: '1px solid var(--border-color)',
             textAlign: 'center',
-            backgroundColor: 'rgba(255, 255, 255, 0.8)',
-            backdropFilter: 'blur(10px)',
+            backgroundColor: '#F3ECDC', // Matched to logo background color
+            // backdropFilter: 'blur(10px)', // Removed blur as we are using solid color to match logo
             position: 'relative',
             display: 'flex',
             flexDirection: 'column',
@@ -63,6 +63,41 @@ const Header: React.FC = () => {
                 backgroundRepeat: 'repeat-x',
                 opacity: 0.9,
             }} />
+
+            {/* What's gaku Button */}
+            <Link href="/about" style={{
+                position: 'absolute',
+                right: '20px',
+                top: '100%',
+                marginTop: '10px', // Positioned completely below the obi
+                zIndex: 10,
+                textDecoration: 'none'
+            }}>
+                <button style={{
+                    padding: '8px 16px',
+                    borderRadius: '20px',
+                    border: '1px solid var(--accent-red)',
+                    background: 'white',
+                    color: 'var(--accent-red)',
+                    fontSize: '0.9rem',
+                    fontWeight: 'bold',
+                    cursor: 'pointer',
+                    boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+                    transition: 'all 0.2s',
+                    whiteSpace: 'nowrap'
+                }}
+                    onMouseEnter={(e) => {
+                        e.currentTarget.style.background = 'var(--accent-red)';
+                        e.currentTarget.style.color = 'white';
+                    }}
+                    onMouseLeave={(e) => {
+                        e.currentTarget.style.background = 'white';
+                        e.currentTarget.style.color = 'var(--accent-red)';
+                    }}
+                >
+                    What’s 楽 Gaku ?
+                </button>
+            </Link>
         </header>
     );
 };

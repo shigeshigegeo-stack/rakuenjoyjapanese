@@ -53,45 +53,84 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
     const handleQuizTitleClick = (index: number, targetId?: string) => {
         if (activeQuizIndex === index) {
-            // Toggle off
+            // Toggle off - hide the overlay
             setActiveQuizIndex(null);
 
             // Scroll back to the quiz card in the list
             setTimeout(() => {
                 const quizElement = document.getElementById(`quiz-container-${index}`);
                 if (quizElement) {
-                    quizElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    const headerOffset = 180; // Approximate header height + padding
+                    const elementPosition = quizElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
                 }
-            }, 100); // Small delay to allow state update and re-render
+            }, 100);
             return;
         }
 
+        // Toggle on - show the overlay
         setActiveQuizIndex(index);
 
+        // Calculate scroll target
+        let targetElement: HTMLElement | null = null;
         if (targetId) {
-            const element = document.getElementById(targetId);
-            const storyContent = document.getElementById('story-content');
+            targetElement = document.getElementById(targetId);
+        }
 
-            if (element && storyContent) {
-                // Check if the element is near the top of the story content
-                // We compare the element's position relative to the container
-                // If it's the first paragraph or very close to top, scroll content to start
-                const isNearTop = element.offsetTop - storyContent.offsetTop < 150; // Threshold of 150px
+        const storyUniqueId = 'story-content';
+        const storyContent = document.getElementById(storyUniqueId);
 
-                if (isNearTop) {
-                    storyContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                } else {
-                    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            } else if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-        } else {
-            // Fallback: scroll to top of story content if no targetId gets mapped
-            const storyContent = document.getElementById('story-content');
-            if (storyContent) {
-                storyContent.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
+        // Define header offset
+        const HEADER_OFFSET = 100;
+        // Estimated overlay height (or desired bottom spacing)
+        // We want to position the element somewhat in the middle of the "safe zone"
+        // Safe Zone = Window Height - Header - Overlay (~300px)
+        // Let's aim to place the element at roughly 30% - 40% down the screen, rather than right at the top.
+
+        if (targetElement && storyContent) {
+            // 1. Get absolute position of the target element
+            const elementRect = targetElement.getBoundingClientRect();
+            const absoluteElementTop = elementRect.top + window.scrollY;
+
+            // 2. Calculate visual offset based on viewport
+            // If window is 800px high, we might want the element at ~250px from top.
+            const desiredScreenY = Math.min(window.innerHeight * 0.3, 250); // Dynamic but capped
+            const contentOffset = Math.max(HEADER_OFFSET + 20, desiredScreenY);
+
+            // 3. Calculate desired scroll position
+            const targetScrollY = absoluteElementTop - contentOffset;
+
+            // 4. Get absolute position of the story content start
+            const storyRect = storyContent.getBoundingClientRect();
+            const absoluteStoryTop = storyRect.top + window.scrollY;
+
+            // 5. Calculate minimum scroll position (clamp to start of story)
+            // Ensure we at least show the header + some padding before the story starts
+            const minScrollY = absoluteStoryTop - HEADER_OFFSET - 20;
+
+            // 6. Determine final scroll position
+            const finalScrollY = Math.max(targetScrollY, minScrollY);
+
+            setTimeout(() => {
+                window.scrollTo({
+                    top: finalScrollY,
+                    behavior: 'smooth'
+                });
+            }, 50); // Slight delay to ensure layout stability (optional)
+
+        } else if (storyContent) {
+            // Fallback
+            const storyRect = storyContent.getBoundingClientRect();
+            const absoluteStoryTop = storyRect.top + window.scrollY;
+            window.scrollTo({
+                top: absoluteStoryTop - HEADER_OFFSET - 20,
+                behavior: 'smooth'
+            });
         }
     };
 
@@ -130,14 +169,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             <>
                 <div style={{ marginBottom: '10px' }}>
                     <p
+                        className={`quiz-trigger ${activeQuizIndex === quizIdx ? 'active' : ''}`}
                         onClick={() => handleQuizTitleClick(quizIdx, isOverlay ? undefined : quiz.target_id)}
                         style={{
-                            fontWeight: 'bold',
-                            display: 'inline-block',
-                            marginRight: '10px',
-                            cursor: 'pointer',
-                            color: isOverlay ? 'inherit' : (activeQuizIndex === quizIdx ? 'var(--accent-red)' : 'inherit'),
-                            textDecoration: isOverlay ? 'none' : (activeQuizIndex === quizIdx ? 'underline' : 'none')
+                            color: isOverlay ? 'inherit' : undefined, // Only override for overlay
+                            textDecoration: isOverlay ? 'none' : undefined
                         }}
                         title={isOverlay ? "Click to close" : "Click to locate in text"}
                         dangerouslySetInnerHTML={{ __html: `Q${quizIdx + 1}: ${quiz.question}` }}
@@ -312,7 +348,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>Let&apos;s Talk</strong><br />
+                    <strong>Before Reading</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
@@ -336,7 +372,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                 className={hideRuby ? 'hide-ruby' : ''}
                 style={{
                     fontSize: '1.5rem',
-                    lineHeight: '2.2',
+                    lineHeight: '3.0',
                     textAlign: 'justify',
                     textJustify: 'inter-ideograph',
                     letterSpacing: '0.03em'
@@ -363,7 +399,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             {/* Quizzes Section */}
             {textbook.quizzes && textbook.quizzes.length > 0 && (
                 <div className="quiz-section">
-                    <h3>Quizzes</h3>
+                    <h3>Check Your Understanding</h3>
 
                     {/* Static List of Quizzes */}
                     {textbook.quizzes.map((quiz, quizIdx) => {
@@ -649,14 +685,42 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           color: #aaa;
         }
 
-        #story-content :global(p) {
+        #story-content :global(p), #story-content :global(span[id]) {
             text-align: justify;
             text-justify: inter-ideograph;
-            margin-bottom: 1em;
+            margin-bottom: 1.5em;
             line-height: inherit; /* Inherit from parent */
             letter-spacing: inherit;
+            scroll-margin-top: 150px; /* Ensure target is valid even with sticky headers or top spacing */
         }
-
+        /* Removed specific span[id] styling to clear highlights */
+        
+        /* New Style for Quiz Triggers */
+        /* New Style for Quiz Triggers */
+        /* New Style for Quiz Triggers */
+        .quiz-trigger {
+            font-weight: 700 !important; /* Force bold */
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+            padding: 6px 12px; /* Slightly larger clickable area */
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            margin-left: -12px; /* Offset alignment */
+            color: var(--text-color); /* Default color */
+            text-decoration: none;
+            border: 1px solid transparent; /* Prevent layout shift on hover if border added later */
+        }
+        .quiz-trigger:hover {
+            background-color: rgba(217, 30, 24, 0.1); /* Visible red tint */
+            color: var(--accent-red) !important;
+        }
+        .quiz-trigger.active {
+            color: var(--accent-red) !important;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            background-color: rgba(217, 30, 24, 0.05);
+        }
         @keyframes slideUp {
           from {
             transform: translateY(100%);
