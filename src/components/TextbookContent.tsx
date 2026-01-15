@@ -340,7 +340,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     textAlign: 'justify',
                     textJustify: 'inter-ideograph',
                     letterSpacing: '0.03em'
-                } as any}
+                } as unknown as React.CSSProperties}
                 dangerouslySetInnerHTML={{ __html: displayContent }}
             />
 
