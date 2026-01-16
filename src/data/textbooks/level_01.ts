@@ -46,14 +46,14 @@ export const textbooks_level_01: Textbook[] = [
             },
             {
                 "question": "キムさんは<ruby>銀行員<rt>ぎんこういん</rt></ruby>ですか。",
-                "target_id": "L01_02_Q2",
                 "choices": [
                     "はい、そうです",
                     "いいえ、<ruby>銀行員<rt>ぎんこういん</rt></ruby>じゃありません"
                 ],
                 "answer_index": 1
             }
-        ]
+        ],
+        "audio_file": "/audio/L01_02.mp3"
     },
     {
         "id": "TEXTBOOK_L01_03",
@@ -85,7 +85,8 @@ export const textbooks_level_01: Textbook[] = [
                 ],
                 "answer_index": 0
             }
-        ]
+        ],
+        "audio_file": "/audio/L01_03.mp3"
     },
     {
         "id": "TEXTBOOK_L01_04",
@@ -126,6 +127,7 @@ export const textbooks_level_01: Textbook[] = [
                 ],
                 "answer_index": 1
             }
-        ]
+        ],
+        "audio_file": "/audio/L01_04.mp3"
     }
 ];

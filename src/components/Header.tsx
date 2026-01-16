@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             {/* Top Decorative Band */}
             <div style={{
                 width: '100%',
-                height: '50px',
+                height: '25px',
                 backgroundImage: 'url(/header-pattern.jpg)',
                 backgroundSize: 'auto 100%',
                 backgroundRepeat: 'repeat-x',
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
             {/* Bottom Decorative Band */}
             <div style={{
                 width: '100%',
-                height: '50px',
+                height: '25px',
                 backgroundImage: 'url(/header-pattern.jpg)',
                 backgroundSize: 'auto 100%',
                 backgroundRepeat: 'repeat-x',
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                     padding: '8px 16px',
                     borderRadius: '20px',
                     border: '1px solid var(--accent-red)',
-                    background: 'white',
+                    background: 'var(--background)',
                     color: 'var(--accent-red)',
                     fontSize: '0.9rem',
                     fontWeight: 'bold',
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
                         e.currentTarget.style.color = 'white';
                     }}
                     onMouseLeave={(e) => {
-                        e.currentTarget.style.background = 'white';
+                        e.currentTarget.style.background = 'var(--background)';
                         e.currentTarget.style.color = 'var(--accent-red)';
                     }}
                 >

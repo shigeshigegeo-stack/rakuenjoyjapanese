@@ -48,11 +48,36 @@ const TextbookCard: React.FC<TextbookCardProps> = ({ textbook, index }) => {
                 <div className={styles.content}>
                     <div className={styles.header}>
                         <LevelBadge level={textbook.level} />
-                        {blossomCount > 0 && (
-                            <span style={{ marginLeft: '8px', fontSize: '1rem' }} aria-label={`${blossomCount} sakuras`}>
-                                {'🌸'.repeat(blossomCount)}
-                            </span>
-                        )}
+                        {blossomCount > 0 && (() => {
+                            let flowerMarginLeft = '4px';
+                            if (blossomCount === 1) {
+                                flowerMarginLeft = '15px'; // Shifted further left
+                            } else if (blossomCount === 2) {
+                                if (index && index >= 100) {
+                                    flowerMarginLeft = '4px';
+                                } else {
+                                    flowerMarginLeft = '12px';
+                                }
+                            } else if (blossomCount >= 3) {
+                                if (index && index >= 100) {
+                                    flowerMarginLeft = '-8px'; // Shifted further left for 3-digit serials
+                                } else {
+                                    flowerMarginLeft = '0px';
+                                }
+                            }
+
+                            return (
+                                <span style={{
+                                    marginLeft: flowerMarginLeft,
+                                    fontSize: '1rem',
+                                    transition: 'all 0.3s',
+                                    position: 'relative',
+                                    top: '-5px' // Shifted further up
+                                }} aria-label={`${blossomCount} sakuras`}>
+                                    {'🌸'.repeat(blossomCount)}
+                                </span>
+                            );
+                        })()}
                     </div>
 
                     <h3 className={styles.title} dangerouslySetInnerHTML={{ __html: textbook.title }} />

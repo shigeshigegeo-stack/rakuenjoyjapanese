@@ -46,14 +46,17 @@ const LevelBadge: React.FC<LevelBadgeProps> = ({ level }) => {
         backgroundColor: 'transparent',
         border: `2px solid ${baseStyle.borderColor}`,
         color: baseStyle.color,
-        padding: '4px 10px',
-        borderRadius: '8px', // Slightly rounded, but mostly square like a seal
-        fontSize: '0.9rem',
+        padding: '3px 0', // Changed horizontal padding to 0 as we use fixed width
+        width: '5.2rem', // Fixed width to accommodate "Level 10" and unify L1-L9
+        borderRadius: '8px',
+        fontSize: '0.8rem',
         fontFamily: 'var(--font-heading)',
         fontWeight: '700',
         display: 'inline-block',
         letterSpacing: '0.05em',
-        boxShadow: `2px 2px 0px ${baseStyle.borderColor}33` // Subtle offset shadow like a stamp impression
+        boxShadow: `2px 2px 0px ${baseStyle.borderColor}33`,
+        textAlign: 'center', // Center text within the fixed width
+        flexShrink: 0 // Prevent shrinking in flex container
     };
 
     return (

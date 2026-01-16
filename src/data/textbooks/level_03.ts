@@ -53,7 +53,8 @@ export const textbooks_level_03: Textbook[] = [
                 ],
                 "answer_index": 1
             }
-        ]
+        ],
+        "audio_file": "/audio/L03_02.mp3"
     },
     {
         "id": "TEXTBOOK_L03_03",
@@ -127,6 +128,7 @@ export const textbooks_level_03: Textbook[] = [
                 ],
                 "answer_index": 2
             }
-        ]
+        ],
+        "audio_file": "/audio/L03_04.mp3"
     }
 ];

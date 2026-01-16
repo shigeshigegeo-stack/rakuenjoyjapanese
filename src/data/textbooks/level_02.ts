@@ -21,7 +21,8 @@ export const textbooks_level_02: Textbook[] = [
                 ],
                 "answer_index": 0
             }
-        ]
+        ],
+        "audio_file": "/audio/L02_01.mp3"
     },
     {
         "id": "TEXTBOOK_L02_02",
@@ -52,7 +53,8 @@ export const textbooks_level_02: Textbook[] = [
                 ],
                 "answer_index": 1
             }
-        ]
+        ],
+        "audio_file": "/audio/L02_02.mp3"
     },
     {
         "id": "TEXTBOOK_L02_03",
@@ -83,7 +85,8 @@ export const textbooks_level_02: Textbook[] = [
                 ],
                 "answer_index": 2
             }
-        ]
+        ],
+        "audio_file": "/audio/L02_03.mp3"
     },
     {
         "id": "TEXTBOOK_L02_04",
@@ -124,6 +127,7 @@ export const textbooks_level_02: Textbook[] = [
                 ],
                 "answer_index": 1
             }
-        ]
+        ],
+        "audio_file": "/audio/L02_04.mp3"
     }
 ];
