@@ -38,53 +38,78 @@
 /* Icon Wrapper - simplified or removed? Keeping generally simple */
 
 
+/* Standardized Card Layout v2 */
 .content {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     min-width: 0;
+    /* Ensure content stays strictly within the grid */
 }
 
+/* 1. Header Area: Fixed height not strictly needed if elements are small, but good for safety */
 .header {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-bottom: 0.5rem;
     align-items: center;
+    min-height: 2.5rem;
+    /* Ensure badge area has consistent height even if empty (unlikely) */
 }
 
+/* 2. Title Area: STRICT fixed height slot */
+/* Line-height 1.4 * 1.4rem font size approx 2rem per line. 2 lines = 4rem + margins */
 .title {
     font-family: var(--font-heading);
     font-size: 1.4rem;
     font-weight: 700;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 1rem 0;
+    /* Consistent bottom margin */
     color: var(--text-color);
-    line-height: 2.2;
-    /* Increased line-height to accommodate ruby text consistently */
-    min-height: 6.2rem;
-    /* 1.4rem * 2.2 * 2 lines approx 6.16rem */
+    line-height: 1.4;
+    /* Tighter line height for better fit */
+
+    /* The Magic: Fixed Height Slot */
+    /* Increased to 5.2rem to accommodate ruby text (furigana) on 2 lines without clipping */
+    height: 5.2rem;
+
     display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     letter-spacing: 0.05em;
+
+    /* Vertically center single lines if desired, or top align. Top align is usually safer for reading. */
+    /* Use flex to handle alignment of text */
+    /* Align text to top */
 }
 
+/* Ruby adjustment to not break layout flow */
 .title ruby {
     font-size: 1.4rem;
+    line-height: 1.4;
 }
 
 .title rt {
     font-size: 0.6em;
     opacity: 0.8;
+    line-height: 1;
 }
 
+/* 3. Excerpt Area: STRICT fixed height slot */
 .excerpt {
     color: var(--text-light);
     font-size: 0.95rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+    /* Push footer with auto margin instead */
+
+    /* The Magic: Fixed Height Slot */
+    /* 1.6 (line-height) * 0.95rem (font-size) * 3 (max lines) = ~4.56rem */
+    height: 4.8rem;
+
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
@@ -93,11 +118,15 @@
     font-family: var(--font-main);
 }
 
+/* 4. Footer Area: Pushed to bottom */
 .footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-top: auto;
+    /* This grabs all remaining whitespace and pushes footer down */
+    padding-top: 1.5rem;
+    /* Consistent spacing from content above */
 }
 
 .readMore {
@@ -134,15 +163,21 @@
 
 .serialNumber {
     position: absolute;
-    top: -10px;
-    /* Moved slightly up to avoid clashing */
+    top: 20px;
+    /* Moved up */
     right: 15px;
+    /* Keep right alignment */
+    bottom: auto;
+    left: auto;
+
     font-family: var(--font-heading);
-    font-size: 5rem;
-    /* Increased size for better background effect */
+    font-size: 2.2rem;
+    /* Reduced further to ensure no overlap with 3 digits + 3 sakuras */
     font-weight: 700;
-    color: rgba(89, 67, 53, 0.07);
-    /* Slightly more visible but still watermark */
+    color: rgba(89, 67, 53, 0.2);
+    /* Gray-ish brown, matched opacity manually */
+    opacity: 1;
+    /* Reset opacity as color has alpha */
     z-index: 0;
     pointer-events: none;
     line-height: 1;
