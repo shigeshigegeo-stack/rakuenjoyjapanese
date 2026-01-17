@@ -31,7 +31,7 @@ export default function AboutPage() {
                             fontSize: '0.95rem',
                             lineHeight: '2.0',
                             textAlign: 'justify',
-                            textJustify: 'inter-ideograph',
+
                             background: '#f9f9f9',
                             padding: '30px',
                             borderRadius: '15px'
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
                             <p style={{ marginBottom: '1.5em' }}>
                                 このサイトは準備なし、または最小限の準備ですぐレッスンに使える教材を揃えています。<br />
-                                内容もそのまま授業に取り入れやすく、練習や復習に自然につなげられます。
+                                授業をもっと楽に、もっと楽しくすることを目指して作りました。
                             </p>
 
                             <p>
