@@ -8,7 +8,16 @@ import { textbooks_level_07 } from './level_07';
 import { textbooks_level_08 } from './level_08';
 import { textbooks_level_09 } from './level_09';
 import { textbooks_level_10 } from './level_10';
-import { textbooks_level_11_20 } from './level_11_20';
+import { textbooks_level_11 } from './level_11';
+import { textbooks_level_12 } from './level_12';
+import { textbooks_level_13 } from './level_13';
+import { textbooks_level_14 } from './level_14';
+import { textbooks_level_15 } from './level_15';
+import { textbooks_level_16 } from './level_16';
+import { textbooks_level_17 } from './level_17';
+import { textbooks_level_18 } from './level_18';
+import { textbooks_level_19 } from './level_19';
+import { textbooks_level_20 } from './level_20';
 import { textbooks_level_21_30 } from './level_21_30';
 
 export * from './level_01';
@@ -21,7 +30,16 @@ export * from './level_07';
 export * from './level_08';
 export * from './level_09';
 export * from './level_10';
-export * from './level_11_20';
+export * from './level_11';
+export * from './level_12';
+export * from './level_13';
+export * from './level_14';
+export * from './level_15';
+export * from './level_16';
+export * from './level_17';
+export * from './level_18';
+export * from './level_19';
+export * from './level_20';
 export * from './level_21_30';
 
 export const textbooks_level_01_10 = [
@@ -35,6 +53,19 @@ export const textbooks_level_01_10 = [
   ...textbooks_level_08,
   ...textbooks_level_09,
   ...textbooks_level_10
+];
+
+export const textbooks_level_11_20 = [
+  ...textbooks_level_11,
+  ...textbooks_level_12,
+  ...textbooks_level_13,
+  ...textbooks_level_14,
+  ...textbooks_level_15,
+  ...textbooks_level_16,
+  ...textbooks_level_17,
+  ...textbooks_level_18,
+  ...textbooks_level_19,
+  ...textbooks_level_20
 ];
 
 export const textbooks = [

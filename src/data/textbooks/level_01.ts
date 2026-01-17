@@ -4,7 +4,7 @@ export const textbooks_level_01: Textbook[] = [
     {
         "id": "TEXTBOOK_L01_01",
         "level": 1,
-        "title": "はじめまして",
+        "title": "<ruby>はじめまして<rt>　</rt></ruby>",
         "schema_activation": [
             "あなたの<ruby>名前<rt>なまえ</rt></ruby>はなんですか",
             "アナタは何<ruby>歳<rt>さい</rt></ruby>ですか"
@@ -33,7 +33,7 @@ export const textbooks_level_01: Textbook[] = [
             "あなたは<ruby>学生<rt>がくせい</rt></ruby>ですか"
         ],
         "translation": "<p>Eric-san is American. He is a bank employee. He is 28 years old. Eric-san is not a teacher or a student. He is a bank employee.<br>Kim-san is Korean. He is an IT company employee. He is 25 years old. Kim-san is not a teacher or a student. He is an IT company employee.<br>Eric-san is an office worker. Kim-san is also an office worker.<br>Eric-san is American. Kim-san is not American, he is Korean. Kim-san is Korean. Eric-san is not Korean, he is American.<br>Eric-san is 28 years old. Kim-san is 25 years old. Eric-san is not 25. Kim-san is not 28.<br>Eric-san is a bank employee. Kim-san is not a bank employee, he is an IT company employee.<br>Eric-san is an office worker at an American bank. Kim-san is an office worker in Korea.<br>Eric-san is an office worker. Kim-san is also an office worker.<br>Eric-san and Kim-san are friends. They are not students at Sakura University.</p>",
-        "textbook_html": "<p>エリックさんはアメリカ<ruby>人<rt>じん</rt></ruby>です。<span id=\"L01_02_Q1\"><ruby>銀行員<rt>ぎんこういん</rt></ruby>です。</span>28<ruby>歳<rt>さい</rt></ruby>です。<br>キムさんは<ruby>韓国人<rt>かんこくじん</rt></ruby>です。ITの<span id=\"L01_02_Q2\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span>25<ruby>歳<rt>さい</rt></ruby>です。<br>エリックさんは<ruby>銀行員<rt>ぎんこういん</rt></ruby>です。キムさんも<ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br><ruby>二人<rt>ふたり</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>じゃありません。<ruby>二人<rt>ふたり</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>じゃありません。<br>エリックさんはアメリカの<ruby>銀行員<rt>ぎんこういん</rt></ruby>です。<br>キムさんは<ruby>韓国<rt>かんこく</rt></ruby>のITの<ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>エリックさんは25<ruby>歳<rt>さい</rt></ruby>じゃありません。28<ruby>歳<rt>さい</rt></ruby>です. キムさんは25<ruby>歳<rt>さい</rt></ruby>です。<br>エリックさんとキムさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>です。<br><ruby>二人<rt>ふたり</rt></ruby>はさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>じゃありません。</p>",
+        "textbook_html": "<p>エリックさんはアメリカ<ruby>人<rt>じん</rt></ruby>です。<span id=\"L01_02_Q1\"><ruby>銀行員<rt>ぎんこういん</rt></ruby>です。</span>28<ruby>歳<rt>さい</rt></ruby>です。<br>キムさんは<ruby>韓国人<rt>かんこくじん</rt></ruby>です。ITの<span id=\"L01_02_Q2\"><ruby>会社員<rt>かいしゃいん</rt></ruby>です。</span>25<ruby>歳<rt>さい</rt></ruby>です。<br>エリックさんは<ruby>銀行員<rt>ぎんこういん</rt></ruby>です。キムさんも<ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br><ruby>二人<rt>ふたり</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>じゃありません。<ruby>二人<rt>ふたり</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>じゃありません。<br>エリックさんはアメリカの<ruby>銀行員<rt>ぎんこういん</rt></ruby>です。<br>キムさんは<ruby>韓国<rt>かんこく</rt></ruby>のITの<ruby>会社員<rt>かいしゃいん</rt></ruby>です。<br>エリックさんは25<ruby>歳<rt>さい</rt></ruby>じゃありません。28<ruby>歳<rt>さい</rt></ruby>です。 キムさんは25<ruby>歳<rt>さい</rt></ruby>です。<br>エリックさんとキムさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>です。<br><ruby>二人<rt>ふたり</rt></ruby>はさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>じゃありません。</p>",
         "quizzes": [
             {
                 "question": "エリックさんの<ruby>仕事<rt>しごと</rt></ruby>はなんですか。",

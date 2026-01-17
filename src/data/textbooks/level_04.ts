@@ -4,7 +4,7 @@ export const textbooks_level_04: Textbook[] = [
     {
         "id": "TEXTBOOK_L04_01",
         "level": 4,
-        "title": "朝の時間",
+        "title": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>",
         "schema_activation": [
             "今、何時ですか。",
             "毎朝、何時に起きますか。"
@@ -68,7 +68,7 @@ export const textbooks_level_04: Textbook[] = [
     {
         "id": "TEXTBOOK_L04_03",
         "level": 4,
-        "title": "郵便局は何時からですか",
+        "title": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>は<ruby>何時<rt>なんじ</rt></ruby>からですか",
         "schema_activation": [
             "土曜日、働きますか。",
             "毎日、何時から何時まで働きますか(勉強しますか)。"
@@ -102,35 +102,35 @@ export const textbooks_level_04: Textbook[] = [
     {
         "id": "TEXTBOOK_L04_04",
         "level": 4,
-        "title": "<ruby>金曜日<rt>きんようび</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>と <ruby>休<rt>やす</rt></ruby>み",
+        "title": "<ruby>金曜日<rt>きんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>と<ruby>休<rt>やす</rt></ruby>み",
         "schema_activation": [
             "あなたは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>から <ruby>何時<rt>なんじ</rt></ruby>まで <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
             "あなたは <ruby>明日<rt>あした</rt></ruby> <ruby>働<rt>はたら</rt></ruby>きますか。"
         ],
         "translation": "<p>Ana is a student at Sakura University. She wakes up at 7:00 every morning. She eats breakfast at 7:30. Then she goes to the university. The university classes are from 9:00 to 4:00 every day.<br>Yesterday, Ana met Yamada-san at school.<br>Ana: \"Yamada-san, until what time did you work last night?\"<br>Yamada: \"I worked until 8:00 yesterday. I was very tired.\"<br>Yamada-san's work finished at 8:00.<br>Ana studied Japanese from 10:00 to 12:00 last night. Today is Friday. Tomorrow and the day after tomorrow are holidays. There is no university. Ana will wake up at 10:00 tomorrow.<br>Eric will not work tomorrow either.<br>Eric: \"Tomorrow is a holiday. I won't go anywhere. I will rest at home.\"<br>Ana: \"I see. That's nice. I will also rest slowly tomorrow.\"</p>",
-        "textbook_html": "<p>アナさんは さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>学生<rt>がくせい</rt></ruby>です。<ruby>毎朝<rt>まいあさ</rt></ruby> ７<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。<ruby>朝<rt>あさ</rt></ruby>ごはんは ７<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に <ruby>食<rt>た</rt></ruby>べます。それから <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<ruby>大学<rt>だいがく</rt></ruby>の <ruby>授業<rt>じゅぎょう</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> ９<ruby>時<rt>じ</rt></ruby>から ４<ruby>時<rt>じ</rt></ruby>までです。<br><ruby>昨日<rt>きのう</rt></ruby>、アナさんは <ruby>学校<rt>がっこう</rt></ruby>で <ruby>山田<rt>やまだ</rt></ruby>さんに <ruby>会<rt>あ</rt></ruby>いました。<br>アナ「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby>は <ruby>何時<rt>なんじ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きましたか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>昨日<rt>きのう</rt></ruby>は ８<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きました。とても <ruby>疲<rt>つか</rt></ruby>れました」<br><ruby>山田<rt>やまだ</rt></ruby>さんの <ruby>仕事<rt>しごと</rt></ruby>は ８<ruby>時<rt>じ</rt></ruby>に <ruby>終<rt>お</rt></ruby>わりました。<br>アナさんは <ruby>昨日<rt>きのう</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、１０<ruby>時<rt>じ</rt></ruby>から １２<ruby>時<rt>じ</rt></ruby>まで <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。<ruby>今日<rt>きょう</rt></ruby>は <ruby>金曜日<rt>きんようび</rt></ruby>です。<ruby>明日<rt>あした</rt></ruby>と <ruby>明後日<rt>あさって</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みです。<ruby>大学<rt>だいがく</rt></ruby>は ありません。アナさんは <ruby>明日<rt>あした</rt></ruby>、１０<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。<br>エリックさんも <ruby>明日<rt>あした</rt></ruby>は <ruby>働<rt>はたら</rt></ruby>きません。<br>エリック「<ruby>明日<rt>あした</rt></ruby>は <ruby>休<rt>やす</rt></ruby>みです。どこへも <ruby>行<rt>い</rt></ruby>きません。<ruby>家<rt>うち</rt></ruby>で <ruby>休<rt>やす</rt></ruby>みます」<br>アナ「そうですか。いいですね。<ruby>私<rt>わたし</rt></ruby>も <ruby>明日<rt>あした</rt></ruby>は ゆっくり <ruby>休<rt>やす</rt></ruby>みます」</p>",
+        "textbook_html": "<p>アナさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>です。<ruby>毎朝<rt>まいあさ</rt></ruby>７<ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。<ruby>朝<rt>あさ</rt></ruby>ごはんは７<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に<ruby>食<rt>た</rt></ruby>べます。それから<ruby>大学<rt>だいがく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<ruby>大学<rt>だいがく</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby>９<ruby>時<rt>じ</rt></ruby>から４<ruby>時<rt>じ</rt></ruby>までです。<br><ruby>昨日<rt>きのう</rt></ruby>、アナさんは<ruby>学校<rt>がっこう</rt></ruby>で<ruby>山田<rt>やまだ</rt></ruby>さんに<ruby>会<rt>あ</rt></ruby>いました。<br>アナ「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>昨日<rt>きのう</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>は<ruby>何時<rt>なんじ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きましたか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>昨日<rt>きのう</rt></ruby>は８<ruby>時<rt>じ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きました。とても<ruby>疲<rt>つか</rt></ruby>れました」<br><ruby>山田<rt>やまだ</rt></ruby>さんの<ruby>仕事<rt>しごと</rt></ruby>は８<ruby>時<rt>じ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わりました。<br>アナさんは<ruby>昨日<rt>きのう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、１０<ruby>時<rt>じ</rt></ruby>から１２<ruby>時<rt>じ</rt></ruby>まで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しました。<ruby>今日<rt>きょう</rt></ruby>は<ruby>金曜日<rt>きんようび</rt></ruby>です。<ruby>明日<rt>あした</rt></ruby>と<ruby>明後日<rt>あさって</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みです。<ruby>大学<rt>だいがく</rt></ruby>はありません。アナさんは<ruby>明日<rt>あした</rt></ruby>、１０<ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます。<br>エリックさんも<ruby>明日<rt>あした</rt></ruby>は<ruby>働<rt>はたら</rt></ruby>きません。<br>エリック「<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みです。どこへも<ruby>行<rt>い</rt></ruby>きません。<ruby>家<rt>うち</rt></ruby>で<ruby>休<rt>やす</rt></ruby>みます」<br>アナ「そうですか。いいですね。<ruby>私<rt>わたし</rt></ruby>も<ruby>明日<rt>あした</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます」</p>",
         "quizzes": [
             {
-                "question": "アナさんは <ruby>明日<rt>あした</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きますか。",
+                "question": "アナさんは<ruby>明日<rt>あした</rt></ruby><ruby>何時<rt>なんじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きますか。",
                 "choices": [
-                    "７<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます",
-                    "１０<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます"
+                    "７<ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます",
+                    "１０<ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きます"
                 ],
                 "answer_index": 1
             },
             {
-                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>昨日<rt>きのう</rt></ruby> ８<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きましたか。",
+                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>昨日<rt>きのう</rt></ruby>８<ruby>時<rt>じ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きましたか。",
                 "choices": [
-                    "はい、８<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きました",
-                    "いいえ、８<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きませんでした"
+                    "はい、８<ruby>時<rt>じ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きました",
+                    "いいえ、８<ruby>時<rt>じ</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きませんでした"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "エリックさんは <ruby>明日<rt>あした</rt></ruby> どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+                "question": "エリックさんは<ruby>明日<rt>あした</rt></ruby>どこへ<ruby>行<rt>い</rt></ruby>きますか。",
                 "choices": [
-                    "<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます",
-                    "どこへも <ruby>行<rt>い</rt></ruby>きません"
+                    "<ruby>大学<rt>だいがく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます",
+                    "どこへも<ruby>行<rt>い</rt></ruby>きません"
                 ],
                 "answer_index": 1
             }

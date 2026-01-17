@@ -4,26 +4,26 @@ export const textbooks_level_09: Textbook[] = [
     {
         "id": "TEXTBOOK_L09_01",
         "level": 9,
-        "title": "<ruby>歌<rt>うた</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか",
+        "title": "<ruby>歌<rt>うた</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか",
         "schema_activation": [
-            "あなたは <ruby>音楽<rt>おんがく</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。",
-            "あなたは <ruby>料理<rt>りょうり</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか。"
+            "あなたは<ruby>音楽<rt>おんがく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。",
+            "あなたは<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですか。"
         ],
-        "translation": "<p>Ana likes music very much. She listens to music every day.<br>Ana: \"Eric-san, do you like singing?\"<br>Eric: \"Yes, I like singing very much.\"<br>Ana: \"Are you good at singing?\"<br>Eric: \"No, I am not good at it yet.\"</p>",
-        "textbook_html": "<p>アナさんは <ruby>音楽<rt>おんがく</rt></ruby>が とても <ruby>好<rt>す</rt></ruby>きです。<ruby>毎日<rt>まいにち</rt></ruby> <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きます。<br>アナ「エリックさん、<ruby>歌<rt>うた</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか」<br>エリック「はい、<ruby>歌<rt>うた</rt></ruby>が とても <ruby>好<rt>す</rt></ruby>きですよ」<br>アナ「<ruby>歌<rt>うた</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか」<br>エリック「いいえ、まだ <ruby>上手<rt>じょうず</rt></ruby>じゃありません」</p>",
+        "translation": "<p>Ana likes music very much. She listens to music every day. She often sings Japanese songs.<br>Ana: \"Eric-san, do you like singing?\"<br>Eric: \"Yes, I like singing very much.\"<br>Ana: \"Are you good at singing?\"<br>Eric: \"No, I am not good at it yet.\"</p>",
+        "textbook_html": "<p>アナさんは<ruby>音楽<rt>おんがく</rt></ruby>がとても<ruby>好<rt>す</rt></ruby>きです。<ruby>毎日<rt>まいにち</rt></ruby><ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きます。よく<ruby>日本<rt>にほん</rt></ruby>の<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>います。<br>アナ「エリックさん、<ruby>歌<rt>うた</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか」<br>エリック「はい、<ruby>歌<rt>うた</rt></ruby>がとても<ruby>好<rt>す</rt></ruby>きですよ」<br>アナ「<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですか」<br>エリック「いいえ、まだ<ruby>上手<rt>じょうず</rt></ruby>じゃありません」</p>",
         "quizzes": [
             {
-                "question": "エリックさんは <ruby>歌<rt>うた</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。",
+                "question": "エリックさんは<ruby>歌<rt>うた</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。",
                 "choices": [
-                    "はい、とても <ruby>好<rt>す</rt></ruby>きです",
-                    "いいえ、あまり <ruby>好<rt>す</rt></ruby>きじゃありません"
+                    "はい、とても<ruby>好<rt>す</rt></ruby>きです",
+                    "いいえ、あまり<ruby>好<rt>す</rt></ruby>きじゃありません"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "エリックさんは <ruby>歌<rt>うた</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>ですか。",
+                "question": "エリックさんは<ruby>歌<rt>うた</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですか。",
                 "choices": [
-                    "はい、とても <ruby>上手<rt>じょうず</rt></ruby>です",
+                    "はい、とても<ruby>上手<rt>じょうず</rt></ruby>です",
                     "いいえ、<ruby>上手<rt>じょうず</rt></ruby>じゃありません"
                 ],
                 "answer_index": 1
@@ -34,27 +34,27 @@ export const textbooks_level_09: Textbook[] = [
     {
         "id": "TEXTBOOK_L09_02",
         "level": 9,
-        "title": "コンサートの チケット",
+        "title": "<ruby>コンサート<rt>　</rt></ruby>の<ruby>チケット<rt>　</rt></ruby>",
         "schema_activation": [
-            "あなたは <ruby>明日<rt>あした</rt></ruby> <ruby>用事<rt>ようじ</rt></ruby>が ありますか。",
-            "あなたは <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に <ruby>行<rt>い</rt></ruby>きませんか。"
+            "あなたは<ruby>明日<rt>あした</rt></ruby><ruby>用事<rt>ようじ</rt></ruby>がありますか。",
+            "あなたは<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか。"
         ],
         "translation": "<p>Eric has two tickets for a concert. He wants to go with Yamada-san.<br>Eric: \"Yamada-san, there is a concert this Saturday. Won't you go with me?\"<br>Yamada: \"This Saturday? I'm sorry. I have an errand on Saturday, so I cannot go.\"<br>Eric: \"I see. That's a pity.\"<br>Yamada: \"Yes, it's a pity. Please ask me again another time.\"</p>",
-        "textbook_html": "<p>エリックさんは <ruby>音楽<rt>おんがく</rt></ruby>の チケットが <ruby>二枚<rt>にまい</rt></ruby> あります。<ruby>友達<rt>ともだち</rt></ruby>の <ruby>山田<rt>やまだ</rt></ruby>さんと <ruby>行<rt>い</rt></ruby>きたいです。<br>エリック「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>土曜日<rt>どようび</rt></ruby>に コンサートが あります。<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>行<rt>い</rt></ruby>きませんか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>土曜日<rt>どようび</rt></ruby>ですか。すみません。<ruby>土曜日<rt>どようび</rt></ruby>は <ruby>用事<rt>ようじ</rt></ruby>が ありますから、<ruby>行<rt>い</rt></ruby>くことが できません」<br>エリック「そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね」<br><ruby>山田<rt>やまだ</rt></ruby>「はい、<ruby>残念<rt>ざんねん</rt></ruby>です。また <ruby>今度<rt>こんど</rt></ruby> お<ruby>願<rt>ねが</rt></ruby>いします」</p>",
+        "textbook_html": "<p>エリックさんは<ruby>音楽<rt>おんがく</rt></ruby>のチケットが<ruby>二枚<rt>にまい</rt></ruby>あります。<ruby>友達<rt>ともだち</rt></ruby>の<ruby>山田<rt>やまだ</rt></ruby>さんと<ruby>行<rt>い</rt></ruby>きたいです。<br>エリック「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>土曜日<rt>どようび</rt></ruby>にコンサートがあります。<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>土曜日<rt>どようび</rt></ruby>ですか。すみません。<ruby>土曜日<rt>どようび</rt></ruby>は<ruby>用事<rt>ようじ</rt></ruby>がありますから、<ruby>行<rt>い</rt></ruby>くことができません」<br>エリック「そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね」<br><ruby>山田<rt>やまだ</rt></ruby>「はい、<ruby>残念<rt>ざんねん</rt></ruby>です。また<ruby>今度<rt>こんど</rt></ruby>お<ruby>願<rt>ねが</rt></ruby>いします」</p>",
         "quizzes": [
             {
-                "question": "エリックさんは <ruby>何<rt>なに</rt></ruby>が ありますか。",
+                "question": "エリックさんは<ruby>何<rt>なに</rt></ruby>がありますか。",
                 "choices": [
-                    "コンサートの チケット",
-                    "<ruby>漢字<rt>かんじ</rt></ruby>の <ruby>辞書<rt>じしょ</rt></ruby>"
+                    "コンサートのチケット",
+                    "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは どうして <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>行<rt>い</rt></ruby>きませんか。",
+                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんはどうして<ruby>土曜日<rt>どようび</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか。",
                 "choices": [
-                    "<ruby>音楽<rt>おんがく</rt></ruby>が <ruby>好<rt>す</rt></ruby>きじゃありませんから",
-                    "<ruby>土曜日<rt>どようび</rt></ruby>は <ruby>用事<rt>ようじ</rt></ruby>が ありますから"
+                    "<ruby>音楽<rt>おんがく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きじゃありませんから",
+                    "<ruby>土曜日<rt>どようび</rt></ruby>は<ruby>用事<rt>ようじ</rt></ruby>がありますから"
                 ],
                 "answer_index": 1
             }
@@ -64,27 +64,27 @@ export const textbooks_level_09: Textbook[] = [
     {
         "id": "TEXTBOOK_L09_03",
         "level": 9,
-        "title": "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>勉強<rt>べんきょう</rt></ruby>",
+        "title": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>勉強<rt>べんきょう</rt></ruby>",
         "schema_activation": [
-            "あなたは <ruby>漢字<rt>かんじ</rt></ruby>が よく わかりますか。",
-            "あなたは <ruby>今<rt>いま</rt></ruby> <ruby>時間<rt>じかん</rt></ruby>が ありますか。"
+            "あなたは<ruby>漢字<rt>かんじ</rt></ruby>がよくわかりますか。",
+            "あなたは<ruby>今<rt>いま</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がありますか。"
         ],
         "translation": "<p>Ana is a student at Sakura University. She studies Japanese in her room every day. Now she is reading a difficult textbook.<br>Yamada: \"Ana-san, do you understand the meaning of that Japanese?\"<br>Ana: \"No, I don't understand at all because the kanji is very difficult.\"<br>Yamada: \"I see. I have a lot of time now, so shall we study together?\"<br>Ana: \"Yes, let's study together. Thank you very much. Yamada-san is very kind.\"<br>Ana understands English well, but she is not yet good at Japanese kanji. Since Yamada is kind, he taught her the words in the textbook.</p>",
-        "textbook_html": "<p>アナさんは さくら<ruby>大学<rt>だいがく</rt></ruby>の <ruby>学生<rt>がくせい</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby> <ruby>自分<rt>じぶん</rt></ruby>の <ruby>部屋<rt>へや</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。<ruby>今<rt>いま</rt></ruby> <ruby>難<rt>むずか</rt></ruby>しい <ruby>教科書<rt>きょうかしょ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。<br><ruby>山田<rt>やまだ</rt></ruby>「アナさん、その <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>意味<rt>いみ</rt></ruby>が わかりますか」<br>アナ「いいえ、<ruby>全然<rt>ぜんぜん</rt></ruby> わかりません。<ruby>漢字<rt>かんじ</rt></ruby>が とても <ruby>難<rt>むずか</rt></ruby>しいですから」<br><ruby>山田<rt>やまだ</rt></ruby>「そうですか。<ruby>私<rt>わたし</rt></ruby>は <ruby>今<rt>いま</rt></ruby> <ruby>時間<rt>じかん</rt></ruby>が たくさん ありますから、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>勉強<rt>べんきょう</rt></ruby>しませんか」<br>アナ「はい、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>勉強<rt>べんきょう</rt></ruby>ましょう。ありがとうございます。<ruby>山田<rt>やまだ</rt></ruby>さんは とても <ruby>親切<rt>しんせつ</rt></ruby>ですね」<br>アナさんは <ruby>英語<rt>えいご</rt></ruby>は よく わかりますが、<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>漢字<rt>かんじ</rt></ruby>は まだ <ruby>上手<rt>じょうず</rt></ruby>じゃありません。<ruby>山田<rt>やまだ</rt></ruby>さんは <ruby>親切<rt>しんせつ</rt></ruby>ですから、<ruby>教科書<rt>きょうかしょ</rt></ruby>の <ruby>言葉<rt>ことば</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えました。</p>",
+        "textbook_html": "<p>アナさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>です。<ruby>毎日<rt>まいにち</rt></ruby><ruby>自分<rt>じぶん</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。<ruby>今<rt>いま</rt></ruby><ruby>難<rt>むずか</rt></ruby>しい<ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。<br><ruby>山田<rt>やまだ</rt></ruby>「アナさん、その<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>がわかりますか」<br>アナ「いいえ、<ruby>全然<rt>ぜんぜん</rt></ruby>わかりません。<ruby>漢字<rt>かんじ</rt></ruby>がとても<ruby>難<rt>むずか</rt></ruby>しいですから」<br><ruby>山田<rt>やまだ</rt></ruby>「そうですか。<ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がたくさんありますから、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>勉強<rt>べんきょう</rt></ruby>しませんか」<br>アナ「はい、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>勉強<rt>べんきょう</rt></ruby>ましょう。ありがとうございます。<ruby>山田<rt>やまだ</rt></ruby>さんはとても<ruby>親切<rt>しんせつ</rt></ruby>ですね」<br>アナさんは<ruby>英語<rt>えいご</rt></ruby>はよくわかりますが、<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>漢字<rt>かんじ</rt></ruby>はまだ<ruby>上手<rt>じょうず</rt></ruby>じゃありません。<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>親切<rt>しんせつ</rt></ruby>ですから、<ruby>教科書<rt>きょうかしょ</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えました。</p>",
         "quizzes": [
             {
-                "question": "アナさんは どうして <ruby>日本語<rt>にほんご</rt></ruby>が わかりませんか。",
+                "question": "アナさんはどうして<ruby>日本語<rt>にほんご</rt></ruby>がわかりませんか。",
                 "choices": [
-                    "<ruby>漢字<rt>かんじ</rt></ruby>が <ruby>難<rt>むずか</rt></ruby>しいですから",
-                    "<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>嫌<rt>きら</rt></ruby>いですから"
+                    "<ruby>漢字<rt>かんじ</rt></ruby>が<ruby>難<rt>むずか</rt></ruby>しいですから",
+                    "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いですから"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは どうして アナさんを <ruby>助<rt>たす</rt></ruby>けますか。",
+                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんはどうしてアナさんを<ruby>助<rt>たす</rt></ruby>けますか。",
                 "choices": [
-                    "<ruby>時間<rt>じかん</rt></ruby>が たくさん ありますから",
-                    "<ruby>日本語<rt>にほんご</rt></ruby>が <ruby>上手<rt>じょうず</rt></ruby>じゃありませんから"
+                    "<ruby>時間<rt>じかん</rt></ruby>がたくさんありますから",
+                    "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>じゃありませんから"
                 ],
                 "answer_index": 0
             }
@@ -94,35 +94,35 @@ export const textbooks_level_09: Textbook[] = [
     {
         "id": "TEXTBOOK_L09_04",
         "level": 9,
-        "title": "<ruby>野球<rt>やきゅう</rt></ruby>の <ruby>試合<rt>しあい</rt></ruby>",
+        "title": "<ruby>野球<rt>やきゅう</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>",
         "schema_activation": [
-            "あなたは スポーツが <ruby>好<rt>す</rt></ruby>きですか。",
-            "あなたの <ruby>町<rt>まち</rt></ruby>に <ruby>有名<rt>ゆうめい</rt></ruby>な スポーツの <ruby>場所<rt>ばしょ</rt></ruby>が ありますか。"
+            "あなたはスポーツが<ruby>好<rt>す</rt></ruby>きですか。",
+            "あなたの<ruby>町<rt>まち</rt></ruby>に<ruby>有名<rt>ゆうめい</rt></ruby>なスポーツの<ruby>場所<rt>ばしょ</rt></ruby>がありますか。"
         ],
         "translation": "<p>Eric likes sports very much. Especially baseball. He plays baseball at the park every day.<br>Eric: \"Yamada-san, there is a baseball game in Nagoya on Sunday. I have tickets, so won't you go with me?\"<br>Yamada: \"I'm sorry about Sunday. I have errands on Saturday and Sunday, so I cannot go.\"<br>Eric: \"I see. That's a pity.\"<br>Yamada: \"Yes, it's very a pity. How about Pak-san? Does Pak-san also like baseball?\"<br>Eric: \"No, Pak-san doesn't like sports very much. Since he doesn't understand baseball at all, he won't go.\"<br>Yamada: \"I see. Eric-san is very good at baseball, so will you go alone?\"<br>Eric: \"Yes, I will go alone. Because baseball is very interesting, I love it.\"<br>Eric goes to Nagoya alone to see the baseball game on Sunday.</p>",
-        "textbook_html": "<p>エリックさんは スポーツが とても <ruby>好<rt>す</rt></ruby>きです。とくに <ruby>野球<rt>やきゅう</rt></ruby>が 大好きです。<ruby>彼<rt>かれ</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>公園<rt>こうえん</rt></ruby>で <ruby>野球<rt>やきゅう</rt></ruby>を します。<br>エリック「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>名古屋<rt>なごや</rt></ruby>で <ruby>野球<rt>やきゅう</rt></ruby>の <ruby>試合<rt>しあい</rt></ruby>が あります。チケットが ありますから、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きませんか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>日曜日<rt>にちようび</rt></ruby>は すみません。<ruby>土曜日<rt>どようび</rt></ruby>と <ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>用事<rt>ようじ</rt></ruby>が ありますから、<ruby>行<rt>い</rt></ruby>くことが できません」<br>エリック「そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね」<br><ruby>山田<rt>やまだ</rt></ruby>「はい、とても <ruby>残念<rt>ざんねん</rt></ruby>です。パクさんは どうですか。パクさんも <ruby>野球<rt>やきゅう</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか」<br>エリック「いいえ、パクさんは スポーツが あまり <ruby>好<rt>す</rt></ruby>きじゃありません。<ruby>野球<rt>やきゅう</rt></ruby>も <ruby>全然<rt>ぜんぜん</rt></ruby> わかりませんから、<ruby>行<rt>い</rt></ruby>きません」<br><ruby>山田<rt>やまだ</rt></ruby>「そうですか。エリックさんは <ruby>野球<rt>やきゅう</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>ですから、<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で <ruby>行<rt>い</rt></ruby>きますか」<br>エリック「はい、<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で <ruby>行<rt>い</rt></ruby>きます。<ruby>私<rt>わたし</rt></ruby>は <ruby>野球<rt>やきゅう</rt></ruby>が とても おもしろいですから、大好きですよ」<br>エリックさんは <ruby>日曜日<rt>にちようび</rt></ruby>に <ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で <ruby>名古屋<rt>なごや</rt></ruby>へ <ruby>野球<rt>やきゅう</rt></ruby>を <ruby>見<rt>み</rt></ruby>に <ruby>行<rt>い</rt></ruby>きます。</p>",
+        "textbook_html": "<p>エリックさんはスポーツがとても<ruby>好<rt>す</rt></ruby>きです。とくに<ruby>野球<rt>やきゅう</rt></ruby>が大好きです。<ruby>彼<rt>かれ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>公園<rt>こうえん</rt></ruby>で<ruby>野球<rt>やきゅう</rt></ruby>をします。<br>エリック「<ruby>山田<rt>やまだ</rt></ruby>さん、<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>名古屋<rt>なごや</rt></ruby>で<ruby>野球<rt>やきゅう</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>があります。チケットがありますから、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きませんか」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>日曜日<rt>にちようび</rt></ruby>はすみません。<ruby>土曜日<rt>どようび</rt></ruby>と<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>用事<rt>ようじ</rt></ruby>がありますから、<ruby>行<rt>い</rt></ruby>くことができません」<br>エリック「そうですか。<ruby>残念<rt>ざんねん</rt></ruby>ですね」<br><ruby>山田<rt>やまだ</rt></ruby>「はい、とても<ruby>残念<rt>ざんねん</rt></ruby>です。パクさんはどうですか。パクさんも<ruby>野球<rt>やきゅう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか」<br>エリック「いいえ、パクさんはスポーツがあまり<ruby>好<rt>す</rt></ruby>きじゃありません。<ruby>野球<rt>やきゅう</rt></ruby>も<ruby>全然<rt>ぜんぜん</rt></ruby>わかりませんから、<ruby>行<rt>い</rt></ruby>きません」<br><ruby>山田<rt>やまだ</rt></ruby>「そうですか。エリックさんは<ruby>野球<rt>やきゅう</rt></ruby>がとても<ruby>上手<rt>じょうず</rt></ruby>ですから、<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で<ruby>行<rt>い</rt></ruby>きますか」<br>エリック「はい、<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で<ruby>行<rt>い</rt></ruby>きます。<ruby>私<rt>わたし</rt></ruby>は<ruby>野球<rt>やきゅう</rt></ruby>がとてもおもしろいですから、大好きですよ」<br>エリックさんは<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で<ruby>名古屋<rt>なごや</rt></ruby>へ<ruby>野球<rt>やきゅう</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。</p>",
         "quizzes": [
             {
-                "question": "エリックさんは スポーツが <ruby>好<rt>す</rt></ruby>きですか。",
+                "question": "エリックさんはスポーツが<ruby>好<rt>す</rt></ruby>きですか。",
                 "choices": [
-                    "はい、とても <ruby>好<rt>す</rt></ruby>きです",
-                    "いいえ、あまり <ruby>好<rt>す</rt></ruby>きじゃありません"
+                    "はい、とても<ruby>好<rt>す</rt></ruby>きです",
+                    "いいえ、あまり<ruby>好<rt>す</rt></ruby>きじゃありません"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんは どうして <ruby>行<rt>い</rt></ruby>きませんか。",
+                "question": "<ruby>山田<rt>やまだ</rt></ruby>さんはどうして<ruby>行<rt>い</rt></ruby>きませんか。",
                 "choices": [
-                    "<ruby>野球<rt>やきゅう</rt></ruby>が <ruby>下手<rt>へた</rt></ruby>ですから",
-                    "<ruby>用事<rt>ようじ</rt></ruby>が ありますから"
+                    "<ruby>野球<rt>やきゅう</rt></ruby>が<ruby>下手<rt>へた</rt></ruby>ですから",
+                    "<ruby>用事<rt>ようじ</rt></ruby>がありますから"
                 ],
                 "answer_index": 1
             },
             {
-                "question": "パクさんは どうして <ruby>行<rt>い</rt></ruby>きませんか。",
+                "question": "パクさんはどうして<ruby>行<rt>い</rt></ruby>きませんか。",
                 "choices": [
-                    "スポーツが あまり <ruby>好<rt>す</rt></ruby>きじゃありませんから",
-                    "<ruby>切符<rt>きっぷ</rt></ruby>が ありませんから"
+                    "スポーツがあまり<ruby>好<rt>す</rt></ruby>きじゃありませんから",
+                    "<ruby>切符<rt>きっぷ</rt></ruby>がありませんから"
                 ],
                 "answer_index": 0
             }
