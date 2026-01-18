@@ -4,20 +4,20 @@ export const textbooks_level_02: Textbook[] = [
     {
         "id": "TEXTBOOK_L02_01",
         "level": 2,
-        "title": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>",
+        "title": "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
         "schema_activation": [
-            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これはなんですか",
-            "（<ruby>何<rt>なに</rt></ruby>か<ruby>指<rt>ゆび</rt></ruby>さして）あれはなんですか"
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これはなんですか。",
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>指<rt>ゆび</rt></ruby>さして）あれはなんですか。"
         ],
-        "translation": "<p>This is a classroom. What is this? That is a book. It is a Japanese book.<br>What is that over there? That is a clock. It is Sakura University's clock.<br>Is that a dictionary? No, it's not a dictionary. It's a notebook.<br>Whose notebook is this? It's Ana-san's notebook.<br>Whose umbrella is that over there? It's Yamada-sensei's umbrella.<br>Is that a mechanical pencil? No, it's a ballpoint pen.<br>This is Yamada-sensei's ballpoint pen. It's not Ana-san's ballpoint pen.<br>That umbrella over there is also not Yamada-sensei's umbrella. It's Ana-san's umbrella.</p>",
-        "textbook_html": "<p>これは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>本<rt>ほん</rt></ruby>です。<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です。<br>あれは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>時計<rt>とけい</rt></ruby>です。さくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です。<br>それは<ruby>辞書<rt>じしょ</rt></ruby>ですか。いいえ、<ruby>手帳<rt>てちょう</rt></ruby>です。<span id=\"L02_01_Q1\">アナさんの</span><ruby>手帳<rt>てちょう</rt></ruby>です。<br>あれは<ruby>誰<rt>だれ</rt></ruby>の<ruby>傘<rt>かさ</rt></ruby>ですか。アナさんの<ruby>傘<rt>かさ</rt></ruby>です。<br>これは<ruby>何<rt>なん</rt></ruby>ですか？アナさんのボールペンです。</p>",
+        "translation": "<p>What is this? It is a book. It is a Japanese book.<br>What is that over there? It is a clock. It is a Swiss clock.<br>Is that a dictionary? No, it's not a dictionary. It is Ana-san's notebook.<br>Whose umbrella is that over there? It is Ana-san's umbrella.<br>What is this? It is Ana-san's ballpoint pen.</p>",
+        "textbook_html": "<p>これは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>本<rt>ほん</rt></ruby>です。<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です。<br>あれは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>時計<rt>とけい</rt></ruby>です。スイスの<ruby>時計<rt>とけい</rt></ruby>です。<br>それは<ruby>辞書<rt>じしょ</rt></ruby>ですか。いいえ、<ruby>辞書<rt>じしょ</rt></ruby>じゃありません。<span id=\"L02_01_Q1\">アナさんの</span><ruby>手帳<rt>てちょう</rt></ruby>です。<br>あれは<ruby>誰<rt>だれ</rt></ruby>の<ruby>傘<rt>かさ</rt></ruby>ですか。アナさんの<ruby>傘<rt>かさ</rt></ruby>です。<br>これは<ruby>何<rt>なん</rt></ruby>ですか？アナさんのボールペンです。</p>",
         "quizzes": [
             {
                 "question": "それはアナさんの<ruby>手帳<rt>てちょう</rt></ruby>ですか？",
                 "target_id": "L02_01_Q1",
                 "choices": [
-                    "はい、アナさんのです。",
-                    "いいえ、アナさんのじゃありません。"
+                    "はい、アナさんのです",
+                    "いいえ、アナさんのじゃありません"
                 ],
                 "answer_index": 0
             }
@@ -27,18 +27,20 @@ export const textbooks_level_02: Textbook[] = [
     {
         "id": "TEXTBOOK_L02_02",
         "level": 2,
-        "title": "<ruby>誰<rt>だれ</rt></ruby>のカバンですか",
+        "title": "<ruby>誰<rt>だれ</rt></ruby>のかばんですか",
         "schema_activation": [
-            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これは<ruby>誰<rt>だれ</rt></ruby>のですか",
-            "（<ruby>何<rt>なに</rt></ruby>か<ruby>指<rt>ゆび</rt></ruby>さして）あれは<ruby>誰<rt>だれ</rt></ruby>のですか"
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これは<ruby>誰<rt>だれ</rt></ruby>のですか。",
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>指<rt>ゆび</rt></ruby>さして）それは<ruby>誰<rt>だれ</rt></ruby>のですか。"
         ],
-        "textbook_html": "<p>これは<ruby>誰<rt>だれ</rt></ruby>のカバンですか。それはエリックさんのカバンです。アメリカのカバンです。<br>この<ruby>車<rt>くるま</rt></ruby>のカギもエリックさんのですか。はい、エリックさんのです。<span id=\"L02_02_Q1\">この<ruby>新聞<rt>しんぶん</rt></ruby>も</span>エリックさんのです。<ruby>英語<rt>えいご</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>です。<br>その<ruby>手帳<rt>てちょう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。キムさんのです。このボールペンもキムさんのです。<br>その<ruby>雑誌<rt>ざっし</rt></ruby>もキムさんのですか。いいえ、キムさんのじゃありません。パクさんのです。<span id=\"L02_02_Q2\"><ruby>韓国語<rt>かんこくご</rt></ruby>の<ruby>雑誌<rt>ざっし</rt></ruby>です。</span><br>あの<ruby>机<rt>つくえ</rt></ruby>と<ruby>椅子<rt>いす</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。</p>",
+        "textbook_html": "<p>これは<ruby>誰<rt>だれ</rt></ruby>のかばんですか。それはエリックさんのかばんです。アメリカのかばんです。<br>この<ruby>車<rt>くるま</rt></ruby>のカギもエリックさんのですか。はい、エリックさんのです。<br><span id=\"L02_02_Q1\">この<ruby>新聞<rt>しんぶん</rt></ruby>も</span>エリックさんのです。<ruby>英語<rt>えいご</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>です。<br>その<ruby>手帳<rt>てちょう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。キムさんのです。<br>このボールペンもキムさんのです。<br>その<ruby>雑誌<rt>ざっし</rt></ruby>もキムさんのですか。いいえ、キムさんのじゃありません。パクさんのです。<span id=\"L02_02_Q2\"><ruby>韓国語<rt>かんこくご</rt></ruby>の<ruby>雑誌<rt>ざっし</rt></ruby>です。</span><br>あの<ruby>机<rt>つくえ</rt></ruby>と<ruby>椅子<rt>いす</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。</p>",
+        "translation": "<p>Whose bag is this? That is Eric-san's bag. It is an American bag.<br>Is this car key also Eric-san's? Yes, it is Eric-san's.<br>This newspaper is also Eric-san's. It is an English newspaper.<br>Whose notebook is that? It is Kim-san's.<br>This ballpoint pen is also Kim-san's.<br>Is that magazine also Kim-san's? No, it is not Kim-san's. It is Pak-san's. It is a Korean magazine.<br>That desk and chair are Yamada-sensei's.</p>",
         "quizzes": [
             {
-                "question": "その<ruby>新聞<rt>しんぶん</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか",
+                "question": "<ruby>新聞<rt>しんぶん</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか。",
                 "target_id": "L02_02_Q1",
                 "choices": [
                     "エリックさん",
+                    "パクさん",
                     "キムさん"
                 ],
                 "answer_index": 0
@@ -59,24 +61,26 @@ export const textbooks_level_02: Textbook[] = [
     {
         "id": "TEXTBOOK_L02_03",
         "level": 2,
-        "title": "お<ruby>土産<rt>みやげ</rt></ruby>と<ruby>名刺<rt>めいし</rt></ruby>",
+        "title": "パクさんの<ruby>名刺<rt>めいし</rt></ruby>",
         "schema_activation": [
-            "（ペンを<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これは<ruby>誰<rt>だれ</rt></ruby>のペンですか",
-            "（<ruby>時計<rt>とけい</rt></ruby>を<ruby>指<rt>ゆび</rt></ruby>さして）あれは<ruby>誰<rt>だれ</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>ですか"
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これは<ruby>何<rt>なん</rt></ruby>ですか。",
+            "（<ruby>何<rt>なに</rt></ruby>か<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これは<ruby>誰<rt>だれ</rt></ruby>のですか。"
         ],
-        "textbook_html": "<p>これは<ruby>何<rt>なん</rt></ruby>ですか。それはカードです。<ruby>名刺<rt>めいし</rt></ruby>ですか。はい、<ruby>名刺<rt>めいし</rt></ruby>です。パクさんの<ruby>名刺<rt>めいし</rt></ruby>です。<span id=\"L02_03_Q1\">パクさんは</span>ひかり<ruby>病院<rt>びょういん</rt></ruby>の<ruby>医者<rt>いしゃ</rt></ruby>です。<br>これは<ruby>何<rt>なん</rt></ruby>ですか。お<ruby>土産<rt>みやげ</rt></ruby>です。このチョコレートはドイツのチョコレートです。アナさんのプレゼントです。<br>そのチョコレートもドイツのですか。いいえ、<span id=\"L02_03_Q2\">ドイツのじゃありません。</span><br>このコーヒーは<ruby>誰<rt>だれ</rt></ruby>のですか。キムさんのです。<br>あのCDはジャズのCDです。エリックさんのです。<br>このペンはボールペンですか、シャープペンシルですか。それはボールペンです。<br>あの<ruby>時計<rt>とけい</rt></ruby>はスイスの<ruby>時計<rt>とけい</rt></ruby>です。<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。</p>",
+        "translation": "<p>Ana: &quot;What is that?&quot;<br>Kim: &quot;This is a business card. It is Pak-san's business card. Pak-san is a doctor at Hikari Hospital.&quot;<br>Ana: &quot;Is that so?&quot;<br>Kim: &quot;Here you go. It is a souvenir. It is German chocolate.&quot;<br>Ana: &quot;Thank you. Is that also German chocolate over there?&quot;<br>Kim: &quot;No. That is Japanese chocolate.&quot;<br>Ana: &quot;Whose coffee is this?&quot;<br>Kim: &quot;It is mine. It is Indonesian coffee.&quot;<br>Ana: &quot;Whose CD is that?&quot;<br>Kim: &quot;That is Eric-san's. Whose clock is that?&quot;<br>Ana: &quot;This is Yamada-sensei's. It is a Swiss clock.&quot;</p>",
+        "textbook_html": "<p>アナ「それは<ruby>何<rt>なん</rt></ruby>ですか」<br>キム「これは<ruby>名刺<rt>めいし</rt></ruby>です。パクさんの<ruby>名刺<rt>めいし</rt></ruby>です。<span id=\"L02_03_Q1\">パクさんはひかり<ruby>病院<rt>びょういん</rt></ruby>の<ruby>医者<rt>いしゃ</rt></ruby>です</span>」<br>アナ「そうですか」<br>キム「これ、どうぞ。お<ruby>土産<rt>みやげ</rt></ruby>です。ドイツのチョコレートです」<br>アナ「ありがとうございます。あれもドイツのチョコレートですか」<br>キム「いいえ。あれは<ruby>日本<rt>にほん</rt></ruby>のチョコレートです」<br>アナ「このコーヒーは<ruby>誰<rt>だれ</rt></ruby>のですか」<br>キム「<ruby>私<rt>わたし</rt></ruby>のです。インドネシアのコーヒーです」<br>アナ「あのCDは<ruby>誰<rt>だれ</rt></ruby>のですか」<br>キム「<span id=\"L02_03_Q2\">あれはエリックさんのです</span>。その<ruby>時計<rt>とけい</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか」<br>アナ「これは<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。スイスの<ruby>時計<rt>とけい</rt></ruby>です」</p>",
         "quizzes": [
             {
-                "question": "パクさんは<ruby>何<rt>なん</rt></ruby>ですか",
+                "question": "パクさんの<ruby>病院<rt>びょういん</rt></ruby>はどちらですか。",
                 "target_id": "L02_03_Q1",
                 "choices": [
-                    "<ruby>医者<rt>いしゃ</rt></ruby>",
-                    "<ruby>学校<rt>がっこう</rt></ruby>の<ruby>先生<rt>せんせい</rt></ruby>"
+                    "さくら<ruby>病院<rt>びょういん</rt></ruby>",
+                    "ひかり<ruby>病院<rt>びょういん</rt></ruby>",
+                    "みどり<ruby>病院<rt>びょういん</rt></ruby>"
                 ],
-                "answer_index": 0
+                "answer_index": 1
             },
             {
-                "question": "あのＣＤは<ruby>誰<rt>だれ</rt></ruby>のですか",
+                "question": "CDは<ruby>誰<rt>だれ</rt></ruby>のですか。",
                 "target_id": "L02_03_Q2",
                 "choices": [
                     "パクさん",
@@ -91,19 +95,21 @@ export const textbooks_level_02: Textbook[] = [
     {
         "id": "TEXTBOOK_L02_04",
         "level": 2,
-        "title": "<ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>物<rt>もの</rt></ruby>",
+        "title": "<ruby>誰<rt>だれ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ですか",
         "schema_activation": [
-            "（<ruby>本<rt>ほん</rt></ruby>を<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これはなんの<ruby>本<rt>ほん</rt></ruby>ですか",
-            "（<ruby>鍵<rt>かぎ</rt></ruby>を<ruby>指<rt>ゆび</rt></ruby>さして）あれはなんの<ruby>鍵<rt>かぎ</rt></ruby>ですか"
+            "（<ruby>本<rt>ほん</rt></ruby>を<ruby>手<rt>て</rt></ruby>に<ruby>持<rt>も</rt></ruby>って）これはなんの<ruby>本<rt>ほん</rt></ruby>ですか。",
+            "（スマホを<ruby>指<rt>ゆび</rt></ruby>さして）これは<ruby>誰<rt>だれ</rt></ruby>のスマホですか。"
         ],
-        "textbook_html": "<p>これは<ruby>誰<rt>だれ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ですか。アナさんのです。<span id=\"L02_04_Q1\"><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です。</span>その<ruby>辞書<rt>じしょ</rt></ruby>もアナさんのですか。いいえ、<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>です。<br>このボールペンは<ruby>誰<rt>だれ</rt></ruby>のですか。それはキムさんのです。このシャープペンシルもキムさんのですか。はい、キムさんのです。<br>あのカバンはエリックさんのカバンです。このカギもエリックさんのですか。いいえ、エリックさんのじゃありません。パクさんの<ruby>車<rt>くるま</rt></ruby>のカギです。<span id=\"L02_04_Q2\"></span><br>この<ruby>名刺<rt>めいし</rt></ruby>はキムさんのです。LOOPソフトの<ruby>社員<rt>しゃいん</rt></ruby>です。<br>あの<ruby>傘<rt>かさ</rt></ruby>はアナさんのです。この<ruby>時計<rt>とけい</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>のです。<br><span id=\"L02_04_Q3\">この<ruby>時計<rt>とけい</rt></ruby>は</span>スイスの<ruby>時計<rt>とけい</rt></ruby>です。<br>このコンピュータはキムさんのです。あの<ruby>椅子<rt>いす</rt></ruby>はパクさんのです。</p>",
+        "translation": "<p>Yamada: &quot;Whose business card is that?&quot;<br>Kim: &quot;It is mine. Here you go. I am an employee at LOOP Soft.&quot;<br>Yamada: &quot;Thank you.&quot;<br>Kim: &quot;Whose book is this?&quot;<br>Yamada: &quot;It is Ana-san's. It is a Japanese book.&quot;<br>Kim: &quot;Is that dictionary also Ana-san's?&quot;<br>Yamada: &quot;No, it is not Ana-san's. It is mine. Whose pen is this?&quot;<br>Kim: &quot;It is mine.&quot;<br>Yamada: &quot;Is this mechanical pencil also Kim-san's?&quot;<br>Kim: &quot;No, it is not mine. It is Pak-san's.&quot;<br>Yamada: &quot;Is that key over there Eric-san's?&quot;<br>Kim: &quot;No, it is not Eric-san's. It is Pak-san's.&quot;<br>Yamada: &quot;What key is it?&quot;<br>Kim: &quot;It is a car key. Whose Swiss clock is this?&quot;<br>Yamada: &quot;It is mine. Whose computer is this?&quot;<br>Kim: &quot;It is Pak-san's.&quot;</p>",
+        "textbook_html": "<p><ruby>山田<rt>やまだ</rt></ruby>「その<ruby>名刺<rt>めいし</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか」<br>キム「<ruby>私<rt>わたし</rt></ruby>のです。どうぞ。<ruby>私<rt>わたし</rt></ruby>はLOOPソフトの<ruby>社員<rt>しゃいん</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby>「ありがとうございます」<br>キム「これは<ruby>誰<rt>だれ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ですか」<br><ruby>山田<rt>やまだ</rt></ruby>「アナさんのです。<span id=\"L02_04_Q1\"><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>です</span>」<br>キム「その<ruby>辞書<rt>じしょ</rt></ruby>もアナさんのですか」<br><ruby>山田<rt>やまだ</rt></ruby>「いいえ、アナさんのじゃありません。<ruby>私<rt>わたし</rt></ruby>のです。このペンは<ruby>誰<rt>だれ</rt></ruby>のですか」<br>キム「<ruby>私<rt>わたし</rt></ruby>のです」<br><ruby>山田<rt>やまだ</rt></ruby>「このシャープペンもキムさんのですか」<br>キム「いいえ、<ruby>私<rt>わたし</rt></ruby>のじゃありません。パクさんのです」<br><ruby>山田<rt>やまだ</rt></ruby>「あの<ruby>鍵<rt>かぎ</rt></ruby>はエリックさんのですか」<br>キム「いいえ、エリックさんのじゃありません。パクさんのです」<br><ruby>山田<rt>やまだ</rt></ruby>「なんの<ruby>鍵<rt>かぎ</rt></ruby>ですか」<br>キム「<span id=\"L02_04_Q2\"><ruby>車<rt>くるま</rt></ruby>の<ruby>鍵<rt>かぎ</rt></ruby>です。</span><span id=\"L02_04_Q3\">このスイスの<ruby>時計<rt>とけい</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>のですか</span>」<br><ruby>山田<rt>やまだ</rt></ruby>「<ruby>私<rt>わたし</rt></ruby>のです。このコンピュータは<ruby>誰<rt>だれ</rt></ruby>のですか」<br>キム「パクさんのです」</p>",
         "quizzes": [
             {
                 "question": "アナさんの<ruby>本<rt>ほん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>ですか。",
                 "target_id": "L02_04_Q1",
                 "choices": [
                     "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
-                    "ドイツ<ruby>語<rt>ご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>"
+                    "ドイツ<ruby>語<rt>ご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
+                    "<ruby>英語<rt>えいご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>"
                 ],
                 "answer_index": 0
             },

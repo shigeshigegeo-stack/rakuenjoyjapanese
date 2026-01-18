@@ -113,8 +113,37 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             // Ensure we at least show the header + some padding before the story starts
             const minScrollY = absoluteStoryTop - HEADER_OFFSET - 20;
 
-            // 6. Determine final scroll position
-            const finalScrollY = Math.max(targetScrollY, minScrollY);
+            // 6. Conditional Scroll Clamping based on Story Length
+            // User Request: Apply "Check Your Understanding header below overlay" rule only for Medium/Long stories.
+            // For Short stories, it's physically difficult/impossible due to lack of content, so we skip it.
+            let maxScrollY = Infinity;
+
+            // blossomCount is calculated earlier in the component scope (lines ~140-160).
+            // We can use it here. 1 = Short, >= 2 = Medium/Long.
+            if (blossomCount >= 2) {
+                const quizHeader = document.getElementById('quiz-header');
+                if (quizHeader) {
+                    const headerRect = quizHeader.getBoundingClientRect();
+                    const absoluteHeaderTop = headerRect.top + window.scrollY;
+
+                    // We want the Header to be AT LEAST below the overlay top edge.
+                    // Overlay is at the bottom, say ~350px-400px height.
+                    // Visual goal: Red frame (overlay top) < Header Text Top.
+                    // Overlay Top Y in viewport ~= window.innerHeight - OVERLAY_HEIGHT.
+                    // Header Y in viewport = absoluteHeaderTop - scrollY.
+                    // Constraint: absoluteHeaderTop - scrollY > window.innerHeight - OVERLAY_HEIGHT.
+                    // scrollY < absoluteHeaderTop - window.innerHeight + OVERLAY_HEIGHT.
+
+                    const ESTIMATED_OVERLAY_HEIGHT = 350; // Conservative estimate including padding
+                    maxScrollY = absoluteHeaderTop - window.innerHeight + ESTIMATED_OVERLAY_HEIGHT;
+                }
+            }
+
+            // 7. Determine final scroll position
+            // We take the desired target, but clamp it by maxScrollY if applicable.
+            // However, we MUST respect minScrollY (start of story) to avoid scrolling up too far.
+            const calculatedScrollY = Math.min(maxScrollY, targetScrollY);
+            const finalScrollY = Math.max(calculatedScrollY, minScrollY);
 
             setTimeout(() => {
                 window.scrollTo({
@@ -160,6 +189,11 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         levelDisplay = typeof textbook.level === 'number' ? `Level ${textbook.level}` : textbook.level;
     }
 
+    const closeQuizOverlay = () => {
+        setActiveQuizIndex(null);
+        // Explicitly do NOT scroll back down. User wants to stay at current reading position.
+    };
+
     // Helper to render a single quiz item content
     const renderQuizContent = (quiz: Quiz, quizIdx: number, isOverlay: boolean = false) => {
         const options = quiz.choices || []; // choices is mandatory in type, but good to be safe if data is inconsistent
@@ -180,7 +214,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     />
                     {isOverlay && (
                         <button
-                            onClick={() => handleQuizTitleClick(quizIdx)} // Allow toggling off from overlay
+                            onClick={() => handleQuizTitleClick(quizIdx)} // Close and scroll back to quiz list
                             style={{
                                 float: 'right',
                                 background: 'none',
@@ -269,7 +303,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     }}>
                         {selectedAnswers[quizIdx] === quiz.answer_index
                             ? <span dangerouslySetInnerHTML={{ __html: '<ruby>正解<rt>せいかい</rt></ruby>です！ (Correct!)' }} />
-                            : <span dangerouslySetInnerHTML={{ __html: `<ruby>不正解<rt>ふせいかい</rt></ruby>です。 (Incorrect. Answer: ${options[quiz.answer_index]})` }} />}
+                            : <span dangerouslySetInnerHTML={{ __html: '<ruby>不正解<rt>ふせいかい</rt></ruby>です。' }} />}
                     </div>
                 )}
             </>
@@ -399,7 +433,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             {/* Quizzes Section */}
             {textbook.quizzes && textbook.quizzes.length > 0 && (
                 <div className="quiz-section">
-                    <h3>Check Your Understanding</h3>
+                    <h3 id="quiz-header">Check Your Understanding</h3>
 
                     {/* Static List of Quizzes */}
                     {textbook.quizzes.map((quiz, quizIdx) => {
@@ -418,6 +452,24 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                             </div>
                         );
                     })}
+
+                    {/* Active Quiz Backdrop - Click to Close from Anywhere */}
+                    {activeQuizIndex !== null && (
+                        <div
+                            style={{
+                                position: 'fixed',
+                                top: 0,
+                                left: 0,
+                                width: '100vw',
+                                height: '100vh',
+                                zIndex: 9998,
+                                background: 'transparent', // Looks like normal screen click
+                                cursor: 'default'
+                            }}
+                            onClick={closeQuizOverlay}
+                            aria-hidden="true"
+                        />
+                    )}
 
                     {/* Active Quiz Overlay */}
                     {activeQuizIndex !== null && textbook.quizzes[activeQuizIndex] && (
@@ -698,7 +750,8 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         /* New Style for Quiz Triggers */
         /* New Style for Quiz Triggers */
         /* New Style for Quiz Triggers */
-        .quiz-trigger {
+        /* New Style for Quiz Triggers - Global to bypass styled-jsx helper function scoping issues */
+        :global(.quiz-trigger) {
             font-weight: 700 !important; /* Force bold */
             display: inline-block;
             margin-right: 10px;
@@ -709,13 +762,12 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             margin-left: -12px; /* Offset alignment */
             color: var(--text-color); /* Default color */
             text-decoration: none;
-            border: 1px solid transparent; /* Prevent layout shift on hover if border added later */
+            border: 1px solid transparent; 
         }
-        .quiz-trigger:hover {
-            background-color: rgba(217, 30, 24, 0.1); /* Visible red tint */
-            color: var(--accent-red) !important;
+        :global(.quiz-trigger:hover) {
+            background-color: rgba(217, 30, 24, 0.1);
         }
-        .quiz-trigger.active {
+        :global(.quiz-trigger.active) {
             color: var(--accent-red) !important;
             text-decoration: underline;
             text-underline-offset: 4px;
