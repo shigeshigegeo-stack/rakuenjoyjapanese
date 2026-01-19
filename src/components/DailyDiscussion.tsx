@@ -9,16 +9,12 @@ type Discussion = {
     level: number;
     question_jp: string;
     question_en: string;
-    answer_jp: string;
-    answer_en: string;
 };
 
 const discussions: Discussion[] = discussionsData as Discussion[];
 
 const DailyDiscussion: React.FC = () => {
     const [topic, setTopic] = useState<Discussion | null>(null);
-    const [showTranslation, setShowTranslation] = useState(false);
-    const [showAnswer, setShowAnswer] = useState(false);
 
     useEffect(() => {
         // Calculate day of year to rotate topics
@@ -38,8 +34,6 @@ const DailyDiscussion: React.FC = () => {
         if (discussions.length === 0) return;
         const randomIndex = Math.floor(Math.random() * discussions.length);
         setTopic(discussions[randomIndex]);
-        setShowTranslation(false);
-        setShowAnswer(false);
     };
 
     if (!topic) return null;
@@ -54,7 +48,7 @@ const DailyDiscussion: React.FC = () => {
                 🔀
             </button>
             <div className={styles.header}>
-                今日のディスカッション (Today&apos;s Discussion)
+                フリートーク (Free Conversation)
             </div>
 
             <div
@@ -62,45 +56,14 @@ const DailyDiscussion: React.FC = () => {
                 dangerouslySetInnerHTML={{ __html: topic.question_jp }}
             />
 
-            <p className={styles.subText}>
-                先生からの質問に答えてみましょう！ (Answer the teacher&apos;s question!)
-            </p>
 
-            <div className={styles.controls}>
-                <button
-                    className={`${styles.toggleBtn} ${showTranslation ? styles.active : ''}`}
-                    onClick={() => setShowTranslation(!showTranslation)}
-                >
-                    {showTranslation ? 'Hide Translation' : 'Show Translation'}
-                </button>
-                <button
-                    className={`${styles.toggleBtn} ${showAnswer ? styles.active : ''}`}
-                    onClick={() => setShowAnswer(!showAnswer)}
-                >
-                    {showAnswer ? 'Hide Example Answer' : 'See Example Answer'}
-                </button>
+
+            <div className={styles.revealContent}>
+                <span className={styles.label}>English Translation</span>
+                <p className={styles.revealText}>{topic.question_en}</p>
             </div>
 
-            {showTranslation && (
-                <div className={styles.revealContent}>
-                    <span className={styles.label}>English Translation</span>
-                    <p className={styles.revealText}>{topic.question_en}</p>
-                </div>
-            )}
 
-            {showAnswer && (
-                <div className={styles.revealContent}>
-                    <span className={styles.label}>Example Answer (Student)</span>
-                    <div
-                        className={styles.revealText}
-                        style={{ marginBottom: '0.5rem' }}
-                        dangerouslySetInnerHTML={{ __html: topic.answer_jp }}
-                    />
-                    <p className={styles.revealText} style={{ color: 'var(--text-light)', fontSize: '0.95rem' }}>
-                        {topic.answer_en}
-                    </p>
-                </div>
-            )}
         </section>
     );
 };

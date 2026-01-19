@@ -71,8 +71,8 @@ export default function AboutPage() {
                         }}>
                             For learners
                         </h1>
-                        <div style={{ fontSize: '1.2rem', lineHeight: '2.2', textAlign: 'left', background: '#f9f9f9', padding: '30px', borderRadius: '15px' }}>
-                            <p style={{ marginBottom: '1.5em', fontWeight: 'bold', fontSize: '1.3rem' }}>
+                        <div style={{ fontSize: '1rem', lineHeight: '2.2', textAlign: 'left', background: '#f9f9f9', padding: '30px', borderRadius: '15px' }}>
+                            <p style={{ marginBottom: '1.5em', fontWeight: 'bold', fontSize: '1.1rem' }}>
                                 Welcome to “Gaku（楽）”
                             </p>
                             <p style={{ marginBottom: '1.5em' }}>
@@ -137,7 +137,7 @@ export default function AboutPage() {
 
                         <div style={{ background: '#fcfcfc', padding: '20px', borderRadius: '10px', border: '1px solid #eee' }}>
                             <p style={{ fontSize: '0.95rem', lineHeight: '1.8', color: '#555' }}>
-                                オンライン日本語教師。1500レッスン達成。<br />
+                                オンライン日本語教師<br />
                                 2021年　日本語教育能力検定試験　合格<br />
                                 2022年　日本語教師養成講座420時間　修了<br />
                                 2024年　日本語教員試験　合格<br />

@@ -23,11 +23,24 @@ const TextbookCard: React.FC<TextbookCardProps> = ({ textbook, index }) => {
 
 
 
-    // Calculate blossom count based on textbook ID (assuming format TEXTBOOK_Lxx_yy)
+    // Calculate blossom count and display level based on textbook ID (assuming format TEXTBOOK_Lxx_yy)
     let blossomCount = 0;
+    let displayLevel = textbook.level;
+
     const parts = textbook.id.split('_');
     if (parts.length >= 3) {
-        const subLevel = parseInt(parts[2], 10);
+        // e.g. TEXTBOOK_L05_01
+        const levelPart = parts[1]; // L05
+        const subLevelPart = parts[2]; // 01
+
+        const subLevel = parseInt(subLevelPart, 10);
+        const levelNum = parseInt(levelPart.replace('L', ''), 10);
+
+        if (!isNaN(levelNum) && !isNaN(subLevel)) {
+            // Format: Level X-Y
+            displayLevel = `Level ${levelNum}-${subLevel}`;
+        }
+
         if (!isNaN(subLevel)) {
             // 1->1, 2->2, 3->2, 4->3
             if (subLevel === 1) blossomCount = 1;
@@ -47,7 +60,7 @@ const TextbookCard: React.FC<TextbookCardProps> = ({ textbook, index }) => {
 
                 <div className={styles.content}>
                     <div className={styles.header}>
-                        <LevelBadge level={textbook.level} />
+                        <LevelBadge level={displayLevel} />
                         {blossomCount > 0 && (() => {
                             let flowerMarginLeft = '4px';
                             if (blossomCount === 1) {

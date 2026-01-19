@@ -172,8 +172,8 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         const levelNum = parseInt(match[1], 10);
         const subLevelNum = parseInt(match[2], 10);
 
-        // Format: "Level 1"
-        levelDisplay = `Level ${levelNum}`;
+        // Format: "Level 1" -> "Level 1-1"
+        levelDisplay = `Level ${levelNum}-${subLevelNum}`;
 
         // Blossoms & Length mapping:
         // 1 -> Short (1 blossom)
@@ -303,7 +303,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                     }}>
                         {selectedAnswers[quizIdx] === quiz.answer_index
                             ? <span dangerouslySetInnerHTML={{ __html: '<ruby>正解<rt>せいかい</rt></ruby>です！ (Correct!)' }} />
-                            : <span dangerouslySetInnerHTML={{ __html: '<ruby>不正解<rt>ふせいかい</rt></ruby>です。' }} />}
+                            : <span dangerouslySetInnerHTML={{ __html: '<ruby>不正解<rt>ふせいかい</rt></ruby>です。 (Incorrect.)' }} />}
                     </div>
                 )}
             </>
@@ -761,7 +761,8 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             transition: all 0.2s ease;
             margin-left: -12px; /* Offset alignment */
             color: var(--text-color); /* Default color */
-            text-decoration: none;
+            text-decoration: underline;
+            text-underline-offset: 4px;
             border: 1px solid transparent; 
         }
         :global(.quiz-trigger:hover) {

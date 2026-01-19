@@ -9,8 +9,8 @@ export const textbooks_level_03: Textbook[] = [
             "ここは<ruby>日本<rt>にほん</rt></ruby>です。そこはどこですか。",
             "お<ruby>手洗<rt>てあら</rt></ruby>いはどこですか。"
         ],
-        "translation": "<p>This is Sakura University. <br>Yamada: \"Ana-san, this is my classroom.\"<br>Ana: \"Excuse me, where is the cafeteria?\"<br>Yamada: \"The cafeteria is on the second floor. It is over there.\"<br>Ana: \"Is the office also on the second floor?\"<br>Yamada: \"No, the office is not on the second floor. It is on the first floor.\"<br>The reception is on the first floor. The restroom is on the second floor.</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">ここはさくら<ruby>大学<rt>だいがく</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>「アナさん、ここは<ruby>私<rt>わたし</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>です」</span><br><span style=\"display: inline-block;\">アナ「すみません、<ruby>食堂<rt>しょくどう</rt></ruby>はどこですか」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>「<ruby>食堂<rt>しょくどう</rt></ruby>は<ruby>二階<rt>にかい</rt></ruby>です。</span><span style=\"display: inline-block;\">あそこですよ」</span><br><span style=\"display: inline-block;\">アナ「<ruby>事務室<rt>じむしつ</rt></ruby>も<ruby>二階<rt>にかい</rt></ruby>ですか」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby>「いいえ、<ruby>事務室<rt>じむしつ</rt></ruby>は<ruby>二階<rt>にかい</rt></ruby>じゃありません。<ruby>一階<rt>いっかい</rt></ruby>です」</span><br><span style=\"display: inline-block;\"><ruby>受付<rt>うけつけ</rt></ruby>は<ruby>一階<rt>いっかい</rt></ruby>です。</span><span style=\"display: inline-block;\">お<ruby>手洗<rt>てあら</rt></ruby>いは<ruby>二階<rt>にかい</rt></ruby>です。</span></p>",
+        "translation": "<p>This is Sakura University. <br>Yamada-sensei: \"Ana-san, this is my classroom.\"<br>Ana: \"Excuse me, where is the cafeteria?\"<br>Yamada-sensei: \"The cafeteria is on the second floor. It is over there.\"<br>Ana: \"Is the office also on the second floor?\"<br>Yamada-sensei: \"No, the office is not on the second floor. It is on the first floor.\"<br>The reception is on the first floor. The restroom is on the second floor.</p>",
+        "textbook_html": "<p>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>です。<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「アナさん、ここはアナさんの<ruby>教室<rt>きょうしつ</rt></ruby>です」<br>アナ「ありがとうございます。<ruby>食堂<rt>しょくどう</rt></ruby>は どこですか」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>食堂<rt>しょくどう</rt></ruby>は <ruby>二階<rt>にかい</rt></ruby>です。あそこですよ」<br>アナ「<ruby>事務室<rt>じむしつ</rt></ruby>も <ruby>二階<rt>にかい</rt></ruby>ですか」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「いいえ、<ruby>事務室<rt>じむしつ</rt></ruby>は <ruby>二階<rt>にかい</rt></ruby>じゃありません。<ruby>一階<rt>いっかい</rt></ruby>です。<ruby>受付<rt>うけつけ</rt></ruby>も<ruby>一階<rt>いっかい</rt></ruby>です」</p>",
         "quizzes": [
             {
                 "question": "<ruby>食堂<rt>しょくどう</rt></ruby>はどこですか。",
@@ -27,32 +27,33 @@ export const textbooks_level_03: Textbook[] = [
     {
         "id": "TEXTBOOK_L03_02",
         "level": 3,
-        "title": "<ruby>お国<rt>くに</rt></ruby>はどちらですか",
+        "title": "お<ruby>国<rt>くに</rt></ruby>はどちらですか",
         "schema_activation": [
             "お<ruby>国<rt>くに</rt></ruby>はどちらですか。",
             "<ruby>会社<rt>かいしゃ</rt></ruby>(<ruby>学校<rt>がっこう</rt></ruby>)はどちらですか。"
         ],
-        "translation": "<p>Yamada: \"Where are you from?\"<br>Eric: \"I am from America.\"<br>Eric is an American bank employee.<br>Yamada: \"Kim-san, where is your company?\"<br>Kim: \"It is Sakura IT. It is a company in Tokyo.\"<br>Pak-san is a doctor at a hospital. The hospital is in Kobe.<br>Professor Yamada's university is in Nara.<br>Everyone's countries are America, Korea, and Germany.</p>",
-        "textbook_html": "<p><ruby>山田<rt>やまだ</rt></ruby>「お<ruby>国<rt>くに</rt></ruby>はどちらですか」<br><span style=\"display: inline-block;\">エリック「アメリカです」</span><br><span style=\"display: inline-block;\">エリックさんはNEXバンクの<ruby>銀行員<rt>ぎんこういん</rt></ruby>です。</span><br><ruby>山田<rt>やまだ</rt></ruby>「キムさん、<ruby>会社<rt>かいしゃ</rt></ruby>はどちらですか」<br>キム「LOOPソフトです。<span id=\"L03_02_Q2\"><ruby>東京<rt>とうきょう</rt></ruby>の<ruby>会社<rt>かいしゃ</rt></ruby>です」</span><br>パクさんはひかり<ruby>病院<rt>びょういん</rt></ruby>の<ruby>医者<rt>いしゃ</rt></ruby>です。<span id=\"L03_02_Q1\"><ruby>病院<rt>びょういん</rt></ruby>は<ruby>神戸<rt>こうべ</rt></ruby>です。</span><br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>大学<rt>だいがく</rt></ruby>は<ruby>奈良<rt>なら</rt></ruby>です。<br>みなさんの<ruby>国<rt>くに</rt></ruby>はアメリカ、<ruby>韓国<rt>かんこく</rt></ruby>、ドイツです。</p>",
+        "translation": "<p>Yamada-sensei: \"Where are you from?\"<br>Eric: \"I am from America.\"<br>Eric is an American bank employee.<br>Yamada-sensei: \"Kim-san, where is your company?\"<br>Kim: \"It is Sakura IT. It is a company in Tokyo.\"<br>Pak-san is a doctor at a hospital. The hospital is in Kobe.<br>Professor Yamada's university is in Nara.<br>Everyone's countries are America, Korea, and Germany.</p>",
+        "textbook_html": "<p><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「お<ruby>国<rt>くに</rt></ruby>は どちらですか」<br>エリック「アメリカです。」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>会社<rt>かいしゃ</rt></ruby>はどちらですか」<br>エリック「NEXバンクの<ruby>銀行員<rt>ぎんこういん</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「キムさん、お<ruby>国<rt>くに</rt></ruby>はどちらですか」<br>キム「<ruby>韓国<rt>かんこく</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>会社<rt>かいしゃ</rt></ruby>はどちらですか」<br>キム「LOOPソフトの<ruby>社員<rt>しゃいん</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「パクさんのお<ruby>国<rt>くに</rt></ruby>はどちらですか」<br>パク「<ruby>私<rt>わたし</rt></ruby>も<ruby>韓国<rt>かんこく</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「パクさんは<ruby>会社員<rt>かいしゃいん</rt></ruby>ですか」<br>パク「いいえ、<ruby>会社員<rt>かいしゃいん</rt></ruby>じゃありません。<ruby>医者<rt>いしゃ</rt></ruby>です。」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>病院<rt>びょういん</rt></ruby>はどちらですか」<br>パク「ひかり<ruby>病院<rt>びょういん</rt></ruby>です。」</p>",
         "quizzes": [
             {
-                "question": "パクさんの<ruby>病院<rt>びょういん</rt></ruby>はどこですか。",
+                "question": "エリックさんの<ruby>国<rt>くに</rt></ruby>はどこですか。",
                 "target_id": "L03_02_Q1",
                 "choices": [
-                    "<ruby>神戸<rt>こうべ</rt></ruby>",
-                    "<ruby>奈良<rt>なら</rt></ruby>"
+                    "ドイツ",
+                    "アメリカ",
+                    "<ruby>韓国<rt>かんこく</rt></ruby>"
                 ],
-                "answer_index": 0
+                "answer_index": 1
             },
             {
                 "question": "キムさんの<ruby>会社<rt>かいしゃ</rt></ruby>はどこですか。",
                 "target_id": "L03_02_Q2",
                 "choices": [
-                    "アメリカ",
-                    "<ruby>東京<rt>とうきょう</rt></ruby>",
-                    "<ruby>神戸<rt>こうべ</rt></ruby>"
+                    "LEEPソフト",
+                    "NEXバンク",
+                    "LOOPソフト"
                 ],
-                "answer_index": 1
+                "answer_index": 2
             }
         ],
         "audio_file": "/audio/L03_02.mp3"
@@ -66,24 +67,25 @@ export const textbooks_level_03: Textbook[] = [
             "それはどこのスマホですか。"
         ],
         "translation": "<p>Clerk: \"Welcome!\"<br>Ana: \"Excuse me, where is the shoe department?\"<br>Clerk: \"It is on the first floor. The escalator is over there.\"<br>Ana: \"How much is this tie?\"<br>Clerk: \"It is 3,500 yen. It is from France.\"<br>Ana: \"How much is that watch?\"<br>Clerk: \"It is 12,000 yen. It is a Japanese watch.\"<br>Ana: \"Which country is that wine from?\"<br>Clerk: \"It is from Italy. It is 2,800 yen.\"<br>The office is in the basement.</p>",
-        "textbook_html": "<p><ruby>店員<rt>てんいん</rt></ruby>「いらっしゃいませ」<br>アナ「すみません、<ruby>靴<rt>くつ</rt></ruby><ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>はどこですか」<br><span id=\"L03_03_Q1\"><ruby>店員<rt>てんいん</rt></ruby>「<ruby>一階<rt>いっかい</rt></ruby>です。</span>エスカレーターはあちらです」<br>アナ「このネクタイはいくらですか」<br><ruby>店員<rt>てんいん</rt></ruby>「3,500<ruby>円<rt>えん</rt></ruby>です。フランスのネクタイです」<br>アナ「その<ruby>時計<rt>とけい</rt></ruby>はいくらですか」<br><ruby>店員<rt>てんいん</rt></ruby>「12,000<ruby>円<rt>えん</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です」<br>アナ「あのワインはどこのですか」<br><ruby>店員<rt>てんいん</rt></ruby>「イタリアのです。<span id=\"L03_03_Q2\">2,800<ruby>円<rt>えん</rt></ruby>です」</span><br><ruby>自動販売機<rt>じどうはんばいき</rt></ruby>は<ruby>地下<rt>ちか</rt></ruby>です。</p>",
+        "textbook_html": "<p><ruby>店員<rt>てんいん</rt></ruby>「いらっしゃいませ」<br>アナ「すみません、<ruby>靴<rt>くつ</rt></ruby><ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>は どこですか」<br><ruby>店員<rt>てんいん</rt></ruby>「<ruby>一階<rt>いっかい</rt></ruby>です。エスカレーターは あちらです」<br><br>アナ「すみません、この<ruby>靴<rt>くつ</rt></ruby>はいくらですか」<br><ruby>店員<rt>てんいん</rt></ruby>「2,300<ruby>円<rt>えん</rt></ruby>です。<ruby>中国<rt>ちゅうごく</rt></ruby>の<ruby>靴<rt>くつ</rt></ruby>です」<br>アナ「いいですね。このネクタイは いくらですか」<br><ruby>店員<rt>てんいん</rt></ruby>「3,500<ruby>円<rt>えん</rt></ruby>です。フランスの ネクタイです」<br>アナ「その<ruby>時計<rt>とけい</rt></ruby>は いくらですか」<br><ruby>店員<rt>てんいん</rt></ruby>「12,000<ruby>円<rt>えん</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>の <ruby>時計<rt>とけい</rt></ruby>です」<br>アナ「あのワインは どこの ですか」<br><ruby>店員<rt>てんいん</rt></ruby>「イタリアのワインです。2,800<ruby>円<rt>えん</rt></ruby>です」<br>アナ「この<ruby>靴<rt>くつ</rt></ruby>とこのワインをください」<br><ruby>店員<rt>てんいん</rt></ruby>「ありがとうございます」</p>",
         "quizzes": [
             {
                 "question": "<ruby>靴<rt>くつ</rt></ruby><ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>はどこですか。",
                 "target_id": "L03_03_Q1",
                 "choices": [
+                    "<ruby>地下<rt>ちか</rt></ruby>",
                     "<ruby>一階<rt>いっかい</rt></ruby>",
-                    "<ruby>地下<rt>ちか</rt></ruby>"
+                    "<ruby>二階<rt>にかい</rt></ruby>"
                 ],
-                "answer_index": 0
+                "answer_index": 1
             },
             {
                 "question": "イタリアのワインはいくらですか。",
                 "target_id": "L03_03_Q2",
                 "choices": [
-                    "3,500<ruby>円<rt>えん</rt></ruby>",
+                    "2,300<ruby>円<rt>えん</rt></ruby>",
                     "2,800<ruby>円<rt>えん</rt></ruby>",
-                    "12,000<ruby>円<rt>えん</rt></ruby>"
+                    "3,500<ruby>円<rt>えん</rt></ruby>"
                 ],
                 "answer_index": 1
             }
@@ -99,14 +101,15 @@ export const textbooks_level_03: Textbook[] = [
             "あなたの<ruby>家<rt>うち</rt></ruby>のパソコンはいくらですか。"
         ],
         "translation": "<p>This is the office of Sakura University.<br>\"Where is Professor Yamada?\" \"He is in the meeting room. It is over there.\"<br>\"Where is the telephone?\" \"It is over there.\"<br>Where is Ana-san? She is in the cafeteria. It is in the basement.<br>\"Where is this bag from?\"<br>\"It is from China. It is 8,900 yen.\"<br>\"How much is that camera?\"<br>\"It is 54,000 yen. It is from Japan.\"<br>This university's restrooms are on the first and second floors. The reception is in the lobby. The vending machine is over there. The teachers' room is on the first floor. Everyone's classroom is on the second floor.</p>",
-        "textbook_html": "<p>ここはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>事務所<rt>じむしょ</rt></ruby>です。<br>「<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどこですか」<span id=\"L03_04_Q1\">「<ruby>会議室<rt>かいぎしつ</rt></ruby>です。あちらです」</span><br>「<ruby>電話<rt>でんわ</rt></ruby>はどこですか」「そちらです」<br>アナさんはどこですか。<span id=\"L03_04_Q3\"><ruby>食堂<rt>しょくどう</rt></ruby>です。<ruby>地下<rt>ちか</rt></ruby>です。</span><br>「このカバンはどちらのですか」<br>「<ruby>中国<rt>ちゅうごく</rt></ruby>のです。8,900<ruby>円<rt>えん</rt></ruby>です」<br>「あのカメラはいくらですか」<br><span id=\"L03_04_Q2\">「54,000<ruby>円<rt>えん</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>のです」</span><br>この<ruby>大学<rt>だいがく</rt></ruby>のトイレは<ruby>一階<rt>いっかい</rt></ruby>と<ruby>二階<rt>にかい</rt></ruby>です。<ruby>受付<rt>うけつけ</rt></ruby>はロビーです。<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>はあそこです。<ruby>先生<rt>せんせい</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>一階<rt>いっかい</rt></ruby>です。みなさんの<ruby>教室<rt>きょうしつ</rt></ruby>は<ruby>二階<rt>にかい</rt></ruby>です。</p>",
+        "textbook_html": "<p>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>事務室<rt>じむしつ</rt></ruby>です。<br>アナ「こんにちは。<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどちらですか」<br><ruby>受付<rt>うけつけ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>「こんにちは。<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>会議室<rt>かいぎしつ</rt></ruby>ですよ。」<br>アナ「<ruby>会議室<rt>かいぎしつ</rt></ruby>はどちらですか」<br><ruby>受付<rt>うけつけ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>「そちらです」<br>アナ「ありがとうございます。<ruby>電話<rt>でんわ</rt></ruby>はどちらですか」<br><ruby>受付<rt>うけつけ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>「あちらです。」<br><br>ここは さくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>です<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「アナさんはどこですか」<br><ruby>学生<rt>がくせい</rt></ruby>「<ruby>食堂<rt>しょくどう</rt></ruby>です。<ruby>食堂<rt>しょくどう</rt></ruby>は<ruby>地下<rt>ちか</rt></ruby>です。」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「ありがとう。そのかばんはどこのですか。」<br><ruby>学生<rt>がくせい</rt></ruby>「<ruby>中国<rt>ちゅうごく</rt></ruby>のです。8,900<ruby>円<rt>えん</rt></ruby>です」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「いいですね。そのカメラはどこのですか。」<br><ruby>学生<rt>がくせい</rt></ruby>「これは<ruby>日本<rt>にほん</rt></ruby>のカメラです。」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「いくらですか」<br><ruby>学生<rt>がくせい</rt></ruby>「54,000<ruby>円<rt>えん</rt></ruby>です」<br><br>この<ruby>大学<rt>だいがく</rt></ruby>のトイレは<ruby>一階<rt>いっかい</rt></ruby>と<ruby>二階<rt>にかい</rt></ruby>です。<ruby>受付<rt>うけつけ</rt></ruby>はロビーです。<ruby>食堂<rt>しょくどう</rt></ruby>と<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>は<ruby>地下<rt>ちか</rt></ruby>です。<ruby>先生<rt>せんせい</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>一階<rt>いっかい</rt></ruby>です。みなさんの<ruby>教室<rt>きょうしつ</rt></ruby>は<ruby>二階<rt>にかい</rt></ruby>です。</p>",
         "quizzes": [
             {
                 "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどこですか。",
                 "target_id": "L03_04_Q1",
                 "choices": [
                     "<ruby>食堂<rt>しょくどう</rt></ruby>",
-                    "<ruby>会議室<rt>かいぎしつ</rt></ruby>"
+                    "<ruby>会議室<rt>かいぎしつ</rt></ruby>",
+                    "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>"
                 ],
                 "answer_index": 1
             },
