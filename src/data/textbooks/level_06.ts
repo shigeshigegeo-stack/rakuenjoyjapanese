@@ -4,22 +4,29 @@ export const textbooks_level_06: Textbook[] = [
     {
         "id": "TEXTBOOK_L06_01",
         "level": 6,
-        "title": "<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます",
+        "title": "<ruby>食堂<rt>しょくどう</rt></ruby>で <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます",
         "schema_activation": [
-            "あなたの <ruby>国<rt>くに</rt></ruby>の <ruby>料理<rt>りょうり</rt></ruby>で、<ruby>何<rt>なに</rt></ruby>が <ruby>一番<rt>いちばん</rt></ruby> <ruby>人気<rt>にんき</rt></ruby>ですか。",
-            "<ruby>毎日<rt>まいにち</rt></ruby>、コーヒーを <ruby>飲<rt>の</rt></ruby>みますか。"
+            "あなたは <ruby>今日<rt>きょう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べますか。",
+            "あなたは <ruby>毎日<rt>まいにち</rt></ruby> コーヒーを <ruby>飲<rt>の</rt></ruby>みますか。"
         ],
-        "translation": "<p>Ana is at the cafeteria now.<br>Ana: \"I will eat fish and rice.\"<br>Yamada-sensei ate bread. He drank coffee.<br>Ana: \"Yamada-sensei, do you drink tea?\"<br>Yamada-sensei: \"No, I don't drink tea. I drink water.\"<br>They eat lunch at the cafeteria every day.</p>",
-        "textbook_html": "<p>アナさんは<ruby>今<rt>いま</rt></ruby><ruby>食堂<rt>しょくどう</rt></ruby>にいます。<br><span id=\"L06_01_Q1\">アナ「<ruby>魚<rt>さかな</rt></ruby>とごはんを<ruby>食<rt>た</rt></ruby>べます」</span><br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はパンを<ruby>食<rt>た</rt></ruby>べました。コーヒーを<ruby>飲<rt>の</rt></ruby>みました。<br>アナ「<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>、お<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか」<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「いいえ、お<ruby>茶<rt>ちゃ</rt></ruby>は<ruby>飲<rt>の</rt></ruby>みません。<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます」<br><ruby>二<rt>ふた</rt></ruby><ruby>人<rt>り</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。</p>",
+        "translation": "<p>Ana eats lunch at the university cafeteria every day. There, she met Yamada-sensei.<br>Yamada-sensei: \"Ana-san, what will you eat today?\"<br>Ana: \"I will eat fish and rice. How about you, Yamada-sensei?\"<br>Yamada-sensei: \"I will eat bread. Then, I will drink coffee.\"<br>Ana: \"Yamada-sensei, won't you drink some tea too?\"<br>Yamada-sensei: \"No, I won't drink tea. I'll drink water.\"</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">アナさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>の <ruby>食堂<rt>しょくどう</rt></ruby>で <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます。</span><span style=\"display: inline-block;\">そこで <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「アナさん、<ruby>今日<rt>きょう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べますか」</span><br><span style=\"display: inline-block;\">アナ「<ruby>私<rt>わたし</rt></ruby>は <ruby>魚<rt>さかな</rt></ruby>と ごはんを <ruby>食<rt>た</rt></ruby>べます。<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は？」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>私<rt>わたし</rt></ruby>は パンを <ruby>食<rt>た</rt></ruby>べます。それから コーヒーを <ruby>飲<rt>の</rt></ruby>みます」</span><br><span style=\"display: inline-block;\">アナ「<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>、お<ruby>茶<rt>ちゃ</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みませんか」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「いいえ、お<ruby>茶<rt>ちゃ</rt></ruby>は <ruby>飲<rt>の</rt></ruby>みません。</span><span style=\"display: inline-block;\"><ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みましょう」</span></p>",
         "quizzes": [
             {
-                "question": "アナさんは<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか。",
-                "target_id": "L06_01_Q1",
+                "question": "アナさんは どこで <ruby>昼<rt>ひる</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べますか。",
                 "choices": [
-                    "<ruby>魚<rt>さかな</rt></ruby>とごはん",
-                    "パンとコーヒー"
+                    "<ruby>食堂<rt>しょくどう</rt></ruby>で <ruby>食<rt>た</rt></ruby>べます",
+                    "<ruby>教室<rt>きょうしつ</rt></ruby>で <ruby>食<rt>た</rt></ruby>べます"
                 ],
                 "answer_index": 0
+            },
+            {
+                "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。",
+                "choices": [
+                    "はい、<ruby>飲<rt>の</rt></ruby>みます",
+                    "いいえ、<ruby>飲<rt>の</rt></ruby>みません"
+                ],
+                "answer_index": 1
             }
         ],
         "audio_file": "/audio/L06_01.mp3"
@@ -27,107 +34,99 @@ export const textbooks_level_06: Textbook[] = [
     {
         "id": "TEXTBOOK_L06_02",
         "level": 6,
-        "title": "デパートで<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>",
+        "title": "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby>と <ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>約束<rt>やくそく</rt></ruby>",
         "schema_activation": [
-            "あなたの どこで <ruby>服<rt>ふく</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
-            "<ruby>晩<rt>ばん</rt></ruby>ごはんの <ruby>前<rt>まえ</rt></ruby>に、<ruby>何<rt>なに</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みますか。"
+            "あなたは <ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか。",
+            "あなたは <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>と <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ますか。"
         ],
-        "translation": "<p>Eric bought a new bag at a large department store in town yesterday. It's a blue bag and a black bag.<br>Clerk: \"How about this white shirt too? It's very cheap.\"<br>Eric: \"No, I won't buy a shirt today. I'll just buy the bags.\"<br>Then, Eric went to the basement by elevator. He bought a lot of delicious alcohol and sweet fruits at the basement shop. Tomorrow, he will drink that alcohol with his friends in his garden. Since tomorrow is Sunday, he is looking forward to it.</p>",
-        "textbook_html": "<p><span id=\"L06_02_Q1\">エリックさんは<ruby>昨日<rt>きのう</rt></ruby>、<ruby>町<rt>まち</rt></ruby>にある<ruby>大<rt>おお</rt></ruby>きなデパートで<ruby>新<rt>あたら</rt></ruby>しいカバンを<ruby>買<rt>か</rt></ruby>いました。</span><ruby>青<rt>あお</rt></ruby>いカバンと<ruby>黒<rt>くろ</rt></ruby>いカバンです。<br><ruby>店員<rt>てんいん</rt></ruby>「こちらの<ruby>白<rt>しろ</rt></ruby>いシャツもいかがですか。とても<ruby>安<rt>やす</rt></ruby>いですよ」<br>エリック「いいえ、<ruby>今日<rt>きょう</rt></ruby>はシャツは<ruby>買<rt>か</rt></ruby>いません。カバンだけ<ruby>買<rt>か</rt></ruby>みます」<br>それから、エリックさんはエレベーターで<ruby>地下<rt>ちか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<span id=\"L06_02_Q2\"><ruby>地下<rt>ちか</rt></ruby>の<ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>でおいしいお<ruby>酒<rt>さけ</rt></ruby>と<ruby>甘<rt>あま</rt></ruby>い<ruby>果物<rt>くだもの</rt></ruby>をたくさん<ruby>買<rt>か</rt></ruby>いました。</span><br><ruby>明日<rt>あした</rt></ruby>、<ruby>自宅<rt>じたく</rt></ruby>の<ruby>庭<rt>にわ</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>にそのお<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。<ruby>明日<rt>あした</rt></ruby>は<ruby>日曜日<rt>にちようび</rt></ruby>ですから、とても<ruby>楽<rt>たの</rt></ruby>しみです。</p>",
+        "translation": "<p>Kim is an employee of LOOP soft. He works from 9:00 to 6:00 every day. Yesterday, Ana met Kim at the station.<br>Ana: \"Kim-san, what did you do last night?\"<br>Kim: \"I bought a bag at a department store with my friend. What did you do, Ana-san?\"<br>Ana: \"I studied Japanese at my house. Did you also see a movie at the department store?\"<br>Kim: \"No, I didn't see a movie. I drank tea at a coffee shop.\"<br>Ana: \"I see. Won't you go to the department store with me next Saturday?\"<br>Kim: \"Yes, that's nice. Let's go together.\"</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">キムさんは ＬＯＯＰソフトの <ruby>社員<rt>しゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>毎日<rt>まいにち</rt></ruby> ９<ruby>時<rt>じ</rt></ruby>から ６<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きます。</span><span style=\"display: inline-block;\"><ruby>昨日<rt>きのう</rt></ruby>、アナさんは <ruby>駅<rt>えき</rt></ruby>で キムさんに <ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">アナ「キムさん、<ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">キム「<ruby>友達<rt>ともだち</rt></ruby>と デパートで かばんを <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">アナさんは <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">アナ「<ruby>私<rt>わたし</rt></ruby>は <ruby>家<rt>うち</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。</span><span style=\"display: inline-block;\">デパートで <ruby>映画<rt>えいが</rt></ruby>も <ruby>見<rt>み</rt></ruby>ましたか」</span><br><span style=\"display: inline-block;\">キム「いいえ、<ruby>映画<rt>えいが</rt></ruby>は <ruby>見<rt>み</rt></ruby>ませんでした。</span><span style=\"display: inline-block;\"><ruby>喫茶店<rt>きっさてん</rt></ruby>で お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました」</span><br><span style=\"display: inline-block;\">アナ「そうですか。</span><span style=\"display: inline-block;\"><ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に デパートへ <ruby>行<rt>い</rt></ruby>きませんか」</span><br><span style=\"display: inline-block;\">キム「ええ、いいですね。</span><span style=\"display: inline-block;\"><ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>行<rt>い</rt></ruby>きましょう」</span></p>",
         "quizzes": [
             {
-                "question": "エリックさんはどこでカバンを<ruby>買<rt>か</rt></ruby>いましたか。",
-                "target_id": "L06_02_Q1",
+                "question": "キムさんは <ruby>昨日<rt>きのう</rt></ruby> デパートで <ruby>何<rt>なに</rt></ruby>を しましたか。",
                 "choices": [
-                    "デパート",
-                    "<ruby>庭<rt>にわ</rt></ruby>"
-                ],
-                "answer_index": 0
-            },
-            {
-                "question": "エリックさんは<ruby>地下<rt>ちか</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いましたか。",
-                "target_id": "L06_02_Q2",
-                "choices": [
-                    "シャツ",
-                    "お<ruby>酒<rt>さけ</rt></ruby>と<ruby>果物<rt>くだもの</rt></ruby>",
-                    "カバン"
+                    "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました",
+                    "かばんを <ruby>買<rt>か</rt></ruby>いました"
                 ],
                 "answer_index": 1
+            },
+            {
+                "question": "アナさんは <ruby>昨日<rt>きのう</rt></ruby> どこで <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しましたか。",
+                "choices": [
+                    "<ruby>家<rt>うち</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>しました",
+                    "デパートで <ruby>勉強<rt>べんきょう</rt></ruby>しました"
+                ],
+                "answer_index": 0
             }
-        ]
+        ],
+        "audio_file": "/audio/L06_02.mp3"
     },
     {
         "id": "TEXTBOOK_L06_03",
         "level": 6,
-        "title": "いっしょに<ruby>食<rt>た</rt></ruby>べませんか",
+        "title": "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べます",
         "schema_activation": [
-            "あなたは どこで <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
-            "<ruby>肉<rt>にく</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby>どちらが<ruby>好<rt>す</rt></ruby>きですか。"
+            "あなたは <ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか。",
+            "あなたは <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>誰<rt>だれ</rt></ruby>と <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べますか。"
         ],
-        "translation": "<p>Pak works as a doctor at a large hospital nearby every day.<br>Pak: \"Kim-san, won't you eat dinner together near the station today?\"<br>Kim: \"That sounds good. Let's eat. What shall we eat?\"<br>Pak: \"Let's eat fish. That shop over there is very delicious.\"<br>The two of them ate fish at a shop near the station. They also drank a lot of cold beer. Kim bought today's newspaper at the station on his way home. Then, he read the newspaper slowly inside the night train.</p>",
-        "textbook_html": "<p>パクさんは<ruby>毎日<rt>まいにち</rt></ruby>、ひかり<ruby>病院<rt>びょういん</rt></ruby>で<ruby>医者<rt>いしゃ</rt></ruby>として<ruby>働<rt>はたら</rt></ruby>きます。<br>パク「キムさん、<ruby>今日<rt>きょう</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くで<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べませんか」<br>キム「いいですね。<ruby>食<rt>た</rt></ruby>べましょう。<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べますか」<br>パク「<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましょう。あそこのお<ruby>店<rt>みせ</rt></ruby>はとてもおいしいですよ」<br><span id=\"L06_03_Q1\"><ruby>二人<rt>ふたり</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くの<ruby>店<rt>みせ</rt></ruby>で<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。</span><ruby>冷<rt>つめ</rt></ruby>たいビールもたくさん<ruby>飲<rt>の</rt></ruby>みました。キムさんは<ruby>帰<rt>かえ</rt></ruby>りに<ruby>駅<rt>えき</rt></ruby>で<ruby>今日<rt>きょう</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。<span id=\"L06_03_Q2\">それから、<ruby>夜<rt>よる</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でゆっくり<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みました。</span></p>",
+        "translation": "<p>John is a banker at NEX Bank. He works from morning until evening every day. Yesterday, John met Kim, an employee of LOOP soft.<br>John: \"Kim-san, what did you do last night?\"<br>Kim: \"I studied Japanese at my house. After that, I drank tea. What did you do, John-san?\"<br>John: \"I ate dinner at a restaurant. Kim-san, did you drink alcohol yesterday?\"<br>Kim: \"No, I didn't drink alcohol. I drank water.\"<br>John: \"I see. Won't you eat dinner together at a restaurant next Saturday?\"<br>Kim: \"Yes, that's nice. Let's eat together. Let's drink some alcohol too.\"</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは ＮＥＸバンクの <ruby>銀行員<rt>ぎんこういん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>毎日<rt>まいにち</rt></ruby> <ruby>朝<rt>あさ</rt></ruby>から <ruby>晩<rt>ばん</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きます。</span><span style=\"display: inline-block;\"><ruby>昨日<rt>きのう</rt></ruby>、ジョンさんは ＬＯＯＰソフトの <ruby>社員<rt>しゃいん</rt></ruby>の キムさんに <ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">ジョン「キムさん、<ruby>昨日<rt>きのう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">キム「<ruby>私<rt>わたし</rt></ruby>は <ruby>家<rt>うち</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。</span><span style=\"display: inline-block;\">それから お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">ジョン「<ruby>私<rt>わたし</rt></ruby>は レストランで <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。</span><span style=\"display: inline-block;\">キムさんは <ruby>昨日<rt>きのう</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みましたか」</span><br><span style=\"display: inline-block;\">キム「いいえ、お<ruby>酒<rt>さけ</rt></ruby>は <ruby>飲<rt>の</rt></ruby>みませんでした。</span><span style=\"display: inline-block;\"><ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。</span><span style=\"display: inline-block;\"><ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に レストランで <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べませんか」</span><br><span style=\"display: inline-block;\">キム「ええ、いいですね。</span><span style=\"display: inline-block;\"><ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>食<rt>た</rt></ruby>べましょう。</span><span style=\"display: inline-block;\">お<ruby>酒<rt>さけ</rt></ruby>も <ruby>飲<rt>の</rt></ruby>みましょう」</span></p>",
         "quizzes": [
             {
-                "question": "<ruby>二人<rt>ふたり</rt></ruby>はどこで<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましたか。",
-                "target_id": "L06_03_Q1",
+                "question": "キムさんは <ruby>昨日<rt>きのう</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みましたか。",
                 "choices": [
-                    "<ruby>病院<rt>びょういん</rt></ruby>",
-                    "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>く"
+                    "はい、<ruby>飲<rt>の</rt></ruby>みます",
+                    "いいえ、<ruby>飲<rt>の</rt></ruby>みませんでした"
                 ],
                 "answer_index": 1
             },
             {
-                "question": "キムさんはどこで<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みましたか。",
-                "target_id": "L06_03_Q2",
+                "question": "ジョンさんは <ruby>昨日<rt>きのう</rt></ruby> どこで <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べましたか。",
                 "choices": [
-                    "<ruby>病院<rt>びょういん</rt></ruby>",
-                    "<ruby>電車<rt>でんしゃ</rt></ruby>",
-                    "<ruby>駅<rt>えき</rt></ruby>"
+                    "レストランで <ruby>食<rt>た</rt></ruby>べました",
+                    "<ruby>家<rt>うち</rt></ruby>で <ruby>食<rt>た</rt></ruby>べました"
                 ],
-                "answer_index": 1
+                "answer_index": 0
             }
-        ]
+        ],
+        "audio_file": "/audio/L06_03.mp3"
     },
     {
         "id": "TEXTBOOK_L06_04",
         "level": 6,
-        "title": "<ruby>日曜日<rt>にちようび</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>",
+        "title": "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>報告<rt>ほうこく</rt></ruby>と <ruby>新<rt>あたら</rt></ruby>しい <ruby>約束<rt>やくそく</rt></ruby>",
         "schema_activation": [
-            "<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を しましたか。",
-            "あなたは<ruby>公園<rt>こうえん</rt></ruby>によく<ruby>行<rt>い</rt></ruby>きますか。"
+            "あなたは <ruby>日曜日<rt>にちようび</rt></ruby>に どこで <ruby>何<rt>なに</rt></ruby>を しましたか。",
+            "あなたは <ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>誰<rt>だれ</rt></ruby>と <ruby>会<rt>あ</rt></ruby>いますか。"
         ],
-        "translation": "<p>Last Sunday, Ana read a difficult book for three hours at the town library. Then, she wrote a long letter to her family.<br>Eric: \"Ana-san, won't you play soccer together at the park now? The weather is nice.\"<br>Ana: \"That sounds good. Let's do it by all means.\"<br>The two of them walked to a nearby spacious park. They played soccer for an hour. They were very tired, but it was fun. Eric took many photos of Ana with his smartphone.<br>Ana: \"Eric-san, won't you play tennis too?\"<br>Eric: \"Sorry, tennis is a bit... I don't like it very much.\"<br>Eric did not play tennis. The two of them drank cold juice at a small shop next to the park. Then, they went home. It was a very fun Sunday.</p>",
-        "textbook_html": "<p><span id=\"L06_04_Q1\">アナさんは<ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>日曜日<rt>にちようび</rt></ruby>に、<ruby>町<rt>まち</rt></ruby>の<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>難<rt>むずか</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>を<ruby>三時間<rt>さんじかん</rt></ruby><ruby>読<rt>よ</rt></ruby>みました。</span>それから、<ruby>家族<rt>かぞく</rt></ruby>に<ruby>長<rt>なが</rt></ruby>い<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きました。<br>エリック「アナさん、<ruby>今<rt>いま</rt></ruby>から<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>公園<rt>こうえん</rt></ruby>でサッカーをしませんか。いい<ruby>天気<rt>てんき</rt></ruby>ですよ」<br>アナ「いいですね。ぜひしましょう」<br><ruby>二人<rt>ふたり</rt></ruby>は<ruby>歩<rt>ある</rt></ruby>いて<ruby>近<rt>ちか</rt></ruby>くの<ruby>広<rt>ひろ</rt></ruby>い<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<span id=\"L06_04_Q2\"><ruby>一時間<rt>いちじかん</rt></ruby>サッカーをしました。</span>とても<ruby>疲<rt>つか</rt></ruby>れましたが、<ruby>楽<rt>たの</rt></ruby>しかったです。<br><span id=\"L06_04_Q3\">エリックさんはスマホでアナさんの<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>りました。</span><br>アナ「エリックさん、テニスも<ruby>一緒<rt>いっしょ</rt></ruby>にしませんか」<br>エリック「すみません、テニスはちょっと。あまり<ruby>好<rt>す</rt></ruby>きじゃありません」<br>エリックさんはテニスをしませんでした。<ruby>二人<rt>ふたり</rt></ruby>は<ruby>公園<rt>こうえん</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>にある<ruby>小<rt>ちい</rt></ruby>さな<ruby>店<rt>みせ</rt></ruby>で<ruby>冷<rt>つめ</rt></ruby>たいジュースを<ruby>飲<rt>の</rt></ruby>みました。それから、<ruby>家<rt>うち</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>りました。とても<ruby>楽<rt>たの</rt></ruby>しい<ruby>日曜日<rt>にちようび</rt></ruby>でした。</p>",
+        "translation": "<p>John is a banker at NEX Bank. Kim is an employee of LOOP soft. John and Kim met at the station today.<br>John: \"Kim-san, what did you do yesterday, Sunday?\"<br>Kim: \"In the morning, I studied Japanese at the library. Then in the afternoon, I went to a department store and bought shoes. What did you do, John-san?\"<br>John: \"I played soccer with my friends at the park yesterday. After that, I ate dinner at a restaurant.\"<br>Kim: \"Did you drink alcohol at the restaurant?\"<br>John: \"No, I didn't drink alcohol. I drank tea.\"<br>Kim: \"I see. Won't you see a movie with me at the department store next Saturday?\"<br>John: \"Yes, that sounds nice. Let's watch it together.\"</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは ＮＥＸバンクの <ruby>銀行員<rt>ぎんこういん</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは ＬＯＯＰソフトの <ruby>社員<rt>しゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">ジョンさんと キムさんは <ruby>今日<rt>きょう</rt></ruby>、<ruby>駅<rt>えき</rt></ruby>で <ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">ジョン「キムさん、<ruby>昨日<rt>きのう</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">キム「<ruby>私<rt>わたし</rt></ruby>は <ruby>午前<rt>ごぜん</rt></ruby>、<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。</span><span style=\"display: inline-block;\">それから <ruby>午後<rt>ごご</rt></ruby>、デパートへ <ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。</span><span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>は <ruby>昨日<rt>きのう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と <ruby>公園<rt>こうえん</rt></ruby>で サッカーを しました。</span><span style=\"display: inline-block;\">それから レストランで <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました」</span><br><span style=\"display: inline-block;\">キム「レストランで お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みましたか」</span><br><span style=\"display: inline-block;\">ジョン「いいえ、お<ruby>酒<rt>さけ</rt></ruby>は <ruby>飲<rt>の</rt></ruby>みませんでした。</span><span style=\"display: inline-block;\">お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました」</span><br><span style=\"display: inline-block;\">キム「そうですか。</span><span style=\"display: inline-block;\"><ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に デパートで <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ませんか」</span><br><span style=\"display: inline-block;\">ジョン「ええ、いいですね。</span><span style=\"display: inline-block;\"><ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>見<rt>み</rt></ruby>ましょう」</span></p>",
         "quizzes": [
             {
-                "question": "アナさんは<ruby>日曜日<rt>にちようび</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしましたか。",
-                "target_id": "L06_04_Q1",
+                "question": "キムさんは <ruby>昨日<rt>きのう</rt></ruby> <ruby>午前<rt>ごぜん</rt></ruby> どこで <ruby>勉強<rt>べんきょう</rt></ruby>しましたか。",
                 "choices": [
-                    "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みました",
-                    "サッカーをしました"
+                    "<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>しました",
+                    "デパートで <ruby>勉強<rt>べんきょう</rt></ruby>しました"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "<ruby>二人<rt>ふたり</rt></ruby>はどこでサッカーをしましたか。",
-                "target_id": "L06_04_Q2",
+                "question": "ジョンさんは <ruby>昨日<rt>きのう</rt></ruby> レストランで お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みましたか。",
                 "choices": [
-                    "<ruby>図書館<rt>としょかん</rt></ruby>",
-                    "<ruby>公園<rt>こうえん</rt></ruby>",
-                    "<ruby>店<rt>みせ</rt></ruby>"
+                    "はい、<ruby>飲<rt>の</rt></ruby>みました",
+                    "いいえ、<ruby>飲<rt>の</rt></ruby>みませんでした"
                 ],
                 "answer_index": 1
             },
             {
-                "question": "エリックさんは<ruby>何<rt>なに</rt></ruby>をしましたか。",
-                "target_id": "L06_04_Q3",
+                "question": "<ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>誰<rt>だれ</rt></ruby>が <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ますか。",
                 "choices": [
-                    "テニスをしました",
-                    "サッカーをしませんでした",
-                    "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>りました"
+                    "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が <ruby>見<rt>み</rt></ruby>ます",
+                    "ジョンさんと キムさんが <ruby>見<rt>み</rt></ruby>ます"
                 ],
-                "answer_index": 2
+                "answer_index": 1
             }
-        ]
-    }
+        ],
+        "audio_file": "/audio/L06_04.mp3"
+    },
 ];
