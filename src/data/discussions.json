@@ -148,5 +148,233 @@
         "level": 3,
         "question_jp": "どんな<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。ペットはいますか。",
         "question_en": "What kind of animals do you like? Do you have any pets?"
+    },
+    {
+        "id": 26,
+        "level": 3,
+        "question_jp": "パンとごはん、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: bread or rice?"
+    },
+    {
+        "id": 27,
+        "level": 3,
+        "question_jp": "<ruby>熱<rt>あつ</rt></ruby>い<ruby>飲<rt>の</rt></ruby>みものと<ruby>冷<rt>つめ</rt></ruby>たい<ruby>飲<rt>の</rt></ruby>みもの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: hot drinks or cold drinks?"
+    },
+    {
+        "id": 28,
+        "level": 3,
+        "question_jp": "<ruby>階段<rt>かいだん</rt></ruby>とエレベーター、どちらをよく<ruby>使<rt>つか</rt></ruby>いますか。",
+        "question_en": "Which do you use more often: stairs or elevators?"
+    },
+    {
+        "id": 29,
+        "level": 3,
+        "question_jp": "<ruby>窓<rt>まど</rt></ruby><ruby>側<rt>がわ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>と<ruby>通路<rt>つうろ</rt></ruby><ruby>側<rt>がわ</rt></ruby>の<ruby>席<rt>せき</rt></ruby>、どちらがいいですか。",
+        "question_en": "Which do you prefer: a window seat or an aisle seat?"
+    },
+    {
+        "id": 30,
+        "level": 3,
+        "question_jp": "アクション<ruby>映画<rt>えいが</rt></ruby>と<ruby>恋愛<rt>れんあい</rt></ruby><ruby>映画<rt>えいが</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: action movies or romance movies?"
+    },
+    {
+        "id": 31,
+        "level": 3,
+        "question_jp": "にぎやかな<ruby>店<rt>みせ</rt></ruby>と<ruby>静<rt>しず</rt></ruby>かな<ruby>店<rt>みせ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: a lively shop or a quiet shop?"
+    },
+    {
+        "id": 32,
+        "level": 3,
+        "question_jp": "<ruby>朝<rt>あさ</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きるのと、<ruby>昼<rt>ひる</rt></ruby>まで<ruby>寝<rt>ね</rt></ruby>るの、どちらがいいですか。",
+        "question_en": "Which do you prefer: waking up early or sleeping until noon?"
+    },
+    {
+        "id": 33,
+        "level": 3,
+        "question_jp": "<ruby>晴<rt>は</rt></ruby>れの<ruby>日<rt>ひ</rt></ruby>と<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: a sunny day or a rainy day?"
+    },
+    {
+        "id": 34,
+        "level": 3,
+        "question_jp": "<ruby>電話<rt>でんわ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>すのとメールを<ruby>送<rt>おく</rt></ruby>るの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: talking on the phone or sending emails?"
+    },
+    {
+        "id": 35,
+        "level": 3,
+        "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るのと、お<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>うの、どちらがいいですか。",
+        "question_en": "Which is better: cooking yourself or buying from a store?"
+    },
+    {
+        "id": 36,
+        "level": 3,
+        "question_jp": "<ruby>紙<rt>かみ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>とデジタル（スマホ）の<ruby>本<rt>ほん</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: paper books or digital (smartphone) books?"
+    },
+    {
+        "id": 37,
+        "level": 3,
+        "question_jp": "<ruby>走<rt>はし</rt></ruby>るのと<ruby>歩<rt>ある</rt></ruby>くの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: running or walking?"
+    },
+    {
+        "id": 38,
+        "level": 3,
+        "question_jp": "<ruby>山<rt>やま</rt></ruby>と<ruby>海<rt>うみ</rt></ruby>、どちらへ<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいですか。",
+        "question_en": "Which would you rather travel to: the mountains or the sea?"
+    },
+    {
+        "id": 39,
+        "level": 3,
+        "question_jp": "<ruby>春<rt>はる</rt></ruby>と<ruby>秋<rt>あき</rt></ruby>、どちらが<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you like best: spring or autumn?"
+    },
+    {
+        "id": 40,
+        "level": 3,
+        "question_jp": "<ruby>一人<rt>ひとり</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>するのと<ruby>友達<rt>ともだち</rt></ruby>と<ruby>勉強<rt>べんきょう</rt></ruby>するの、どちらがいいですか。",
+        "question_en": "Which is better: studying alone or studying with friends?"
+    },
+    {
+        "id": 41,
+        "level": 3,
+        "question_jp": "<ruby>都会<rt>まち</rt></ruby>と<ruby>田舎<rt>いなか</rt></ruby>、どちらに<ruby>住<rt>す</rt></ruby>みたいですか。",
+        "question_en": "Which would you rather live in: the city or the countryside?"
+    },
+    {
+        "id": 42,
+        "level": 3,
+        "question_jp": "バスと<ruby>電車<rt>でんしゃ</rt></ruby>、どちらをよく<ruby>使<rt>つか</rt></ruby>いますか。",
+        "question_en": "Which do you use more often: buses or trains?"
+    },
+    {
+        "id": 43,
+        "level": 3,
+        "question_jp": "<ruby>果物<rt>くだもの</rt></ruby>と<ruby>野菜<rt>やさい</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: fruits or vegetables?"
+    },
+    {
+        "id": 44,
+        "level": 3,
+        "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>とカフェ、どちらで<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Where do you prefer to study: your home or a cafe?"
+    },
+    {
+        "id": 45,
+        "level": 3,
+        "question_jp": "<ruby>広<rt>ひろ</rt></ruby>い<ruby>部屋<rt>へや</rt></ruby>と、<ruby>狭<rt>せま</rt></ruby>いけれどきれいな<ruby>部屋<rt>へや</rt></ruby>、どちらがいいですか。",
+        "question_en": "Which is better: a spacious room or a small but clean room?"
+    },
+    {
+        "id": 46,
+        "level": 3,
+        "question_jp": "<ruby>犬<rt>いぬ</rt></ruby>と<ruby>猫<rt>ねこ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: dogs or cats?"
+    },
+    {
+        "id": 47,
+        "level": 3,
+        "question_jp": "<ruby>夏<rt>なつ</rt></ruby>と<ruby>冬<rt>ふゆ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: summer or winter?"
+    },
+    {
+        "id": 48,
+        "level": 3,
+        "question_jp": "<ruby>朝<rt>あさ</rt></ruby>と<ruby>夜<rt>よる</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: morning or night?"
+    },
+    {
+        "id": 49,
+        "level": 3,
+        "question_jp": "ラーメンとうどん、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: ramen or udon?"
+    },
+    {
+        "id": 50,
+        "level": 3,
+        "question_jp": "<ruby>肉<rt>にく</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby>、どちらをよく<ruby>食<rt>た</rt></ruby>べますか。",
+        "question_en": "Which do you eat more often: meat or fish?"
+    },
+    {
+        "id": 51,
+        "level": 3,
+        "question_jp": "<ruby>甘<rt>あま</rt></ruby>いものと<ruby>辛<rt>から</rt></ruby>いもの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: sweets or spicy food?"
+    },
+    {
+        "id": 52,
+        "level": 3,
+        "question_jp": "テレビとYouTube、どちらをよく<ruby>見<rt>み</rt></ruby>ますか。",
+        "question_en": "Which do you watch more often: TV or YouTube?"
+    },
+    {
+        "id": 53,
+        "level": 3,
+        "question_jp": "スニーカーと<ruby>革靴<rt>かわぐつ</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: sneakers or leather shoes?"
+    },
+    {
+        "id": 54,
+        "level": 3,
+        "question_jp": "お<ruby>風呂<rt>ふろ</rt></ruby>とシャワー、どちらがいいですか。",
+        "question_en": "Which do you prefer: taking a bath or a shower?"
+    },
+    {
+        "id": 55,
+        "level": 3,
+        "question_jp": "ケーキとアイスクリーム、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: cake or ice cream?"
+    },
+    {
+        "id": 56,
+        "level": 3,
+        "question_jp": "<ruby>歌<rt>うた</rt></ruby>うのと<ruby>踊<rt>おど</rt></ruby>るの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: singing or dancing?"
+    },
+    {
+        "id": 57,
+        "level": 3,
+        "question_jp": "<ruby>動物園<rt>どうぶつえん</rt></ruby>と<ruby>水族館<rt>すいぞくかん</rt></ruby>、どちらに<ruby>行<rt>い</rt></ruby>きたいですか。",
+        "question_en": "Which would you rather visit: the zoo or the aquarium?"
+    },
+    {
+        "id": 58,
+        "level": 3,
+        "question_jp": "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>るのと<ruby>撮<rt>と</rt></ruby>られるの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: taking photos or having your photo taken?"
+    },
+    {
+        "id": 59,
+        "level": 3,
+        "question_jp": "<ruby>忙<rt>いそが</rt></ruby>しい<ruby>日<rt>ひ</rt></ruby>と<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>、どちらがいいですか。",
+        "question_en": "Which do you prefer: a busy day or a free day?"
+    },
+    {
+        "id": 60,
+        "level": 3,
+        "question_jp": "<ruby>眼鏡<rt>めがね</rt></ruby>とコンタクト、どちらがいいですか。",
+        "question_en": "Which do you prefer: glasses or contacts?"
+    },
+    {
+        "id": 61,
+        "level": 3,
+        "question_jp": "リュックとハンドバッグ、どちらをよく<ruby>使<rt>つか</rt></ruby>いますか。",
+        "question_en": "Which do you use more often: a backpack or a handbag?"
+    },
+    {
+        "id": 62,
+        "level": 3,
+        "question_jp": "ニュースとアニメ、どちらをよく<ruby>見<rt>み</rt></ruby>ますか。",
+        "question_en": "Which do you watch more often: news or anime?"
+    },
+    {
+        "id": 63,
+        "level": 3,
+        "question_jp": "<ruby>髪<rt>かみ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いのと<ruby>短<rt>みじか</rt></ruby>いの、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
+        "question_en": "Which do you prefer: long hair or short hair?"
     }
 ]
