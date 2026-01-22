@@ -47,9 +47,7 @@ const DailyDiscussion: React.FC = () => {
             >
                 🔀
             </button>
-            <div className={styles.header}>
-                フリートーク (Free Conversation)
-            </div>
+
 
             <div
                 className={styles.question}

@@ -3,7 +3,7 @@
         "id": 1,
         "level": 3,
         "question_jp": "「<ruby>町<rt>まち</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>」と「<ruby>田舎<rt>いなか</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>」、どちらが<ruby>幸<rt>しあわ</rt></ruby>せだと<ruby>思<rt>おも</rt></ruby>いますか。",
-        "question_en": "Which do you think is happier: city life or country life?"
+        "question_en": "Which lifestyle do you think is happier: city life or country life?"
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@
         "id": 6,
         "level": 3,
         "question_jp": "<ruby>旅行<rt>りょこう</rt></ruby>のとき、「<ruby>細<rt>こま</rt></ruby>かい<ruby>計画<rt>けいかく</rt></ruby>（プラン）」を<ruby>作<rt>つく</rt></ruby>りますか。それとも<ruby>自由<rt>じゆう</rt></ruby>に<ruby>歩<rt>ある</rt></ruby>きますか。どちらが<ruby>楽<rt>たの</rt></ruby>しいですか。",
-        "question_en": "When traveling, do you make a detailed plan? Or do you walk around freely? Which is more fun?"
+        "question_en": "When traveling, do you make a detailed plan? Or do you just wander around? Which is more fun?"
     },
     {
         "id": 7,
@@ -45,7 +45,7 @@
         "id": 8,
         "level": 3,
         "question_jp": "お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うとき、「<ruby>現金<rt>げんきん</rt></ruby>（キャッシュ）」と「カード」、どちらが<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>便利<rt>べんり</rt></ruby>ですか。",
-        "question_en": "When paying, which is safer and more convenient: cash or card?"
+        "question_en": "When paying, which do you think is safer and more convenient: cash or a card?"
     },
     {
         "id": 9,
@@ -75,19 +75,19 @@
         "id": 13,
         "level": 3,
         "question_jp": "<ruby>今<rt>いま</rt></ruby><ruby>挑戦<rt>ちょうせん</rt></ruby>してみたいことは<ruby>何<rt>なん</rt></ruby>ですか。",
-        "question_en": "What is something you want to challenge yourself with now?"
+        "question_en": "What is something new you want to try right now?"
     },
     {
         "id": 14,
         "level": 3,
         "question_jp": "<ruby>最近<rt>さいきん</rt></ruby>ハマっていることは<ruby>何<rt>なん</rt></ruby>ですか。",
-        "question_en": "What are you obsessed with/into lately?"
+        "question_en": "What are you into lately?"
     },
     {
         "id": 15,
         "level": 3,
         "question_jp": "<ruby>最近<rt>さいきん</rt></ruby>うれしかったことは<ruby>何<rt>なん</rt></ruby>ですか。",
-        "question_en": "What made you happy recently?"
+        "question_en": "What good thing happened to you recently?"
     },
     {
         "id": 16,
@@ -123,7 +123,7 @@
         "id": 21,
         "level": 3,
         "question_jp": "<ruby>実<rt>じつ</rt></ruby>は<ruby>内緒<rt>ないしょ</rt></ruby>にしていることは<ruby>何<rt>なん</rt></ruby>ですか。",
-        "question_en": "Actually, what is something you are keeping a secret?"
+        "question_en": "Do you have a secret?"
     },
     {
         "id": 22,
@@ -207,13 +207,13 @@
         "id": 35,
         "level": 3,
         "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>で<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るのと、お<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>うの、どちらがいいですか。",
-        "question_en": "Which is better: cooking yourself or buying from a store?"
+        "question_en": "Which is better: cooking at home or buying food from a store?"
     },
     {
         "id": 36,
         "level": 3,
         "question_jp": "<ruby>紙<rt>かみ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>とデジタル（スマホ）の<ruby>本<rt>ほん</rt></ruby>、どちらが<ruby>好<rt>す</rt></ruby>きですか。",
-        "question_en": "Which do you prefer: paper books or digital (smartphone) books?"
+        "question_en": "Which do you prefer: paper books or e-books?"
     },
     {
         "id": 37,
@@ -231,7 +231,7 @@
         "id": 39,
         "level": 3,
         "question_jp": "<ruby>春<rt>はる</rt></ruby>と<ruby>秋<rt>あき</rt></ruby>、どちらが<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きですか。",
-        "question_en": "Which do you like best: spring or autumn?"
+        "question_en": "Which do you like better: spring or autumn?"
     },
     {
         "id": 40,
@@ -261,7 +261,7 @@
         "id": 44,
         "level": 3,
         "question_jp": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>とカフェ、どちらで<ruby>勉強<rt>べんきょう</rt></ruby>するのが<ruby>好<rt>す</rt></ruby>きですか。",
-        "question_en": "Where do you prefer to study: your home or a cafe?"
+        "question_en": "Where do you prefer to study: at home or at a cafe?"
     },
     {
         "id": 45,
@@ -339,7 +339,7 @@
         "id": 57,
         "level": 3,
         "question_jp": "<ruby>動物園<rt>どうぶつえん</rt></ruby>と<ruby>水族館<rt>すいぞくかん</rt></ruby>、どちらに<ruby>行<rt>い</rt></ruby>きたいですか。",
-        "question_en": "Which would you rather visit: the zoo or the aquarium?"
+        "question_en": "Which would you rather go to: the zoo or the aquarium?"
     },
     {
         "id": 58,
@@ -351,7 +351,7 @@
         "id": 59,
         "level": 3,
         "question_jp": "<ruby>忙<rt>いそが</rt></ruby>しい<ruby>日<rt>ひ</rt></ruby>と<ruby>暇<rt>ひま</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>、どちらがいいですか。",
-        "question_en": "Which do you prefer: a busy day or a free day?"
+        "question_en": "Which do you prefer: a busy day or a relaxing day?"
     },
     {
         "id": 60,

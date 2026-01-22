@@ -382,7 +382,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             {/* Schema Activation Section */}
             {schemaQuestions.length > 0 && (
                 <div className="schema-box">
-                    <strong>Before Reading</strong><br />
+                    <strong>Topic Question</strong><br />
                     {schemaQuestions.map((q, idx) => (
                         <div key={idx} dangerouslySetInnerHTML={{ __html: `${idx + 1}. ${q}` }} />
                     ))}
@@ -737,15 +737,18 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           color: #aaa;
         }
 
-        #story-content :global(p), #story-content :global(span[id]) {
+        #story-content :global(p) {
             text-align: justify;
             text-justify: inter-ideograph;
             margin-bottom: 1.5em;
             line-height: inherit; /* Inherit from parent */
             letter-spacing: inherit;
+        }
+
+        #story-content :global(span[id]) {
             scroll-margin-top: 150px; /* Ensure target is valid even with sticky headers or top spacing */
         }
-        /* Removed specific span[id] styling to clear highlights */
+
         
         /* New Style for Quiz Triggers */
         /* New Style for Quiz Triggers */

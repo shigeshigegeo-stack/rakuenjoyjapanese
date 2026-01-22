@@ -414,26 +414,12 @@ function HomeContent() {
       {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
           <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-            <h2 style={{ marginBottom: '1rem', color: '#2c3e50', fontFamily: 'var(--font-heading)' }}>Select a Textbook</h2>
+
 
             {/* Filter Section */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center' }}>
 
-              {/* Reset / All */}
-              <button
-                onClick={() => setLevelFilter('All')}
-                style={{
-                  padding: '6px 20px',
-                  borderRadius: '20px',
-                  backgroundColor: levelFilter === 'All' ? 'var(--text-main)' : '#fff',
-                  color: levelFilter === 'All' ? '#fff' : 'var(--text-color)',
-                  border: '1px solid var(--border-color)',
-                  fontWeight: 'bold',
-                  cursor: 'pointer'
-                }}
-              >
-                Show All
-              </button>
+
 
               {/* Textbook Levels Row */}
               <div className="level-selector-group" style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', alignItems: 'center', position: 'relative', zIndex: 50 }}>
@@ -649,8 +635,7 @@ function HomeContent() {
                   }}
                 >
                   <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🗣️</div>
-                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>フリートーク</h3>
-                  <p style={{ color: 'var(--text-light)' }}>Free Conversation</p>
+                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Free Conversation</h3>
                 </div>
 
                 {/* Small Talk Cards Menu Item */}
@@ -672,8 +657,7 @@ function HomeContent() {
                 // onMouseLeave={...}
                 >
                   <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>☕</div>
-                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>スモールトーク・カード</h3>
-                  <p style={{ color: 'var(--text-light)' }}>Small Talk Cards (Coming Soon)</p>
+                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Small Talk Cards (Coming Soon)</h3>
                 </div>
 
                 {/* Placeholder for future features */}
