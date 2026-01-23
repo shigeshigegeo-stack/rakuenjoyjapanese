@@ -4,29 +4,22 @@ export const textbooks_level_10: Textbook[] = [
     {
         "id": "TEXTBOOK_L10_01",
         "level": 10,
-        "title": "<ruby>部屋<rt>へや</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいます",
+        "title": "ジョンさんの<ruby>事務所<rt>じむしょ</rt></ruby>",
         "schema_activation": [
-            "あなたの<ruby>家<rt>うち</rt></ruby>に<ruby>犬<rt>いぬ</rt></ruby>や<ruby>猫<rt>ねこ</rt></ruby>がいますか。",
-            "あなたの<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。"
+            "あなたの<ruby>部屋<rt>へや</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+            "あなたのうちに<ruby>犬<rt>いぬ</rt></ruby>がいますか。"
         ],
-        "translation": "<p>There is a cat in Ana's room. Its name is Mimi.<br>Eric: \"Ana-san, there is a cat in your room, isn't there?\"<br>Ana: \"Yes, there is a white cat. It is very cute.\"<br>Eric: \"Is there a dog too?\"<br>Ana: \"No, there is no dog. Because I don't like dogs very much.\"<br>There are various things in Ana's room. There is a Japanese book on the desk.</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">アナさんの<ruby>部屋<rt>へや</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいます。</span><span style=\"display: inline-block;\"><ruby>名前<rt>なまえ</rt></ruby>はミミです。</span><br><span style=\"display: inline-block;\">エリック「アナさん、あなたの<ruby>部屋<rt>へや</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいますね」</span><br><span style=\"display: inline-block;\">アナ「はい、<ruby>白<rt>しろ</rt></ruby>い<ruby>猫<rt>ねこ</rt></ruby>がいますよ。</span><span style=\"display: inline-block;\">とても<ruby>可愛<rt>かわい</rt></ruby>いです」</span><br><span style=\"display: inline-block;\">エリック「<ruby>犬<rt>いぬ</rt></ruby>もいますか」</span><br><span style=\"display: inline-block;\">アナ「いいえ、<span id=\"L10_01_Q1\"><ruby>犬<rt>いぬ</rt></ruby>はいません。</span></span><span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>は<ruby>犬<rt>いぬ</rt></ruby>があまり<ruby>好<rt>す</rt></ruby>きじゃありませんから」</span><br><span style=\"display: inline-block;\">アナさんの<ruby>部屋<rt>へや</rt></ruby>にいろいろな<ruby>物<rt>もの</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<span id=\"L10_01_Q2\"><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>があります。</span></span></p>",
+        "translation": "<p>John is an employee of NEX Bank. There is a desk in the NEX Bank office. There is a computer on the desk. There is a telephone next to the computer. There is a newspaper under the chair. There is a woman in the office. There is a tree outside the office. There is a cat under the tree. There are children too. John's office is very clean. John works in the office from morning to night every day.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんはNEXバンクの<ruby>社員<rt>しゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">ＮＥＸバンクの<ruby>事務所<rt>じむしょ</rt></ruby>に<ruby>机<rt>つくえ</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にコンピューターがあります。</span><span style=\"display: inline-block;\">コンピューターの<ruby>隣<rt>となり</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>があります。</span><span id=\"L10_01_Q1\" style=\"display: inline-block;\">いすの<ruby>下<rt>した</rt></ruby>に<ruby>新聞<rt>しんぶん</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>事務所<rt>じむしょ</rt></ruby>に<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。</span><span style=\"display: inline-block;\"><ruby>事務所<rt>じむしょ</rt></ruby>の<ruby>外<rt>そと</rt></ruby>に<ruby>木<rt>き</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>木<rt>き</rt></ruby>の<ruby>下<rt>した</rt></ruby>に<ruby>猫<rt>ねこ</rt></ruby>がいます。</span><span style=\"display: inline-block;\"><ruby>子供<rt>こども</rt></ruby>もいます。</span><span style=\"display: inline-block;\">ジョンさんの<ruby>事務所<rt>じむしょ</rt></ruby>はとてもきれいです。</span><span style=\"display: inline-block;\">ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>朝<rt>あさ</rt></ruby>から<ruby>晩<rt>ばん</rt></ruby>まで<ruby>事務所<rt>じむしょ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きます。</span></p>",
         "quizzes": [
             {
-                "question": "アナさんの<ruby>部屋<rt>へや</rt></ruby>に<ruby>犬<rt>いぬ</rt></ruby>がいますか。",
+                "question": "いすの<ruby>下<rt>した</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
                 "choices": [
-                    "はい、います",
-                    "いいえ、いません"
+                    "<ruby>新聞<rt>しんぶん</rt></ruby>があります",
+                    "<ruby>猫<rt>ねこ</rt></ruby>がいます"
                 ],
-                "answer_index": 1
-            },
-            {
-                "question": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
-                "choices": [
-                    "<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
-                    "<ruby>猫<rt>ねこ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>"
-                ],
-                "answer_index": 0
+                "answer_index": 0,
+                "target_id": "L10_01_Q1"
             }
         ],
         "audio_file": "/audio/L10_01.mp3"
@@ -34,29 +27,31 @@ export const textbooks_level_10: Textbook[] = [
     {
         "id": "TEXTBOOK_L10_02",
         "level": 10,
-        "title": "<ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>",
+        "title": "アナさんの<ruby>教室<rt>きょうしつ</rt></ruby>",
         "schema_activation": [
-            "あなたの<ruby>部屋<rt>へや</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
-            "あなたの<ruby>机<rt>つくえ</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。"
+            "あなたのかばんの<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+            "あなたの<ruby>学校<rt>がっこう</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)の<ruby>近<rt>ちか</rt></ruby>くに<ruby>何<rt>なに</rt></ruby>がありますか。"
         ],
-        "translation": "<p>There is a big desk in Eric's room. On the desk, there is a computer and a book. Under the book, there is a photo.<br>Ana: \"Eric-san, where is that photo?\"<br>Eric: \"The photo? It is under the book.\"<br>Ana: \"There is a girl in that photo. Is she your younger sister?\"<br>Eric: \"No, she is not my younger sister. She is my friend's child.\"<br>Ana: \"I see. There is also a shelf next to the desk. What is inside the shelf?\"<br>Eric: \"There is nothing. Because it is still a new shelf.\"</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">エリックさんの<ruby>部屋<rt>へや</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きい<ruby>机<rt>つくえ</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>にコンピューターと<ruby>本<rt>ほん</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>本<rt>ほん</rt></ruby>の<ruby>下<rt>した</rt></ruby>に<ruby>写真<rt>しゃしん</rt></ruby>があります。</span><br><span style=\"display: inline-block;\">アナ「エリックさん、その<ruby>写真<rt>しゃしん</rt></ruby>はどこにありますか」</span><br><span style=\"display: inline-block;\">エリック「<ruby>写真<rt>しゃしん</rt></ruby>ですか。</span><span style=\"display: inline-block;\"><span id=\"L10_02_Q1\"><ruby>本<rt>ほん</rt></ruby>の<ruby>下<rt>した</rt></ruby>にありますよ</span>」</span><br><span style=\"display: inline-block;\">アナ「その<ruby>写真<rt>しゃしん</rt></ruby>に<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>がいますね。</span><span style=\"display: inline-block;\"><ruby>妹<rt>いもうと</rt></ruby>さんですか」</span><br><span style=\"display: inline-block;\">エリック「いいえ、<ruby>妹<rt>いもうと</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><span id=\"L10_02_Q2\"><ruby>友達<rt>ともだち</rt></ruby>の<ruby>子<rt>こ</rt></ruby><ruby>供<rt>ども</rt></ruby>ですよ</span>」</span><br><span style=\"display: inline-block;\">アナ「そうですか。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>棚<rt>たな</rt></ruby>もありますね。</span><span style=\"display: inline-block;\"><ruby>棚<rt>たな</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか」</span><br><span style=\"display: inline-block;\">エリック「<ruby>何<rt>なに</rt></ruby>もありません。</span><span style=\"display: inline-block;\">まだ<ruby>新<rt>あたら</rt></ruby>しい<ruby>棚<rt>たな</rt></ruby>ですから」</span></p>",
+        "translation": "<p>Ana is in a classroom at Sakura University. There is a desk in the classroom. There are books and notebooks on the desk. There is also a box. There is a photo inside the box. It is a photo of Ana's family. There is an eraser inside the desk drawer. Ana went to the department store today. There is a big bank next to the department store. There is a post office in front of the bank. There is a restaurant inside the department store. Ana had a meal at the restaurant. There is a new kanji book in Ana's bag. Ana studies kanji every day.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">アナさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>教室<rt>きょうしつ</rt></ruby>にいます。</span><span style=\"display: inline-block;\"><ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>机<rt>つくえ</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>に<ruby>本<rt>ほん</rt></ruby>やノートがあります。</span><span style=\"display: inline-block;\"><ruby>箱<rt>はこ</rt></ruby>もあります。</span><span id=\"L10_02_Q1\" style=\"display: inline-block;\"><ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>写真<rt>しゃしん</rt></ruby>があります。</span><span style=\"display: inline-block;\">アナさんの<ruby>家族<rt>かぞく</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しの<ruby>中<rt>なか</rt></ruby>に<ruby>消<rt>け</rt></ruby>しゴムがあります。</span><span style=\"display: inline-block;\">アナさんは<ruby>今日<rt>きょう</rt></ruby>デパートへ<ruby>行<rt>い</rt></ruby>きました。</span><span id=\"L10_02_Q2\" style=\"display: inline-block;\">デパートの<ruby>隣<rt>となり</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きい<ruby>銀行<rt>ぎんこう</rt></ruby>があります。</span><span style=\"display: inline-block;\"><ruby>銀行<rt>ぎんこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>があります。</span><span style=\"display: inline-block;\">デパートの<ruby>中<rt>なか</rt></ruby>にレストランがあります。</span><span style=\"display: inline-block;\">アナさんはレストランでごはんを<ruby>食<rt>た</rt></ruby>べました。</span><span style=\"display: inline-block;\">アナさんのかばんの<ruby>中<rt>なか</rt></ruby>に<ruby>新<rt>あたら</rt></ruby>しい<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>があります。</span><span style=\"display: inline-block;\">アナさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。</span></p>",
         "quizzes": [
             {
-                "question": "<ruby>写真<rt>しゃしん</rt></ruby>はどこにありますか。",
+                "question": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
                 "choices": [
-                    "<ruby>本<rt>ほん</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>",
-                    "<ruby>本<rt>ほん</rt></ruby>の<ruby>下<rt>した</rt></ruby>"
+                    "<ruby>写真<rt>しゃしん</rt></ruby>",
+                    "<ruby>消<rt>け</rt></ruby>しゴム"
                 ],
-                "answer_index": 1
+                "answer_index": 0,
+                "target_id": "L10_02_Q1"
             },
             {
-                "question": "<ruby>写真<rt>しゃしん</rt></ruby>の<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>はエリックさんの<ruby>妹<rt>いもうと</rt></ruby>ですか。",
+                "question": "<ruby>銀行<rt>ぎんこう</rt></ruby>はどこにありますか。",
                 "choices": [
-                    "はい、エリックさんの<ruby>妹<rt>いもうと</rt></ruby>です",
-                    "いいえ、<ruby>妹<rt>いもうと</rt></ruby>じゃありません"
+                    "デパートの<ruby>隣<rt>となり</rt></ruby>",
+                    "デパートの<ruby>中<rt>なか</rt></ruby>"
                 ],
-                "answer_index": 1
+                "answer_index": 0,
+                "target_id": "L10_02_Q2"
             }
         ],
         "audio_file": "/audio/L10_02.mp3"
@@ -64,29 +59,31 @@ export const textbooks_level_10: Textbook[] = [
     {
         "id": "TEXTBOOK_L10_03",
         "level": 10,
-        "title": "<ruby>大学<rt>だいがく</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>何<rt>なに</rt></ruby>がありますか",
+        "title": "<ruby>社長<rt>しゃちょう</rt></ruby>はどこですか",
         "schema_activation": [
-            "あなたの<ruby>大学<rt>だいがく</rt></ruby>や<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
-            "あなたの<ruby>部屋<rt>へや</rt></ruby>に<ruby>誰<rt>だれ</rt></ruby>がいますか。"
+            "<ruby>今<rt>いま</rt></ruby>うちに<ruby>誰<rt>だれ</rt></ruby>がいますか。",
+            "あなたのうちに<ruby>猫<rt>ねこ</rt></ruby>がいますか。"
         ],
-        "translation": "<p>Eric is at Sakura University now. There are many things near the university.<br>Ana: \"Eric-san, is there a convenience store near the university?\"<br>Eric: \"Yes, there is a small convenience store next to the station.\"<br>Ana: \"Is there a park too?\"<br>Eric: \"No, there is no park near here. But there is a very beautiful pond.\"<br>There are many students at the university. Yamada-sensei is in the classroom now.</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">アナ「エリックさん、<ruby>大学<rt>だいがく</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにコンビニがありますか」</span><br><span style=\"display: inline-block;\">エリック「はい、<span id=\"L10_03_Q1\"><ruby>駅<rt>えき</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さいコンビニがありますよ</span>」</span><br><span style=\"display: inline-block;\">アナ「<ruby>公園<rt>こうえん</rt></ruby>もありますか」</span><br><span style=\"display: inline-block;\">エリック「いいえ、<span id=\"L10_03_Q2\"><ruby>公園<rt>こうえん</rt></ruby>はありません。</span></span><span style=\"display: inline-block;\">でも、とても<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>池<rt>いけ</rt></ruby>があります」</span><br><span style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>に<ruby>学生<rt>がくせい</rt></ruby>がたくさんいます。</span><span style=\"display: inline-block;\"><ruby>今<rt>いま</rt></ruby>、<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>がいます。</span></p>",
+        "translation": "<p>John is in the office now. There are men and women in the office.<br>John: &quot;Where is the company president?&quot;<br>Employee: &quot;The president is in the meeting room with a man.&quot;<br>John: &quot;I see. I will go to the meeting room.&quot;<br>John went to the meeting room. The president was in the meeting room. There is a man next to the president. There is a magazine on the table in the meeting room. It is a computer magazine. There is also coffee. There is the president's bag under the table. There is a big tree near the door.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>今<rt>いま</rt></ruby><ruby>事務所<rt>じむしょ</rt></ruby>にいます。</span><span style=\"display: inline-block;\"><ruby>事務所<rt>じむしょ</rt></ruby>に<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>や<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。</span><br><span style=\"display: inline-block;\">ジョン「<ruby>社長<rt>しゃちょう</rt></ruby>はどこにいますか」</span><br><span id=\"L10_03_Q1\" style=\"display: inline-block;\"><ruby>社員<rt>しゃいん</rt></ruby>「<ruby>社長<rt>しゃちょう</rt></ruby>は<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>会議室<rt>かいぎしつ</rt></ruby>にいます」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。<ruby>会議室<rt>かいぎしつ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます」</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>会議室<rt>かいぎしつ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>会議室<rt>かいぎしつ</rt></ruby>に<ruby>社長<rt>しゃちょう</rt></ruby>がいました。</span><span style=\"display: inline-block;\"><ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。</span><span style=\"display: inline-block;\"><ruby>会議室<rt>かいぎしつ</rt></ruby>のテーブルの<ruby>上<rt>うえ</rt></ruby>に<ruby>雑誌<rt>ざっし</rt></ruby>があります。</span><span style=\"display: inline-block;\">パソコンの<ruby>雑誌<rt>ざっし</rt></ruby>です。</span><span style=\"display: inline-block;\">コーヒーもあります。</span><span id=\"L10_03_Q2\" style=\"display: inline-block;\">テーブルの<ruby>下<rt>した</rt></ruby>に<ruby>社長<rt>しゃちょう</rt></ruby>のかばんがあります。</span><span style=\"display: inline-block;\">ドアの<ruby>近<rt>ちか</rt></ruby>くに<ruby>大<rt>おお</rt></ruby>きい<ruby>木<rt>き</rt></ruby>があります。</span></p>",
         "quizzes": [
             {
-                "question": "コンビニはどこにありますか。",
+                "question": "<ruby>社長<rt>しゃちょう</rt></ruby>はどこにいますか。",
                 "choices": [
-                    "<ruby>大学<rt>だいがく</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
-                    "<ruby>駅<rt>えき</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>"
+                    "<ruby>事務所<rt>じむしょ</rt></ruby>",
+                    "<ruby>会議室<rt>かいぎしつ</rt></ruby>"
                 ],
-                "answer_index": 1
+                "answer_index": 1,
+                "target_id": "L10_03_Q1"
             },
             {
-                "question": "<ruby>大学<rt>だいがく</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>公園<rt>こうえん</rt></ruby>がありますか。",
+                "question": "<ruby>社長<rt>しゃちょう</rt></ruby>のかばんはどこにありますか。",
                 "choices": [
-                    "はい、あります",
-                    "いいえ、ありません"
+                    "テーブルの<ruby>下<rt>した</rt></ruby>",
+                    "テーブルの<ruby>上<rt>うえ</rt></ruby>"
                 ],
-                "answer_index": 1
+                "answer_index": 0,
+                "target_id": "L10_03_Q2"
             }
         ],
         "audio_file": "/audio/L10_03.mp3"
@@ -94,37 +91,40 @@ export const textbooks_level_10: Textbook[] = [
     {
         "id": "TEXTBOOK_L10_04",
         "level": 10,
-        "title": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>",
+        "title": "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>く",
         "schema_activation": [
-            "あなたの<ruby>家<rt>うち</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにコンビニがありますか。",
-            "あなたの<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。"
+            "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+            "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>何<rt>なに</rt></ruby>がありますか。"
         ],
-        "translation": "<p>Eric is in the kitchen now. He is looking inside the refrigerator.<br>Eric: \"Ana-san, there is no milk in the refrigerator.\"<br>Ana: \"Is that so? There was some yesterday. Is there any juice?\"<br>Eric: \"No, there is no juice either. There is only water and meat.\"<br>Ana: \"I see. Is there a supermarket near the house?\"<br>Eric: \"Yes, there is a big supermarket to the left of the station. There is also a small bread shop near the supermarket.\"<br>Ana: \"Then, please buy some milk and bread. I am in the living room now. My younger brother is also here.\"<br>Eric: \"Okay. I'll go to the supermarket now.\"</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">エリックさんは<ruby>今<rt>いま</rt></ruby><ruby>台所<rt>だいどころ</rt></ruby>にいます。</span><span style=\"display: inline-block;\"><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>見<rt>み</rt></ruby>ています。</span><br><span style=\"display: inline-block;\">エリック「アナさん、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>がありません」</span><br><span style=\"display: inline-block;\">アナ「そうですか。</span><span style=\"display: inline-block;\"><ruby>昨日<rt>きのう</rt></ruby>ありましたよ。ジュースはありますか」</span><br><span style=\"display: inline-block;\">エリック「いいえ、ジュースもありません。</span><span style=\"display: inline-block;\"><span id=\"L10_04_Q1\"><ruby>水<rt>みず</rt></ruby>と<ruby>肉<rt>にく</rt></ruby>だけあります</span>」</span><br><span style=\"display: inline-block;\">アナ「そうですか。<ruby>家<rt>うち</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにスーパーがありますか」</span><br><span style=\"display: inline-block;\">エリック「はい、<span id=\"L10_04_Q2\"><ruby>駅<rt>えき</rt></ruby>の<ruby>左<rt>ひだり</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きいスーパーがあります。</span></span><span style=\"display: inline-block;\">スーパーの<ruby>近<rt>ちか</rt></ruby>くに<ruby>小<rt>ちい</rt></ruby>さいパン<ruby>屋<rt>や</rt></ruby>もありますよ」</span><br><span style=\"display: inline-block;\">アナ「じゃあ、<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>とパンを<ruby>買<rt>か</rt></ruby>ってください。</span> <span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby><ruby>居間<rt>いま</rt></ruby>にいます。</span><span style=\"display: inline-block;\"><span id=\"L10_04_Q3\"><ruby>弟<rt>おとうと</rt></ruby>もいますよ</span>」</span><br><span style=\"display: inline-block;\">エリック「わかりました。 <ruby>今<rt>いま</rt></ruby>からスーパーへ<ruby>行<rt>い</rt></ruby>きます」</span></p>",
+        "translation": "<p>John went to the station today. There are various shops near the station.<br>John: &quot;Excuse me. Is there a bookstore near the station?&quot;<br>Station Staff: &quot;Yes, there is. There is a tall building next to the station, right? There is a bookstore inside that building.&quot;<br>John: &quot;What floor of that building is it on?&quot;<br>Station Staff: &quot;It is on the first floor. It is next to the flower shop.&quot;<br>John: &quot;I see. Thank you very much. Oh, where is the post box?&quot;<br>Station Staff: &quot;The post box is in front of the building. It is near the ATM.&quot;<br>John: &quot;Okay.&quot;<br>John went to the building. There was a boy in front of the building. John bought a kanji book at the bookstore. Then, he went to a coffee shop on the first floor. There is a woman inside the coffee shop. It is Ana-san. John drank coffee with Ana-san. John read the new kanji book with Ana-san.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>今日<rt>きょう</rt></ruby><ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにいろいろな<ruby>店<rt>みせ</rt></ruby>があります。</span><br><span style=\"display: inline-block;\">ジョン「すみません。<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くに<ruby>本屋<rt>ほんや</rt></ruby>がありますか」</span><br><span id=\"L10_04_Q1\" style=\"display: inline-block;\"><ruby>駅員<rt>えきいん</rt></ruby>「はい、ありますよ。<ruby>駅<rt>えき</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>に<ruby>高<rt>たか</rt></ruby>いビルがありますね。あのビルの<ruby>中<rt>なか</rt></ruby>に<ruby>本屋<rt>ほんや</rt></ruby>があります」</span><br><span style=\"display: inline-block;\">ジョン「あのビルの<ruby>何階<rt>なんかい</rt></ruby>ですか」</span><br><span style=\"display: inline-block;\"><ruby>駅員<rt>えきいん</rt></ruby>「<ruby>一階<rt>いっかい</rt></ruby>です。<ruby>花屋<rt>はなや</rt></ruby>の<ruby>隣<rt>となり</rt></ruby>にあります」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。ありがとうございます。あ、ポストはどこにありますか」</span><br><span id=\"L10_04_Q2\" style=\"display: inline-block;\"><ruby>駅員<rt>えきいん</rt></ruby>「ポストはビルの<ruby>前<rt>まえ</rt></ruby>にあります。ATMの<ruby>近<rt>ちか</rt></ruby>くです」</span><br><span style=\"display: inline-block;\">ジョン「わかりました」</span><br><span style=\"display: inline-block;\">ジョンさんはビルへ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\">ビルの<ruby>前<rt>まえ</rt></ruby>に<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>がいました。</span><span id=\"L10_04_Q3\" style=\"display: inline-block;\">ジョンさんは<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">それから<ruby>一階<rt>いっかい</rt></ruby>の<ruby>喫茶店<rt>きっさてん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>喫茶店<rt>きっさてん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいます。</span><span style=\"display: inline-block;\">アナさんです。</span><span style=\"display: inline-block;\">ジョンさんはアナさんとコーヒーを<ruby>飲<rt>の</rt></ruby>みました。</span><span style=\"display: inline-block;\">ジョンさんはアナさんと<ruby>新<rt>あたら</rt></ruby>しい<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>を読みました。</span></p>",
         "quizzes": [
             {
-                "question": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
+                "question": "<ruby>本屋<rt>ほんや</rt></ruby>はどこにありますか。",
                 "choices": [
-                    "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>とジュース",
-                    "<ruby>水<rt>みず</rt></ruby>と<ruby>肉<rt>にく</rt></ruby>"
+                    "ビルの<ruby>一階<rt>いっかい</rt></ruby>",
+                    "ビルの<ruby>二階<rt>にかい</rt></ruby>"
                 ],
-                "answer_index": 1
+                "answer_index": 0,
+                "target_id": "L10_04_Q1"
             },
             {
-                "question": "スーパーはどこにありますか。",
+                "question": "ポストはどこにありますか。",
                 "choices": [
-                    "<ruby>駅<rt>えき</rt></ruby>の<ruby>左<rt>ひだり</rt></ruby>",
-                    "<ruby>駅<rt>えき</rt></ruby>の<ruby>右<rt>みぎ</rt></ruby>"
+                    "ビルの<ruby>中<rt>なか</rt></ruby>",
+                    "ビルの<ruby>前<rt>まえ</rt></ruby>"
                 ],
-                "answer_index": 0
+                "answer_index": 1,
+                "target_id": "L10_04_Q2"
             },
             {
-                "question": "アナさんの<ruby>弟<rt>おとうと</rt></ruby>さんはどこにいますか。",
+                "question": "ジョンさんは<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いましたか。",
                 "choices": [
-                    "<ruby>台所<rt>だいどころ</rt></ruby>",
-                    "<ruby>居間<rt>いま</rt></ruby>"
+                    "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
+                    "コーヒー"
                 ],
-                "answer_index": 1
+                "answer_index": 0,
+                "target_id": "L10_04_Q3"
             }
         ],
         "audio_file": "/audio/L10_04.mp3"

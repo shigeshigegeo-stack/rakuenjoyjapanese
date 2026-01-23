@@ -4,29 +4,21 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_01",
     "level": 11,
-    "title": "<ruby>家族<rt>かぞく</rt></ruby>と <ruby>物<rt>もの</rt></ruby>の <ruby>数<rt>かず</rt></ruby>",
+    "title": "<ruby>物<rt>もの</rt></ruby>の <ruby>数<rt>かず</rt></ruby> (Short)",
     "schema_activation": [
-      "あなたの <ruby>家族<rt>かぞく</rt></ruby>は <ruby>何人<rt>なににん</rt></ruby>ですか。",
-      "あなたの <ruby>部屋<rt>へや</rt></ruby>に りんごが いくつ ありますか。"
+      "あなたの <ruby>部屋<rt>へや</rt></ruby>に いすが いくつ ありますか。",
+      "あなたの うちに テレビが <ruby>何台<rt>なんだい</rt></ruby> ありますか。"
     ],
-    "translation": "<p>There are five people in Eric's family. There are his father, mother, and two older sisters. There are three apples on the desk.<br>Ana: \"Eric-san, how many apples are there?\"<br>Eric: \"There are three.\"<br>Ana: \"Are there five?\"<br>Eric: \"No, there are not five. There are three.\"<br>Eric ate three apples yesterday.</p>",
-    "textbook_html": "<p>\n  <span style=\"display: inline-block;\">エリックさんの <ruby>家族<rt>かぞく</rt></ruby>は <ruby>五人<rt>ごにん</rt></ruby>です。</span><span style=\"display: inline-block;\">お<ruby>父<rt>とう</rt></ruby>さんと お<ruby>母<rt>かあ</rt></ruby>さんと お<ruby>姉<rt>ねえ</rt></ruby>さんが <ruby>二人<rt>ふたり</rt></ruby> います。</span><span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に りんごが <ruby>三<rt>みっ</rt></ruby>つ あります。</span><br>\n  <span style=\"display: inline-block;\">アナ「エリックさん、りんごが いくつ ありますか」</span><br>\n  <span style=\"display: inline-block;\">エリック「<ruby>三<rt>みっ</rt></ruby>つ ありますよ」</span><br>\n  <span style=\"display: inline-block;\">アナ「<ruby>五<rt>いつ</rt></ruby>つ ありますか」</span><br>\n  <span style=\"display: inline-block;\">エリック「いいえ、<ruby>五<rt>いつ</rt></ruby>つじゃありません。</span><span style=\"display: inline-block;\"><ruby>三<rt>みっ</rt></ruby>つ あります」</span><br>\n  <span style=\"display: inline-block;\">エリックさんは <ruby>昨日<rt>きのう</rt></ruby>、りんごを <ruby>三<rt>みっ</rt></ruby>つ <ruby>食<rt>た</rt></ruby>べました。</span>\n</p>",
+    "translation": "<p>There is one desk in John's house. There are two chairs. Yesterday, John wrote a letter to his family. Since he didn't have stamps, he went to the post office. He bought five stamps at the post office. Then, he bought three apples. John ate one apple yesterday. There are two apples in his house now. John is doing well every day.</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんの うちに <ruby>机<rt>つくえ</rt></ruby>が <ruby>一<rt>ひと</rt></ruby>つ あります。</span><span style=\"display: inline-block;\">いすが <ruby>二<rt>ふた</rt></ruby>つ あります。</span><span style=\"display: inline-block;\"><ruby>昨日<rt>きのう</rt></ruby> ジョンさんは <ruby>家族<rt>かぞく</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>切手<rt>きって</rt></ruby>が ありませんでしたから、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>切手<rt>きって</rt></ruby>を <ruby>五枚<rt>ごまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">それから りんごを <ruby>三<rt>みっ</rt></ruby>つ <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>昨日<rt>きのう</rt></ruby> りんごを <ruby>一<rt>ひと</rt></ruby>つ <ruby>食<rt>た</rt></ruby>べました。</span><span style=\"display: inline-block;\"><ruby>今<rt>いま</rt></ruby> うちに りんごが <ruby>二<rt>ふた</rt></ruby>つ あります。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>元気<rt>げんき</rt></ruby>です。</span></p>",
     "quizzes": [
       {
-        "question": "エリックさんの お<ruby>姉<rt>ねえ</rt></ruby>さんは <ruby>何人<rt>なににん</rt></ruby> いますか。",
+        "question": "ジョンさんの うちに いすが いくつ ありますか。",
         "choices": [
-          "<ruby>一人<rt>ひとり</rt></ruby> います",
-          "<ruby>二人<rt>ふたり</rt></ruby> います"
+          "<ruby>一<rt>ひと</rt></ruby>つ あります",
+          "<ruby>二<rt>ふた</rt></ruby>つ あります"
         ],
         "answer_index": 1
-      },
-      {
-        "question": "りんごが いくつ ありますか。",
-        "choices": [
-          "<ruby>三<rt>みっ</rt></ruby>つ あります",
-          "<ruby>五<rt>いつ</rt></ruby>つ あります"
-        ],
-        "answer_index": 0
       }
     ],
     "audio_file": "/audio/L11_01.mp3"
@@ -34,27 +26,27 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_02",
     "level": 11,
-    "title": "<ruby>毎日<rt>まいにち</rt></ruby>の <ruby>勉強<rt>べんきょう</rt></ruby>と <ruby>物<rt>もの</rt></ruby>",
+    "title": "<ruby>家族<rt>かぞく</rt></ruby>と <ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby> (Mid)",
     "schema_activation": [
-      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時間<rt>なんじかん</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
-      "あなたの <ruby>家<rt>うち</rt></ruby>に コンピューターが <ruby>何台<rt>なんだい</rt></ruby> ありますか。"
+      "あなたの <ruby>家族<rt>かぞく</rt></ruby>は <ruby>何人<rt>なににん</rt></ruby>ですか。",
+      "あなたは <ruby>兄弟<rt>きょうだい</rt></ruby>が <ruby>何人<rt>なににん</rt></ruby> いますか。"
     ],
-    "translation": "<p>There are two computers in Eric's room. There is one in Ana's room.<br>Eric: \"Ana-san, how many computers do you have?\"<br>Ana: \"I have one.\"<br>Eric: \"Do you have three?\"<br>Ana: \"No, I don't have three. I have only one.\"<br>There are ten photos on the desk. Eric took ten photos yesterday. The two of them study Japanese for three hours every day.<br>Ana: \"Eric-san, how many hours do you study every day?\"<br>Eric: \"I study for three hours.\"<br>Ana: \"Do you study for five hours?\"<br>Eric: \"No, I don't study for five hours. I study for three hours.\"</p>",
-    "textbook_html": "<p>\n  <span style=\"display: inline-block;\">エリックさんの <ruby>部屋<rt>へや</rt></ruby>に コンピューターが <ruby>二台<rt>にだい</rt></ruby> あります。</span><span style=\"display: inline-block;\">アナさんの <ruby>部屋<rt>へや</rt></ruby>に <ruby>一台<rt>いちだい</rt></ruby> あります。</span><br>\n  <span style=\"display: inline-block;\">エリック「アナさん、コンピューターが <ruby>何台<rt>なんだい</rt></ruby> ありますか」</span><br>\n  <span style=\"display: inline-block;\">アナ「<ruby>一台<rt>いちだい</rt></ruby> あります」</span><br>\n  <span style=\"display: inline-block;\">エリック「<ruby>三台<rt>さんだい</rt></ruby> ありますか」</span><br>\n  <span style=\"display: inline-block;\">アナ「いいえ、<ruby>三台<rt>さんだい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>一台<rt>いちだい</rt></ruby>だけ あります」</span><br>\n  <span style=\"display: inline-block;\"><ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>に <ruby>写真<rt>しゃしん</rt></ruby>が <ruby>十枚<rt>じゅうまい</rt></ruby> あります。</span><span style=\"display: inline-block;\">エリックさんは <ruby>昨日<rt>きのう</rt></ruby>、<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>十枚<rt>じゅうまい</rt></ruby> <ruby>撮<rt>と</rt></ruby>りました。</span><br>\n  <span style=\"display: inline-block;\"><ruby>二人<rt>ふたり</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby>、<ruby>三時間<rt>さんじかん</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。</span><br>\n  <span style=\"display: inline-block;\">アナ「エリックさん、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時間<rt>なんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しますか」</span><br>\n  <span style=\"display: inline-block;\">エリック「<ruby>三時間<rt>さんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しますよ」</span><br>\n  <span style=\"display: inline-block;\">アナ「<ruby>五時間<rt>ごじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しますか」</span><br>\n  <span style=\"display: inline-block;\">エリック「いいえ、<ruby>五時間<rt>ごじかん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>三時間<rt>さんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>します」</span>\n</p>",
+    "translation": "<p>Ana studies at Sakura University every day. Ana's family is in Germany. There are five people in her family. There are her father, mother, one older brother, and one older sister. Ana has two siblings. Ana is in Japan alone now. Ana calls her family every day. She writes an email once a week. Sometimes she sends letters. Ana is busy every day, but it is very fun.</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">アナさんは <ruby>毎日<rt>まいにち</rt></ruby> さくら<ruby>大学<rt>だいがく</rt></ruby>で <ruby>勉強<rt>べんきょう</rt></ruby>します。</span><span style=\"display: inline-block;\">アナさんの <ruby>家族<rt>かぞく</rt></ruby>は ドイツに います。</span><span style=\"display: inline-block;\"><ruby>家族<rt>かぞく</rt></ruby>は <ruby>五人<rt>ごにん</rt></ruby>です。</span><span style=\"display: inline-block;\"><ruby>父<rt>ちち</rt></ruby>と <ruby>母<rt>はは</rt></ruby>と <ruby>兄<rt>あに</rt></ruby>が <ruby>一人<rt>ひとり</rt></ruby>、<ruby>姉<rt>あね</rt></ruby>が <ruby>一人<rt>ひとり</rt></ruby> います。</span><span style=\"display: inline-block;\">アナさんは <ruby>兄弟<rt>きょうだい</rt></ruby>が <ruby>二人<rt>ふたり</rt></ruby> います。</span><span style=\"display: inline-block;\">アナさんは <ruby>今<rt>いま</rt></ruby> <ruby>一人<rt>ひとり</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>に います。</span><span style=\"display: inline-block;\">アナさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>家族<rt>かぞく</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。</span><span style=\"display: inline-block;\"><ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>一回<rt>いっかい</rt></ruby> メールを <ruby>書<rt>か</rt></ruby>きます。</span><span style=\"display: inline-block;\"><ruby>時々<rt>ときどき</rt></ruby> <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ります。</span><span style=\"display: inline-block;\">アナさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>忙<rt>いそが</rt></ruby>しいですが、とても <ruby>楽<rt>たの</rt></ruby>しいです。</span></p>",
     "quizzes": [
       {
-        "question": "アナさんの <ruby>部屋<rt>へや</rt></ruby>に コンピューターが <ruby>何台<rt>なんだい</rt></ruby> ありますか。",
+        "question": "アナさんの <ruby>家族<rt>かぞく</rt></ruby>は <ruby>何人<rt>なににん</rt></ruby>ですか。",
         "choices": [
-          "<ruby>一台<rt>いちだい</rt></ruby> あります",
-          "<ruby>三台<rt>さんだい</rt></ruby> あります"
+          "<ruby>三人<rt>さんにん</rt></ruby>です",
+          "<ruby>五人<rt>ごにん</rt></ruby>です"
         ],
-        "answer_index": 0
+        "answer_index": 1
       },
       {
-        "question": "エリックさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時間<rt>なんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
+        "question": "アナさんは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> メールを <ruby>書<rt>か</rt></ruby>きますか。",
         "choices": [
-          "<ruby>三時間<rt>さんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>します",
-          "<ruby>五時間<rt>ごじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>します"
+          "<ruby>一回<rt>いっかい</rt></ruby> <ruby>書<rt>か</rt></ruby>きます",
+          "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>書<rt>か</rt></ruby>きます"
         ],
         "answer_index": 0
       }
@@ -64,29 +56,29 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_03",
     "level": 11,
-    "title": "<ruby>日本<rt>にほん</rt></ruby>に どのくらい いますか",
+    "title": "<ruby>仕事<rt>しごと</rt></ruby>と <ruby>日本語<rt>にほんご</rt></ruby>の <ruby>勉強<rt>べんきょう</rt></ruby> (Mid)",
     "schema_activation": [
-      "あなたは <ruby>日本<rt>にほん</rt></ruby>に どのくらい いますか。",
-      "あなたは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。"
+      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> どのくらい <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
+      "あなたは <ruby>一年<rt>いちねん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>旅行<rt>りょこう</rt></ruby>しますか。"
     ],
-    "translation": "<p>Eric came to Japan in September of last year. He has been in Japan for six months now.<br>Ana: \"Eric-san, how long have you been in Japan?\"<br>Eric: \"I have been here for six months.\"<br>Ana: \"Have you been here for one year?\"<br>Eric: \"No, I haven't been here for one year. I have been here for six months.\"<br>Eric studied Japanese for three months in America. Then he came to Japan. He studies for three hours every day. He meets his friend Yamada-san once a week. The two of them talk in Japanese for about an hour. Eric is very good at Japanese.</p>",
-    "textbook_html": "<p><span style=\"display: inline-block;\">エリックさんは <ruby>去年<rt>きょねん</rt></ruby>の <ruby>九月<rt>くがつ</rt></ruby>に <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ました。</span><span style=\"display: inline-block;\"><ruby>今<rt>いま</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>に <ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> います。</span><br><span style=\"display: inline-block;\">アナ「エリックさん、どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか」</span><br><span style=\"display: inline-block;\">エリック「<ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> いますよ」</span><br><span style=\"display: inline-block;\">アナ「<ruby>一年<rt>いちねん</rt></ruby> いますか」</span><br><span style=\"display: inline-block;\">エリック「いいえ、<ruby>一年<rt>いちねん</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> います」</span><br><span style=\"display: inline-block;\">エリックさんは アメリカで <ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しました。</span><span style=\"display: inline-block;\">それから <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ました。</span><span style=\"display: inline-block;\"><ruby>毎日<rt>まいにち</rt></ruby> <ruby>三時間<rt>さんじかん</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>します。</span><span style=\"display: inline-block;\"><ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>一回<rt>いっかい</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>の <ruby>山田<rt>やまだ</rt></ruby>さんに <ruby>会<rt>あ</rt></ruby>します。</span><span style=\"display: inline-block;\"><ruby>二<rt>ふた</rt></ruby><ruby>人<rt>り</rt></ruby>は <ruby>一時間<rt>いちじかん</rt></ruby>くらい <ruby>日本語<rt>にほんご</rt></ruby>で <ruby>話<rt>はな</rt></ruby>します。</span><span style=\"display: inline-block;\">エリックさんは <ruby>日本語<rt>にほんご</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>です。</span></p>",
+    "translation": "<p>John works at a company every day. He works from 9 o'clock to 5 o'clock. John works for 8 hours a day. John learns Japanese at the company. He learns three times a week. His Japanese teacher is a kind teacher. John has been in Japan for 6 months. He understands Japanese a little. Kim has been in Japan for 2 years. His Japanese is very good. Kim learns twice a week. Kim studies Japanese by himself for 3 hours every day. Both John and Kim like Japan.</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>会社<rt>かいしゃ</rt></ruby>で <ruby>働<rt>はたら</rt></ruby>きます。</span><span style=\"display: inline-block;\">9<ruby>時<rt>じ</rt></ruby>から 5<ruby>時<rt>じ</rt></ruby>まで <ruby>働<rt>はたら</rt></ruby>きます。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>一<rt>いち</rt></ruby><ruby>日<rt>にち</rt></ruby>に <ruby>八時間<rt>はちじかん</rt></ruby> <ruby>働<rt>はたら</rt></ruby>きます。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>会社<rt>かいしゃ</rt></ruby>で <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。</span><span style=\"display: inline-block;\"><ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>三回<rt>さんかい</rt></ruby> <ruby>習<rt>なら</rt></ruby>います。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>は <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジョンさんは <ruby>日本<rt>にほん</rt></ruby>に <ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> います。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>が <ruby>少<rt>すこ</rt></ruby>し わかります。</span><span style=\"display: inline-block;\">キムさんは <ruby>日本<rt>にほん</rt></ruby>に <ruby>二年<rt>にねん</rt></ruby> います。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>が とても <ruby>上手<rt>じょうず</rt></ruby>です。</span><span style=\"display: inline-block;\">キムさんは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>二回<rt>にかい</rt></ruby> <ruby>習<rt>なら</rt></ruby>います。</span><span style=\"display: inline-block;\">キムさんは <ruby>一人<rt>ひとり</rt></ruby>で <ruby>毎日<rt>まいにち</rt></ruby> <ruby>三時間<rt>さんじかん</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。</span><span style=\"display: inline-block;\">ジョンさんも キムさんも <ruby>日本<rt>にほん</rt></ruby>が <ruby>好<rt>す</rt></ruby>きです。</span></p>",
     "quizzes": [
       {
-        "question": "エリックさんは アメリカで <ruby>何<rt>なん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>しましたか。",
+        "question": "ジョンさんは <ruby>一<rt>いち</rt></ruby><ruby>日<rt>にち</rt></ruby>に <ruby>何時間<rt>なんじかん</rt></ruby> <ruby>働<rt>はたら</rt></ruby>きますか。",
         "choices": [
-          "<ruby>三<rt>さん</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しました",
-          "<ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> <ruby>勉強<rt>べんきょう</rt></ruby>しました"
+          "<ruby>八時間<rt>はちじかん</rt></ruby> <ruby>働<rt>はたら</rt></ruby>きます",
+          "<ruby>九時間<rt>くじかん</rt></ruby> <ruby>働<rt>はたら</rt></ruby>きます"
         ],
         "answer_index": 0
       },
       {
-        "question": "エリックさんは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>山田<rt>やまだ</rt></ruby>さんに <ruby>会<rt>あ</rt></ruby>いますか。",
+        "question": "キムさんは どのくらい <ruby>日本<rt>にほん</rt></ruby>に いますか。",
         "choices": [
-          "<ruby>一回<rt>いっかい</rt></ruby> <ruby>会<rt>あ</rt></ruby>います",
-          "<ruby>三回<rt>さんかい</rt></ruby> <ruby>会<rt>あ</rt></ruby>います"
+          "<ruby>六<rt>ろっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby> います",
+          "<ruby>二年<rt>にねん</rt></ruby> います"
         ],
-        "answer_index": 0
+        "answer_index": 1
       }
     ],
     "audio_file": "/audio/L11_03.mp3"
@@ -94,37 +86,40 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_04",
     "level": 11,
-    "title": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>で <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>出<rt>だ</rt></ruby>します",
+    "title": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>と <ruby>映画<rt>えいが</rt></ruby> (Long)",
     "schema_activation": [
-      "あなたは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>家族<rt>かぞく</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を しますか。",
-      "あなたの <ruby>国<rt>くに</rt></ruby>まで <ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>何時間<rt>なんじかん</rt></ruby> かかりますか。"
+      "あなたは <ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ますか。",
+      "あなたの うちから <ruby>学校<rt>がっこう</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)まで どのくらい かかりますか。"
     ],
-    "translation": "<p>Eric went to the post office. He is going to buy stamps and postcards.<br>Eric: \"Excuse me, please give me five of these stamps.\"<br>Clerk: \"Five stamps?\"<br>Eric: \"No, not five. Please give me four.\"<br>Eric bought four stamps and two postcards.<br>Eric: \"How much is a postcard to America?\"<br>Clerk: \"It is 100 yen.\"<br>Eric writes letters to his family twice a week. It takes about one week by airmail. It takes about one month by sea mail. There are five people in Eric's family in his country. There are his father, mother, and two younger brothers. Eric talks to his family on the phone for one hour every day. He talked for about an hour last night too. Eric loves his family very much.</p>",
-    "textbook_html": "<p><span style=\"display: inline-block;\">エリックさんは <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>切手<rt>きって</rt></ruby>と はがきを <ruby>買<rt>か</rt></ruby>います。</span><br><span style=\"display: inline-block;\">エリック「すみません、この <ruby>切手<rt>きって</rt></ruby>を <ruby>五枚<rt>ごまい</rt></ruby> ください」</span><br><span style=\"display: inline-block;\"><ruby>郵便局員<rt>ゆうびんきょくいん</rt></ruby>「<ruby>五枚<rt>ごまい</rt></ruby>ですか」</span><br><span style=\"display: inline-block;\">エリック「いいえ、<ruby>五枚<rt>ごまい</rt></ruby>じゃありません。</span><span style=\"display: inline-block;\"><ruby>四枚<rt>よんまい</rt></ruby> ください」</span><br><span style=\"display: inline-block;\">エリックさんは <ruby>切手<rt>きって</rt></ruby>を <ruby>四枚<rt>よんまい</rt></ruby>と はがきを <ruby>二枚<rt>にまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">エリック「はがきは アメリカまで いくらですか」</span><br><span style=\"display: inline-block;\"><ruby>郵便局員<rt>ゆうびんきょくいん</rt></ruby>「<ruby>百円<rt>ひゃくえん</rt></ruby>です」</span><br><span style=\"display: inline-block;\">エリックさんは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>二回<rt>にかい</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。</span><span style=\"display: inline-block;\">エアメールで <ruby>一週間<rt>いっしゅうかん</rt></ruby>くらい かかります。</span><span style=\"display: inline-block;\"><ruby>船<rt>ふね</rt></ruby>で <ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>くらい かかります。</span><span style=\"display: inline-block;\">エリックさんの <ruby>国<rt>くに</rt></ruby>に <ruby>家族<rt>かぞく</rt></ruby>が <ruby>五人<rt>ごにん</rt></ruby> います。</span><span style=\"display: inline-block;\">お<ruby>父<rt>とう</rt></ruby>さんと お<ruby>母<rt>かあ</rt></ruby>さんと お<ruby>弟<rt>とうと</rt></ruby>さんが <ruby>二人<rt>ふたり</rt></ruby> います。</span><span style=\"display: inline-block;\">エリックさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>一時間<rt>いちじかん</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>電話<rt>でんわ</rt></ruby>で <ruby>話<rt>はな</rt></ruby>します。</span><span style=\"display: inline-block;\"><ruby>昨日<rt>きのう</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>も <ruby>一時間<rt>いちじかん</rt></ruby>くらい <ruby>話<rt>はな</rt></ruby>しました。</span><span style=\"display: inline-block;\">エリックさんは <ruby>家族<rt>かぞく</rt></ruby>が <ruby>大好<rt>だいす</rt></ruby>きです。</span></p>",
+    "translation": "<p>John went to the department store today. He bought two shirts at the department store. Then he went to a smartphone shop.<br>John: &quot;Excuse me. Please give me this smartphone.&quot;<br>Clerk: &quot;Yes. That will be 50,000 yen in total.&quot;<br>John: &quot;Okay. Thank you.&quot;<br>John bought one new smartphone. Then, he met Kim at a restaurant.<br>Kim: &quot;John-san, what did you do today?&quot;<br>John: &quot;I bought two shirts. And then I bought one new smartphone.&quot;<br>Kim: &quot;That's nice. I watched a movie.&quot;<br>John: &quot;What kind of movie did you watch?&quot;<br>Kim: &quot;I watched a Japanese movie.&quot;<br>John: &quot;How often do you watch movies, Kim-san?&quot;<br>Kim: &quot;I watch movies about twice a month.&quot;<br>John: &quot;Is that so? I watch once a month.&quot;<br>John and Kim drank coffee at the restaurant for one hour.</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは <ruby>今日<rt>きょう</rt></ruby> デパートへ <ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\">デパートで シャツを <ruby>二枚<rt>にまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">それから スマホの <ruby>店<rt>みせ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。</span><br><span style=\"display: inline-block;\">ジョン「すみません。</span><span style=\"display: inline-block;\">この スマホを <ruby>一台<rt>いちだい</rt></ruby> ください」</span><br><span style=\"display: inline-block;\"><ruby>店員<rt>てんいん</rt></ruby>「はい。</span><span style=\"display: inline-block;\"><ruby>全部<rt>ぜんぶ</rt></ruby>で <ruby>五万<rt>ごまん</rt></ruby><ruby>円<rt>えん</rt></ruby>です」</span><br><span style=\"display: inline-block;\">ジョン「はい。</span><span style=\"display: inline-block;\">ありがとうございます」</span><br><span style=\"display: inline-block;\">ジョンさんは <ruby>新<rt>あたら</rt></ruby>しい スマホを <ruby>一台<rt>いちだい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">それから レストランで キムさんに <ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">キム「ジョンさん、<ruby>今日<rt>きょう</rt></ruby> <ruby>何<rt>なに</rt></ruby>を しましたか」</span><br><span style=\"display: inline-block;\">ジョン「シャツを <ruby>二枚<rt>にまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">それから <ruby>新<rt>あたら</rt></ruby>しい スマホを <ruby>一台<rt>いちだい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました」</span><br><span style=\"display: inline-block;\">キム「いいですね。</span><span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>は <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました。」</span><br><span style=\"display: inline-block;\">ジョン「どんな <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ましたか」</span><br><span style=\"display: inline-block;\">キム「<ruby>日本<rt>にほん</rt></ruby>の <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ました」</span><br><span style=\"display: inline-block;\">ジョン「キムさんは どのぐらい <ruby>映画<rt>えいが</rt></ruby>を みますか」</span><br><span style=\"display: inline-block;\">キム「<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に <ruby>二回<rt>にかい</rt></ruby>くらい <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ます」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。</span><span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>は <ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に <ruby>一回<rt>いっかい</rt></ruby> <ruby>見<rt>み</rt></ruby>ます」</span><br><span style=\"display: inline-block;\">ジョンさんと キムさんは <ruby>一時間<rt>いちじかん</rt></ruby> レストランで コーヒーを <ruby>飲<rt>の</rt></ruby>みました。</span></p>",
     "quizzes": [
       {
-        "question": "エリックさんは <ruby>切手<rt>きって</rt></ruby>を <ruby>何枚<rt>なんまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いましたか。",
+        "question": "ジョンさんは シャツを <ruby>何枚<rt>なんまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いましたか。",
         "choices": [
-          "<ruby>四枚<rt>よんまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました",
-          "<ruby>五枚<rt>ごまい</rt></ruby> <ruby>買<rt>か</rt></ruby>いました"
-        ],
-        "answer_index": 0
-      },
-      {
-        "question": "アメリカまで エアメールで どのくらい かかりますか。",
-        "choices": [
-          "<ruby>一週間<rt>いっしゅうかん</rt></ruby>くらい かかります",
-          "<ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>くらい かかります"
-        ],
-        "answer_index": 0
-      },
-      {
-        "question": "エリックさんは <ruby>一週間<rt>いっしゅうかん</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きますか。",
-        "choices": [
-          "<ruby>一回<rt>いっかい</rt></ruby> <ruby>書<rt>か</rt></ruby>きます",
-          "<ruby>二回<rt>にかい</rt></ruby> <ruby>書<rt>か</rt></ruby>きます"
+          "<ruby>一枚<rt>いちまい</rt></ruby>",
+          "<ruby>二枚<rt>にまい</rt></ruby>",
+          "<ruby>三枚<rt>さんまい</rt></ruby>"
         ],
         "answer_index": 1
+      },
+      {
+        "question": "キムさんは <ruby>一<rt>いっ</rt></ruby>か<ruby>月<rt>げつ</rt></ruby>に <ruby>何回<rt>なんかい</rt></ruby> <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ますか。",
+        "choices": [
+          "<ruby>一回<rt>いっかい</rt></ruby>",
+          "<ruby>二回<rt>にかい</rt></ruby>",
+          "<ruby>三回<rt>さんかい</rt></ruby>"
+        ],
+        "answer_index": 1
+      },
+      {
+        "question": "ジョンさんと キムさんは どのぐらい レストランに いましたか。",
+        "choices": [
+          "<ruby>一時間<rt>いちじかん</rt></ruby>",
+          "<ruby>二時間<rt>にじかん</rt></ruby>",
+          "<ruby>三時間<rt>さんじかん</rt></ruby>"
+        ],
+        "answer_index": 0
       }
     ],
     "audio_file": "/audio/L11_04.mp3"

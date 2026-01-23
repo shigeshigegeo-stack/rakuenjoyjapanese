@@ -4,63 +4,53 @@ export const textbooks_level_08: Textbook[] = [
     {
         "id": "TEXTBOOK_L8_01",
         "level": 8,
-        "title": "さくら<ruby>大学<rt>だいがく</rt></ruby>はどんな<ruby>大学<rt>だいがく</rt></ruby>ですか",
+        "title": "ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>",
         "schema_activation": [
-            "あなたの<ruby>街<rt>まち</rt></ruby>にある<ruby>大学<rt>だいがく</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きいですか。",
-            "あなたの <ruby>町<rt>まち</rt></ruby>は <ruby>静<rt>しず</rt></ruby>かですか。"
+            "あなたの<ruby>仕事<rt>しごと</rt></ruby>(<ruby>学校<rt>がっこう</rt></ruby>)は<ruby>忙<rt>いそが</rt></ruby>しいですか。",
+            "あなたの<ruby>町<rt>まち</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かですか。"
         ],
-        "translation": "<p>Ana's Sakura University is a very famous university. And it is very beautiful. It is not very new, but it is very quiet. There is a large cafeteria at the university.<br>Professor Yamada is a very kind teacher. University life is very busy, but it is fun.</p>",
-        "textbook_html": "<p>アナさんのさくら<ruby>大学<rt>だいがく</rt></ruby>はとても<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>大学<rt>だいがく</rt></ruby>です。<br>そして、とても<ruby>綺麗<rt>きれい</rt></ruby>です。<br><span id=\"L08_01_Q1\">あまり<ruby>新<rt>あたら</rt></ruby>しくないですが、とても<ruby>静<rt>しず</rt></ruby>かですよ。</span><br><ruby>大学<rt>だいがく</rt></ruby>には<ruby>広<rt>ひろ</rt></ruby>い<ruby>食堂<rt>しょくどう</rt></ruby>があります。<br><span id=\"L08_01_Q2\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はとても<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>です。</span><br><ruby>大学<rt>だいがく</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>はとても<ruby>忙<rt>いそが</rt></ruby>しいですが、<ruby>楽<rt>たの</rt></ruby>しいです。</p>",
+        "translation": "<p>John is an employee at NEX Bank. NEX Bank is a very big bank. It is also very beautiful. NEX Bank is very famous and is a good bank.<br>John goes to work every day. He works from morning until night.<br>John's job is busy, but it is interesting.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんはＮＥＸバンクの<ruby>社員<rt>しゃいん</rt></ruby>です。</span><span style=\"display: inline-block;\">ＮＥＸバンクはとても<ruby>大<rt>おお</rt></ruby>きい<ruby>銀行<rt>ぎんこう</rt></ruby>です。</span><br><span style=\"display: inline-block;\">そしてとてもきれいです。</span><span style=\"display: inline-block;\">ＮＥＸバンクはとても<ruby>有名<rt>ゆうめい</rt></ruby>です。</span><span style=\"display: inline-block;\">そしていい<ruby>銀行<rt>ぎんこう</rt></ruby>です。</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>仕事<rt>しごと</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>朝<rt>あさ</rt></ruby>から<ruby>晩<rt>ばん</rt></ruby>まで<ruby>働<rt>はたら</rt></ruby>きます。</span><br><span id=\"L08_01_Q1\" style=\"display: inline-block;\">ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいですが、おもしろいです。</span></p>",
         "quizzes": [
             {
-                "question": "さくら<ruby>大学<rt>だいがく</rt></ruby>は<ruby>新<rt>あたら</rt></ruby>しいですか。",
+                "question": "ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>はおもしろいですか。",
                 "target_id": "L08_01_Q1",
                 "choices": [
-                    "はい、とても<ruby>新<rt>あたら</rt></ruby>しいです",
-                    "いいえ、あまり<ruby>新<rt>あたら</rt></ruby>しくないです"
+                    "はい、おもしろいです",
+                    "いいえ、おもしろくないです"
                 ],
-                "answer_index": 1
-            },
-            {
-                "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどんな<ruby>先生<rt>せんせい</rt></ruby>ですか。",
-                "target_id": "L08_01_Q2",
-                "choices": [
-                    "<ruby>厳<rt>きび</rt></ruby>しい<ruby>先生<rt>せんせい</rt></ruby>",
-                    "<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>",
-                    "<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>"
-                ],
-                "answer_index": 1
+                "answer_index": 0
             }
         ]
     },
     {
         "id": "TEXTBOOK_L8_02",
         "level": 8,
-        "title": "おいしい<ruby>レストラン<rt>　</rt></ruby>",
+        "title": "アナさんの<ruby>大学<rt>だいがく</rt></ruby>",
         "schema_activation": [
-            "<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>は<ruby>好<rt>す</rt></ruby>きですか。",
-            "よく レストランへ <ruby>行<rt>い</rt></ruby>きますか。"
+            "<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですか。",
+            "あなたの<ruby>学校<rt>がっこう</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)はきれいですか。"
         ],
-        "translation": "<p>Ana and Eric went to Shinjuku today.<br>Shinjuku is a very lively town.<br>The two of them ate dinner at a restaurant.<br>That shop is not very new, but it is very famous.<br>The inside is very beautiful.<br>Eric ate a fish dish.<br>Ana ate a meat dish.<br>Eric said, \"This fish is very delicious.\"<br>Ana said, \"The meat is very delicious, too.\"<br>The coffee was very hot.<br>The food at this shop is a little expensive, but it is very good.<br>The two of them had a very fun time.</p>",
-        "textbook_html": "<p>アナさんとエリックさんは<ruby>今日<rt>きょう</rt></ruby><ruby>新宿<rt>しんじゅく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>新宿<rt>しんじゅく</rt></ruby>はとてもにぎやかな<ruby>町<rt>まち</rt></ruby>です。<br><ruby>二人<rt>ふたり</rt></ruby>はレストランで<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べました。<br>その<ruby>店<rt>みせ</rt></ruby>はあまり<ruby>新<rt>あたら</rt></ruby>しくないですが、とても<ruby>有名<rt>ゆうめい</rt></ruby>です。<br><ruby>中<rt>なか</rt></ruby>はとてもきれいです。<br><span id=\"L08_02_Q1\">エリックさんは<ruby>魚<rt>さかな</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。</span>アナさんは<ruby>肉<rt>にく</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。<br>エリックさんは、「この<ruby>魚<rt>さかな</rt></ruby>はとてもおいしいです」と<ruby>言<rt>い</rt></ruby>いました。<br>アナさんは、「<ruby>肉<rt>にく</rt></ruby>もとてもおいしいですよ」と<ruby>言<rt>い</rt></ruby>いました。コーヒーはとても<ruby>熱<rt>あつ</rt></ruby>かったです。<span id=\"L08_02_Q2\">この<ruby>店<rt>みせ</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>いですが、とてもいいです。</span><ruby>二人<rt>ふたり</rt></ruby>はとても<ruby>楽<rt>たの</rt></ruby>しかったです。</p>",
+        "translation": "<p>Ana is a student at Sakura University. Sakura University is a famous university. It is also a very beautiful university. Ana studies Japanese at the university every day. Japanese is difficult, but it is very interesting. Yamada-sensei is a kind teacher. Ana learns Japanese from Yamada-sensei every day. Ana is very busy every day, but she is doing well. Ana meets her friends at the university. Ana's friends are also doing very well. Ana enjoys every day. Ana's university is a good university.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">アナさんはさくら<ruby>大学<rt>だいがく</rt></ruby>の<ruby>学生<rt>がくせい</rt></ruby>です。</span><span id=\"L08_02_Q1\" style=\"display: inline-block;\">さくら<ruby>大学<rt>だいがく</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>大学<rt>だいがく</rt></ruby>です。</span><span style=\"display: inline-block;\">そしてとてもきれいな<ruby>大学<rt>だいがく</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>大学<rt>だいがく</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>します。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいですが、とてもおもしろいです。</span><br><span id=\"L08_02_Q2\" style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>に<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。</span><br><span style=\"display: inline-block;\">アナさんは<ruby>毎日<rt>まいにち</rt></ruby>とても<ruby>忙<rt>いそが</rt></ruby>しいですが、<ruby>元気<rt>げんき</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは<ruby>大学<rt>だいがく</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います。</span><span style=\"display: inline-block;\">アナさんの<ruby>友達<rt>ともだち</rt></ruby>もとても<ruby>元気<rt>げんき</rt></ruby>です。</span><br><span style=\"display: inline-block;\">アナさんは<ruby>毎日<rt>まいにち</rt></ruby><ruby>楽<rt>たの</rt></ruby>しいです。</span><span style=\"display: inline-block;\">アナさんの<ruby>大学<rt>だいがく</rt></ruby>はいい<ruby>大学<rt>だいがく</rt></ruby>です。</span></p>",
         "quizzes": [
             {
-                "question": "エリックさんは<ruby>何<rt>なに</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましたか。",
+                "question": "さくら<ruby>大学<rt>だいがく</rt></ruby>はどんな<ruby>大学<rt>だいがく</rt></ruby>ですか。",
                 "target_id": "L08_02_Q1",
                 "choices": [
-                    "<ruby>魚<rt>さかな</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>",
-                    "<ruby>肉<rt>にく</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>",
-                    "野菜の<ruby>料理<rt>りょうり</rt></ruby>"
+                    "<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>大学<rt>だいがく</rt></ruby>です",
+                    "<ruby>静<rt>しず</rt></ruby>かな<ruby>大学<rt>だいがく</rt></ruby>です",
+                    "<ruby>小<rt>ちい</rt></ruby>さい<ruby>大学<rt>だいがく</rt></ruby>です"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "この<ruby>店<rt>みせ</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>はいくらですか。",
+                "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどんな<ruby>先生<rt>せんせい</rt></ruby>ですか。",
                 "target_id": "L08_02_Q2",
                 "choices": [
-                    "とても<ruby>安<rt>やす</rt></ruby>いです",
-                    "<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>いです",
-                    "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>高<rt>たか</rt></ruby>くないです"
+                    "<ruby>厳<rt>きび</rt></ruby>しい<ruby>先生<rt>せんせい</rt></ruby>です",
+                    "<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>です",
+                    "<ruby>元気<rt>げんき</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>です"
                 ],
                 "answer_index": 1
             }
@@ -69,38 +59,29 @@ export const textbooks_level_08: Textbook[] = [
     {
         "id": "TEXTBOOK_L08_03",
         "level": 8,
-        "title": "<ruby>冷<rt>つめ</rt></ruby>たいお<ruby>茶<rt>ちゃ</rt></ruby>はいかがですか",
+        "title": "おいしいレストラン",
         "schema_activation": [
-            "<ruby>今日<rt>きょう</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうですか。 <ruby>暑<rt>あつ</rt></ruby>いですか。",
-            "あなたは お<ruby>茶<rt>ちゃ</rt></ruby>や コーヒーが <ruby>好<rt>す</rt></ruby>きですか。"
+            "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>はおいしいですか。",
+            "あなたは<ruby>熱<rt>あつ</rt></ruby>いコーヒーを<ruby>飲<rt>の</rt></ruby>みますか。"
         ],
-        "translation": "<p>Today is a very hot day. Kim is at home.<br>Ana: \"Kim-san, it's hot today, isn't it? Is your room cool?\"<br>Kim: \"Yes, my room is cool and very comfortable. Please come in.\"<br>Kim: \"Would you like some cold tea? Or would you like some hot coffee?\"<br>Ana: \"Then, I'll have some cold tea, please. Thank you very much.\"<br>Kim's room is clean and very quiet. The tea was very delicious. The two of them talked enjoyably in the cool room.</p>",
-        "textbook_html": "<p><span id=\"L08_03_Q1\"><ruby>今日<rt>きょう</rt></ruby>はとても<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>です。</span>キムさんは<ruby>家<rt>うち</rt></ruby>にいます。<br>アナ「キムさん、<ruby>今日<rt>きょう</rt></ruby>は<ruby>暑<rt>あつ</rt></ruby>いですね。キムさんの<ruby>部屋<rt>へや</rt></ruby>は<ruby>涼<rt>すず</rt></ruby>しいですか」<br>キム「はい、<ruby>私<rt>わたし</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>は<ruby>涼<rt>すず</rt></ruby>しくてとても<ruby>気持<rt>きも</rt></ruby>ちがいいですよ。どうぞ<ruby>入<rt>はい</rt></ruby>ってください」<br>キム「<ruby>冷<rt>つめ</rt></ruby>たいお<ruby>茶<rt>ちゃ</rt></ruby>はいかがですか。それとも<ruby>熱<rt>あつ</rt></ruby>いコーヒーがいいですか」<br>アナ「じゃあ、<ruby>冷<rt>つめ</rt></ruby>たいお<ruby>茶<rt>ちゃ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。ありがとうございます」<br><span id=\"L08_03_Q2\">キムさんの<ruby>部屋<rt>へや</rt></ruby>は<ruby>綺麗<rt>きれい</rt></ruby>でとても<ruby>静<rt>しず</rt></ruby>かです。</span><span id=\"L08_03_Q3\">お<ruby>茶<rt>ちゃ</rt></ruby>はとてもおいしかったです。</span><ruby>涼<rt>すず</rt></ruby>しい<ruby>部屋<rt>へや</rt></ruby>で<ruby>二人<rt>ふたり</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しく<ruby>話<rt>はな</rt></ruby>しました。</p>",
+        "translation": "<p>John eats at a restaurant every day. This restaurant is expensive, but it is very delicious. The restaurant is open from 10 am to 8 pm. John eats fish. The fish at this restaurant is very delicious. Then, John drinks coffee. The coffee is very hot. It is not cold. Sometimes, he drinks tea. The tea is not very hot. John reads a newspaper at the restaurant. Japanese newspapers are interesting, but difficult.</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>レストランでごはんを<ruby>食<rt>た</rt></ruby>べます。</span><span id=\"L08_03_Q1\" style=\"display: inline-block;\">このレストランは<ruby>高<rt>たか</rt></ruby>いですが、とてもおいしいです。</span><br><span style=\"display: inline-block;\">レストランは<ruby>午前<rt>ごぜん</rt></ruby>10<ruby>時<rt>じ</rt></ruby>から<ruby>午後<rt>ごご</rt></ruby>8<ruby>時<rt>じ</rt></ruby>までです。</span><span style=\"display: inline-block;\">ジョンさんは<ruby>魚<rt>さかな</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。</span><br><span style=\"display: inline-block;\">このレストランの<ruby>魚<rt>さかな</rt></ruby>はとてもおいしいです。</span><span style=\"display: inline-block;\">それからジョンさんはコーヒーを<ruby>飲<rt>の</rt></ruby>みます。</span><br><span id=\"L08_03_Q2\" style=\"display: inline-block;\">コーヒーはとても<ruby>熱<rt>あつ</rt></ruby>いです。</span><span style=\"display: inline-block;\"><ruby>冷<rt>つめ</rt></ruby>たくないです。</span><br><span style=\"display: inline-block;\"><ruby>時々<rt>ときどき</rt></ruby>、お<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。</span><span style=\"display: inline-block;\">お<ruby>茶<rt>ちゃ</rt></ruby>はあまり<ruby>熱<rt>あつ</rt></ruby>くないです。</span><br><span style=\"display: inline-block;\">ジョンさんはレストランで<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。</span><span style=\"display: inline-block;\"><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>はおもしろいですが、<ruby>難<rt>むずか</rt></ruby>しいです。</span></p>",
         "quizzes": [
             {
-                "question": "<ruby>今日<rt>きょう</rt></ruby>はどんな<ruby>日<rt>ひ</rt></ruby>ですか。",
+                "question": "このレストランはおいしいですか。",
                 "target_id": "L08_03_Q1",
                 "choices": [
-                    "<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>です",
-                    "<ruby>寒<rt>さむ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>です"
+                    "はい、おいしいです",
+                    "いいえ、おいしくないです"
                 ],
                 "answer_index": 0
             },
             {
-                "question": "キムさんの<ruby>部屋<rt>へや</rt></ruby>はどうですか。",
+                "question": "ジョンさんのコーヒーは<ruby>冷<rt>つめ</rt></ruby>たいですか。",
                 "target_id": "L08_03_Q2",
                 "choices": [
-                    "<ruby>賑<rt>にぎ</rt></ruby>やかです",
-                    "<ruby>綺麗<rt>きれい</rt></ruby>で<ruby>静<rt>しず</rt></ruby>かです"
-                ],
-                "answer_index": 1
-            },
-            {
-                "question": "アナさんは<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みましたか。",
-                "target_id": "L08_03_Q3",
-                "choices": [
-                    "<ruby>熱<rt>あつ</rt></ruby>いコーヒー",
-                    "<ruby>冷<rt>つめ</rt></ruby>たいお<ruby>茶<rt>ちゃ</rt></ruby>"
+                    "はい、<ruby>冷<rt>つめ</rt></ruby>たいです",
+                    "いいえ、<ruby>冷<rt>つめ</rt></ruby>たくないです"
                 ],
                 "answer_index": 1
             }
@@ -109,41 +90,41 @@ export const textbooks_level_08: Textbook[] = [
     {
         "id": "TEXTBOOK_L08_04",
         "level": 8,
-        "title": "<ruby>賑<rt>にぎ</rt></ruby>やかな<ruby>町<rt>まち</rt></ruby>と<ruby>静<rt>しず</rt></ruby>かな<ruby>町<rt>まち</rt></ruby>",
+        "title": "<ruby>新<rt>あたら</rt></ruby>しいかばんと<ruby>時計<rt>とけい</rt></ruby>",
         "schema_activation": [
-            "あなたの <ruby>国<rt>くに</rt></ruby>の <ruby>地下鉄<rt>ちかてつ</rt></ruby>は <ruby>綺麗<rt>きれい</rt></ruby>ですか。",
-            "あなたの <ruby>町<rt>まち</rt></ruby>の <ruby>公園<rt>こうえん</rt></ruby>は <ruby>広<rt>ひろ</rt></ruby>いですか。"
+            "あなたのかばんは<ruby>新<rt>あたら</rt></ruby>しいですか。",
+            "<ruby>日本<rt>にほん</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>は<ruby>高<rt>たか</rt></ruby>いですか。"
         ],
-        "translation": "<p>Pak is from a small town in Korea. His town is very quiet and beautiful. On the other hand, the town he lives in now is a very big city in Japan. It is lively and very convenient.<br>Pak: \"Eric-san, your town in America is also big, isn't it? Is it a lively place?\"<br>Eric: \"No, my town is not very lively. But there are many trees and it is a very pretty town.\"<br>Pak: \"I see. Japanese cities are convenient, but they are a little noisy. My town in Korea is very quiet and I like it very much.\"<br>Eric: \"Is the food in your town delicious?\"<br>Pak: \"Yes, the food in my town is very cheap and delicious. The people are also very kind.\"<br>Next week, the two of them will go to a famous and quiet temple together by bus. Eric will take many photos there. Pak is already very happy. It will be a wonderful trip.</p>",
-        "textbook_html": "<p><span id=\"L08_04_Q1\">パクさんは<ruby>韓国<rt>かんこく</rt></ruby>の<ruby>小<rt>ちい</rt></ruby>さな<ruby>町<rt>まち</rt></ruby>から<ruby>来<rt>き</rt></ruby>ました。</span><br>パクさんの<ruby>町<rt>まち</rt></ruby>はとても<ruby>静<rt>しず</rt></ruby>かで<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>です。<br>でも、<ruby>今<rt>いま</rt></ruby><ruby>住<rt>す</rt></ruby>んでいる<ruby>日本<rt>にほん</rt></ruby>の<ruby>町<rt>まち</rt></ruby>はとても<ruby>大<rt>おお</rt></ruby>きいです。<ruby>賑<rt>にぎ</rt></ruby>やかでとても<ruby>便利<rt>べんり</rt></ruby>な<ruby>所<rt>ところ</rt></ruby>ですよ。<br>パク「エリックさんのアメリカの<ruby>町<rt>まち</rt></ruby>も<ruby>大<rt>おお</rt></ruby>きいですね。<ruby>賑<rt>にぎ</rt></ruby>やかな<ruby>場所<rt>ばしょ</rt></ruby>ですか」<br>エリック「いいえ、あまり<ruby>賑<rt>にぎ</rt></ruby>やかじゃありません。でも、<ruby>木<rt>き</rt></ruby>がたくさんあって、とてもきれいな<ruby>町<rt>まち</rt></ruby>ですよ」<br>パク「そうですか。<ruby>日本<rt>にほん</rt></ruby>の<ruby>町<rt>まち</rt></ruby>は<ruby>便利<rt>べんり</rt></ruby>ですが、<ruby>少<rt>すこ</rt></ruby>しうるさいです。<ruby>韓国<rt>かんこく</rt></ruby>の<ruby>町<rt>まち</rt></ruby>はとても<ruby>静<rt>しず</rt></ruby>かですから、<ruby>私<rt>わたし</rt></ruby>はとても<ruby>好<rt>す</rt></ruby>きです」<br>エリック「パクさんの<ruby>町<rt>まち</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>はおいしいですか」<br><span id=\"L08_04_Q2\">パク「はい、とても<ruby>安<rt>やす</rt></ruby>くておいしいです。<ruby>人<rt>ひと</rt></ruby>もとても<ruby>親切<rt>しんせつ</rt></ruby>ですよ」</span><br><span id=\"L08_04_Q3\"><ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>二人<rt>ふたり</rt></ruby>は<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>静<rt>しず</rt></ruby>かなお<ruby>寺<rt>てら</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。</span>エリックさんはそこで<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>ります。パクさんはもうとても<ruby>嬉<rt>うれ</rt></ruby>しいです。お<ruby>寺<rt>てら</rt></ruby>までバスで<ruby>行<rt>い</rt></ruby>きます。とてもすばらしい<ruby>旅行<rt>りょこう</rt></ruby>になります。</p>",
+        "translation": "<p>John went to a department store yesterday. He bought a new bag at the department store. The bag is not big, but it is very convenient. It is a very good bag. John went to the station today. He met Kim at the station. Kim saw John's bag.<br>Kim: \"John-san, is that a new bag?\"<br>John: \"Yes, I bought it yesterday. It is a very convenient bag.\"<br>Kim: \"Wow, it is a beautiful bag.\"<br>John: \"Thank you very much. Bags from this department store are not very expensive. Is your watch new too, Kim-san?\"<br>Kim: \"Yes, that's right. My watch is also new. This is a Japanese watch.\"<br>John: \"Wow, it is a lovely watch.\"<br>Kim: \"Yes. It is not cheap, but it is a very good watch. Is your necktie new too, John-san?\"<br>John: \"No, it is not new. I got it from my mother last year.\"<br>Kim: \"It is very beautiful.\"</p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>昨日<rt>きのう</rt></ruby>デパートへ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\">デパートで<ruby>新<rt>あたら</rt></ruby>しいかばんを<ruby>買<rt>か</rt></ruby>いました。</span><br><span id=\"L08_04_Q1\" style=\"display: inline-block;\">かばんは<ruby>大<rt>おお</rt></ruby>きくないですが、とても<ruby>便利<rt>べんり</rt></ruby>です。</span><span style=\"display: inline-block;\">とてもいいかばんです。</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>今日<rt>きょう</rt></ruby><ruby>駅<rt>えき</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>駅<rt>えき</rt></ruby>でキムさんに<ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">キムさんはジョンさんのかばんを<ruby>見<rt>み</rt></ruby>ました。</span><br><span style=\"display: inline-block;\">キム「ジョンさん、それは<ruby>新<rt>あたら</rt></ruby>しいかばんですか」</span><br><span style=\"display: inline-block;\">ジョン「はい、<ruby>昨日<rt>きのう</rt></ruby><ruby>買<rt>か</rt></ruby>いました。</span><span style=\"display: inline-block;\">とても<ruby>便利<rt>べんり</rt></ruby>なかばんです」</span><br><span style=\"display: inline-block;\">キム「わあ、きれいなかばんですね」</span><br><span style=\"display: inline-block;\">ジョン「ありがとうございます。</span><span style=\"display: inline-block;\">このデパートのかばんはあまり<ruby>高<rt>たか</rt></ruby>くないです。</span><span style=\"display: inline-block;\">キムさんの<ruby>時計<rt>とけい</rt></ruby>も<ruby>新<rt>あたら</rt></ruby>しいですか」</span><br><span id=\"L08_04_Q2\" style=\"display: inline-block;\">キム「はい、そうです。</span><span style=\"display: inline-block;\"><ruby>私<rt>わたし</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>も<ruby>新<rt>あたら</rt></ruby>しいです。</span><span style=\"display: inline-block;\">これは<ruby>日本<rt>にほん</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です」</span><br><span style=\"display: inline-block;\">ジョン「わあ、すてきな<ruby>時計<rt>とけい</rt></ruby>ですね」</span><br><span style=\"display: inline-block;\">キム「ええ。</span><span style=\"display: inline-block;\"><ruby>安<rt>やす</rt></ruby>くないですが、とてもいい<ruby>時計<rt>とけい</rt></ruby>です。</span><span style=\"display: inline-block;\">ジョンさんのネクタイも<ruby>新<rt>あたら</rt></ruby>しいですか」</span><br><span id=\"L08_04_Q3\" style=\"display: inline-block;\">ジョン「いいえ、<ruby>新<rt>あたら</rt></ruby>しくありません。</span><span style=\"display: inline-block;\"><ruby>去年<rt>きょねん</rt></ruby><ruby>母<rt>はは</rt></ruby>にもらいました」</span><br><span style=\"display: inline-block;\">キム「とてもきれいですね」</span></p>",
         "quizzes": [
             {
-                "question": "パクさんの<ruby>国<rt>くに</rt></ruby>の<ruby>町<rt>まち</rt></ruby>はどうですか。",
+                "question": "ジョンさんのかばんは<ruby>大<rt>おお</rt></ruby>きいですか。",
                 "target_id": "L08_04_Q1",
                 "choices": [
-                    "<ruby>賑<rt>にぎ</rt></ruby>やかでうるさいです",
-                    "<ruby>静<rt>しず</rt></ruby>かで<ruby>綺麗<rt>きれい</rt></ruby>です"
+                    "はい、<ruby>大<rt>おお</rt></ruby>きいです",
+                    "いいえ、<ruby>大<rt>おお</rt></ruby>きくないです"
                 ],
                 "answer_index": 1
             },
             {
-                "question": "パクさんの<ruby>町<rt>まち</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>はどうですか。",
+                "question": "キムさんの<ruby>時計<rt>とけい</rt></ruby>はどこのですか。",
                 "target_id": "L08_04_Q2",
                 "choices": [
-                    "<ruby>高<rt>たか</rt></ruby>いですが、おいしいです",
-                    "<ruby>安<rt>やす</rt></ruby>くておいしいです"
-                ],
-                "answer_index": 1
-            },
-            {
-                "question": "<ruby>二人<rt>ふたり</rt></ruby>はどこへ<ruby>行<rt>い</rt></ruby>きますか。",
-                "target_id": "L08_04_Q3",
-                "choices": [
-                    "<ruby>静<rt>しず</rt></ruby>かなお<ruby>寺<rt>てら</rt></ruby>",
-                    "アメリカの<ruby>町<rt>まち</rt></ruby>",
-                    "<ruby>賑<rt>にぎ</rt></ruby>やかな<ruby>デパート<rt></rt></ruby>"
+                    "<ruby>日本<rt>にほん</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です",
+                    "アメリカの<ruby>時計<rt>とけい</rt></ruby>です",
+                    "<ruby>韓国<rt>かんこく</rt></ruby>の<ruby>時計<rt>とけい</rt></ruby>です"
                 ],
                 "answer_index": 0
+            },
+            {
+                "question": "ジョンさんのネクタイは<ruby>新<rt>あたら</rt></ruby>しいですか。",
+                "target_id": "L08_04_Q3",
+                "choices": [
+                    "はい、<ruby>新<rt>あたら</rt></ruby>しいです",
+                    "いいえ、<ruby>新<rt>あたら</rt></ruby>しくありません"
+                ],
+                "answer_index": 1
             }
         ],
         "audio_file": "/audio/L08_04.mp3"

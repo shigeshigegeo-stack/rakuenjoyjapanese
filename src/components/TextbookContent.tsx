@@ -311,7 +311,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
     };
 
     return (
-        <div className={`story-container animate-fade-in`}>
+        <div className={`story-container animate-fade-in`} style={{ marginBottom: activeQuizIndex !== null ? '60vh' : '0' }}>
             {/* Level and Blossom Indicator using existing LevelBadge style logic */}
             <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
                 {levelDisplay && (
@@ -397,7 +397,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                 >
                     ふりがな ON/OFF
                 </button>
-                <TextToSpeechButton text={displayContent} label="🔊 音声を聞く" className="control-btn" audioSrc={textbook.audio_file} />
+                <TextToSpeechButton text={displayContent} label="🔊 Play" className="control-btn" audioSrc={textbook.audio_file} />
             </div>
 
             {/* Main Textbook Content */}
@@ -546,6 +546,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           margin: 0 auto;
           position: relative;
           overflow: hidden;
+          transition: margin-bottom 0.3s ease;
         }
         .story-title {
           color: var(--text-color); 
