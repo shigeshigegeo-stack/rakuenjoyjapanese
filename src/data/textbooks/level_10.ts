@@ -16,7 +16,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "いすの<ruby>下<rt>した</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
                 "choices": [
                     "<ruby>新聞<rt>しんぶん</rt></ruby>があります",
-                    "<ruby>猫<rt>ねこ</rt></ruby>がいます"
+                    "<ruby>猫<rt>ねこ</rt></ruby>がいます",
+                    "<ruby>犬<rt>いぬ</rt></ruby>がいます"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_01_Q1"
@@ -39,7 +40,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>何<rt>なに</rt></ruby>がありますか。",
                 "choices": [
                     "<ruby>写真<rt>しゃしん</rt></ruby>",
-                    "<ruby>消<rt>け</rt></ruby>しゴム"
+                    "<ruby>消<rt>け</rt></ruby>しゴム",
+                    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_02_Q1"
@@ -48,7 +50,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "<ruby>銀行<rt>ぎんこう</rt></ruby>はどこにありますか。",
                 "choices": [
                     "デパートの<ruby>隣<rt>となり</rt></ruby>",
-                    "デパートの<ruby>中<rt>なか</rt></ruby>"
+                    "デパートの<ruby>中<rt>なか</rt></ruby>",
+                    "デパートの<ruby>前<rt>まえ</rt></ruby>"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_02_Q2"
@@ -71,7 +74,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "<ruby>社長<rt>しゃちょう</rt></ruby>はどこにいますか。",
                 "choices": [
                     "<ruby>事務所<rt>じむしょ</rt></ruby>",
-                    "<ruby>会議室<rt>かいぎしつ</rt></ruby>"
+                    "<ruby>会議室<rt>かいぎしつ</rt></ruby>",
+                    "<ruby>食堂<rt>しょくどう</rt></ruby>"
                 ],
                 "answer_index": 1,
                 "target_id": "L10_03_Q1"
@@ -80,7 +84,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "<ruby>社長<rt>しゃちょう</rt></ruby>のかばんはどこにありますか。",
                 "choices": [
                     "テーブルの<ruby>下<rt>した</rt></ruby>",
-                    "テーブルの<ruby>上<rt>うえ</rt></ruby>"
+                    "テーブルの<ruby>上<rt>うえ</rt></ruby>",
+                    "いすの<ruby>上<rt>うえ</rt></ruby>"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_03_Q2"
@@ -103,7 +108,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "<ruby>本屋<rt>ほんや</rt></ruby>はどこにありますか。",
                 "choices": [
                     "ビルの<ruby>一階<rt>いっかい</rt></ruby>",
-                    "ビルの<ruby>二階<rt>にかい</rt></ruby>"
+                    "ビルの<ruby>二階<rt>にかい</rt></ruby>",
+                    "ビルの<ruby>三階<rt>さんがい</rt></ruby>"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_04_Q1"
@@ -112,7 +118,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "ポストはどこにありますか。",
                 "choices": [
                     "ビルの<ruby>中<rt>なか</rt></ruby>",
-                    "ビルの<ruby>前<rt>まえ</rt></ruby>"
+                    "ビルの<ruby>前<rt>まえ</rt></ruby>",
+                    "ビルの<ruby>隣<rt>となり</rt></ruby>"
                 ],
                 "answer_index": 1,
                 "target_id": "L10_04_Q2"
@@ -121,7 +128,8 @@ export const textbooks_level_10: Textbook[] = [
                 "question": "ジョンさんは<ruby>本屋<rt>ほんや</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>買<rt>か</rt></ruby>いましたか。",
                 "choices": [
                     "<ruby>漢字<rt>かんじ</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>",
-                    "コーヒー"
+                    "コーヒー",
+                    "スマホ"
                 ],
                 "answer_index": 0,
                 "target_id": "L10_04_Q3"

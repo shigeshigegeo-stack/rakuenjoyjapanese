@@ -12,35 +12,29 @@ function checkPunctuation() {
 
     let violationCount = 0;
 
-    textbooks.forEach((story: Textbook) => {
+    textbooks.forEach((textbook: Textbook) => {
         // Only check Level 1 to 10
-        if (story.level > 10) return;
+        if (Number(textbook.level) > 10) return;
 
-        const id = story.id;
+        const id = textbook.id;
 
         // 1. Check Schema Activation (BR)
-        if (story.schema_activation) {
-            story.schema_activation.forEach((text, i) => {
+        if (textbook.schema_activation) {
+            textbook.schema_activation.forEach((text, i) => {
                 const trimmed = text.trim();
-                const lastChar = trimmed.slice(-1);
-                // Should end with punctuation (。 ? ！ or combinations)
-                // Note: Japanese text might use fullwidth '？' or '。'
-                const isValid = /[。？!！]$/.test(trimmed) || /<\/rt><\/ruby>[。？!！]/.test(trimmed) || /[。？!！]<br>$/.test(trimmed);
-                // Simplified regex, assuming typical endings. 
-                // Let's rely on standard Japanese punctuation check.
-                if (!/[。？!！]$/.test(trimmed)) {
-                    // Check if it's potentially inside a tag (unlikely for plain text schema usually)
-                    if (!/[。？!！]/.test(trimmed.replace(/<[^>]+>/g, ''))) {
-                        console.log(`${yellow('[SA Violation]')} ${id} Schema #${i + 1}: "${text}" (Should end with punctuation)`);
-                        violationCount++;
-                    }
+                // Check if it ends with punctuation, ignoring HTML tags
+                const plainText = trimmed.replace(/<[^>]+>/g, '').trim();
+
+                if (plainText.length > 0 && !/[。？!！]$/.test(plainText)) {
+                    console.log(`${yellow('[SA Violation]')} ${id} Schema #${i + 1}: "${text}" (Should end with punctuation)`);
+                    violationCount++;
                 }
             });
         }
 
         // 2 & 3. Check Quizzes (CYU)
-        if (story.quizzes) {
-            story.quizzes.forEach((quiz, i) => {
+        if (textbook.quizzes) {
+            textbook.quizzes.forEach((quiz, i) => {
                 // Check Question
                 if (quiz.question) {
                     const trimmedQ = quiz.question.trim();

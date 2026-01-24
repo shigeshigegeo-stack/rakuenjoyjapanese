@@ -410,7 +410,7 @@ function HomeContent() {
         </button>
       </div>
 
-      {/* Textbooks Content Area (Formerly Stories) */}
+      {/* Textbooks Content Area */}
       {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
           <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
@@ -467,7 +467,7 @@ function HomeContent() {
             </div>
           </div>
 
-          {/* Story Length Legend */}
+          {/* Textbook Length Legend */}
           <div style={{ textAlign: 'left', marginBottom: '1rem', color: '#555', fontSize: '0.95rem' }}>
             <span>🌸Short 100-150字</span>
             <span style={{ margin: '0 1rem' }}>🌸🌸Medium 200-250字</span>
@@ -586,7 +586,7 @@ function HomeContent() {
       )
       }
 
-      {/* Stories Placeholder */}
+      {/* Extra Content Placeholder */}
       {
         activeTab === 'extra' && (
           <div className="animate-fade-in" style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-light)' }}>

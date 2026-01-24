@@ -16,7 +16,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "ジョンさんはキムさんに<ruby>何<rt>なに</rt></ruby>をあげましたか。",
                 "choices": [
                     "ネクタイ",
-                    "コーヒー"
+                    "コーヒー",
+                    "<ruby>本<rt>ほん</rt></ruby>"
                 ],
                 "answer_index": 0,
                 "target_id": "L07_01_Q1"
@@ -39,7 +40,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "アナさんは<ruby>今日<rt>きょう</rt></ruby>何でレポートを<ruby>書<rt>か</rt></ruby>きましたか。",
                 "choices": [
                     "ペン",
-                    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>"
+                    "<ruby>鉛筆<rt>えんぴつ</rt></ruby>",
+                    "パソコン"
                 ],
                 "answer_index": 0,
                 "target_id": "L07_02_Q1"
@@ -48,7 +50,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "アナさんはキムさんに<ruby>何<rt>なに</rt></ruby>を<ruby>借<rt>か</rt></ruby>りましたか。",
                 "choices": [
                     "ペン",
-                    "<ruby>消<rt>け</rt></ruby>しゴム"
+                    "<ruby>消<rt>け</rt></ruby>しゴム",
+                    "ノート"
                 ],
                 "answer_index": 1,
                 "target_id": "L07_02_Q1"
@@ -71,7 +74,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "ジョンさんは<ruby>誰<rt>だれ</rt></ruby>にプレゼントを<ruby>買<rt>か</rt></ruby>いましたか。",
                 "choices": [
                     "キムさん",
-                    "<ruby>家族<rt>かぞく</rt></ruby>"
+                    "<ruby>家族<rt>かぞく</rt></ruby>",
+                    "<ruby>友達<rt>ともだち</rt></ruby>"
                 ],
                 "answer_index": 1,
                 "target_id": "L07_03_Q1"
@@ -103,7 +107,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "アナさんは<ruby>誰<rt>だれ</rt></ruby>に<ruby>日本語<rt>にほんご</rt></ruby>をならいますか。",
                 "choices": [
                     "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>に ならいます",
-                    "キムさんに ならいます"
+                    "キムさんに ならいます",
+                    "ジョンさんに ならいます"
                 ],
                 "answer_index": 0,
                 "target_id": "L07_04_Q1"
@@ -112,7 +117,8 @@ export const textbooks_level_07: Textbook[] = [
                 "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はアナさんに<ruby>何<rt>なに</rt></ruby>をもらいましたか。",
                 "choices": [
                     "<ruby>辞書<rt>じしょ</rt></ruby>",
-                    "お<ruby>土産<rt>みやげ</rt></ruby>"
+                    "お<ruby>土産<rt>みやげ</rt></ruby>",
+                    "レポート"
                 ],
                 "answer_index": 1,
                 "target_id": "L07_04_Q2"

@@ -50,7 +50,8 @@ export const textbooks_level_06: Textbook[] = [
                 "question": "キムさんは<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。それから<ruby>何<rt>なに</rt></ruby>をしますか。",
                 "choices": [
                     "<ruby>勉強<rt>べんきょう</rt></ruby>をします",
-                    "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます"
+                    "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます",
+                    "デパートへ<ruby>行<rt>い</rt></ruby>きます"
                 ],
                 "answer_index": 1,
                 "target_id": "L06_02_Q2"
@@ -83,7 +84,8 @@ export const textbooks_level_06: Textbook[] = [
                 "question": "ジョンさんはお<ruby>茶<rt>ちゃ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。それから<ruby>何<rt>なに</rt></ruby>をしますか。",
                 "choices": [
                     "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます",
-                    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます"
+                    "<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます",
+                    "テレビを<ruby>見<rt>み</rt></ruby>ます"
                 ],
                 "answer_index": 1,
                 "target_id": "L06_03_Q2"

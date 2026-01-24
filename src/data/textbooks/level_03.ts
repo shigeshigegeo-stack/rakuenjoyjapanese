@@ -17,7 +17,8 @@ export const textbooks_level_03: Textbook[] = [
                 "target_id": "L03_01_Q1",
                 "choices": [
                     "<ruby>一階<rt>いっかい</rt></ruby>",
-                    "<ruby>二階<rt>にかい</rt></ruby>"
+                    "<ruby>二階<rt>にかい</rt></ruby>",
+                    "<ruby>ロビー<rt>ろびー</rt></ruby>"
                 ],
                 "answer_index": 1
             }

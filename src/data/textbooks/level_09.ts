@@ -48,7 +48,8 @@ export const textbooks_level_09: Textbook[] = [
                 "question": "キムさんは<ruby>明日<rt>あした</rt></ruby>どうしてテニスをしませんか。",
                 "choices": [
                     "テニスが<ruby>嫌<rt>きら</rt></ruby>いですから",
-                    "<ruby>用事<rt>ようじ</rt></ruby>がありますから"
+                    "<ruby>用事<rt>ようじ</rt></ruby>がありますから",
+                    "サッカーをしますから"
                 ],
                 "answer_index": 1,
                 "target_id": "L09_02_Q2"
@@ -65,13 +66,14 @@ export const textbooks_level_09: Textbook[] = [
             "あなたは<ruby>今<rt>いま</rt></ruby><ruby>時間<rt>じかん</rt></ruby>がありますか。"
         ],
         "translation": "<p>John met Kim at a restaurant today.<br>John: &quot;Hello, Kim-san. Would you like to have lunch with me?&quot;<br>Kim: &quot;That sounds good. Ah, but I have plans today, so I don't have time.&quot;<br>John: &quot;I see. Then, would you like to go to a concert with me tomorrow? I have tickets.&quot;<br>Kim: &quot;Wow, that sounds good. I love music.&quot;<br>John: &quot;Let's meet at the station at 6 o'clock tomorrow.&quot;<br>Kim: &quot;Okay.&quot;<br>John and Kim will meet at the station at 6 o'clock tomorrow. Since John has tickets, he will go to the concert with Kim.</p>",
-        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>今日<rt>きょう</rt></ruby>レストランでキムさんに<ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">ジョン「キムさん、こんにちは。<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べませんか」</span><br><span id=\"L09_03_Q1\" style=\"display: inline-block;\">キム「いいですね。あ、でも、<ruby>今日<rt>きょう</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>がありますから、<ruby>時間<rt>じかん</rt></ruby>がありません」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。じゃ、<ruby>明日<rt>あした</rt></ruby><ruby>一緒<rt>いっしょ</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>きませんか。チケットがありますよ」</span><br><span style=\"display: inline-block;\">キム「わあ、いいですね。<ruby>私<rt>わたし</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです」</span><br><span id=\"L09_03_Q2\" style=\"display: inline-block;\">ジョン「<ruby>明日<rt>あした</rt></ruby><ruby>六時<rt>ろくじ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>いましょう」</span><br><span style=\"display: inline-block;\">キム「わかりました」</span><br><span style=\"display: inline-block;\">ジョンさんとキムさんは<ruby>明日<rt>あした</rt></ruby><ruby>六時<rt>ろくじ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>います。</span><span style=\"display: inline-block;\">ジョンさんはチケットがありますから、キムさんと<ruby>一緒<rt>いっしょ</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>きます。</span></p>",
+        "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>今日<rt>きょう</rt></ruby>レストランでキムさんに<ruby>会<rt>あ</rt></ruby>いました。</span><br><span style=\"display: inline-block;\">ジョン「キムさん、こんにちは。<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>昼<rt>ひる</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べませんか」</span><br><span id=\"L09_03_Q1\" style=\"display: inline-block;\">キム「いいですね。あ、でも、<ruby>今日<rt>きょう</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>がありますから、<ruby>時間<rt>じかん</rt></ruby>がありません」</span><br><span style=\"display: inline-block;\">ジョン「そうですか。じゃ、<ruby>明日<rt>あした</rt></ruby><ruby>一緒<rt>いっしょ</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>きませんか。チケットがありますよ」</span><br><span style=\"display: inline-block;\">キム「わあ、いいですね。<ruby>私<rt>わたし</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです」</span><br><span id=\"L09_03_Q2\" style=\"display: inline-block;\">ジョン「<ruby>明日<rt>あした</rt></ruby>6<ruby>時<rt>じ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>いましょう」</span><br><span style=\"display: inline-block;\">キム「わかりました」</span><br><span style=\"display: inline-block;\">ジョンさんとキムさんは<ruby>明日<rt>あした</rt></ruby>6<ruby>時<rt>じ</rt></ruby>に<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>います。</span><span style=\"display: inline-block;\">ジョンさんはチケットがありますから、キムさんと<ruby>一緒<rt>いっしょ</rt></ruby>にコンサートへ<ruby>行<rt>い</rt></ruby>きます。</span></p>",
         "quizzes": [
             {
                 "question": "キムさんは<ruby>今日<rt>きょう</rt></ruby>どうして<ruby>時間<rt>じかん</rt></ruby>がありませんか。",
                 "choices": [
                     "<ruby>約束<rt>やくそく</rt></ruby>がありますから",
-                    "<ruby>用事<rt>ようじ</rt></ruby>がありませんから"
+                    "<ruby>用事<rt>ようじ</rt></ruby>がありませんから",
+                    "<ruby>仕事<rt>しごと</rt></ruby>がありますから"
                 ],
                 "answer_index": 0,
                 "target_id": "L09_03_Q1"
@@ -80,7 +82,8 @@ export const textbooks_level_09: Textbook[] = [
                 "question": "ジョンさんとキムさんは<ruby>明日<rt>あした</rt></ruby>どこで<ruby>会<rt>あ</rt></ruby>いますか。",
                 "choices": [
                     "<ruby>駅<rt>えき</rt></ruby>で<ruby>会<rt>あ</rt></ruby>います",
-                    "レストランで<ruby>会<rt>あ</rt></ruby>います"
+                    "レストランで<ruby>会<rt>あ</rt></ruby>います",
+                    "デパートで<ruby>会<rt>あ</rt></ruby>います"
                 ],
                 "answer_index": 0,
                 "target_id": "L09_03_Q2"
@@ -103,7 +106,8 @@ export const textbooks_level_09: Textbook[] = [
                 "question": "アナさんはどうして<ruby>毎日<rt>まいにち</rt></ruby><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
                 "choices": [
                     "<ruby>日本<rt>にほん</rt></ruby>の<ruby>映画<rt>えいが</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですから",
-                    "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですから"
+                    "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですから",
+                    "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですから"
                 ],
                 "answer_index": 0,
                 "target_id": "L09_04_Q1"
@@ -121,7 +125,8 @@ export const textbooks_level_09: Textbook[] = [
                 "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどうして<ruby>毎日<rt>まいにち</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>をしますか。",
                 "choices": [
                     "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですから",
-                    "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですから"
+                    "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>ですから",
+                    "<ruby>音楽<rt>おんがく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですから"
                 ],
                 "answer_index": 0,
                 "target_id": "L09_04_Q3"

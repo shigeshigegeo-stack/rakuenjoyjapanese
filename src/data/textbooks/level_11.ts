@@ -4,7 +4,7 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_01",
     "level": 11,
-    "title": "<ruby>物<rt>もの</rt></ruby>の<ruby>数<rt>かず</rt></ruby> (Short)",
+    "title": "<ruby>物<rt>もの</rt></ruby>の<ruby>数<rt>かず</rt></ruby>",
     "schema_activation": [
       "あなたの<ruby>部屋<rt>へや</rt></ruby>にいすがいくつありますか。",
       "あなたのうちにテレビが<ruby>何台<rt>なんだい</rt></ruby>ありますか。"
@@ -16,7 +16,8 @@ export const textbooks_level_11: Textbook[] = [
         "question": "ジョンさんのうちにいすがいくつありますか。",
         "choices": [
           "1つあります",
-          "2つあります"
+          "2つあります",
+          "3つあります"
         ],
         "answer_index": 1
       }
@@ -26,7 +27,7 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_02",
     "level": 11,
-    "title": "<ruby>家族<rt>かぞく</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby> (Mid)",
+    "title": "<ruby>家族<rt>かぞく</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>",
     "schema_activation": [
       "あなたの<ruby>家族<rt>かぞく</rt></ruby>は<ruby>何人<rt>なににん</rt></ruby>ですか。",
       "あなたは<ruby>兄弟<rt>きょうだい</rt></ruby>が<ruby>何人<rt>なににん</rt></ruby>いますか。"
@@ -38,7 +39,8 @@ export const textbooks_level_11: Textbook[] = [
         "question": "アナさんの<ruby>家族<rt>かぞく</rt></ruby>は<ruby>何人<rt>なににん</rt></ruby>ですか。",
         "choices": [
           "3<ruby>人<rt>にん</rt></ruby>です",
-          "5<ruby>人<rt>にん</rt></ruby>です"
+          "5<ruby>人<rt>にん</rt></ruby>です",
+          "6<ruby>人<rt>にん</rt></ruby>です"
         ],
         "answer_index": 1
       },
@@ -46,7 +48,8 @@ export const textbooks_level_11: Textbook[] = [
         "question": "アナさんは1<ruby>週間<rt>しゅうかん</rt></ruby>に<ruby>何回<rt>なんかい</rt></ruby>メールを<ruby>書<rt>か</rt></ruby>きますか。",
         "choices": [
           "1<ruby>回<rt>かい</rt></ruby><ruby>書<rt>か</rt></ruby>きます",
-          "<ruby>毎日<rt>まいにち</rt></ruby><ruby>書<rt>か</rt></ruby>きます"
+          "<ruby>毎日<rt>まいにち</rt></ruby><ruby>書<rt>か</rt></ruby>きます",
+          "1<ruby>年<rt>ねん</rt></ruby>に1<ruby>回<rt>かい</rt></ruby><ruby>書<rt>か</rt></ruby>きます"
         ],
         "answer_index": 0
       }
@@ -56,7 +59,7 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_03",
     "level": 11,
-    "title": "<ruby>仕事<rt>しごと</rt></ruby>と<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>勉強<rt>べんきょう</rt></ruby> (Mid)",
+    "title": "<ruby>仕事<rt>しごと</rt></ruby>と<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>勉強<rt>べんきょう</rt></ruby>",
     "schema_activation": [
       "あなたは<ruby>毎日<rt>まいにち</rt></ruby>どのくらい<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しますか。",
       "あなたは1<ruby>年<rt>ねん</rt></ruby>に<ruby>何回<rt>なんかい</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>しますか。"
@@ -68,7 +71,8 @@ export const textbooks_level_11: Textbook[] = [
         "question": "ジョンさんは1<ruby>日<rt>にち</rt></ruby>に<ruby>何時間<rt>なんじかん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きますか。",
         "choices": [
           "8<ruby>時間<rt>じかん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きます",
-          "9<ruby>時間<rt>くじかん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きます"
+          "9<ruby>時間<rt>くじかん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きます",
+          "10<ruby>時間<rt>じゅうじかん</rt></ruby><ruby>働<rt>はたら</rt></ruby>きます"
         ],
         "answer_index": 0
       },
@@ -76,7 +80,8 @@ export const textbooks_level_11: Textbook[] = [
         "question": "キムさんはどのくらい<ruby>日本<rt>にほん</rt></ruby>にいますか。",
         "choices": [
           "6か<ruby>月<rt>げつ</rt></ruby>います",
-          "2<ruby>年<rt>ねん</rt></ruby>います"
+          "2<ruby>年<rt>ねん</rt></ruby>います",
+          "3<ruby>年<rt>さんねん</rt></ruby>います"
         ],
         "answer_index": 1
       }
@@ -86,7 +91,7 @@ export const textbooks_level_11: Textbook[] = [
   {
     "id": "TEXTBOOK_L11_04",
     "level": 11,
-    "title": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>と <ruby>映画<rt>えいが</rt></ruby> (Long)",
+    "title": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>と <ruby>映画<rt>えいが</rt></ruby>",
     "schema_activation": [
       "あなたは1か<ruby>月<rt>げつ</rt></ruby>に<ruby>何回<rt>なんかい</rt></ruby><ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ますか。",
       "あなたのうちから<ruby>学校<rt>がっこう</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)までどのくらいかかりますか。"

@@ -82,8 +82,8 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             targetElement = document.getElementById(targetId);
         }
 
-        const storyUniqueId = 'story-content';
-        const storyContent = document.getElementById(storyUniqueId);
+        const textbookUniqueId = 'textbook-content';
+        const textbookContent = document.getElementById(textbookUniqueId);
 
         // Define header offset
         const HEADER_OFFSET = 100;
@@ -92,7 +92,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
         // Safe Zone = Window Height - Header - Overlay (~300px)
         // Let's aim to place the element at roughly 30% - 40% down the screen, rather than right at the top.
 
-        if (targetElement && storyContent) {
+        if (targetElement && textbookContent) {
             // 1. Get absolute position of the target element
             const elementRect = targetElement.getBoundingClientRect();
             const absoluteElementTop = elementRect.top + window.scrollY;
@@ -105,17 +105,17 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             // 3. Calculate desired scroll position
             const targetScrollY = absoluteElementTop - contentOffset;
 
-            // 4. Get absolute position of the story content start
-            const storyRect = storyContent.getBoundingClientRect();
-            const absoluteStoryTop = storyRect.top + window.scrollY;
+            // 4. Get absolute position of the textbook content start
+            const textbookRect = textbookContent.getBoundingClientRect();
+            const absoluteTextbookTop = textbookRect.top + window.scrollY;
 
-            // 5. Calculate minimum scroll position (clamp to start of story)
-            // Ensure we at least show the header + some padding before the story starts
-            const minScrollY = absoluteStoryTop - HEADER_OFFSET - 20;
+            // 5. Calculate minimum scroll position (clamp to start of textbook)
+            // Ensure we at least show the header + some padding before the textbook starts
+            const minScrollY = absoluteTextbookTop - HEADER_OFFSET - 20;
 
-            // 6. Conditional Scroll Clamping based on Story Length
-            // User Request: Apply "Check Your Understanding header below overlay" rule only for Medium/Long stories.
-            // For Short stories, it's physically difficult/impossible due to lack of content, so we skip it.
+            // 6. Conditional Scroll Clamping based on Textbook Length
+            // User Request: Apply "Check Your Understanding header below overlay" rule only for Medium/Long textbooks.
+            // For Short textbooks, it's physically difficult/impossible due to lack of content, so we skip it.
             let maxScrollY = Infinity;
 
             // blossomCount is calculated earlier in the component scope (lines ~140-160).
@@ -141,7 +141,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
             // 7. Determine final scroll position
             // We take the desired target, but clamp it by maxScrollY if applicable.
-            // However, we MUST respect minScrollY (start of story) to avoid scrolling up too far.
+            // However, we MUST respect minScrollY (start of textbook) to avoid scrolling up too far.
             const calculatedScrollY = Math.min(maxScrollY, targetScrollY);
             const finalScrollY = Math.max(calculatedScrollY, minScrollY);
 
@@ -152,12 +152,12 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                 });
             }, 50); // Slight delay to ensure layout stability (optional)
 
-        } else if (storyContent) {
+        } else if (textbookContent) {
             // Fallback
-            const storyRect = storyContent.getBoundingClientRect();
-            const absoluteStoryTop = storyRect.top + window.scrollY;
+            const textbookRect = textbookContent.getBoundingClientRect();
+            const absoluteTextbookTop = textbookRect.top + window.scrollY;
             window.scrollTo({
-                top: absoluteStoryTop - HEADER_OFFSET - 20,
+                top: absoluteTextbookTop - HEADER_OFFSET - 20,
                 behavior: 'smooth'
             });
         }
@@ -311,7 +311,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
     };
 
     return (
-        <div className={`story-container animate-fade-in`} style={{ marginBottom: activeQuizIndex !== null ? '60vh' : '0' }}>
+        <div className={`textbook-container animate-fade-in`} style={{ marginBottom: activeQuizIndex !== null ? '60vh' : '0' }}>
             {/* Level and Blossom Indicator using existing LevelBadge style logic */}
             <div style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '10px' }}>
                 {levelDisplay && (
@@ -345,7 +345,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
                             {String(serialNumber).padStart(2, '0')}
                         </div>
                     )}
-                    <h1 className="story-title" style={{ borderBottom: 'none', paddingBottom: 0, marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: textbook.title }} />
+                    <h1 className="textbook-title" style={{ borderBottom: 'none', paddingBottom: 0, marginBottom: 0 }} dangerouslySetInnerHTML={{ __html: textbook.title }} />
                 </div>
 
                 <div style={{ display: 'flex', gap: '10px' }}>
@@ -402,7 +402,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
 
             {/* Main Textbook Content */}
             <div
-                id="story-content"
+                id="textbook-content"
                 className={hideRuby ? 'hide-ruby' : ''}
                 style={{
                     fontSize: '1.5rem',
@@ -537,7 +537,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             </div>
 
             <style jsx>{`
-        .story-container { 
+        .textbook-container { 
           background: white; 
           padding: 40px; 
           border-radius: 20px; 
@@ -548,7 +548,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           overflow: hidden;
           transition: margin-bottom 0.3s ease;
         }
-        .story-title {
+        .textbook-title {
           color: var(--text-color); 
         }
         .schema-box { 
@@ -738,7 +738,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
           color: #aaa;
         }
 
-        #story-content :global(p) {
+        #textbook-content :global(p) {
             text-align: justify;
             text-justify: inter-ideograph;
             margin-bottom: 1.5em;
@@ -746,7 +746,7 @@ const TextbookContent: React.FC<TextbookContentProps> = ({ textbook, serialNumbe
             letter-spacing: inherit;
         }
 
-        #story-content :global(span[id]) {
+        #textbook-content :global(span[id]) {
             scroll-margin-top: 150px; /* Ensure target is valid even with sticky headers or top spacing */
         }
 
