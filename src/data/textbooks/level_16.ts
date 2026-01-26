@@ -4,56 +4,49 @@ export const textbooks_level_16: Textbook[] = [
   {
     "id": "TEXTBOOK_L16_01",
     "level": 16,
-    "title": "<ruby>朝<rt>あさ</rt></ruby>の ルーティン",
+    "title": "ジョンさんの1<ruby>日<rt>にち</rt></ruby> (Short)",
     "schema_activation": [
-      "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>起<rt>お</rt></ruby>きてから <ruby>何<rt>なに</rt></ruby>を しますか。",
-      "あなたの <ruby>大学<rt>だいがく</rt></ruby>は どうですか。"
+      "あなたは<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>何<rt>なに</rt></ruby>をしてから<ruby>大学<rt>だいがく</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)へ<ruby>行<rt>い</rt></ruby>きますか。",
+      "あなたは<ruby>昨日<rt>きのう</rt></ruby><ruby>何<rt>なに</rt></ruby>をしてから<ruby>寝<rt>ね</rt></ruby>ましたか。"
     ],
-    "textbook_html": "<p>アナさんは <ruby>毎朝<rt>まいあさ</rt></ruby> 6<ruby>時<rt>じ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きます。<br><ruby>顔<rt>かお</rt></ruby>を <ruby>洗<rt>あら</rt></ruby>って、お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んで、それから <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。<br><ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってから、<ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。<br>アナさんの <ruby>大学<rt>だいがく</rt></ruby>は <ruby>広<rt>ひろ</rt></ruby>くて きれいです。</p>",
+    "textbook_html": "<p>ジョンさんは<ruby>毎朝<rt>まいあさ</rt></ruby>6<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に<ruby>起<rt>お</rt></ruby>きて、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。それから<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べて、<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<br>ジョンさんは<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ってから、パソコンでメールを<ruby>見<rt>み</rt></ruby>ます。ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>は7<ruby>時<rt>じ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わります。<br>ジョンさんはうちで<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べてから、1<ruby>時間<rt>じかん</rt></ruby>スマホで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。それから11<ruby>時<rt>じ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>ます。<br>ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>とても<ruby>忙<rt>いそが</rt></ruby>しいです。</p>",
     "quizzes": [
       {
-        "question": "お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んでから <ruby>何<rt>なに</rt></ruby>を しますか。",
+        "question": "ジョンさんはシャワーを<ruby>浴<rt>あ</rt></ruby>びてから、<ruby>何<rt>なに</rt></ruby>をしますか。",
         "choices": [
-          "ねます",
-          "<ruby>大学<rt>だいがく</rt></ruby>へ いきます",
-          "<ruby>顔<rt>かお</rt></ruby>を あらいます"
+          "<ruby>寝<rt>ね</rt></ruby>ます。",
+          "<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べます。",
+          "<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。"
         ],
         "answer_index": 1
-      },
-      {
-        "question": "アナさんの <ruby>大学<rt>だいがく</rt></ruby>は どうですか。",
-        "choices": [
-          "<ruby>広<rt>ひろ</rt></ruby>くて きれいです",
-          "せまくて ふるいです"
-        ],
-        "answer_index": 0
       }
     ]
   },
   {
     "id": "TEXTBOOK_L16_02",
     "level": 16,
-    "title": "<ruby>新宿<rt>しんじゅく</rt></ruby>の <ruby>行<rt>い</rt></ruby>き<ruby>方<rt>かた</rt></ruby>",
+    "title": "アナさんはどんな<ruby>人<rt>ひと</rt></ruby>ですか",
     "schema_activation": [
-      "あなたは <ruby>毎日<rt>まいにち</rt></ruby> どうやって <ruby>学校<rt>がっこう</rt></ruby>や <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。",
-      "<ruby>電車<rt>でんしゃ</rt></ruby>ですか、バスですか。それとも <ruby>歩<rt>ある</rt></ruby>きですか。"
+      "あなたの<ruby>国<rt>くに</rt></ruby>はどんな<ruby>国<rt>くに</rt></ruby>ですか。",
+      "あなたは<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いですか。"
     ],
-    "textbook_html": "<p>ワトソンさんは <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>に <ruby>聞<rt>き</rt></ruby>きました。<br>「<ruby>先生<rt>せんせい</rt></ruby>、<ruby>新宿<rt>しんじゅく</rt></ruby>まで どうやって <ruby>行<rt>い</rt></ruby>きますか。」<br><ruby>先生<rt>せんせい</rt></ruby>は <ruby>言<rt>い</rt></ruby>いました。<br>「<ruby>大学<rt>だいがく</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>から バスに <ruby>乗<rt>の</rt></ruby>って、<ruby>駅<rt>えき</rt></ruby>で <ruby>降<rt>お</rt></ruby>りてください。<br>それから <ruby>JR<rt>ジェイアール</rt></ruby>に <ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えてください。<br><ruby>新宿駅<rt>しんじゅくえき</rt></ruby>で <ruby>降<rt>お</rt></ruby>りてから、<ruby>少<rt>すこ</rt></ruby>し <ruby>歩<rt>ある</rt></ruby>きます。」</p>",
+    "textbook_html": "<p>アナさんはドイツ<ruby>人<rt>じん</rt></ruby>です。アナさんは<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くて、<ruby>髪<rt>かみ</rt></ruby>が<ruby>長<rt>なが</rt></ruby>いです。<br>アナさんは<ruby>昨日<rt>きのう</rt></ruby><ruby>新宿<rt>しんじゅく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>新宿<rt>しんじゅく</rt></ruby>はとてもにぎやかで、おもしろい<ruby>町<rt>まち</rt></ruby>です。<br>アナさんは<ruby>新宿<rt>しんじゅく</rt></ruby>で<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いました。<ruby>友達<rt>ともだち</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>美術館<rt>びじゅつかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>りました。<br>それから<ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。アナさんは<ruby>靴<rt>くつ</rt></ruby>を<ruby>買<rt>か</rt></ruby>ってから、<ruby>喫茶店<rt>きっさてん</rt></ruby>でコーヒーを<ruby>飲<rt>の</rt></ruby>みました。<br>アナさんはとても<ruby>楽<rt>たの</rt></ruby>しかったです。</p>",
     "quizzes": [
       {
-        "question": "どこで バスを <ruby>降<rt>お</rt></ruby>りますか。",
+        "question": "アナさんはどこから<ruby>来<rt>き</rt></ruby>ましたか。",
         "choices": [
-          "<ruby>大学<rt>だいがく</rt></ruby>の まえ",
-          "<ruby>駅<rt>えき</rt></ruby>",
-          "<ruby>新宿<rt>しんじゅく</rt></ruby>"
+          "アメリカ",
+          "イギリス",
+          "ドイツ"
         ],
-        "answer_index": 1
+        "answer_index": 2
       },
       {
-        "question": "JRに <ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えますか。",
+        "question": "<ruby>新宿<rt>しんじゅく</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
         "choices": [
-          "はい",
-          "いいえ"
+          "<ruby>賑<rt>にぎ</rt></ruby>やかでおもしろい<ruby>町<rt>まち</rt></ruby>",
+          "<ruby>静<rt>しず</rt></ruby>かで、きれいな<ruby>町<rt>まち</rt></ruby>",
+          "<ruby>古<rt>ふる</rt></ruby>くて、<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>町<rt>まち</rt></ruby>"
         ],
         "answer_index": 0
       }
@@ -62,58 +55,67 @@ export const textbooks_level_16: Textbook[] = [
   {
     "id": "TEXTBOOK_L16_03",
     "level": 16,
-    "title": "どんな <ruby>人<rt>ひと</rt></ruby>ですか",
+    "title": "ジョンさんと<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>",
     "schema_activation": [
-      "あなたの <ruby>友達<rt>ともだち</rt></ruby>は どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
-      "<ruby>髪<rt>かみ</rt></ruby>が <ruby>長<rt>なが</rt></ruby>いですか。"
+      "あなたの<ruby>先生<rt>せんせい</rt></ruby>はどんな<ruby>先生<rt>せんせい</rt></ruby>ですか。",
+      "あなたのスマホは<ruby>軽<rt>かる</rt></ruby>くて<ruby>便利<rt>べんり</rt></ruby>ですか。"
     ],
-    "textbook_html": "<p>キムさんの <ruby>友達<rt>ともだち</rt></ruby>の パクさんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。<br>パクさんは <ruby>背<rt>せ</rt></ruby>が <ruby>高<rt>たか</rt></ruby>くて、<ruby>髪<rt>かみ</rt></ruby>が <ruby>黒<rt>くろ</rt></ruby>いです。<br>とても <ruby>親切<rt>しんせつ</rt></ruby>な <ruby>人<rt>ひと</rt></ruby>です。<br><ruby>昨日<rt>きのう</rt></ruby> キムさんは パクさんと レストランへ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>料理<rt>りょうり</rt></ruby>は <ruby>安<rt>やす</rt></ruby>くて、おいしかったです。</p>",
+    "textbook_html": "<p>ジョンさんのうちは<ruby>駅<rt>えき</rt></ruby>から<ruby>近<rt>ちか</rt></ruby>くて、とても<ruby>便利<rt>べんり</rt></ruby>です。ジョンさんのうちは<ruby>静<rt>しず</rt></ruby>かで、とてもきれいです。<br>ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>パソコンで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。ジョンさんのパソコンにカメラやマイクがあります。<br><ruby>仕事<rt>しごと</rt></ruby>で<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いますから、<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>したいです。<br>ジョンさんの<ruby>先生<rt>せんせい</rt></ruby>は<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>です。<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は<ruby>明<rt>あか</rt></ruby>るくて<ruby>親切<rt>しんせつ</rt></ruby>です。<br><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>はおもしろくて、<ruby>楽<rt>たの</rt></ruby>しいです。<ruby>宿題<rt>しゅくだい</rt></ruby>はむずかしくて<ruby>大変<rt>たいへん</rt></ruby>です。<br>ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>たくさん<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しています。</p>",
     "quizzes": [
       {
-        "question": "パクさんは どんな <ruby>人<rt>ひと</rt></ruby>ですか。",
+        "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はどんな<ruby>先生<rt>せんせい</rt></ruby>ですか。",
         "choices": [
-          "<ruby>背<rt>せ</rt></ruby>が ひくくて こわい<ruby>人<rt>ひと</rt></ruby>",
-          "<ruby>背<rt>せ</rt></ruby>が たかくて <ruby>親切<rt>しんせつ</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>",
-          "あまり <ruby>親切<rt>しんせつ</rt></ruby>じゃない<ruby>人<rt>ひと</rt></ruby>"
-        ],
-        "answer_index": 1
-      },
-      {
-        "question": "<ruby>料理<rt>りょうり</rt></ruby>は どうでしたか。",
-        "choices": [
-          "<ruby>安<rt>やす</rt></ruby>くて おいしかった",
-          "<ruby>高<rt>たか</rt></ruby>くて まずかった",
-          "あつかった"
+          "<ruby>明<rt>あか</rt></ruby>るくて<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>",
+          "<ruby>厳<rt>きび</rt></ruby>しくて、<ruby>悪<rt>わる</rt></ruby>い<ruby>先生<rt>せんせい</rt></ruby>",
+          "<ruby>静<rt>しず</rt></ruby>かで、<ruby>親切<rt>しんせつ</rt></ruby>な<ruby>先生<rt>せんせい</rt></ruby>"
         ],
         "answer_index": 0
+      },
+      {
+        "question": "<ruby>宿題<rt>しゅくだい</rt></ruby>はどうですか。",
+        "choices": [
+          "かんたんでおもしろいです",
+          "むずかしくて<ruby>大変<rt>たいへん</rt></ruby>です",
+          "おもしろくて<ruby>楽<rt>たの</rt></ruby>しいです"
+        ],
+        "answer_index": 1
       }
     ]
   },
   {
     "id": "TEXTBOOK_L16_04",
     "level": 16,
-    "title": "<ruby>大阪<rt>おおさか</rt></ruby>の <ruby>旅行<rt>りょこう</rt></ruby>",
+    "title": "<ruby>京都<rt>きょうと</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby> (Long)",
     "schema_activation": [
-      "<ruby>旅行<rt>りょこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってから <ruby>何<rt>なに</rt></ruby>を しますか。",
-      "あなたは <ruby>日本<rt>にほん</rt></ruby>の どこへ <ruby>行<rt>い</rt></ruby>きたいですか。"
+      "あなたの<ruby>町<rt>まち</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
+      "あなたはうちへ<ruby>帰<rt>かえ</rt></ruby>ってから、<ruby>何<rt>なに</rt></ruby>をしますか。"
     ],
-    "textbook_html": "<p>アナさんは <ruby>先週<rt>せんしゅう</rt></ruby> <ruby>大阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<br><ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>行<rt>い</rt></ruby>ってから、ホテルに <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>置<rt>お</rt></ruby>きました。<br><ruby>大阪<rt>おおさか</rt></ruby>は <ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>が おいしくて、にぎやかでした。<br>アナさんは たくさん <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>って、<ruby>夜<rt>よる</rt></ruby> 10<ruby>時<rt>じ</rt></ruby>に <ruby>寝<rt>ね</rt></ruby>ました。</p>",
+    "textbook_html": "<p>ジョンさんは<ruby>昨日<rt>きのう</rt></ruby><ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。<ruby>京都<rt>きょうと</rt></ruby>は<ruby>古<rt>ふる</rt></ruby>くて、きれいな<ruby>町<rt>まち</rt></ruby>です。<br>ジョンさんは10<ruby>時<rt>じ</rt></ruby>ごろ<ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>って、<ruby>美術館<rt>びじゅつかん</rt></ruby>で<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。<br>それから<ruby>広<rt>ひろ</rt></ruby>い<ruby>公園<rt>こうえん</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きました。<ruby>公園<rt>こうえん</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かで、とてもよかったです。<br>ジョンさんは<ruby>写真<rt>しゃしん</rt></ruby>をたくさん<ruby>撮<rt>と</rt></ruby>ってから、レストランへ<ruby>行<rt>い</rt></ruby>きました。<br>レストランで<ruby>魚<rt>さかな</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。<ruby>安<rt>やす</rt></ruby>くて、とてもおいしかったです。<br><br>ジョンさんはキムさんと<ruby>話<rt>はな</rt></ruby>しています。<br>ジョン「キムさん、<ruby>見<rt>み</rt></ruby>てください。これは<ruby>京都<rt>きょうと</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>です。<ruby>京都<rt>きょうと</rt></ruby>はとてもきれいでした」<br>キム「わあ、いいですね。これは<ruby>何<rt>なん</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>ですか」<br>ジョン「<ruby>公園<rt>こうえん</rt></ruby>です。<ruby>広<rt>ひろ</rt></ruby>い<ruby>公園<rt>こうえん</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>きました。とてもよかったです」<br>キム「そうですか。<ruby>私<rt>わたし</rt></ruby>も<ruby>今度<rt>こんど</rt></ruby><ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたいです」<br>ジョン「いいですね。<ruby>写真<rt>しゃしん</rt></ruby>をみせてくださいね」</p>",
     "quizzes": [
       {
-        "question": "ホテルへ <ruby>行<rt>い</rt></ruby>ってから <ruby>何<rt>なに</rt></ruby>を しましたか。",
+        "question": "<ruby>京都<rt>きょうと</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
         "choices": [
-          "<ruby>写真<rt>しゃしん</rt></ruby>を とりました",
-          "<ruby>荷物<rt>にもつ</rt></ruby>を おきました",
-          "ごはんを たべました"
+          "<ruby>賑<rt>にぎ</rt></ruby>やかで、<ruby>新<rt>あたら</rt></ruby>しい<ruby>町<rt>まち</rt></ruby>",
+          "<ruby>古<rt>ふる</rt></ruby>くて、きれいな<ruby>町<rt>まち</rt></ruby>",
+          "<ruby>広<rt>ひろ</rt></ruby>くて、おもしろい<ruby>町<rt>まち</rt></ruby>"
         ],
         "answer_index": 1
       },
       {
-        "question": "<ruby>大阪<rt>おおさか</rt></ruby>は どうでしたか。",
+        "question": "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>公園<rt>こうえん</rt></ruby>はどうでしたか。",
         "choices": [
-          "しずかでした",
-          "<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>が おいしくて にぎやかでした",
-          "あまり よくありませんでした"
+          "<ruby>静<rt>しず</rt></ruby>かで、とてもよかったです",
+          "<ruby>賑<rt>にぎ</rt></ruby>やかで、あまりよくなかったです",
+          "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて、<ruby>大変<rt>たいへん</rt></ruby>でした"
+        ],
+        "answer_index": 0
+      },
+      {
+        "question": "ジョンさんは<ruby>京都<rt>きょうと</rt></ruby>のレストランで<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましたか。",
+        "choices": [
+          "お<ruby>肉<rt>にく</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>",
+          "<ruby>魚<rt>さかな</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>",
+          "<ruby>野菜<rt>やさい</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>"
         ],
         "answer_index": 1
       }

@@ -9,7 +9,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>日本<rt>にほん</rt></ruby>の <ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いと <ruby>思<rt>おも</rt></ruby>いますか。",
       "<ruby>日本<rt>にほん</rt></ruby><ruby>料理<rt>りょうり</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>いますか。"
     ],
-    "textbook_html": "<p>アナ「ワトソンさん、<ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>う？」<br>ワトソン「<ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いと <ruby>思<rt>おも</rt></ruby>うけど、とても <ruby>便利<rt>べんり</rt></ruby>だと <ruby>思<rt>おも</rt></ruby>うよ。<br>アナは？」<br>アナ「わたしも そう <ruby>思<rt>おも</rt></ruby>う。<br><ruby>日本料理<rt>にほんりょうり</rt></ruby>は <ruby>体<rt>からだ</rt></ruby>に いいと <ruby>思<rt>おも</rt></ruby>うから、<ruby>毎日<rt>まいにち</rt></ruby> たくさん <ruby>食<rt>た</rt></ruby>べているよ。」</p>",
+    "textbook_html": "<p>アナ「ワトソンさん、<ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>う？」<br>ワトソン「<ruby>物価<rt>ぶっか</rt></ruby>は <ruby>高<rt>たか</rt></ruby>いと <ruby>思<rt>おも</rt></ruby>うけど、とても <ruby>便利<rt>べんり</rt></ruby>だと <ruby>思<rt>おも</rt></ruby>うよ。<br>アナは？」<br>アナ「わたしも そう <ruby>思<rt>おも</rt></ruby>う。<br><ruby>日本料理<rt>にほんりょうり</rt></ruby>は <ruby>体<rt>からだ</rt></ruby>に いいと <ruby>思<rt>おも</rt></ruby>うから、<ruby>毎日<rt>まいにち</rt></ruby> たくさん <ruby>食<rt>た</rt></ruby>べているよ」</p>",
     "quizzes": [
       {
         "question": "ワトソンさんは <ruby>日本<rt>にほん</rt></ruby>の <ruby>生活<rt>せいかつ</rt></ruby>について どう <ruby>思<rt>おも</rt></ruby>っていますか。",
@@ -39,7 +39,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>友達<rt>ともだち</rt></ruby>が <ruby>何<rt>なに</rt></ruby>か <ruby>言<rt>い</rt></ruby>いましたか。",
       "ニュースを <ruby>見<rt>み</rt></ruby>ましたか。"
     ],
-    "textbook_html": "<p>ワトソン「キムさんが <ruby>来月<rt>らいげつ</rt></ruby> <ruby>韓国<rt>かんこく</rt></ruby>へ <ruby>帰<rt>かえ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ。」<br>アナ「えっ、<ruby>本当<rt>ほんとう</rt></ruby>ですか。まだ <ruby>帰<rt>かえ</rt></ruby>らないと <ruby>思<rt>おも</rt></ruby>っていました。」<br>ワトソン「<ruby>仕事<rt>しごと</rt></ruby>が <ruby>忙<rt>いそが</rt></ruby>しいですから、<br>たぶん <ruby>少<rt>すこ</rt></ruby>しだけ <ruby>休<rt>やす</rt></ruby>むと <ruby>思<rt>おも</rt></ruby>います。」</p>",
+    "textbook_html": "<p>ワトソン「キムさんが <ruby>来月<rt>らいげつ</rt></ruby> <ruby>韓国<rt>かんこく</rt></ruby>へ <ruby>帰<rt>かえ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ」<br>アナ「えっ、<ruby>本当<rt>ほんとう</rt></ruby>ですか。まだ <ruby>帰<rt>かえ</rt></ruby>らないと <ruby>思<rt>おも</rt></ruby>っていました」<br>ワトソン「<ruby>仕事<rt>しごと</rt></ruby>が <ruby>忙<rt>いそが</rt></ruby>しいですから、<br>たぶん <ruby>少<rt>すこ</rt></ruby>しだけ <ruby>休<rt>やす</rt></ruby>むと <ruby>思<rt>おも</rt></ruby>います」</p>",
     "quizzes": [
       {
         "question": "キムさんは <ruby>来月<rt>らいげつ</rt></ruby> <ruby>何<rt>なに</rt></ruby>をしますか。",
@@ -69,7 +69,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>明日<rt>あした</rt></ruby>は <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>るでしょう？",
       "パーティーに <ruby>行<rt>い</rt></ruby>きますか。"
     ],
-    "textbook_html": "<p>アナ「<ruby>明日<rt>あした</rt></ruby>は <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の <ruby>家<rt>うち</rt></ruby>で パーティーですね。」<br>ワトソン「うん、でも <ruby>天気予報<rt>てんきよほう</rt></ruby>で <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ。」<br>アナ「えっ、パーティーは <ruby>外<rt>そと</rt></ruby>で すると <ruby>思<rt>おも</rt></ruby>いますか。」<br>ワトソン「いいえ、<ruby>雨<rt>あめ</rt></ruby>ですから、たぶん <ruby>部屋<rt>へや</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で するでしょう。」</p>",
+    "textbook_html": "<p>アナ「<ruby>明日<rt>あした</rt></ruby>は <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>の <ruby>家<rt>うち</rt></ruby>で パーティーですね」<br>ワトソン「うん、でも <ruby>天気予報<rt>てんきよほう</rt></ruby>で <ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>ると <ruby>言<rt>い</rt></ruby>っていましたよ」<br>アナ「えっ、パーティーは <ruby>外<rt>そと</rt></ruby>で すると <ruby>思<rt>おも</rt></ruby>いますか」<br>ワトソン「いいえ、<ruby>雨<rt>あめ</rt></ruby>ですから、たぶん <ruby>部屋<rt>へや</rt></ruby>の <ruby>中<rt>なか</rt></ruby>で するでしょう」</p>",
     "quizzes": [
       {
         "question": "<ruby>明日<rt>あした</rt></ruby>の <ruby>天気<rt>てんき</rt></ruby>は どうですか。",
@@ -99,7 +99,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>今日<rt>きょう</rt></ruby>の <ruby>試合<rt>しあい</rt></ruby>は どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>いますか。",
       "<ruby>野球<rt>やきゅう</rt></ruby>が <ruby>好<rt>す</rt></ruby>きですか。"
     ],
-    "textbook_html": "<p>キム「ワトソンさん、<ruby>今夜<rt>こんや</rt></ruby>の サッカーの <ruby>試合<rt>しあい</rt></ruby>、<br>どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>う？」<br>ワトソン「ブラジルが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>うよ。とても <ruby>強<rt>つよ</rt></ruby>いから。」<br>キム「でも、<ruby>日本<rt>にほん</rt></ruby>も <ruby>最近<rt>さいきん</rt></ruby> <ruby>強<rt>つよ</rt></ruby>くなったよ。いい <ruby>試合<rt>しあい</rt></ruby>に なると <ruby>思<rt>おも</rt></ruby>う。」</p>",
+    "textbook_html": "<p>キム「ワトソンさん、<ruby>今夜<rt>こんや</rt></ruby>の サッカーの <ruby>試合<rt>しあい</rt></ruby>、<br>どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>う？」<br>ワトソン「ブラジルが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>うよ。とても <ruby>強<rt>つよ</rt></ruby>いから」<br>キム「でも、<ruby>日本<rt>にほん</rt></ruby>も <ruby>最近<rt>さいきん</rt></ruby> <ruby>強<rt>つよ</rt></ruby>くなったよ。いい <ruby>試合<rt>しあい</rt></ruby>に なると <ruby>思<rt>おも</rt></ruby>う」</p>",
     "quizzes": [
       {
         "question": "ワトソンさんは どちらが <ruby>勝<rt>か</rt></ruby>つと <ruby>思<rt>おも</rt></ruby>っていますか。",
@@ -129,7 +129,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>誰<rt>だれ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましたか。",
       "その<ruby>人<rt>ひと</rt></ruby>は どんな<ruby>人<rt>ひと</rt></ruby>でしたか。"
     ],
-    "textbook_html": "<p>アナ「<ruby>昨日<rt>きのう</rt></ruby> <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で <ruby>会<rt>あ</rt></ruby>った <ruby>人<rt>ひと</rt></ruby>は、<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>でした。」<br>ワトソン「へえ、そうなんだ。<ruby>先生<rt>せんせい</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を していた？」<br>アナ「<ruby>先生<rt>せんせい</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きい <ruby>鞄<rt>かばん</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていました。<br><ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>く <ruby>所<rt>ところ</rt></ruby>だったと <ruby>思<rt>おも</rt></ruby>います。」</p>",
+    "textbook_html": "<p>アナ「<ruby>昨日<rt>きのう</rt></ruby> <ruby>駅<rt>えき</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で <ruby>会<rt>あ</rt></ruby>った <ruby>人<rt>ひと</rt></ruby>は、<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>でした」<br>ワトソン「へえ、そうなんだ。<ruby>先生<rt>せんせい</rt></ruby>は <ruby>何<rt>なに</rt></ruby>を していた？」<br>アナ「<ruby>先生<rt>せんせい</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きい <ruby>鞄<rt>かばん</rt></ruby>を <ruby>持<rt>も</rt></ruby>っていました。<br><ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>く <ruby>所<rt>ところ</rt></ruby>だったと <ruby>思<rt>おも</rt></ruby>います」</p>",
     "quizzes": [
       {
         "question": "アナさんは どこで <ruby>先生<rt>せんせい</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましたか。",
@@ -249,7 +249,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>大学<rt>だいがく</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くとき、<ruby>誰<rt>だれ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いますか。",
       "<ruby>道<rt>みち</rt></ruby>を <ruby>間違<rt>まちが</rt></ruby>えたとき、どうしますか。"
     ],
-    "textbook_html": "<p>アナ「ワトソンさん、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>来<rt>く</rt></ruby>るとき、どうやって <ruby>来<rt>く</rt></ruby>る？」<br>ワトソン「わたしは <ruby>歩<rt>ある</rt></ruby>いて <ruby>来<rt>く</rt></ruby>るよ。<ruby>道<rt>みち</rt></ruby>を <ruby>歩<rt>ある</rt></ruby>いているとき、<br>いつも <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>いている。」<br>アナ「そうなんだ。わたしは <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>く</rt></ruby>るけど、<br>ときどき <ruby>時間<rt>じかん</rt></ruby>が ないとき、タクシーを <ruby>使<rt>つか</rt></ruby>うよ。」</p>",
+    "textbook_html": "<p>アナ「ワトソンさん、<ruby>毎日<rt>まいにち</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>へ <ruby>来<rt>く</rt></ruby>るとき、どうやって <ruby>来<rt>く</rt></ruby>る？」<br>ワトソン「わたしは <ruby>歩<rt>ある</rt></ruby>いて <ruby>来<rt>く</rt></ruby>るよ。<ruby>道<rt>みち</rt></ruby>を <ruby>歩<rt>ある</rt></ruby>いているとき、<br>いつも <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>いている」<br>アナ「そうなんだ。わたしは <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>く</rt></ruby>るけど、<br>ときどき <ruby>時間<rt>じかん</rt></ruby>が ないとき、タクシーを <ruby>使<rt>つか</rt></ruby>うよ」</p>",
     "quizzes": [
       {
         "question": "ワトソンさんは <ruby>道<rt>みち</rt></ruby>を <ruby>歩<rt>ある</rt></ruby>いているとき、<ruby>何<rt>なに</rt></ruby>を していますか。",
@@ -279,7 +279,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "あなたは <ruby>新<rt>あたら</rt></ruby>しい <ruby>機械<rt>きかい</rt></ruby>や <ruby>電化製品<rt>でんかせいひん</rt></ruby>を <ruby>使<rt>つか</rt></ruby>うのが <ruby>好<rt>す</rt></ruby>きですか。",
       "<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が わからないとき、<ruby>誰<rt>だれ</rt></ruby>かに <ruby>聞<rt>き</rt></ruby>きますか、それとも <ruby>自分<rt>じぶん</rt></ruby>で <ruby>調<rt>しら</rt></ruby>べますか。"
     ],
-    "textbook_html": "<p>ワトソン「すみません、この <ruby>機械<rt>きかい</rt></ruby>の <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が わかりません。」<br>キム「あ、それは <ruby>簡単<rt>かんたん</rt></ruby>ですよ。<br>この <ruby>赤<rt>あか</rt></ruby>い ボタンを <ruby>押<rt>お</rt></ruby>すと、<ruby>動<rt>うご</rt></ruby>きます。」<br>ワトソン「ありがとうございます。<br>これを <ruby>右<rt>みぎ</rt></ruby>へ <ruby>回<rt>まわ</rt></ruby>すと、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくなりますか。」<br>キム「はい、そうですよ。」</p>",
+    "textbook_html": "<p>ワトソン「すみません、この <ruby>機械<rt>きかい</rt></ruby>の <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>が わかりません」<br>キム「あ、それは <ruby>簡単<rt>かんたん</rt></ruby>ですよ。<br>この <ruby>赤<rt>あか</rt></ruby>い ボタンを <ruby>押<rt>お</rt></ruby>すと、<ruby>動<rt>うご</rt></ruby>きます」<br>ワトソン「ありがとうございます。<br>これを <ruby>右<rt>みぎ</rt></ruby>へ <ruby>回<rt>まわ</rt></ruby>すと、<ruby>音<rt>おと</rt></ruby>が <ruby>大<rt>おお</rt></ruby>きくなりますか」<br>キム「はい、そうですよ」</p>",
     "quizzes": [
       {
         "question": "<ruby>赤<rt>あか</rt></ruby>い ボタンを <ruby>押<rt>お</rt></ruby>すと どうなりますか。",
@@ -309,7 +309,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>子供<rt>こども</rt></ruby>のとき、<ruby>何<rt>なに</rt></ruby>を しましたか。",
       "<ruby>暇<rt>ひま</rt></ruby>なとき、<ruby>何<rt>なに</rt></ruby>を しますか。"
     ],
-    "textbook_html": "<p>アナ「<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>、<ruby>子供<rt>こども</rt></ruby>のとき、よく <ruby>何<rt>なに</rt></ruby>を しましたか。」<br><ruby>山田<rt>やまだ</rt></ruby>「わたしは <ruby>子供<rt>こども</rt></ruby>のとき、よく <ruby>海<rt>うみ</rt></ruby>で <ruby>泳<rt>およ</rt></ruby>ぎましたよ。<br><ruby>夏休<rt>なつやす</rt></ruby>みに なると、いつも <ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。」<br>アナ「いいですね。わたしは <ruby>暇<rt>ひま</rt></ruby>なとき、よく <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました。」</p>",
+    "textbook_html": "<p>アナ「<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>、<ruby>子供<rt>こども</rt></ruby>のとき、よく <ruby>何<rt>なに</rt></ruby>を しましたか」<br><ruby>山田<rt>やまだ</rt></ruby>「わたしは <ruby>子供<rt>こども</rt></ruby>のとき、よく <ruby>海<rt>うみ</rt></ruby>で <ruby>泳<rt>およ</rt></ruby>ぎましたよ。<br><ruby>夏休<rt>なつやす</rt></ruby>みに なると、いつも <ruby>海<rt>うみ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました」<br>アナ「いいですね。わたしは <ruby>暇<rt>ひま</rt></ruby>なとき、よく <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みました」</p>",
     "quizzes": [
       {
         "question": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>は <ruby>子供<rt>こども</rt></ruby>のとき、どこで <ruby>泳<rt>およ</rt></ruby>ぎましたか。",
@@ -370,7 +370,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "<ruby>誰<rt>だれ</rt></ruby>かに <ruby>何<rt>なに</rt></ruby>かを <ruby>貸<rt>か</rt></ruby>して もらいましたか。",
       "<ruby>先生<rt>せんせい</rt></ruby>に <ruby>何<rt>なに</rt></ruby>を <ruby>習<rt>なら</rt></ruby>いましたか。"
     ],
-    "textbook_html": "<p>アナ「ワトソンさん、その <ruby>辞書<rt>じしょ</rt></ruby>、どうしたの？」<br>ワトソン「これは <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が <ruby>貸<rt>か</rt></ruby>してくれたんだ。<br><ruby>漢字<rt>かんじ</rt></ruby>が わからないとき、<ruby>先生<rt>せんせい</rt></ruby>が とても <ruby>親切<rt>しんせつ</rt></ruby>に <ruby>教<rt>おし</rt></ruby>えてくれたよ。」<br>アナ「いいなあ。わたしも <ruby>先生<rt>せんせい</rt></ruby>に わかりにくい <ruby>文法<rt>ぶんぽう</rt></ruby>を<br><ruby>説明<rt>せつめい</rt></ruby>して もらったよ。」</p>",
+    "textbook_html": "<p>アナ「ワトソンさん、その <ruby>辞書<rt>じしょ</rt></ruby>、どうしたの？」<br>ワトソン「これは <ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>が <ruby>貸<rt>か</rt></ruby>してくれたんだ。<br><ruby>漢字<rt>かんじ</rt></ruby>が わからないとき、<ruby>先生<rt>せんせい</rt></ruby>が とても <ruby>親切<rt>しんせつ</rt></ruby>に <ruby>教<rt>おし</rt></ruby>えてくれたよ」<br>アナ「いいなあ。わたしも <ruby>先生<rt>せんせい</rt></ruby>に わかりにくい <ruby>文法<rt>ぶんぽう</rt></ruby>を<br><ruby>説明<rt>せつめい</rt></ruby>して もらったよ」</p>",
     "quizzes": [
       {
         "question": "ワトソンさんは <ruby>誰<rt>だれ</rt></ruby>に <ruby>辞書<rt>じしょ</rt></ruby>を <ruby>貸<rt>か</rt></ruby>して もらいましたか。",
@@ -669,7 +669,7 @@ export const textbooks_level_21_30: Textbook[] = [
       "あなたの <ruby>国<rt>くに</rt></ruby>の ゴミの <ruby>出<rt>だ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>は <ruby>難<rt>むずか</rt></ruby>しいですか。",
       "ゴミの <ruby>種類<rt>しゅるい</rt></ruby>（<ruby>燃<rt>も</rt></ruby>える ゴミや プラスチックなど）は たくさん ありますか。"
     ],
-    "textbook_html": "<p>ワトソンさんは <ruby>新<rt>あたら</rt></ruby>しい アパートに <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しました。<br>でも、ゴミの <ruby>出<rt>だ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>が わかりません。<br>ワトソンさんは <ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>に <ruby>聞<rt>き</rt></ruby>きました。<br>「すみません、ゴミは どこに <ruby>出<rt>だ</rt></ruby>すんですか。」<br><ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>は 「あそこの <ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>の <ruby>横<rt>よこ</rt></ruby>に <ruby>出<rt>だ</rt></ruby>すんですよ」と <ruby>教<rt>おし</rt></ruby>えてくれました。</p>",
+    "textbook_html": "<p>ワトソンさんは <ruby>新<rt>あたら</rt></ruby>しい アパートに <ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しました。<br>でも、ゴミの <ruby>出<rt>だ</rt></ruby>し<ruby>方<rt>かた</rt></ruby>が わかりません。<br>ワトソンさんは <ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>に <ruby>聞<rt>き</rt></ruby>きました。<br>「すみません、ゴミは どこに <ruby>出<rt>だ</rt></ruby>すんですか」<br><ruby>隣<rt>となり</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>は 「あそこの <ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>の <ruby>横<rt>よこ</rt></ruby>に <ruby>出<rt>だ</rt></ruby>すんですよ」と <ruby>教<rt>おし</rt></ruby>えてくれました。</p>",
     "quizzes": [
       {
         "question": "ワトソンさんは <ruby>何<rt>なに</rt></ruby>が <ruby>知<rt>し</rt></ruby>りたいんですか。",
