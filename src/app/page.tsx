@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { textbooks } from '@/data/textbooks';
 import TextbookCard from '@/components/TextbookCard';
 import DailyDiscussion from '@/components/DailyDiscussion';
-import SmallTalkCards from '@/components/SmallTalkCards';
+import TodaysPhrase from '@/components/TodaysPhrase';
 
 // Using Textbook type from @/data/textbooks/types is implicit or can be imported if needed explicitly
 // but 'textbooks' is already typed.
@@ -13,7 +13,7 @@ import SmallTalkCards from '@/components/SmallTalkCards';
 function HomeContent() {
   // Navigation State
   const [activeTab, setActiveTab] = useState<'textbooks' | 'extra' | 'others'>('textbooks');
-  const [otherFeature, setOtherFeature] = useState<'none' | 'daily_discussion' | 'small_talk'>('none');
+  const [otherFeature, setOtherFeature] = useState<'none' | 'daily_discussion' | 'todays_phrase'>('none');
 
   // Filter State
   const [levelFilter, setLevelFilter] = useState<string>('All');
@@ -226,6 +226,9 @@ function HomeContent() {
     const isRangeSelected = selectedRangeLabel === range.label;
     const isExactMatch = levelFilter === range.label;
 
+    // Check if level is locked (Level 26 and above)
+    const isLocked = range.min >= 26;
+
     // Visibility: Only show if strictly hovered (or clicked-to-open which sets hover)
     const isMenuOpen = hoveredRange === range.label;
 
@@ -233,16 +236,19 @@ function HomeContent() {
       <div
         key={range.label}
         style={{ position: 'relative' }}
-        onMouseEnter={() => handleMouseEnter(range.label)}
+        onMouseEnter={() => !isLocked && handleMouseEnter(range.label)}
         onMouseLeave={handleMouseLeave}
       >
         <button
           className="parent-level-btn"
+          disabled={isLocked}
           onClick={() => {
+            if (isLocked) return;
             setLevelFilter(range.label);
             handleMouseEnter(range.label);
           }}
           onMouseEnter={(e) => {
+            if (isLocked) return;
             // Only change style if NOT selected/highlighted
             if (!isExactMatch && !(isRangeSelected && levelFilter !== 'All')) {
               e.currentTarget.style.backgroundColor = 'var(--text-main)';
@@ -251,6 +257,7 @@ function HomeContent() {
             }
           }}
           onMouseLeave={(e) => {
+            if (isLocked) return;
             // Only reset if NOT selected/highlighted. 
             // Note: If it IS selected, the inline style prop below takes precedence on re-render, 
             // but manually resetting here ensures no stickiness if state hasn't updated yet.
@@ -268,18 +275,19 @@ function HomeContent() {
             color: (isExactMatch || (isRangeSelected && levelFilter !== 'All')) ? 'var(--text-main)' : 'var(--text-color)',
             border: (isExactMatch || (isRangeSelected && levelFilter !== 'All')) ? '1px solid var(--accent-yellow)' : '1px solid var(--border-color)',
             fontWeight: 'bold',
-            cursor: 'pointer',
+            cursor: isLocked ? 'default' : 'pointer',
+            opacity: isLocked ? 0.5 : 1,
             transition: 'all 0.2s',
             position: 'relative'
           }}
         >
           {range.label}
+
         </button>
 
         {/* Dropdown / Popover for Sub-levels */}
-        {isMenuOpen && (
+        {isMenuOpen && !isLocked && (
           <div
-
             className="animate-fade-in child-level-dropdown"
             // Stop click propagation to prevent closing immediately
             onClick={(e) => e.stopPropagation()}
@@ -638,26 +646,30 @@ function HomeContent() {
                   <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Free Conversation</h3>
                 </div>
 
-                {/* Small Talk Cards Menu Item */}
-                {/* Small Talk Cards Menu Item (Disabled for now) */}
+                {/* Todays Phrase Card */}
                 <div
-                  // onClick={() => setOtherFeature('small_talk')}
+                  onClick={() => setOtherFeature('todays_phrase')}
                   style={{
                     background: '#fff',
                     border: '1px solid var(--border-color)',
                     borderRadius: '20px',
                     padding: '2rem',
                     textAlign: 'center',
-                    cursor: 'default', // Changed from pointer
-                    // transition: 'transform 0.2s, box-shadow 0.2s', // Disabled transition
-                    boxShadow: '0 4px 6px rgba(0,0,0,0.05)',
-                    opacity: 0.6 // Optional: Reduced opacity to visualy indicate disabled state
+                    cursor: 'pointer',
+                    transition: 'transform 0.2s, box-shadow 0.2s',
+                    boxShadow: '0 4px 6px rgba(0,0,0,0.05)'
                   }}
-                // onMouseEnter={...} // Disabled hover effects
-                // onMouseLeave={...}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.05)';
+                  }}
                 >
-                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>☕</div>
-                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Small Talk Cards (Coming Soon)</h3>
+                  <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✨</div>
+                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Today's Phrase</h3>
                 </div>
 
                 {/* Placeholder for future features */}
@@ -699,8 +711,8 @@ function HomeContent() {
               </div>
             )}
 
-            {/* Small Talk Cards Feature View */}
-            {otherFeature === 'small_talk' && (
+            {/* Todays Phrase Feature View */}
+            {otherFeature === 'todays_phrase' && (
               <div>
                 <button
                   onClick={() => setOtherFeature('none')}
@@ -717,7 +729,7 @@ function HomeContent() {
                 >
                   ← Back to Menu
                 </button>
-                <SmallTalkCards />
+                <TodaysPhrase />
               </div>
             )}
 

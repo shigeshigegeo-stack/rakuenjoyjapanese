@@ -49,6 +49,8 @@ const DailyDiscussion: React.FC = () => {
             </button>
 
 
+            <span className={styles.faintTitle}>Free Conversation</span>
+
             <div
                 className={styles.question}
                 dangerouslySetInnerHTML={{ __html: topic.question_jp }}

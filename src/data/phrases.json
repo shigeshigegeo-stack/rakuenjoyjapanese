@@ -1,0 +1,812 @@
+[
+    {
+        "id": 1,
+        "phrase_jp": "やっぱり",
+        "phrase_en": "I knew it.",
+        "explanation": "Used when something happens exactly as you expected. Often said as 'やっぱりね' (Yappari ne).",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: この<ruby>店<rt>みせ</rt></ruby>、<ruby>今日<rt>きょう</rt></ruby><ruby>休<rt>やす</rt></ruby>みだって。\nB: やっぱり！そんな<ruby>気<rt>き</rt></ruby>がした。",
+                "en": "A: They say this shop is closed today.\nB: I knew it! I had a feeling."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>田中<rt>たなか</rt></ruby>さんは<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>遅<rt>おく</rt></ruby>れるそうです。\nB: やっぱりそうですか。いつも<ruby>忙<rt>いそが</rt></ruby>しいですからね。",
+                "en": "A: I heard Tanaka-san will be late for the meeting.\nB: I expected as much. He is always busy."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "phrase_jp": "そんな<ruby>感<rt>かん</rt></ruby>じ",
+        "phrase_en": "Something like that.",
+        "explanation": "Used to confirm a vague description or when you agree with a general summary.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: テスト、<ruby>難<rt>むずか</rt></ruby>しかった？\nB: うん、そんな<ruby>感<rt>かん</rt></ruby>じ。",
+                "en": "A: Was the test hard?\nB: Yeah, something like that."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>新<rt>あたら</rt></ruby>しいプランはこれでよろしいでしょうか？\nB: はい、そんな<ruby>感<rt>かん</rt></ruby>じでお<ruby>願<rt>ねが</rt></ruby>いします。",
+                "en": "A: Is this okay for the new plan?\nB: Yes, please proceed with something like that."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "phrase_jp": "それってどういう<ruby>意味<rt>いみ</rt></ruby>？",
+        "phrase_en": "What does it mean?",
+        "explanation": "A natural, casual way to ask someone to verify the meaning of what they just said. In polite situations, add 'ですか' (desu ka).",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>今日<rt>きょう</rt></ruby>は<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>だから。\nB: え、それってどういう<ruby>意味<rt>いみ</rt></ruby>？",
+                "en": "A: Because today is a special day.\nB: Eh, what does that mean?"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>今回<rt>こんかい</rt></ruby>はパスします。\nB: それはどういう<ruby>意味<rt>いみ</rt></ruby>ですか？<ruby>参加<rt>さんか</rt></ruby>しないんですか？",
+                "en": "A: I'll pass this time.\nB: What does that mean? You aren't joining?"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "phrase_jp": "ごゆっくり",
+        "phrase_en": "Take your time.",
+        "explanation": "A polite phrase used to tell someone there is no rush. Often used by staff to customers, but can be used among friends too.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>着替<rt>きが</rt></ruby>えてくるね。\nB: はーい、ごゆっくりー。",
+                "en": "A: I'll go change.\nB: Okaaay, take your time."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: メニューを<ruby>見<rt>み</rt></ruby>ています。\nB: かしこまりました。どうぞごゆっくり。",
+                "en": "A: I am looking at the menu.\nB: Understood. Please take your time."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "phrase_jp": "どうでもいい",
+        "phrase_en": "Who cares? / Whatever.",
+        "explanation": "Expresses indifference or that something doesn't matter. Can sound blunt or rude depending on tone. Use with caution.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: テストの<ruby>点数<rt>てんすう</rt></ruby>、<ruby>気<rt>き</rt></ruby>になる？\nB: ううん、どうでもいい。",
+                "en": "A: Do you worry about test scores?\nB: Nah, I don't care."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>噂<rt>うわさ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きましたか？\nB: そのようなことは、<ruby>私<rt>わたし</rt></ruby>にはどうでもいいことです。",
+                "en": "A: Did you hear the rumor?\nB: Such things do not matter to me."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "phrase_jp": "<ruby>冗談<rt>じょうだん</rt></ruby>だよ",
+        "phrase_en": "Just kidding.",
+        "explanation": "Used to clarify that a previous statement was just a joke. Change to '冗談です (joudan desu)' for polite situations.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: えっ、<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>辞<rt>や</rt></ruby>めるの？\nB: うそ、<ruby>冗談<rt>じょうだん</rt></ruby>だよ。",
+                "en": "A: Eh, are you really quitting?\nB: Lie. Just kidding."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>本当<rt>ほんとう</rt></ruby>ですか？\nB: いえ、<ruby>冗談<rt>じょうだん</rt></ruby>ですよ。<ruby>気<rt>き</rt></ruby>にしないでください。",
+                "en": "A: Is that true?\nB: No, it is a joke. Please don't worry."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "phrase_jp": "あなた<ruby>次第<rt>しだい</rt></ruby>だよ",
+        "phrase_en": "It’s up to you.",
+        "explanation": "Used to tell someone that the decision is theirs to make.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: どこに<ruby>行<rt>い</rt></ruby>く？\nB: あなた<ruby>次第<rt>しだい</rt></ruby>だよ。",
+                "en": "A: Where should we go?\nB: It’s up to you."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: どうしましょうか。\nB: <ruby>田中<rt>たなか</rt></ruby>さん<ruby>次第<rt>しだい</rt></ruby>です。",
+                "en": "A: What should we do?\nB: It is up to you, Tanaka-san."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "phrase_jp": "<ruby>複雑<rt>ふくざつ</rt></ruby>なんだよ",
+        "phrase_en": "It’s complicated.",
+        "explanation": "Used when a situation is difficult to explain easily.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: どうして<ruby>別<rt>わか</rt></ruby>れたの？\nB: うん、まあ、<ruby>複雑<rt>ふくざつ</rt></ruby>なんだよ。",
+                "en": "A: Why did you break up?\nB: Well, it's complicated."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>理由<rt>りゆう</rt></ruby>を<ruby>説明<rt>せつめい</rt></ruby>してください。\nB: それが、ちょっと<ruby>複雑<rt>ふくざつ</rt></ruby>なんです。",
+                "en": "A: Please explain the reason.\nB: That is a bit complicated."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "phrase_jp": "<ruby>私<rt>わたし</rt></ruby>に<ruby>任<rt>まか</rt></ruby>せて",
+        "phrase_en": "Leave it to me.",
+        "explanation": "Used to confidently take responsibility for a task.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: これ、できる？\nB: <ruby>私<rt>わたし</rt></ruby>に<ruby>任<rt>まか</rt></ruby>せて！",
+                "en": "A: Can you do this?\nB: Leave it to me!"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: 誰<rt>だれ</rt>がやりますか？\nB: <ruby>私<rt>わたし</rt></ruby>に<ruby>お任<rt>まか</rt></ruby>せください。",
+                "en": "A: Who will do it?\nB: Please leave it to me."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "phrase_jp": "まさか！",
+        "phrase_en": "No way!",
+        "explanation": "Used to express strong surprise or disbelief.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>宝<rt>たから</rt></ruby>くじが<ruby>当<rt>あ</rt></ruby>たった！\nB: まさか！うそでしょ？",
+                "en": "A: I won the lottery!\nB: No way! You're lying, right?"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>彼<rt>かれ</rt></ruby>が<ruby>犯人<rt>はんにん</rt></ruby>です。\nB: まさか！<ruby>信<rt>しん</rt></ruby>じられません。",
+                "en": "A: He is the culprit.\nB: No way! I cannot believe it."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "phrase_jp": "それはこっちのセリフ",
+        "phrase_en": "That’s my line.",
+        "explanation": "Used when someone says something that applies more to them than to you.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>遅<rt>おそ</rt></ruby>いよ！\nB: それはこっちのセリフだよ！",
+                "en": "A: You're late!\nB: That's my line! (I was waiting for you)"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: ご<ruby>迷惑<rt>めいわく</rt></ruby>をおかけしました。\nB: いえ、それはこちらのセリフです。",
+                "en": "A: I caused you trouble.\nB: No, that is my line (I should apologize)."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "phrase_jp": "<ruby>私<rt>わたし</rt></ruby>のせいだよ",
+        "phrase_en": "It’s my fault.",
+        "explanation": "Used to admit it is your responsibility or mistake.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>試合<rt>しあい</rt></ruby>に<ruby>負<rt>ま</rt></ruby>けたね。\nB: ごめん、<ruby>私<rt>わたし</rt></ruby>のせいだよ。",
+                "en": "A: We lost the match.\nB: Sorry, it's my fault."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: エラーが<ruby>出<rt>で</rt></ruby>ました。\nB: すみません、<ruby>私<rt>わたし</rt></ruby>のせいです。",
+                "en": "A: An error occurred.\nB: I'm sorry, it is my fault."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "phrase_jp": "あなたのせいじゃないよ",
+        "phrase_en": "It’s not your fault.",
+        "explanation": "Used to comfort someone who is blaming themselves.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: ごめん…。\nB: <ruby>気<rt>き</rt></ruby>にしないで。あなたのせいじゃないよ。",
+                "en": "A: Sorry...\nB: Don't worry. It's not your fault."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ありません。\nB: <ruby>田中<rt>たなか</rt></ruby>さんのせいじゃありませんよ。",
+                "en": "A: I am very sorry.\nB: It is not your fault, Tanaka-san."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "phrase_jp": "その<ruby>気持<rt>きも</rt></ruby>ち<ruby>分<rt>わ</rt></ruby>かるよ",
+        "phrase_en": "I feel you.",
+        "explanation": "Used to show deep empathy or agreement with someone's feelings.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>仕事<rt>しごと</rt></ruby><ruby>行<rt>い</rt></ruby>きたくない…。\nB: その<ruby>気持<rt>きも</rt></ruby>ち、すごく<ruby>分<rt>わ</rt></ruby>かるよ。",
+                "en": "A: I don't want to go to work...\nB: I really feel you."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>将来<rt>しょうらい</rt></ruby>が<ruby>不安<rt>ふあん</rt></ruby>です。\nB: お<ruby>気持<rt>きも</rt></ruby>ちはよく<ruby>分<rt>わ</rt></ruby>かります。",
+                "en": "A: I am worried about the future.\nB: I understand your feelings well."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "phrase_jp": "<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>うと、",
+        "phrase_en": "To be honest,",
+        "explanation": "Used to introduce an honest opinion, often one that might be difficult to say.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: これ、おいしい？\nB: <ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>うと、あんまり…。",
+                "en": "A: Is this tasty?\nB: To be honest, not really..."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: プレゼンはどうでしたか？\nB: <ruby>正直<rt>しょうじき</rt></ruby>に<ruby>申<rt>もう</rt></ruby>しますと、<ruby>難<rt>むずか</rt></ruby>しかったです。",
+                "en": "A: How was the presentation?\nB: To be honest (humbly speaking), it was difficult."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "phrase_jp": "ずるいよ",
+        "phrase_en": "That’s not fair.",
+        "explanation": "Used to complain when something feels unfair or partial.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: ケーキ、<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>食<rt>た</rt></ruby>べたの？\nB: うん。\nA: ずるいよ！",
+                "en": "A: Did you eat all the cake?\nB: Yeah.\nA: That's not fair / You're sly!"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>彼<rt>かれ</rt></ruby>だけ<ruby>休<rt>やす</rt></ruby>みですか？\nB: はい。\nA: それはずるいです。",
+                "en": "A: Only he gets a break?\nB: Yes.\nA: That is unfair (sly)."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "phrase_jp": "まぁいいっか",
+        "phrase_en": "Oh well.",
+        "explanation": "Used to express resignation or acceptance of a situation.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: アイス<ruby>売<rt>う</rt></ruby>り<ruby>切<rt>き</rt></ruby>れだって。\nB: まぁいいっか。また<ruby>今度<rt>こんど</rt></ruby>ね。",
+                "en": "A: The ice cream is sold out.\nB: Oh well. Maybe next time."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>遅<rt>おく</rt></ruby>れました。\nB: まあいいでしょう。<ruby>次<rt>つぎ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>ちましょう。",
+                "en": "A: We missed the train.\nB: Oh well (it's fine). Let's wait for the next one."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "phrase_jp": "<ruby>私<rt>わたし</rt></ruby>も<ruby>同感<rt>どうかん</rt></ruby>だよ",
+        "phrase_en": "I’m with you.",
+        "explanation": "Used to agree with someone's opinion.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: この<ruby>映画<rt>えいが</rt></ruby>、<ruby>面白<rt>おもしろ</rt></ruby>くないね。\nB: <ruby>私<rt>わたし</rt></ruby>も<ruby>同感<rt>どうかん</rt></ruby>だよ。",
+                "en": "A: This movie isn't interesting.\nB: I'm with you (I agree)."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: このプランが<ruby>一番<rt>いちばん</rt></ruby>いいと<ruby>思<rt>おも</rt></ruby>います。\nB: <ruby>私<rt>わたし</rt></ruby>も<ruby>同感<rt>どうかん</rt></ruby>です。",
+                "en": "A: I think this plan is the best.\nB: I am with you (I agree)."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "phrase_jp": "<ruby>早<rt>はや</rt></ruby>く<ruby>良<rt>よ</rt></ruby>くなって",
+        "phrase_en": "Get well soon.",
+        "explanation": "Used to wish someone good health when they are sick.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>風邪<rt>かぜ</rt></ruby>ひいたんだ。\nB: <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>？<ruby>早<rt>はや</rt></ruby>く<ruby>良<rt>よ</rt></ruby>くなってね。",
+                "en": "A: I caught a cold.\nB: Are you okay? Get well soon."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みます。\nB: お<ruby>大事<rt>だいじ</rt></ruby>に。<ruby>早<rt>はや</rt></ruby>く<ruby>良<rt>よ</rt></ruby>くなりますように。",
+                "en": "A: I will be absent tomorrow.\nB: Take care. I hope you get well soon."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "phrase_jp": "<ruby>話<rt>はな</rt></ruby>せば<ruby>長<rt>なが</rt></ruby>くなる",
+        "phrase_en": "It’s a long story.",
+        "explanation": "Used when an explanation is too complicated or long to tell immediately.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>何<rt>なに</rt></ruby>があったの？\nB: <ruby>話<rt>はな</rt></ruby>せば<ruby>長<rt>なが</rt></ruby>くなるよ。",
+                "en": "A: What happened?\nB: It's a long story."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>事情<rt>じじょう</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。\nB: <ruby>話<rt>はな</rt></ruby>せば<ruby>長<rt>なが</rt></ruby>くなりますが…。",
+                "en": "A: Please tell me the circumstances.\nB: It is a long story, but..."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "phrase_jp": "<ruby>例<rt>たと</rt></ruby>えば？",
+        "phrase_en": "Like what?",
+        "explanation": "Used to ask for specific examples.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>欲<rt>ほ</rt></ruby>しいものが<ruby>多<rt>おお</rt></ruby>いんだ。\nB: <ruby>例<rt>たと</rt></ruby>えば？",
+                "en": "A: There are many things I want.\nB: Like what?"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>問題<rt>もんだい</rt></ruby>があります。\nB: <ruby>例<rt>たと</rt></ruby>えばどのようなことですか？",
+                "en": "A: There is a problem.\nB: Like what (what kind of problem)?"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "phrase_jp": "<ruby>何<rt>なん</rt></ruby>となく",
+        "phrase_en": "Just because.",
+        "explanation": "Used when there is no specific reason for something.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: なんでこれ<ruby>買<rt>か</rt></ruby>ったの？\nB: <ruby>何<rt>なん</rt></ruby>となく。",
+                "en": "A: Why did you buy this?\nB: Just because / No reason."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: なぜこちらを<ruby>選<rt>えら</rt></ruby>びましたか？\nB: <ruby>何<rt>なん</rt></ruby>となくですが、いいと<ruby>思<rt>おも</rt></ruby>いました。",
+                "en": "A: Why did you choose this one?\nB: Just because, but I thought it was good."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "phrase_jp": "<ruby>私<rt>わたし</rt></ruby>のおごりだよ",
+        "phrase_en": "It’s on me.",
+        "explanation": "Used to say you will pay for someone else's food or drink.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: いくら？\nB: いいよ、<ruby>今日<rt>きょう</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>のおごりだよ。",
+                "en": "A: How much?\nB: It's fine, today is on me."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: お<ruby>支払<rt>しはら</rt></ruby>いは？\nB: ここは<ruby>私<rt>わたし</rt></ruby>が<ruby>持<rt>も</rt></ruby>ちます（おごります）。",
+                "en": "A: What about the payment?\nB: I will cover (treat) this."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "phrase_jp": "ググって",
+        "phrase_en": "Google it.",
+        "explanation": "A colloquial way to tell someone to search on Google. Use '検索して (kensaku shite)' in formal settings.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: これ<ruby>何<rt>なん</rt></ruby>だろう？\nB: <ruby>分<rt>わ</rt></ruby>かんない。ググって。",
+                "en": "A: What is this?\nB: I don't know. Google it."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>場所<rt>ばしょ</rt></ruby>がわかりません。\nB: すみませんが、ググってみてください。",
+                "en": "A: I don't know the location.\nB: Sorry, but please try Googling it."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "phrase_jp": "<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないで",
+        "phrase_en": "Don’t spoil it for me.",
+        "explanation": "Used to ask someone not to reveal the ending of a movie, book, etc.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: 犯人<rt>はんにん</rt>はこの<ruby>人<rt>ひと</rt></ruby>だよ。\nB: ちょっと！<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないで！",
+                "en": "A: The culprit is this person.\nB: Hey! Don't spoil it!"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>結末<rt>けつまつ</rt></ruby>を<ruby>言<rt>い</rt></ruby>いましょうか？\nB: いいえ、まだ<ruby>見<rt>み</rt></ruby>ていないので、<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないでください。",
+                "en": "A: Shall I tell you the ending?\nB: No, I haven't watched it yet, so please don't spoil it."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "phrase_jp": "<ruby>既読<rt>きどく</rt></ruby>スルーしないで",
+        "phrase_en": "Don’t leave me on read.",
+        "explanation": "Used when someone reads your message but hasn't replied. 'Kidoku' means read, 'suru' comes from 'through'.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: ねぇ、<ruby>聞<rt>き</rt></ruby>いてる？<ruby>既読<rt>きどく</rt></ruby>スルーしないでよ。\nB: ごめん、<ruby>忙<rt>いそが</rt></ruby>しくて。",
+                "en": "A: Hey, are you listening? Don't leave me on read.\nB: Sorry, I was busy."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: お<ruby>返事<rt>へんじ</rt></ruby>をください。<ruby>既読<rt>きどく</rt></ruby>スルーは<ruby>困<rt>こま</rt></ruby>ります。\nB: <ruby>申<rt>もう</rt></ruby>し<ruby>訳<rt>わけ</rt></ruby>ありません。",
+                "en": "A: Please reply. Being left on read creates trouble.\nB: I am very sorry."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "phrase_jp": "<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>して",
+        "phrase_en": "Take it back!",
+        "explanation": "Used to demand someone retract a rude or incorrect statement.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: バカ！\nB: なんだと！その<ruby>言葉<rt>ことば</rt></ruby>、<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>して！",
+                "en": "A: Idiot!\nB: What did you say? Take that back!"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: あなたは<ruby>間違<rt>まちが</rt></ruby>っています。\nB: <ruby>失礼<rt>しつれい</rt></ruby>ですね。その<ruby>言葉<rt>ことば</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>消<rt>け</rt></ruby>してください。",
+                "en": "A: You are wrong.\nB: That is rude. Please take back those words."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "phrase_jp": "<ruby>世間<rt>せけん</rt></ruby>は<ruby>狭<rt>せま</rt></ruby>いね",
+        "phrase_en": "It’s a small world.",
+        "explanation": "Used when discovering a surprising connection between people.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>彼<rt>かれ</rt></ruby>、<ruby>私<rt>わたし</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>の<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>いだったよ。\nB: えー、<ruby>世間<rt>せけん</rt></ruby>は<ruby>狭<rt>せま</rt></ruby>いね。",
+                "en": "A: He was an acquaintance of my friend.\nB: Wow, it's a small world."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>田中<rt>たなか</rt></ruby><ruby>様<rt>さま</rt></ruby>とは<ruby>昔<rt>むかし</rt></ruby>からの<ruby>知<rt>し</rt></ruby>り<ruby>合<rt>あ</rt></ruby>いなんです。\nB: そうですか。<ruby>世間<rt>せけん</rt></ruby>は<ruby>狭<rt>せま</rt></ruby>いですね。",
+                "en": "A: I have known Tanaka-sama for a long time.\nB: Is that so? It is a small world."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "phrase_jp": "<ruby>足元<rt>あしもと</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけて",
+        "phrase_en": "Watch your step.",
+        "explanation": "Used to warn someone about tripping hazards.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>暗<rt>くら</rt></ruby>いね。\nB: <ruby>足元<rt>あしもと</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけてね。",
+                "en": "A: It's dark.\nB: Watch your step."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>階段<rt>かいだん</rt></ruby>があります。\nB: <ruby>足元<rt>あしもと</rt></ruby>にお<ruby>気<rt>き</rt></ruby>をつけください。",
+                "en": "A: There are stairs.\nB: Please watch your step."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "phrase_jp": "<ruby>光栄<rt>こうえい</rt></ruby>です",
+        "phrase_en": "I’m honored.",
+        "explanation": "Used to express honor or pride in receiving praise or a role.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>君<rt>きみ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>んだよ。\nB: ありがとう、<ruby>光栄<rt>こうえい</rt></ruby>だよ。",
+                "en": "A: I chose you.\nB: Thanks, I'm honored."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: スピーチをお<ruby>願<rt>ねが</rt></ruby>いします。\nB: ありがとうございます。<ruby>光栄<rt>こうえい</rt></ruby>です。",
+                "en": "A: Please give a speech.\nB: Thank you. I am honored."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "phrase_jp": "<ruby>一<rt>ひと</rt></ruby>つ<ruby>貸<rt>か</rt></ruby>しだよ",
+        "phrase_en": "You owe me one.",
+        "explanation": "Used playfully or seriously to say someone owes you a favor.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: ありがとう！<ruby>助<rt>たす</rt></ruby>かった。\nB: どういたしまして。これで<ruby>一<rt>ひと</rt></ruby>つ<ruby>貸<rt>か</rt></ruby>しだよ。",
+                "en": "A: Thanks! You saved me.\nB: You're welcome. You owe me one now."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>助<rt>たす</rt></ruby>かりました。\nB: お<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>てて<ruby>良<rt>よ</rt></ruby>かったです。",
+                "en": "A: That was helpful.\nB: I'm glad I could be of help. (Polite response usually avoids 'you owe me'.)"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "phrase_jp": "やるの？やらないの？",
+        "phrase_en": "Are you in or out?",
+        "explanation": "Used to ask someone to make a decision about participating",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: パーティー<ruby>行<rt>い</rt></ruby>く？\nB: うーん…。\nA: やるの？やらないの？（<ruby>行<rt>い</rt></ruby>くの？<ruby>行<rt>い</rt></ruby>かないの？）",
+                "en": "A: Going to the party?\nB: Hmm...\nA: Are you in or out?"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: プロジェクトに<ruby>参加<rt>さんか</rt></ruby>しますか？\nB: <ruby>考<rt>かんが</rt></ruby>えさせてください。\nA: やりますか？やりませんか？",
+                "en": "A: Will you join the project?\nB: Let me think.\nA: Will you do it or not?"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "phrase_jp": "<ruby>健康<rt>けんこう</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だよ",
+        "phrase_en": "Health comes first.",
+        "explanation": "Stresses the importance of health above all else.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>無理<rt>むり</rt></ruby>して<ruby>働<rt>はたら</rt></ruby>かないで。\nB: 分かってる。<ruby>健康<rt>けんこう</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だからね。",
+                "en": "A: Don't overwork yourself.\nB: I know. Because health comes first."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>休<rt>やす</rt></ruby>みを取ってください。\nB: はい。<ruby>健康<rt>けんこう</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>ですから。",
+                "en": "A: Please take a break.\nB: Yes. Because health comes first."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "phrase_jp": "<ruby>安全<rt>あんぜん</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だよ",
+        "phrase_en": "Safety comes first.",
+        "explanation": "A common slogan in construction and other industries emphasizing safety.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: ヘルメットかぶって。\nB: はいはい。<ruby>安全<rt>あんぜん</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だね。",
+                "en": "A: Wear your helmet.\nB: Yeah yeah. Safety comes first."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>確認<rt>かくにん</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。\nB: わかりました。<ruby>安全<rt>あんぜん</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>で<ruby>行<rt>おこな</rt></ruby>います。",
+                "en": "A: Please check.\nB: Understood. We will proceed with safety first."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "phrase_jp": "お<ruby>客様<rt>きゃくさま</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だよ",
+        "phrase_en": "The customer comes first.",
+        "explanation": "Business philosophy prioritizing customer satisfaction.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: あの<ruby>客<rt>きゃく</rt></ruby>、うるさいな。\nB: まぁまぁ、お<ruby>客様<rt>きゃくさま</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だから。",
+                "en": "A: That customer is noisy/annoying.\nB: Now now, the customer comes first."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: どうしましょうか？\nB: お<ruby>客様<rt>きゃくさま</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>で<ruby>考<rt>かんが</rt></ruby>えましょう。",
+                "en": "A: What should we do?\nB: Let's focus on the customer first."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "phrase_jp": "<ruby>家族<rt>かぞく</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だよ",
+        "phrase_en": "Family comes first.",
+        "explanation": "Prioritizing family over work or other commitments.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>遊<rt>あそ</rt></ruby>びに行かない？\nB: ごめん、<ruby>今日<rt>きょう</rt></ruby>は<ruby>家族<rt>かぞく</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>だから。<ruby>家族<rt>かぞく</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>だよ。",
+                "en": "A: Wanna go hang out?\nB: Sorry, today is family day. Family comes first."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>早退<rt>そうたい</rt></ruby>してもいいですか？\nB: もちろんです。<ruby>家族<rt>かぞく</rt></ruby><ruby>第一<rt>だいいち</rt></ruby>ですから。",
+                "en": "A: May I leave early?\nB: Of course. Because family comes first."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "phrase_jp": "やめておくよ",
+        "phrase_en": "I will pass.",
+        "explanation": "Used to declnie an invitation or offer gently.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: もう<ruby>一杯<rt>いっぱい</rt></ruby><ruby>飲<rt>の</rt></ruby>む？\nB: <ruby>明日<rt>あした</rt></ruby><ruby>早<rt>はや</rt></ruby>いから、やめておくよ。",
+                "en": "A: Drink one more?\nB: I have to get up early tomorrow, so I'll pass."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: ケーキはいかがですか？\nB: ありがとうございます。でも、やめておきます。",
+                "en": "A: Would you like some cake?\nB: Thank you, but I will pass."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "phrase_jp": "<ruby>余計<rt>よけい</rt></ruby>なお<ruby>世話<rt>せわ</rt></ruby>だよ",
+        "phrase_en": "It’s not your concern.",
+        "explanation": "Used to tell someone to mind their own business. Can be rude.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: もっと<ruby>勉強<rt>べんきょう</rt></ruby>した<ruby>方<rt>ほう</rt></ruby>がいいよ。\nB: <ruby>余計<rt>よけい</rt></ruby>なお<ruby>世話<rt>せわ</rt></ruby>だよ！",
+                "en": "A: You should study more.\nB: Mind your own business!"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>髪型<rt>かみがた</rt></ruby>を<ruby>変<rt>か</rt></ruby>えましたか？\nB: <ruby>余計<rt>よけい</rt></ruby>なお<ruby>世話<rt>せわ</rt></ruby>かもしれませんが、<ruby>前<rt>まえ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>が<ruby>良<rt>よ</rt></ruby>かったです。",
+                "en": "A: Did you change your hairstyle?\nB: It may be none of my business, but I liked the previous one better."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "phrase_jp": "<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいの？",
+        "phrase_en": "What’s your point?",
+        "explanation": "Used to ask for the main conclusion of a long or unclear explanation.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: だから、その、つまり…。\nB: 結局<rt>けっきょく</rt>、<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいの？",
+                "en": "A: So, um, I mean...\nB: Ultimately, what's your point?"
+            },
+            {
+                "type": "Polite",
+                "ja": "A: こういう<ruby>訳<rt>わけ</rt></ruby>でして…。\nB: すみません、<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいのでしょうか？",
+                "en": "A: It's because of this reason...\nB: Excuse me, what exactly is your point?"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "phrase_jp": "…にハマってる",
+        "phrase_en": "I’m hooked on…",
+        "explanation": "Used to talk about a current obsession or hobby.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>最<rt>さい</rt></ruby><ruby>近<rt>きん</rt></ruby>どう？\nB: <ruby>料理<rt>りょうり</rt></ruby>にハマってる。",
+                "en": "A: How have you been recently?\nB: I'm hooked on cooking."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>趣味<rt>しゅみ</rt></ruby>はありますか？\nB: <ruby>最近<rt>さいきん</rt></ruby>、ヨガにハマっています。",
+                "en": "A: Do you have a hobby?\nB: Recently, I am hooked on yoga."
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "phrase_jp": "<ruby>考<rt>かんが</rt></ruby>えすぎだよ",
+        "phrase_en": "You’re overthinking it.",
+        "explanation": "Used to reassure someone who is worrying too much.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>嫌<rt>きら</rt></ruby>われたかな…。\nB: そんなことないよ。<ruby>考<rt>かんが</rt></ruby>えすぎだよ。",
+                "en": "A: I wonder if I was hated...\nB: No way. You're overthinking it."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: 失敗<rt>しっぱい</rt>したらどうしましょう。\nB: <ruby>考<rt>かんが</rt></ruby>えすぎですよ。<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+                "en": "A: What if I fail?\nB: You are overthinking. It will be okay."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "phrase_jp": "よく<ruby>言<rt>い</rt></ruby>うよ",
+        "phrase_en": "Look who’s talking.",
+        "explanation": "Used playfully or sarcastically when someone criticizes you for something they also do.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: お<ruby>前<rt>まえ</rt></ruby>、<ruby>遅刻<rt>ちこく</rt></ruby>するなよ。\nB: よく<ruby>言<rt>い</rt></ruby>うよ！<ruby>昨日<rt>きのう</rt></ruby><ruby>遅<rt>おく</rt></ruby>れたくせに。",
+                "en": "A: Don't be late.\nB: Look who's talking! Even though you were late yesterday."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>忙<rt>いそが</rt></ruby>しいですね。\nB: <ruby>田中<rt>たなか</rt></ruby>さんこそ、よく<ruby>言<rt>い</rt></ruby>いますね。いつも<ruby>働<rt>はたら</rt></ruby>いているのに。",
+                "en": "A: You are busy, aren't you?\nB: Tanaka-san, look who's talking. Even though you are always working."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "phrase_jp": "それな",
+        "phrase_en": "That’s it / Exactly.",
+        "explanation": "Short, slang way to express strong agreement. Casual use only.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>眠<rt>ねむ</rt></ruby>い…。\nB: それな。",
+                "en": "A: I'm sleepy...\nB: Same / Exactly."
+            },
+            {
+                "type": "Casual",
+                "ja": "A: お<ruby>金<rt>かね</rt></ruby><ruby>欲<rt>ほ</rt></ruby>しいなー。\nB: それな！",
+                "en": "A: I want money.\nB: For real / Exactly!"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "phrase_jp": "もう<ruby>昔<rt>むかし</rt></ruby>のことだよ",
+        "phrase_en": "That’s old news.",
+        "explanation": "Used to say something is in the past and doesn't matter now.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: あの<ruby>時<rt>とき</rt></ruby>はごめんね。\nB: <ruby>気<rt>き</rt></ruby>にしないで。もう<ruby>昔<rt>むかし</rt></ruby>のことだよ。",
+                "en": "A: Sorry about that time.\nB: Don't worry. That's old news."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: <ruby>失敗<rt>しっぱい</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えていますか？\nB: いいえ、もう<ruby>昔<rt>むかし</rt></ruby>のことですから。",
+                "en": "A: Do you remember the failure?\nB: No, because that is already old news (in the past)."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "phrase_jp": "<ruby>自腹<rt>じばら</rt></ruby>で<ruby>払<rt>はら</rt></ruby>う",
+        "phrase_en": "Pay out of pocket",
+        "explanation": "Paying for work expenses or something yourself instead of having the company or others pay.",
+        "examples": [
+            {
+                "type": "Casual",
+                "ja": "A: <ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby>？\nB: うん。<ruby>自腹<rt>じばら</rt></ruby>で<ruby>払<rt>はら</rt></ruby>いたくないなー。",
+                "en": "A: Company drinking party?\nB: Yeah. I don't want to pay out of pocket."
+            },
+            {
+                "type": "Polite",
+                "ja": "A: 経費<rt>けいひ</rt>で落ちませんか？\nB: いいえ、これは<ruby>自腹<rt>じばら</rt></ruby>で<ruby>払<rt>はら</rt></ruby>います。",
+                "en": "A: Can this be covered by expenses?\nB: No, I will pay this out of pocket."
+            }
+        ]
+    }
+]
