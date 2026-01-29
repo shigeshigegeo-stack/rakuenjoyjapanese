@@ -16,8 +16,7 @@ export const textbooks_level_15: Textbook[] = [
         "question": "ジョンさんは<ruby>図書館<rt>としょかん</rt></ruby>で<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ってもいいですか。",
         "choices": [
           "はい、いいです",
-          "いいえ、いけません",
-          "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いてください"
+          "いいえ、いけません"
         ],
         "answer_index": 1,
         "target_id": "L15_01_Q1"
@@ -46,13 +45,12 @@ export const textbooks_level_15: Textbook[] = [
         "target_id": "L15_02_Q1"
       },
       {
-        "question": "アナさんの<ruby>姉<rt>あね</rt></ruby>は<ruby>結婚<rt>けっこん</rt></ruby>していますか。",
+        "question": "アナさんの<ruby>兄<rt>あに</rt></ruby>は<ruby>結婚<rt>けっこん</rt></ruby>していますか。",
         "choices": [
           "はい、しています",
-          "いいえ、していません",
-          "わかりません"
+          "いいえ、していません"
         ],
-        "answer_index": 2,
+        "answer_index": 0,
         "target_id": "L15_02_Q2"
       }
     ]
@@ -69,21 +67,19 @@ export const textbooks_level_15: Textbook[] = [
     "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>今<rt>いま</rt></ruby><ruby>新<rt>あたら</rt></ruby>しい<ruby>事務所<rt>じむしょ</rt></ruby>にいます。</span><span style=\"display: inline-block;\"><ruby>事務所<rt>じむしょ</rt></ruby>でいろいろなことを<ruby>習<rt>なら</rt></ruby>います。</span><br><span id=\"L15_03_Q1\" style=\"display: inline-block;\"><ruby>社員<rt>しゃいん</rt></ruby>「ジョンさん、ここでたばこを<ruby>吸<rt>す</rt></ruby>ってはいけません。</span><span style=\"display: inline-block;\"><ruby>外<rt>そと</rt></ruby>で<ruby>吸<rt>す</rt></ruby>ってください」</span><br><span style=\"display: inline-block;\">ジョン「わかりました。</span><span style=\"display: inline-block;\">ここでごはんを<ruby>食<rt>た</rt></ruby>べてもいいですか」</span><br><span id=\"L15_03_Q2\" style=\"display: inline-block;\"><ruby>社員<rt>しゃいん</rt></ruby>「いいえ、<ruby>食<rt>た</rt></ruby>べてはいけません。</span><span style=\"display: inline-block;\"><ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べてください。</span><span style=\"display: inline-block;\">ジョンさんは<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>電話番号<rt>でんわばんごう</rt></ruby>を<ruby>知<rt>し</rt></ruby>っていますか」</span><br><span style=\"display: inline-block;\">ジョン「いいえ、<ruby>知<rt>し</rt></ruby>りません。</span><span style=\"display: inline-block;\"><ruby>教<rt>おし</rt></ruby>えてください」</span><br><span style=\"display: inline-block;\"><ruby>社員<rt>しゃいん</rt></ruby>「はい、これが<ruby>社長<rt>しゃちょう</rt></ruby>の<ruby>電話番号<rt>でんわばんごう</rt></ruby>です」</span><br><span style=\"display: inline-block;\">ジョン「ありがとうございます」</span></p>",
     "quizzes": [
       {
-        "question": "ジョンさんは<ruby>事務所<rt>じむしょ</rt></ruby>でたばこを<ruby>吸<rt>す</rt></ruby>ってもいいですか。",
+        "question": "<ruby>事務所<rt>じむしょ</rt></ruby>でたばこを<ruby>吸<rt>す</rt></ruby>ってもいいですか。",
         "choices": [
           "はい、いいです",
-          "いいえ、いけません",
-          "<ruby>外<rt>そと</rt></ruby>ならいいです（<ruby>正解<rt>せいかい</rt></ruby>は「いいえ」）"
+          "いいえ、いけません"
         ],
         "answer_index": 1,
         "target_id": "L15_03_Q1"
       },
       {
-        "question": "ジョンさんは<ruby>事務所<rt>じむしょ</rt></ruby>でご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてもいいですか。",
+        "question": "<ruby>事務所<rt>じむしょ</rt></ruby>でご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べてもいいですか。",
         "choices": [
           "はい、いいです",
-          "いいえ、<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べなければなりません",
-          "<ruby>社長<rt>しゃちょう</rt></ruby>に<ruby>聞<rt>き</rt></ruby>かなければなりません"
+          "いいえ、<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>食<rt>た</rt></ruby>べなければなりません"
         ],
         "answer_index": 1,
         "target_id": "L15_03_Q2"
@@ -115,8 +111,7 @@ export const textbooks_level_15: Textbook[] = [
         "question": "キムさんの<ruby>姉<rt>あね</rt></ruby>は<ruby>結婚<rt>けっこん</rt></ruby>していますか。",
         "choices": [
           "はい、しています",
-          "いいえ、していません",
-          "<ruby>離婚<rt>りこん</rt></ruby>しています"
+          "いいえ、していません"
         ],
         "answer_index": 0,
         "target_id": "L15_04_Q2"

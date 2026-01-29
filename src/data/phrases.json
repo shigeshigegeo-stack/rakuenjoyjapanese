@@ -433,18 +433,18 @@
     },
     {
         "id": 25,
-        "phrase_jp": "<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないで",
+        "phrase_jp": "ネタバレしないで",
         "phrase_en": "Don’t spoil it for me.",
         "explanation": "Used to ask someone not to reveal the ending of a movie, book, etc.",
         "examples": [
             {
                 "type": "Casual",
-                "ja": "A: 犯人<rt>はんにん</rt>はこの<ruby>人<rt>ひと</rt></ruby>だよ。\nB: ちょっと！<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないで！",
+                "ja": "A: 犯人<rt>はんにん</rt>はこの<ruby>人<rt>ひと</rt></ruby>だよ。\nB: ちょっと！ネタバレしないで！",
                 "en": "A: The culprit is this person.\nB: Hey! Don't spoil it!"
             },
             {
                 "type": "Polite",
-                "ja": "A: <ruby>結末<rt>けつまつ</rt></ruby>を<ruby>言<rt>い</rt></ruby>いましょうか？\nB: いいえ、まだ<ruby>見<rt>み</rt></ruby>ていないので、<ruby>ネタバレ<rt>ねたばれ</rt></ruby>しないでください。",
+                "ja": "A: <ruby>結末<rt>けつまつ</rt></ruby>を<ruby>言<rt>い</rt></ruby>いましょうか？\nB: いいえ、まだ<ruby>見<rt>み</rt></ruby>ていないので、ネタバレしないでください。",
                 "en": "A: Shall I tell you the ending?\nB: No, I haven't watched it yet, so please don't spoil it."
             }
         ]

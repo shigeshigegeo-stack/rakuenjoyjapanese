@@ -108,7 +108,7 @@ export const textbooks_level_20: Textbook[] = [
         "choices": [
           "<ruby>暑<rt>あつ</rt></ruby>かった。",
           "<ruby>寒<rt>さむ</rt></ruby>かった。",
-          "<ruby>賑<rt>にぎ</rt></ruby>やかだった。"
+          "にぎやかだった。"
         ],
         "answer_index": 1
       },

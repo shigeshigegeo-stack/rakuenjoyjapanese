@@ -4,12 +4,12 @@ export const textbooks_level_16: Textbook[] = [
   {
     "id": "TEXTBOOK_L16_01",
     "level": 16,
-    "title": "ジョンさんの1<ruby>日<rt>にち</rt></ruby> (Short)",
+    "title": "ジョンさんの1<ruby>日<rt>にち</rt></ruby>",
     "schema_activation": [
       "あなたは<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>何<rt>なに</rt></ruby>をしてから<ruby>大学<rt>だいがく</rt></ruby>(<ruby>会社<rt>かいしゃ</rt></ruby>)へ<ruby>行<rt>い</rt></ruby>きますか。",
       "あなたは<ruby>昨日<rt>きのう</rt></ruby><ruby>何<rt>なに</rt></ruby>をしてから<ruby>寝<rt>ね</rt></ruby>ましたか。"
     ],
-    "textbook_html": "<p>ジョンさんは<ruby>毎朝<rt>まいあさ</rt></ruby>6<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に<ruby>起<rt>お</rt></ruby>きて、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。それから<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べて、<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。<br>ジョンさんは<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ってから、パソコンでメールを<ruby>見<rt>み</rt></ruby>ます。ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>は7<ruby>時<rt>じ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わります。<br>ジョンさんはうちで<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べてから、1<ruby>時間<rt>じかん</rt></ruby>スマホで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。それから11<ruby>時<rt>じ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>ます。<br>ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>とても<ruby>忙<rt>いそが</rt></ruby>しいです。</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>毎朝<rt>まいあさ</rt></ruby>6<ruby>時<rt>じ</rt></ruby><ruby>半<rt>はん</rt></ruby>に<ruby>起<rt>お</rt></ruby>きて、シャワーを<ruby>浴<rt>あ</rt></ruby>びます。</span><span style=\"display: inline-block;\">それから<ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べて、<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>会社<rt>かいしゃ</rt></ruby>へ<ruby>行<rt>い</rt></ruby>ってから、パソコンでメールを<ruby>見<rt>み</rt></ruby>ます。</span><span style=\"display: inline-block;\">ジョンさんの<ruby>仕事<rt>しごと</rt></ruby>は7<ruby>時<rt>じ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わります。</span><br><span style=\"display: inline-block;\">ジョンさんはうちで<ruby>晩<rt>ばん</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べてから、1<ruby>時間<rt>じかん</rt></ruby>スマホで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。</span><span style=\"display: inline-block;\">それから11<ruby>時<rt>じ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>ます。</span><br><span style=\"display: inline-block;\">ジョンさんは<ruby>毎日<rt>まいにち</rt></ruby>とても<ruby>忙<rt>いそが</rt></ruby>しいです。</span></p>",
     "translation": "<p>John wakes up at 6:30 every morning and takes a shower. Then, he eats breakfast and goes to work.<br>After John gets to work, he checks his email on his computer. John's work finishes at 7 o'clock.<br>After eating dinner at home, John learns Japanese on his smartphone for one hour. Then he goes to bed at 11 o'clock.<br>John is very busy every day.</p>",
     "quizzes": [
       {
@@ -46,7 +46,7 @@ export const textbooks_level_16: Textbook[] = [
       {
         "question": "<ruby>新宿<rt>しんじゅく</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
         "choices": [
-          "<ruby>賑<rt>にぎ</rt></ruby>やかでおもしろい<ruby>町<rt>まち</rt></ruby>",
+          "にぎやかでおもしろい<ruby>町<rt>まち</rt></ruby>",
           "<ruby>静<rt>しず</rt></ruby>かで、きれいな<ruby>町<rt>まち</rt></ruby>",
           "<ruby>古<rt>ふる</rt></ruby>くて、<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>町<rt>まち</rt></ruby>"
         ],
@@ -88,7 +88,7 @@ export const textbooks_level_16: Textbook[] = [
   {
     "id": "TEXTBOOK_L16_04",
     "level": 16,
-    "title": "<ruby>京都<rt>きょうと</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby> (Long)",
+    "title": "<ruby>京都<rt>きょうと</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>",
     "schema_activation": [
       "あなたの<ruby>町<rt>まち</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
       "あなたはうちへ<ruby>帰<rt>かえ</rt></ruby>ってから、<ruby>何<rt>なに</rt></ruby>をしますか。"
@@ -99,7 +99,7 @@ export const textbooks_level_16: Textbook[] = [
       {
         "question": "<ruby>京都<rt>きょうと</rt></ruby>はどんな<ruby>町<rt>まち</rt></ruby>ですか。",
         "choices": [
-          "<ruby>賑<rt>にぎ</rt></ruby>やかで、<ruby>新<rt>あたら</rt></ruby>しい<ruby>町<rt>まち</rt></ruby>",
+          "にぎやかで、<ruby>新<rt>あたら</rt></ruby>しい<ruby>町<rt>まち</rt></ruby>",
           "<ruby>古<rt>ふる</rt></ruby>くて、きれいな<ruby>町<rt>まち</rt></ruby>",
           "<ruby>広<rt>ひろ</rt></ruby>くて、おもしろい<ruby>町<rt>まち</rt></ruby>"
         ],
@@ -109,7 +109,7 @@ export const textbooks_level_16: Textbook[] = [
         "question": "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>公園<rt>こうえん</rt></ruby>はどうでしたか。",
         "choices": [
           "<ruby>静<rt>しず</rt></ruby>かで、とてもよかったです",
-          "<ruby>賑<rt>にぎ</rt></ruby>やかで、あまりよくなかったです",
+          "にぎやかで、あまりよくなかったです",
           "<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて、<ruby>大変<rt>たいへん</rt></ruby>でした"
         ],
         "answer_index": 0

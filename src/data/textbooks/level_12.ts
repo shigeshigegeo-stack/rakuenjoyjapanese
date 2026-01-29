@@ -4,13 +4,13 @@ export const textbooks_level_12: Textbook[] = [
   {
     "id": "TEXTBOOK_L12_01",
     "level": 12,
-    "title": "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>とデパート",
+    "title": "<ruby>京都<rt>きょうと</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>",
     "schema_activation": [
       "<ruby>昨日<rt>きのう</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はどうでしたか。",
       "<ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>休<rt>やす</rt></ruby>みは<ruby>楽<rt>たの</rt></ruby>しかったですか。"
     ],
     "translation": "<p>John went to Kyoto last week. Kyoto was very beautiful. The weather last week was fine. It was not very hot. John went to a department store yesterday. The department store was very lively. He looked at new shoes. The shoes were a little expensive, but they were very good. He also looked at a new shirt.</p>",
-    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>先週<rt>せんしゅう</rt></ruby><ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>京都<rt>きょうと</rt></ruby>はとてもきれいでした。</span><span style=\"display: inline-block;\"><ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はよかったです。</span><span style=\"display: inline-block;\">あまり<ruby>暑<rt>あつ</rt></ruby>くなかったです。</span><span style=\"display: inline-block;\">ジョンさんは<ruby>昨日<rt>きのう</rt></ruby>デパートへ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\">デパートはとても<ruby>賑<rt>にぎ</rt></ruby>やかでした。</span><span style=\"display: inline-block;\"><ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。</span><span id=\"L12_01_Q1\" style=\"display: inline-block;\"><ruby>靴<rt>くつ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>かったですが、とてもよかったです。</span><span style=\"display: inline-block;\"><ruby>新<rt>あたら</rt></ruby>しいシャツも<ruby>見<rt>み</rt></ruby>ました。</span></p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">ジョンさんは<ruby>先週<rt>せんしゅう</rt></ruby><ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\"><ruby>京都<rt>きょうと</rt></ruby>はとてもきれいでした。</span><span style=\"display: inline-block;\"><ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>はよかったです。</span><span style=\"display: inline-block;\">あまり<ruby>暑<rt>あつ</rt></ruby>くなかったです。</span><span style=\"display: inline-block;\">ジョンさんは<ruby>昨日<rt>きのう</rt></ruby>デパートへ<ruby>行<rt>い</rt></ruby>きました。</span><span style=\"display: inline-block;\">デパートはとてもにぎやかでした。</span><span style=\"display: inline-block;\"><ruby>新<rt>あたら</rt></ruby>しい<ruby>靴<rt>くつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ました。</span><span id=\"L12_01_Q1\" style=\"display: inline-block;\"><ruby>靴<rt>くつ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>高<rt>たか</rt></ruby>かったですが、とてもよかったです。</span><span style=\"display: inline-block;\"><ruby>新<rt>あたら</rt></ruby>しいシャツも<ruby>見<rt>み</rt></ruby>ました。</span></p>",
     "quizzes": [
       {
         "question": "<ruby>京都<rt>きょうと</rt></ruby>はどうでしたか。",
@@ -32,17 +32,17 @@ export const textbooks_level_12: Textbook[] = [
       "<ruby>日本<rt>にほん</rt></ruby>とあなたの<ruby>国<rt>くに</rt></ruby>とどちらが<ruby>暑<rt>あつ</rt></ruby>いですか。",
       "1<ruby>年<rt>ねん</rt></ruby>でいつが<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きですか。"
     ],
-    "translation": "<p>Ana is from Germany. She is in Japan now.<br>Yamada-sensei: \"Which is hotter, Japan or Germany?\"<br>Ana: \"Germany is hotter. Japan is not very hot.\"<br>Yamada-sensei: \"Which is colder, winter in Germany or winter in Japan?\"<br>Ana: \"Winter in Germany is colder.\"<br>Yamada-sensei: \"Which do you like better, winter in Germany or winter in Japan?\"<br>Ana: \"I like winter in Japan better. Because winter in Japan is beautiful.\"<br>Winter in Germany is colder than winter in Japan. Ana likes winter in Japan.</p>",
-    "textbook_html": "<p><span style=\"display: inline-block;\">アナさんはドイツ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは<ruby>今<rt>いま</rt></ruby><ruby>日本<rt>にほん</rt></ruby>にいます。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>日本<rt>にほん</rt></ruby>とドイツとどちらが<ruby>暑<rt>あつ</rt></ruby>いですか」</span><br><span id=\"L12_02_Q1\" style=\"display: inline-block;\">アナさん「ドイツのほうが<ruby>暑<rt>あつ</rt></ruby>いです。</span><span style=\"display: inline-block;\"><ruby>日本<rt>にほん</rt></ruby>はあまり<ruby>暑<rt>あつ</rt></ruby>くないです」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>とどちらが<ruby>寒<rt>さむ</rt></ruby>いですか」</span><br><span style=\"display: inline-block;\">アナさん「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>のほうが<ruby>寒<rt>さむ</rt></ruby>いです」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>とどちらが<ruby>好<rt>す</rt></ruby>きですか」</span><br><span id=\"L12_02_Q2\" style=\"display: inline-block;\">アナさん「<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>のほうが<ruby>好<rt>す</rt></ruby>きです。</span><span style=\"display: inline-block;\"><ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>はきれいですから」</span><br><span style=\"display: inline-block;\">ドイツの<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>より<ruby>寒<rt>さむ</rt></ruby>いです。</span><span style=\"display: inline-block;\">アナさんは<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。</span></p>",
+    "translation": "<p>Ana is from Germany. She is in Japan now.<br>Yamada-sensei: \"Which is hotter, Japan or Germany?\"<br>Ana: \"Japan is hotter. Germany is not very hot.\"<br>Yamada-sensei: \"Which is colder, winter in Germany or winter in Japan?\"<br>Ana: \"Winter in Germany is colder.\"<br>Yamada-sensei: \"Which do you like better, winter in Germany or winter in Japan?\"<br>Ana: \"I like winter in Japan better. Because winter in Japan is beautiful.\"<br>Winter in Germany is colder than winter in Japan. Ana likes winter in Japan.</p>",
+    "textbook_html": "<p><span style=\"display: inline-block;\">アナさんはドイツ<ruby>人<rt>じん</rt></ruby>です。</span><span style=\"display: inline-block;\">アナさんは<ruby>今<rt>いま</rt></ruby><ruby>日本<rt>にほん</rt></ruby>にいます。</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「<ruby>日本<rt>にほん</rt></ruby>とドイツとどちらが<ruby>暑<rt>あつ</rt></ruby>いですか」</span><br><span id=\"L12_02_Q1\" style=\"display: inline-block;\">アナさん「<ruby>日本<rt>にほん</rt></ruby>のほうが<ruby>暑<rt>あつ</rt></ruby>いです。</span><span style=\"display: inline-block;\">ドイツはあまり<ruby>暑<rt>あつ</rt></ruby>くないです」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>とどちらが<ruby>寒<rt>さむ</rt></ruby>いですか」</span><br><span style=\"display: inline-block;\">アナさん「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>のほうが<ruby>寒<rt>さむ</rt></ruby>いです」</span><br><span style=\"display: inline-block;\"><ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>「ドイツの<ruby>冬<rt>ふゆ</rt></ruby>と<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>とどちらが<ruby>好<rt>す</rt></ruby>きですか」</span><br><span id=\"L12_02_Q2\" style=\"display: inline-block;\">アナさん「<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>のほうが<ruby>好<rt>す</rt></ruby>きです。</span><span style=\"display: inline-block;\"><ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>はきれいですから」</span><br><span style=\"display: inline-block;\">ドイツの<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>より<ruby>寒<rt>さむ</rt></ruby>いです。</span><span style=\"display: inline-block;\">アナさんは<ruby>日本<rt>にほん</rt></ruby>の<ruby>冬<rt>ふゆ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。</span></p>",
     "quizzes": [
       {
-        "question": "<ruby>日本<rt>にほん</rt></ruby>とドイツの<ruby>暑<rt>あつ</rt></ruby>さはどうですか。",
+        "question": "<ruby>日本<rt>にほん</rt></ruby>とドイツどちらが<ruby>暑<rt>あつ</rt></ruby>いですか。",
         "choices": [
           "ドイツのほうが<ruby>暑<rt>あつ</rt></ruby>いです",
           "<ruby>日本<rt>にほん</rt></ruby>のほうが<ruby>暑<rt>あつ</rt></ruby>いです",
           "どちらも<ruby>同<rt>おな</rt></ruby>じくらいです"
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "target_id": "L12_02_Q1"
       },
       {
@@ -79,7 +79,7 @@ export const textbooks_level_12: Textbook[] = [
         "target_id": "L12_03_Q1"
       },
       {
-        "question": "ジョンさんは<ruby>肉<rt>にく</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby>についてどう<ruby>言<rt>い</rt></ruby>いましたか。",
+        "question": "ジョンさんは<ruby>肉<rt>にく</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby>どちがらが<ruby>好<rt>す</rt></ruby>きですか。",
         "choices": [
           "<ruby>肉<rt>にく</rt></ruby>のほうが<ruby>好<rt>す</rt></ruby>きです",
           "<ruby>魚<rt>さかな</rt></ruby>のほうが<ruby>好<rt>す</rt></ruby>きです",

@@ -71,7 +71,7 @@ export const textbooks_level_28: Textbook[] = [
             "あなたの<ruby>好<rt>す</rt></ruby>きなレストランはどこにありますか。",
             "どうしてその<ruby>店<rt>みせ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。<ruby>理由<rt>りゆう</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。"
         ],
-        "textbook_html": "<p>あそこのレストランは<ruby>安<rt>やす</rt></ruby>いし、おいしいし、<br>それに<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>親切<rt>しんせつ</rt></ruby>なんです。<br>ワトソンさんも「ここは<ruby>賑<rt>にぎ</rt></ruby>やかだし、<ruby>雰囲気<rt>ふんいき</rt></ruby>もいいし、<br>とてもいい<ruby>店<rt>みせ</rt></ruby>ですね」と<ruby>言<rt>い</rt></ruby>いました。</p>",
+        "textbook_html": "<p>あそこのレストランは<ruby>安<rt>やす</rt></ruby>いし、おいしいし、<br>それに<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>親切<rt>しんせつ</rt></ruby>なんです。<br>ワトソンさんも「ここはにぎやかだし、<ruby>雰囲気<rt>ふんいき</rt></ruby>もいいし、<br>とてもいい<ruby>店<rt>みせ</rt></ruby>ですね」と<ruby>言<rt>い</rt></ruby>いました。</p>",
         "translation": "<p>That restaurant over there is cheap, delicious, and moreover, the staff are kind.<br>Watson also said, \"This place is lively, the atmosphere is good, and it's a very good shop.\"</p>",
         "quizzes": [
             {
