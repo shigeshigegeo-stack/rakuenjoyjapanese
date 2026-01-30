@@ -156,7 +156,7 @@
             },
             {
                 "type": "Polite",
-                "ja": "A: 誰<rt>だれ</rt>がやりますか？\nB: <ruby>私<rt>わたし</rt></ruby>に<ruby>お任<rt>まか</rt></ruby>せください。",
+                "ja": "A: <ruby>誰<rt>だれ</rt></ruby>がやりますか？\nB: <ruby>私<rt>わたし</rt></ruby>に<ruby>お任<rt>まか</rt></ruby>せください。",
                 "en": "A: Who will do it?\nB: Please leave it to me."
             }
         ]
@@ -439,7 +439,7 @@
         "examples": [
             {
                 "type": "Casual",
-                "ja": "A: 犯人<rt>はんにん</rt>はこの<ruby>人<rt>ひと</rt></ruby>だよ。\nB: ちょっと！ネタバレしないで！",
+                "ja": "A: <ruby>犯人<rt>はんにん</rt></ruby>はこの<ruby>人<rt>ひと</rt></ruby>だよ。\nB: ちょっと！ネタバレしないで！",
                 "en": "A: The culprit is this person.\nB: Hey! Don't spoil it!"
             },
             {
@@ -552,8 +552,8 @@
             },
             {
                 "type": "Polite",
-                "ja": "A: <ruby>助<rt>たす</rt></ruby>かりました。\nB: お<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>てて<ruby>良<rt>よ</rt></ruby>かったです。",
-                "en": "A: That was helpful.\nB: I'm glad I could be of help. (Polite response usually avoids 'you owe me'.)"
+                "ja": "A: <ruby>今回<rt>こんかい</rt></ruby>は<ruby>助<rt>たす</rt></ruby>かりました。\nB: いえいえ。でも、これで<ruby>一<rt>ひと</rt></ruby>つ<ruby>貸<rt>か</rt></ruby>しですよ。",
+                "en": "A: It was a big help this time.\nB: No problem. But now, you owe me one."
             }
         ]
     },
@@ -691,7 +691,7 @@
         "examples": [
             {
                 "type": "Casual",
-                "ja": "A: だから、その、つまり…。\nB: 結局<rt>けっきょく</rt>、<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいの？",
+                "ja": "A: だから、その、つまり…。\nB: <ruby>結局<rt>けっきょく</rt></ruby>、<ruby>何<rt>なに</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいの？",
                 "en": "A: So, um, I mean...\nB: Ultimately, what's your point?"
             },
             {
@@ -732,7 +732,7 @@
             },
             {
                 "type": "Polite",
-                "ja": "A: 失敗<rt>しっぱい</rt>したらどうしましょう。\nB: <ruby>考<rt>かんが</rt></ruby>えすぎですよ。<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+                "ja": "A: <ruby>失敗<rt>しっぱい</rt></ruby>したらどうしましょう。\nB: <ruby>考<rt>かんが</rt></ruby>えすぎですよ。<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
                 "en": "A: What if I fail?\nB: You are overthinking. It will be okay."
             }
         ]
@@ -750,8 +750,8 @@
             },
             {
                 "type": "Polite",
-                "ja": "A: <ruby>忙<rt>いそが</rt></ruby>しいですね。\nB: <ruby>田中<rt>たなか</rt></ruby>さんこそ、よく<ruby>言<rt>い</rt></ruby>いますね。いつも<ruby>働<rt>はたら</rt></ruby>いているのに。",
-                "en": "A: You are busy, aren't you?\nB: Tanaka-san, look who's talking. Even though you are always working."
+                "ja": "A: <ruby>休<rt>やす</rt></ruby>みましょう。\nB: よく<ruby>言<rt>い</rt></ruby>いますね。<ruby>田中<rt>たなか</rt></ruby>さんはいつも<ruby>働<rt>はたら</rt></ruby>いているのに。",
+                "en": "A: Let's take a break.\nB: Look who's talking. Even though you are always working, Tanaka-san."
             }
         ]
     },
@@ -804,7 +804,7 @@
             },
             {
                 "type": "Polite",
-                "ja": "A: 経費<rt>けいひ</rt>で落ちませんか？\nB: いいえ、これは<ruby>自腹<rt>じばら</rt></ruby>で<ruby>払<rt>はら</rt></ruby>います。",
+                "ja": "A: <ruby>経費<rt>けいひ</rt></ruby>で<ruby>落<rt>お</rt></ruby>ちませんか？\nB: いいえ、これは<ruby>自腹<rt>じばら</rt></ruby>で<ruby>払<rt>はら</rt></ruby>います。",
                 "en": "A: Can this be covered by expenses?\nB: No, I will pay this out of pocket."
             }
         ]

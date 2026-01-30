@@ -15,9 +15,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "ジョンさんは<ruby>漢字<rt>かんじ</rt></ruby>がわからないとき、どうしますか。",
                 "choices": [
-                    "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きます。",
-                    "スマホで<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。",
-                    "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います。"
+                    "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きます",
+                    "スマホで<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます",
+                    "<ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います"
                 ],
                 "answer_index": 1,
                 "target_id": "L23_01_Q1"
@@ -38,9 +38,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "アナさんは<ruby>天気<rt>てんき</rt></ruby>がいいとき、<ruby>何<rt>なに</rt></ruby>をしますか。",
                 "choices": [
-                    "<ruby>家<rt>いえ</rt></ruby>で<ruby>寝<rt>ね</rt></ruby>ます。",
-                    "<ruby>公園<rt>こうえん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます。",
-                    "<ruby>大学<rt>だいがく</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>します。"
+                    "<ruby>家<rt>いえ</rt></ruby>で<ruby>寝<rt>ね</rt></ruby>ます",
+                    "<ruby>公園<rt>こうえん</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>みます",
+                    "<ruby>大学<rt>だいがく</rt></ruby>で<ruby>勉強<rt>べんきょう</rt></ruby>します"
                 ],
                 "answer_index": 1,
                 "target_id": "L23_02_Q1"
@@ -48,9 +48,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "アナさんは<ruby>若<rt>わか</rt></ruby>いとき、<ruby>大学<rt>だいがく</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしましたか。",
                 "choices": [
-                    "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いました。",
-                    "スポーツをしました。",
-                    "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りました。"
+                    "<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いました",
+                    "スポーツをしました",
+                    "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りました"
                 ],
                 "answer_index": 0,
                 "target_id": "L23_02_Q2"
@@ -71,9 +71,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "<ruby>信号<rt>しんごう</rt></ruby>をどうしますか。",
                 "choices": [
-                    "<ruby>左<rt>ひだり</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります。",
-                    "<ruby>右<rt>みぎ</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります。",
-                    "まっすぐ<ruby>行<rt>い</rt></ruby>きます。"
+                    "<ruby>左<rt>ひだり</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります",
+                    "<ruby>右<rt>みぎ</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります",
+                    "まっすぐ<ruby>行<rt>い</rt></ruby>きます"
                 ],
                 "answer_index": 1,
                 "target_id": "L23_03_Q1"
@@ -104,9 +104,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "<ruby>公園<rt>こうえん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くには、どうすればいいですか。",
                 "choices": [
-                    "<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>行<rt>い</rt></ruby>きます。",
-                    "<ruby>角<rt>かど</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります。",
-                    "<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>ります。"
+                    "<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>行<rt>い</rt></ruby>きます",
+                    "<ruby>角<rt>かど</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>へ<ruby>曲<rt>ま</rt></ruby>がります",
+                    "<ruby>橋<rt>はし</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>ります"
                 ],
                 "answer_index": 0,
                 "target_id": "L23_04_Q1"
@@ -114,9 +114,9 @@ export const textbooks_level_23: Textbook[] = [
             {
                 "question": "ジョンさんは<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いとき、どうしますか。",
                 "choices": [
-                    "すぐ<ruby>寝<rt>ね</rt></ruby>ます。",
-                    "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。",
-                    "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。"
+                    "すぐ<ruby>寝<rt>ね</rt></ruby>ます",
+                    "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます",
+                    "<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます"
                 ],
                 "answer_index": 1,
                 "target_id": "L23_04_Q2"

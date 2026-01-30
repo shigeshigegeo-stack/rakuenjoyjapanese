@@ -114,8 +114,8 @@ export const textbooks_level_22: Textbook[] = [
             {
                 "question": "ジョンさんが<ruby>京都<rt>きょうと</rt></ruby>で<ruby>撮<rt>と</rt></ruby>った<ruby>写真<rt>しゃしん</rt></ruby>はきれいでしたか。",
                 "choices": [
-                    "はい、きれいでした。",
-                    "いいえ、きれいじゃありませんでした。"
+                    "はい、きれいでした",
+                    "いいえ、きれいじゃありませんでした"
                 ],
                 "answer_index": 0,
                 "target_id": "L22_04_Q2"

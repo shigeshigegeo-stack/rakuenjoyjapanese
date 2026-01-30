@@ -69,7 +69,7 @@
 
 .phraseJp rt {
     font-size: 0.5em;
-    color: #888;
+    color: inherit;
     font-weight: normal;
 }
 

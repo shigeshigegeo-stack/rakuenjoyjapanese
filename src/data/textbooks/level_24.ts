@@ -48,9 +48,9 @@ export const textbooks_level_24: Textbook[] = [
             {
                 "question": "アナさんは<ruby>冬休<rt>ふゆやす</rt></ruby>みに<ruby>何<rt>なに</rt></ruby>をしたいですか。",
                 "choices": [
-                    "お<ruby>母<rt>かあ</rt></ruby>さんに<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>買<rt>か</rt></ruby>いたいです。",
-                    "お<ruby>兄<rt>にい</rt></ruby>さんに<ruby>服<rt>ふく</rt></ruby>をあげたいです。",
-                    "ドイツで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いたいです。"
+                    "お<ruby>母<rt>かあ</rt></ruby>さんに<ruby>人形<rt>にんぎょう</rt></ruby>を<ruby>買<rt>か</rt></ruby>いたいです",
+                    "お<ruby>兄<rt>にい</rt></ruby>さんに<ruby>服<rt>ふく</rt></ruby>をあげたいです",
+                    "ドイツで<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>いたいです"
                 ],
                 "answer_index": 0,
                 "target_id": "L24_02_Q2"
@@ -71,9 +71,9 @@ export const textbooks_level_24: Textbook[] = [
             {
                 "question": "ジョンさんは<ruby>先生<rt>せんせい</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をしてあげましたか。",
                 "choices": [
-                    "<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてあげました。",
-                    "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってあげました。",
-                    "スマホを<ruby>貸<rt>か</rt></ruby>してあげました。"
+                    "<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてあげました",
+                    "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってあげました",
+                    "スマホを<ruby>貸<rt>か</rt></ruby>してあげました"
                 ],
                 "answer_index": 1,
                 "target_id": "L24_03_Q1"
@@ -114,9 +114,9 @@ export const textbooks_level_24: Textbook[] = [
             {
                 "question": "アナさんはジョンさんのために<ruby>何<rt>なに</rt></ruby>をしますか。",
                 "choices": [
-                    "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきます。",
-                    "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります。",
-                    "<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ります。"
+                    "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきます",
+                    "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります",
+                    "<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ります"
                 ],
                 "answer_index": 0,
                 "target_id": "L24_04_Q2"
@@ -124,9 +124,9 @@ export const textbooks_level_24: Textbook[] = [
             {
                 "question": "ジョンさんはパーティーが<ruby>終<rt>お</rt></ruby>わってから、<ruby>何<rt>なに</rt></ruby>をしますか。",
                 "choices": [
-                    "みんなを<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ります。",
-                    "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。",
-                    "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ります。"
+                    "みんなを<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ります",
+                    "<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます",
+                    "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ります"
                 ],
                 "answer_index": 0,
                 "target_id": "L24_04_Q3"
