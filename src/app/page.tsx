@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, Suspense, useRef, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { textbooks } from '@/data/textbooks';
 import TextbookCard from '@/components/TextbookCard';
 import DailyDiscussion from '@/components/DailyDiscussion';
@@ -19,6 +20,21 @@ function HomeContent() {
   const [levelFilter, setLevelFilter] = useState<string>('All');
   const [isInitialized, setIsInitialized] = useState(false);
   const [visibleCount, setVisibleCount] = useState(12); // Initial load count for performance
+
+  // Sub-navigation State (Moved up to avoid use-before-define error)
+  const [hoveredRange, setHoveredRange] = useState<string | null>(null);
+  const hoverTimeout = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (rangeLabel: string) => {
+    if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
+    setHoveredRange(rangeLabel);
+  };
+
+  const handleMouseLeave = () => {
+    hoverTimeout.current = setTimeout(() => {
+      setHoveredRange(null);
+    }, 300);
+  };
 
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -189,20 +205,20 @@ function HomeContent() {
   ];
   const levelsJLPT = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
-  // Sub-navigation State
-  const [hoveredRange, setHoveredRange] = useState<string | null>(null);
-  const hoverTimeout = useRef<NodeJS.Timeout | null>(null);
+  // Sub-navigation State (Moved up)
+  // const [hoveredRange, setHoveredRange] = useState<string | null>(null);
+  // const hoverTimeout = useRef<NodeJS.Timeout | null>(null);
 
-  const handleMouseEnter = (rangeLabel: string) => {
-    if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
-    setHoveredRange(rangeLabel);
-  };
+  // const handleMouseEnter = (rangeLabel: string) => {
+  //   if (hoverTimeout.current) clearTimeout(hoverTimeout.current);
+  //   setHoveredRange(rangeLabel);
+  // };
 
-  const handleMouseLeave = () => {
-    hoverTimeout.current = setTimeout(() => {
-      setHoveredRange(null);
-    }, 300);
-  };
+  // const handleMouseLeave = () => {
+  //   hoverTimeout.current = setTimeout(() => {
+  //     setHoveredRange(null);
+  //   }, 300);
+  // };
 
   // Logic to calculate which range is currently "active" based on the filter (for styling)
   const selectedRangeLabel = (() => {
@@ -363,6 +379,70 @@ function HomeContent() {
     );
   };
 
+  // Logic for Next Level Button in Sub-navigation
+  const renderNextLevelButton = () => {
+    // Only show if we are filtering by a specific single level "Level X"
+    if (!levelFilter.startsWith('Level ') || levelFilter.includes('-')) return null;
+
+    const currentLevelNum = parseInt(levelFilter.replace('Level ', ''), 10);
+    if (isNaN(currentLevelNum)) return null;
+
+    // Find which range this level belongs to
+    const range = levelRanges.find(r => currentLevelNum >= r.min && currentLevelNum <= r.max);
+    if (!range) return null;
+
+    // If current level is the MAX of the range (e.g. Level 5 in Level 1-5 range), we might want to go to next range?
+    // User request: "Level 4 adjacent button to go to next level" (Level 5)
+    // If it is the last level of the block, disabling or hiding might be better, or jumping to next block.
+    // Let's assume we just want to go to Level + 1.
+
+    const nextLevelNum = currentLevelNum + 1;
+    // Check if next level exists in our system (e.g. up to 50)
+    if (nextLevelNum > 50) return null;
+
+    // Check if next level is locked
+    const isNextLocked = nextLevelNum >= 26;
+
+    // We need to position this relative to the child dropdown if open. 
+    // Actually, the user asked for it "next to 4" (the last item) when "Level 4" is selected? 
+    // Wait, the request says: "When a single level is selected, 1-4 are displayed? No, usually specific level filter shows only that level's content."
+    // Ah, the user likely means the *dropdown menu* context or the *header* context.
+    // "Tag de level tantai wo sentaku shita tokini": When I select "Level 4" tag
+    // "Sono level no 1-4 made ga hyouji sarete masuga": Currently shows stories 1-4? 
+    // Oh, the user might mean the "stories" (TextbookCard) are displayed 1, 2, 3, 4.
+    // "4 no migishita tonari ni tsugi no level e iku button": Next to story 4, bottom right, add a button to go to next level.
+
+    return (
+      <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '2rem', paddingRight: '1rem' }}>
+        <button
+          onClick={() => {
+            if (isNextLocked) return;
+            setLevelFilter(`Level ${nextLevelNum}`);
+          }}
+          disabled={isNextLocked}
+          style={{
+            padding: '10px 24px',
+            borderRadius: '30px',
+            backgroundColor: isNextLocked ? '#ccc' : 'var(--accent-yellow)',
+            color: isNextLocked ? '#666' : 'var(--text-main)',
+            border: 'none',
+            fontWeight: 'bold',
+            cursor: isNextLocked ? 'default' : 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+            transition: 'all 0.2s',
+            opacity: isNextLocked ? 0.7 : 1
+          }}
+        >
+          Next Level {nextLevelNum} →
+        </button>
+      </div>
+    );
+  };
+
+
   return (
     <div className="container" style={{ position: 'relative' }}>
 
@@ -414,7 +494,7 @@ function HomeContent() {
             transition: 'all 0.3s ease'
           }}
         >
-          Let's talk
+          Let&apos;s talk
         </button>
       </div>
 
@@ -422,6 +502,34 @@ function HomeContent() {
       {activeTab === 'textbooks' && (
         <div className="animate-fade-in">
           <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+
+            {/* Characters Link */}
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+              <Link href="/textbooks/characters">
+                <button
+                  style={{
+                    padding: '8px 24px',
+                    borderRadius: '20px',
+                    backgroundColor: '#fff',
+                    color: 'var(--text-main)',
+                    border: '1px solid var(--border-color)',
+                    fontSize: '1rem',
+                    fontWeight: 'bold',
+                    cursor: 'pointer',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    transition: 'transform 0.2s'
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                  onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
+                  👥 Meet the Characters
+                </button>
+              </Link>
+            </div>
+
 
 
             {/* Filter Section */}
@@ -590,6 +698,8 @@ function HomeContent() {
               <p>No textbooks found for this level.</p>
             </div>
           )}
+          {/* Next Level Button (Bottom Right of Grid) */}
+          {renderNextLevelButton()}
         </div>
       )
       }
@@ -669,7 +779,7 @@ function HomeContent() {
                   }}
                 >
                   <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✨</div>
-                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Today's Phrase</h3>
+                  <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-main)' }}>Today&apos;s Phrase</h3>
                 </div>
 
                 {/* Placeholder for future features */}

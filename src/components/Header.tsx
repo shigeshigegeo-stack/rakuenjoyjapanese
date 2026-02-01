@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 
 const Header: React.FC = () => {
     const pathname = usePathname();
+    const isHomePage = pathname === '/';
 
     // Determine the home link based on current page
     let homeLink = '/?reset=true';
@@ -39,6 +40,46 @@ const Header: React.FC = () => {
                 backgroundRepeat: 'repeat-x',
                 opacity: 0.9,
             }} />
+
+            {/* Sakura Decorations - Only on Home Page */}
+            {isHomePage && (
+                <>
+                    <div style={{
+                        position: 'absolute',
+                        left: '0',
+                        top: '0',
+                        bottom: '0',
+                        width: 'clamp(150px, 20vw, 400px)', // Responsive width
+                        zIndex: 0,
+                        pointerEvents: 'none'
+                    }}>
+                        <Image
+                            src="/sakura_left.png"
+                            alt="Sakura Left"
+                            fill
+                            style={{ objectFit: 'contain', objectPosition: 'left center' }}
+                            priority
+                        />
+                    </div>
+                    <div style={{
+                        position: 'absolute',
+                        right: '0',
+                        top: '0',
+                        bottom: '0',
+                        width: 'clamp(150px, 20vw, 400px)', // Responsive width
+                        zIndex: 0,
+                        pointerEvents: 'none'
+                    }}>
+                        <Image
+                            src="/sakura_right.png"
+                            alt="Sakura Right"
+                            fill
+                            style={{ objectFit: 'contain', objectPosition: 'right center' }}
+                            priority
+                        />
+                    </div>
+                </>
+            )}
 
             <div className="container" style={{ padding: '0', zIndex: 1, margin: '0 0 -8px 0' }}>
                 <Link href={homeLink} style={{ textDecoration: 'none', display: 'inline-block', lineHeight: 0 }}>

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import NextImage from 'next/image';
 
 export default function AboutPage() {
     return (
@@ -102,14 +103,15 @@ export default function AboutPage() {
                 }}>
                     {/* Profile Image Column */}
                     <div style={{ flex: '0 0 200px', textAlign: 'center' }}>
-                        <img
+                        <NextImage
                             src="/saya_profile.png"
                             alt="Saya"
+                            width={180}
+                            height={180}
                             style={{
-                                width: '180px',
-                                height: 'auto',
                                 borderRadius: '50%',
                                 maxWidth: '100%',
+                                height: 'auto',
                                 boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
                             }}
                         />

@@ -31,6 +31,7 @@ const TodaysPhrase: React.FC = () => {
 
         // Select phrase based on day
         const index = dayOfYear % phrases.length;
+        // eslint-disable-next-line
         setCurrentPhrase(phrases[index]);
     }, []);
 
@@ -53,7 +54,7 @@ const TodaysPhrase: React.FC = () => {
             </button>
 
             <div className={styles.phraseContainer}>
-                <span className={styles.label}>Today's Phrase</span>
+                <span className={styles.label}>Today&apos;s Phrase</span>
                 <div
                     className={styles.phraseJp}
                     dangerouslySetInnerHTML={{ __html: currentPhrase.phrase_jp }}
